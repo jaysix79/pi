@@ -1,0 +1,235 @@
+source /srv/homeassistant/bin/activate
+pip3 install --upgrade homeassistant
+Downloading/unpacking homeassistant
+Downloading/unpacking pyyaml>=3.11,<4 (from homeassistant)
+  Running setup.py (path:/tmp/pip-build-qdttg3_z/pyyaml/setup.py) egg_info for package pyyaml
+    
+Downloading/unpacking requests==2.14.2 (from homeassistant)
+Downloading/unpacking pytz>=2017.02 (from homeassistant)
+Downloading/unpacking jinja2>=2.9.5 (from homeassistant)
+Downloading/unpacking typing>=3,<4 (from homeassistant)
+  Running setup.py (path:/tmp/pip-build-qdttg3_z/typing/setup.py) egg_info for package typing
+    
+Downloading/unpacking voluptuous==0.10.5 (from homeassistant)
+  Running setup.py (path:/tmp/pip-build-qdttg3_z/voluptuous/setup.py) egg_info for package voluptuous
+    WARNING: Could not locate pandoc, using Markdown long_description.
+    
+Downloading/unpacking astral==1.4 (from homeassistant)
+  Downloading astral-1.4-py2.py3-none-any.whl
+Downloading/unpacking chardet==3.0.2 (from homeassistant)
+Downloading/unpacking pip>=7.1.0 (from homeassistant)
+Downloading/unpacking async-timeout==1.2.1 (from homeassistant)
+  Downloading async_timeout-1.2.1-py3-none-any.whl
+Downloading/unpacking aiohttp==2.2.0 (from homeassistant)
+  Running setup.py (path:/tmp/pip-build-qdttg3_z/aiohttp/setup.py) egg_info for package aiohttp
+    
+    warning: no previously-included files matching '*.pyc' found anywhere in distribution
+    warning: no previously-included files found matching 'aiohttp/_frozenlist.html'
+    warning: no previously-included files found matching 'aiohttp/_frozenlist.*.so'
+    warning: no previously-included files found matching 'aiohttp/_frozenlist.pyd'
+    warning: no previously-included files found matching 'aiohttp/_frozenlist.*.pyd'
+    warning: no previously-included files found matching 'aiohttp/_websocket.html'
+    warning: no previously-included files found matching 'aiohttp/_websocket.*.so'
+    warning: no previously-included files found matching 'aiohttp/_websocket.pyd'
+    warning: no previously-included files found matching 'aiohttp/_websocket.*.pyd'
+    no previously-included directories found matching 'docs/_build'
+Downloading/unpacking MarkupSafe>=0.23 (from jinja2>=2.9.5->homeassistant)
+  Downloading MarkupSafe-1.0.tar.gz
+  Running setup.py (path:/tmp/pip-build-qdttg3_z/MarkupSafe/setup.py) egg_info for package MarkupSafe
+    
+Downloading/unpacking multidict>=2.1.4 (from aiohttp==2.2.0->homeassistant)
+  Running setup.py (path:/tmp/pip-build-qdttg3_z/multidict/setup.py) egg_info for package multidict
+    
+    warning: no previously-included files matching '*.pyc' found anywhere in distribution
+    warning: no previously-included files found matching 'multidict/_multidict.html'
+    warning: no previously-included files found matching 'multidict/_multidict.*.so'
+    warning: no previously-included files found matching 'multidict/_multidict.pyd'
+    warning: no previously-included files found matching 'multidict/_multidict.*.pyd'
+    no previously-included directories found matching 'docs/_build'
+Downloading/unpacking yarl>=0.10.0,<0.11 (from aiohttp==2.2.0->homeassistant)
+  Running setup.py (path:/tmp/pip-build-qdttg3_z/yarl/setup.py) egg_info for package yarl
+    
+    warning: no previously-included files matching '*.pyc' found anywhere in distribution
+    warning: no previously-included files matching '*.cache' found anywhere in distribution
+    warning: no previously-included files found matching 'yarl/_quoting.html'
+    warning: no previously-included files found matching 'yarl/_quoting.*.so'
+    warning: no previously-included files found matching 'yarl/_quoting.pyd'
+    warning: no previously-included files found matching 'yarl/_quoting.*.pyd'
+    no previously-included directories found matching 'docs/_build'
+Installing collected packages: homeassistant, pyyaml, requests, pytz, jinja2, typing, voluptuous, astral, chardet, pip, async-timeout, aiohttp, MarkupSafe, multidict, yarl
+  Running setup.py install for pyyaml
+    checking if libyaml is compilable
+    arm-linux-gnueabihf-gcc -pthread -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -g -fstack-protector-strong -Wformat -Werror=format-security -D_FORTIFY_SOURCE=2 -fPIC -I/usr/include/python3.4m -c build/temp.linux-armv7l-3.4/check_libyaml.c -o build/temp.linux-armv7l-3.4/check_libyaml.o
+    build/temp.linux-armv7l-3.4/check_libyaml.c:2:18: fatal error: yaml.h: No such file or directory
+     #include <yaml.h>
+                      ^
+    compilation terminated.
+    
+    libyaml is not found or a compiler error: forcing --without-libyaml
+    (if libyaml is installed correctly, you may need to
+     specify the option --include-dirs or uncomment and
+     modify the parameter include_dirs in setup.cfg)
+    
+  Found existing installation: requests 2.4.3
+    Not uninstalling requests at /usr/lib/python3/dist-packages, owned by OS
+*** Error compiling '/tmp/pip-build-qdttg3_z/jinja2/jinja2/asyncfilters.py'...
+  File "/tmp/pip-build-qdttg3_z/jinja2/jinja2/asyncfilters.py", line 7
+    async def auto_to_seq(value):
+            ^
+SyntaxError: invalid syntax
+
+*** Error compiling '/tmp/pip-build-qdttg3_z/jinja2/jinja2/asyncsupport.py'...
+  File "/tmp/pip-build-qdttg3_z/jinja2/jinja2/asyncsupport.py", line 22
+    async def concat_async(async_gen):
+            ^
+SyntaxError: invalid syntax
+
+  Running setup.py install for typing
+    
+  Running setup.py install for voluptuous
+    WARNING: Could not locate pandoc, using Markdown long_description.
+    
+  Found existing installation: chardet 2.3.0
+    Not uninstalling chardet at /usr/lib/python3/dist-packages, owned by OS
+  Found existing installation: pip 1.5.6
+    Not uninstalling pip at /usr/lib/python3/dist-packages, owned by OS
+  Running setup.py install for aiohttp
+    
+    warning: no previously-included files matching '*.pyc' found anywhere in distribution
+    warning: no previously-included files found matching 'aiohttp/_frozenlist.html'
+    warning: no previously-included files found matching 'aiohttp/_frozenlist.*.so'
+    warning: no previously-included files found matching 'aiohttp/_frozenlist.pyd'
+    warning: no previously-included files found matching 'aiohttp/_frozenlist.*.pyd'
+    warning: no previously-included files found matching 'aiohttp/_websocket.html'
+    warning: no previously-included files found matching 'aiohttp/_websocket.*.so'
+    warning: no previously-included files found matching 'aiohttp/_websocket.pyd'
+    warning: no previously-included files found matching 'aiohttp/_websocket.*.pyd'
+    no previously-included directories found matching 'docs/_build'
+    building 'aiohttp._websocket' extension
+    arm-linux-gnueabihf-gcc -pthread -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -g -fstack-protector-strong -Wformat -Werror=format-security -D_FORTIFY_SOURCE=2 -fPIC -I/usr/include/python3.4m -c aiohttp/_websocket.c -o build/temp.linux-armv7l-3.4/aiohttp/_websocket.o
+    arm-linux-gnueabihf-gcc -pthread -shared -Wl,-O1 -Wl,-Bsymbolic-functions -Wl,-z,relro -Wl,-z,relro -g -fstack-protector-strong -Wformat -Werror=format-security -D_FORTIFY_SOURCE=2 build/temp.linux-armv7l-3.4/aiohttp/_websocket.o -o build/lib.linux-armv7l-3.4/aiohttp/_websocket.cpython-34m.so
+    building 'aiohttp._http_parser' extension
+    arm-linux-gnueabihf-gcc -pthread -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -g -fstack-protector-strong -Wformat -Werror=format-security -D_FORTIFY_SOURCE=2 -fPIC -I/usr/include/python3.4m -c aiohttp/_http_parser.c -o build/temp.linux-armv7l-3.4/aiohttp/_http_parser.o
+    arm-linux-gnueabihf-gcc -pthread -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -g -fstack-protector-strong -Wformat -Werror=format-security -D_FORTIFY_SOURCE=2 -fPIC -I/usr/include/python3.4m -c vendor/http-parser/http_parser.c -o build/temp.linux-armv7l-3.4/vendor/http-parser/http_parser.o
+    arm-linux-gnueabihf-gcc -pthread -shared -Wl,-O1 -Wl,-Bsymbolic-functions -Wl,-z,relro -Wl,-z,relro -g -fstack-protector-strong -Wformat -Werror=format-security -D_FORTIFY_SOURCE=2 build/temp.linux-armv7l-3.4/aiohttp/_http_parser.o build/temp.linux-armv7l-3.4/vendor/http-parser/http_parser.o -o build/lib.linux-armv7l-3.4/aiohttp/_http_parser.cpython-34m.so
+    building 'aiohttp._frozenlist' extension
+    arm-linux-gnueabihf-gcc -pthread -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -g -fstack-protector-strong -Wformat -Werror=format-security -D_FORTIFY_SOURCE=2 -fPIC -I/usr/include/python3.4m -c aiohttp/_frozenlist.c -o build/temp.linux-armv7l-3.4/aiohttp/_frozenlist.o
+    arm-linux-gnueabihf-gcc -pthread -shared -Wl,-O1 -Wl,-Bsymbolic-functions -Wl,-z,relro -Wl,-z,relro -g -fstack-protector-strong -Wformat -Werror=format-security -D_FORTIFY_SOURCE=2 build/temp.linux-armv7l-3.4/aiohttp/_frozenlist.o -o build/lib.linux-armv7l-3.4/aiohttp/_frozenlist.cpython-34m.so
+  Running setup.py install for MarkupSafe
+    
+    building 'markupsafe._speedups' extension
+    arm-linux-gnueabihf-gcc -pthread -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -g -fstack-protector-strong -Wformat -Werror=format-security -D_FORTIFY_SOURCE=2 -fPIC -I/usr/include/python3.4m -c markupsafe/_speedups.c -o build/temp.linux-armv7l-3.4/markupsafe/_speedups.o
+    arm-linux-gnueabihf-gcc -pthread -shared -Wl,-O1 -Wl,-Bsymbolic-functions -Wl,-z,relro -Wl,-z,relro -g -fstack-protector-strong -Wformat -Werror=format-security -D_FORTIFY_SOURCE=2 build/temp.linux-armv7l-3.4/markupsafe/_speedups.o -o build/lib.linux-armv7l-3.4/markupsafe/_speedups.cpython-34m.so
+  Running setup.py install for multidict
+    
+    warning: no previously-included files matching '*.pyc' found anywhere in distribution
+    warning: no previously-included files found matching 'multidict/_multidict.html'
+    warning: no previously-included files found matching 'multidict/_multidict.*.so'
+    warning: no previously-included files found matching 'multidict/_multidict.pyd'
+    warning: no previously-included files found matching 'multidict/_multidict.*.pyd'
+    no previously-included directories found matching 'docs/_build'
+    building 'multidict._multidict' extension
+    arm-linux-gnueabihf-gcc -pthread -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -g -fstack-protector-strong -Wformat -Werror=format-security -D_FORTIFY_SOURCE=2 -fPIC -I/usr/include/python3.4m -c multidict/_multidict.c -o build/temp.linux-armv7l-3.4/multidict/_multidict.o
+    arm-linux-gnueabihf-gcc -pthread -shared -Wl,-O1 -Wl,-Bsymbolic-functions -Wl,-z,relro -Wl,-z,relro -g -fstack-protector-strong -Wformat -Werror=format-security -D_FORTIFY_SOURCE=2 build/temp.linux-armv7l-3.4/multidict/_multidict.o -o build/lib.linux-armv7l-3.4/multidict/_multidict.cpython-34m.so
+    building 'multidict._istr' extension
+    arm-linux-gnueabihf-gcc -pthread -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -g -fstack-protector-strong -Wformat -Werror=format-security -D_FORTIFY_SOURCE=2 -fPIC -I/usr/include/python3.4m -c multidict/_istr.c -o build/temp.linux-armv7l-3.4/multidict/_istr.o
+    arm-linux-gnueabihf-gcc -pthread -shared -Wl,-O1 -Wl,-Bsymbolic-functions -Wl,-z,relro -Wl,-z,relro -g -fstack-protector-strong -Wformat -Werror=format-security -D_FORTIFY_SOURCE=2 build/temp.linux-armv7l-3.4/multidict/_istr.o -o build/lib.linux-armv7l-3.4/multidict/_istr.cpython-34m.so
+  Running setup.py install for yarl
+    
+    warning: no previously-included files matching '*.pyc' found anywhere in distribution
+    warning: no previously-included files matching '*.cache' found anywhere in distribution
+    warning: no previously-included files found matching 'yarl/_quoting.html'
+    warning: no previously-included files found matching 'yarl/_quoting.*.so'
+    warning: no previously-included files found matching 'yarl/_quoting.pyd'
+    warning: no previously-included files found matching 'yarl/_quoting.*.pyd'
+    no previously-included directories found matching 'docs/_build'
+    building 'yarl._quoting' extension
+    arm-linux-gnueabihf-gcc -pthread -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -g -fstack-protector-strong -Wformat -Werror=format-security -D_FORTIFY_SOURCE=2 -fPIC -I/usr/include/python3.4m -c yarl/_quoting.c -o build/temp.linux-armv7l-3.4/yarl/_quoting.o
+    arm-linux-gnueabihf-gcc -pthread -shared -Wl,-O1 -Wl,-Bsymbolic-functions -Wl,-z,relro -Wl,-z,relro -g -fstack-protector-strong -Wformat -Werror=format-security -D_FORTIFY_SOURCE=2 build/temp.linux-armv7l-3.4/yarl/_quoting.o -o build/lib.linux-armv7l-3.4/yarl/_quoting.cpython-34m.so
+Successfully installed homeassistant pyyaml requests pytz jinja2 typing voluptuous astral chardet pip async-timeout aiohttp MarkupSafe multidict yarl
+Cleaning up...
+● home-assistant@homeassistant.service - Home Assistant for homeassistant
+   Loaded: loaded (/etc/systemd/system/home-assistant@homeassistant.service; enabled)
+   Active: active (running) since Sun 2017-07-02 20:20:51 UTC; 10s ago
+ Main PID: 1969 (hass)
+   CGroup: /system.slice/system-home\x2dassistant.slice/home-assistant@homeassistant.service
+           └─1969 /srv/homeassistant/bin/python3 /srv/homeassistant/bin/hass
+
+Jul 02 20:21:01 hassbian hass[1969]: INFO:homeassistant.core:Bus:Handling <Event service_registered[L]: domain=automation, service=turn_on>
+Jul 02 20:21:01 hassbian hass[1969]: INFO:homeassistant.core:Bus:Handling <Event service_registered[L]: domain=automation, service=turn_off>
+Jul 02 20:21:01 hassbian hass[1969]: INFO:homeassistant.setup:Setup of domain automation took 0.9 seconds.
+Jul 02 20:21:01 hassbian hass[1969]: INFO:homeassistant.core:Bus:Handling <Event component_loaded[L]: component=automation>
+Jul 02 20:21:01 hassbian hass[1969]: INFO:homeassistant.core:Bus:Handling <Event state_changed[L]: entity_id=group.zoneminder, old_state=<state group.zoneminder=unknown; entity_id=('sensor.usb_dogs_room_events', 'sensor.usb_dogs_room_status', 'switch.usb_dogs_room_state', 'sensor.dog_cam1_events', 'sensor.dog_cam1_status', 'switch.dog_cam1_state', 'sensor.dog_cam2_events', 'sensor.dog_cam2_status', 'switch.dog_cam2_state', 'sensor.entrance1_events', 'sensor.entrance1_status', 'switch.entrance1_state', 'sensor.garage1_events', 'sensor.garage1_status', 'switch.garage1_state'), order=38, friendly_name=Zoneminder, assumed_state=False @ 2017-07-02T13:20:59.021878-07:00>, new_state=<state group.zoneminder=off; entity_id=('sensor.usb_dogs_room_events', 'sensor.usb_dogs_room_status', 'switch.usb_dogs_room_state', 'sensor.dog_cam1_events', 'sensor.dog_cam1_status', 'switch.dog_cam1_state', 'sensor.dog_cam2_events', 'sensor.dog_cam2_status', 'switch.dog_cam2_state', 'sensor.entrance1_events', 'sensor.entrance1_status', 'switch.entrance1_state', 'sensor.garage1_events', 'sensor.garage1_status', 'switch.garage1_state'), order=38, friendly_name=Zoneminder, assumed_state=False @ 2017-07-02T13:21:01.663184-07:00>>
+Jul 02 20:21:01 hassbian hass[1969]: INFO:homeassistant.components.sensor:Setting up sensor.google_travel_time
+Jul 02 20:21:01 hassbian hass[1969]: INFO:homeassistant.core:Bus:Handling <Event call_service[L]: domain=group, service_data=visible=False, entities=['switch.dog_cam1_state', 'switch.dog_cam2_state', 'switch.entrance1_state', 'switch.garage1_state', 'switch.usb_dogs_room_state'], name=all switches, object_id=all_switches, service_call_id=1979940368-2, service=set>
+Jul 02 20:21:01 hassbian hass[1969]: INFO:homeassistant.core:Bus:Handling <Event state_changed[L]: entity_id=group.all_switches, old_state=None, new_state=<state group.all_switches=off; entity_id=('switch.dog_cam1_state', 'switch.dog_cam2_state', 'switch.entrance1_state', 'switch.garage1_state', 'switch.usb_dogs_room_state'), order=43, hidden=True, friendly_name=all switches, auto=True, assumed_state=False @ 2017-07-02T13:21:01.709297-07:00>>
+Jul 02 20:21:01 hassbian hass[1969]: INFO:homeassistant.core:Bus:Handling <Event service_executed[L]: service_call_id=1979940368-2>
+Jul 02 20:21:01 hassbian hass[1969]: INFO:homeassistant.components.sensor:Setting up sensor.yweather
+● home-assistant@homeassistant.service - Home Assistant for homeassistant
+   Loaded: loaded (/etc/systemd/system/home-assistant@homeassistant.service; enabled)
+   Active: active (running) since Sun 2017-07-02 20:20:51 UTC; 30s ago
+ Main PID: 1969 (hass)
+   CGroup: /system.slice/system-home\x2dassistant.slice/home-assistant@homeassistant.service
+           ├─1969 /srv/homeassistant/bin/python3 /srv/homeassistant/bin/hass
+           └─2057 /usr/bin/ssh -q -p 22 -l jaysix79 192.168.79.1
+
+Jul 02 20:21:13 hassbian hass[1969]: INFO:homeassistant.components.http:Serving /api/camera_proxy/camera.dog_cam2 to 192.168.79.244 (auth: True)
+Jul 02 20:21:13 hassbian hass[1969]: INFO:homeassistant.components.http:Serving /api/camera_proxy/camera.usb_dogs_room to 192.168.79.244 (auth: True)
+Jul 02 20:21:13 hassbian hass[1969]: INFO:homeassistant.components.http:Serving /api/camera_proxy/camera.garage1 to 192.168.79.244 (auth: True)
+Jul 02 20:21:13 hassbian hass[1969]: INFO:homeassistant.components.http:Serving /api/camera_proxy/camera.entrance1 to 192.168.79.244 (auth: True)
+Jul 02 20:21:14 hassbian hass[1969]: INFO:homeassistant.components.http:Serving /api/camera_proxy/camera.dog_cam1 to 192.168.79.244 (auth: True)
+Jul 02 20:21:14 hassbian hass[1969]: INFO:homeassistant.components.http:Serving /api/camera_proxy/camera.dog_cam2 to 192.168.79.244 (auth: True)
+Jul 02 20:21:14 hassbian hass[1969]: INFO:homeassistant.components.http:Serving /api/camera_proxy/camera.usb_dogs_room to 192.168.79.244 (auth: True)
+Jul 02 20:21:14 hassbian hass[1969]: INFO:homeassistant.components.http:Serving /api/camera_proxy/camera.garage1 to 192.168.79.244 (auth: True)
+Jul 02 20:21:14 hassbian hass[1969]: INFO:homeassistant.components.http:Serving /api/camera_proxy/camera.entrance1 to 192.168.79.244 (auth: True)
+Jul 02 20:21:16 hassbian hass[1969]: INFO:homeassistant.components.device_tracker.asuswrt:Checking ARP
+Requirement already up-to-date: homeassistant in /usr/local/lib/python3.4/dist-packages
+Requirement already up-to-date: astral==1.4 in /usr/local/lib/python3.4/dist-packages (from homeassistant)
+Requirement already up-to-date: requests==2.14.2 in /usr/local/lib/python3.4/dist-packages (from homeassistant)
+Requirement already up-to-date: pyyaml<4,>=3.11 in /usr/local/lib/python3.4/dist-packages (from homeassistant)
+Requirement already up-to-date: jinja2>=2.9.5 in /usr/local/lib/python3.4/dist-packages (from homeassistant)
+Requirement already up-to-date: chardet==3.0.2 in /usr/local/lib/python3.4/dist-packages (from homeassistant)
+Requirement already up-to-date: aiohttp==2.2.0 in /usr/local/lib/python3.4/dist-packages (from homeassistant)
+Requirement already up-to-date: voluptuous==0.10.5 in /usr/local/lib/python3.4/dist-packages (from homeassistant)
+Requirement already up-to-date: pip>=7.1.0 in /usr/local/lib/python3.4/dist-packages (from homeassistant)
+Requirement already up-to-date: typing<4,>=3 in /usr/local/lib/python3.4/dist-packages (from homeassistant)
+Requirement already up-to-date: async-timeout==1.2.1 in /usr/local/lib/python3.4/dist-packages (from homeassistant)
+Requirement already up-to-date: pytz>=2017.02 in /usr/local/lib/python3.4/dist-packages (from homeassistant)
+Requirement already up-to-date: MarkupSafe>=0.23 in /usr/local/lib/python3.4/dist-packages (from jinja2>=2.9.5->homeassistant)
+Requirement already up-to-date: multidict>=2.1.4 in /usr/local/lib/python3.4/dist-packages (from aiohttp==2.2.0->homeassistant)
+Requirement already up-to-date: yarl<0.11,>=0.10.0 in /usr/local/lib/python3.4/dist-packages (from aiohttp==2.2.0->homeassistant)
+● home-assistant@homeassistant.service - Home Assistant for homeassistant
+   Loaded: loaded (/etc/systemd/system/home-assistant@homeassistant.service; enabled)
+   Active: active (running) since Sun 2017-07-02 20:22:51 UTC; 10s ago
+ Main PID: 2175 (hass)
+   CGroup: /system.slice/system-home\x2dassistant.slice/home-assistant@homeassistant.service
+           └─2175 /srv/homeassistant/bin/python3 /srv/homeassistant/bin/hass
+
+Jul 02 20:23:01 hassbian hass[2175]: INFO:homeassistant.core:Bus:Handling <Event state_changed[L]: new_state=<state sensor.usb_dogs_room_events=unknown; friendly_name=USB_DOGS_room Events, unit_of_measurement=Events @ 2017-07-02T13:23:01.821506-07:00>, entity_id=sensor.usb_dogs_room_events, old_state=None>
+Jul 02 20:23:01 hassbian hass[2175]: INFO:homeassistant.core:Bus:Handling <Event state_changed[L]: new_state=<state sensor.entrance1_events=unknown; friendly_name=Entrance-1 Events, unit_of_measurement=Events @ 2017-07-02T13:23:01.824846-07:00>, entity_id=sensor.entrance1_events, old_state=None>
+Jul 02 20:23:01 hassbian hass[2175]: INFO:homeassistant.core:Bus:Handling <Event state_changed[L]: new_state=<state sensor.garage1_status=unknown; friendly_name=Garage-1 Status @ 2017-07-02T13:23:01.828200-07:00>, entity_id=sensor.garage1_status, old_state=None>
+Jul 02 20:23:01 hassbian hass[2175]: INFO:homeassistant.core:Bus:Handling <Event state_changed[L]: new_state=<state sensor.garage1_events=unknown; friendly_name=Garage-1 Events, unit_of_measurement=Events @ 2017-07-02T13:23:01.831588-07:00>, entity_id=sensor.garage1_events, old_state=None>
+Jul 02 20:23:01 hassbian hass[2175]: INFO:homeassistant.core:Bus:Handling <Event state_changed[L]: new_state=<state sensor.dog_cam2_status=unknown; friendly_name=Dog_cam-2 Status @ 2017-07-02T13:23:01.834932-07:00>, entity_id=sensor.dog_cam2_status, old_state=None>
+Jul 02 20:23:01 hassbian hass[2175]: INFO:homeassistant.core:Bus:Handling <Event state_changed[L]: new_state=<state sensor.dog_cam2_events=unknown; friendly_name=Dog_cam-2 Events, unit_of_measurement=Events @ 2017-07-02T13:23:01.843602-07:00>, entity_id=sensor.dog_cam2_events, old_state=None>
+Jul 02 20:23:01 hassbian hass[2175]: INFO:homeassistant.core:Bus:Handling <Event state_changed[L]: new_state=<state sensor.dog_cam1_status=unknown; friendly_name=Dog_cam-1 Status @ 2017-07-02T13:23:01.851819-07:00>, entity_id=sensor.dog_cam1_status, old_state=None>
+Jul 02 20:23:01 hassbian hass[2175]: INFO:homeassistant.core:Bus:Handling <Event state_changed[L]: new_state=<state sensor.dog_cam1_events=unknown; friendly_name=Dog_cam-1 Events, unit_of_measurement=Events @ 2017-07-02T13:23:01.856148-07:00>, entity_id=sensor.dog_cam1_events, old_state=None>
+Jul 02 20:23:01 hassbian hass[2175]: INFO:homeassistant.core:Bus:Handling <Event state_changed[L]: new_state=<state sensor.usb_dogs_room_status=unknown; friendly_name=USB_DOGS_room Status @ 2017-07-02T13:23:01.860293-07:00>, entity_id=sensor.usb_dogs_room_status, old_state=None>
+Jul 02 20:23:01 hassbian hass[2175]: INFO:homeassistant.core:Bus:Handling <Event state_changed[L]: new_state=<state sensor.entrance1_status=unknown; friendly_name=Entrance-1 Status @ 2017-07-02T13:23:01.863885-07:00>, entity_id=sensor.entrance1_status, old_state=None>
+● home-assistant@homeassistant.service - Home Assistant for homeassistant
+   Loaded: loaded (/etc/systemd/system/home-assistant@homeassistant.service; enabled)
+   Active: active (running) since Sun 2017-07-02 20:22:51 UTC; 30s ago
+ Main PID: 2175 (hass)
+   CGroup: /system.slice/system-home\x2dassistant.slice/home-assistant@homeassistant.service
+           ├─2175 /srv/homeassistant/bin/python3 /srv/homeassistant/bin/hass
+           └─2263 /usr/bin/ssh -q -p 22 -l jaysix79 192.168.79.1
+
+Jul 02 20:23:11 hassbian hass[2175]: INFO:homeassistant.components.http:Serving /api/camera_proxy/camera.garage1 to 192.168.79.244 (auth: True)
+Jul 02 20:23:11 hassbian hass[2175]: INFO:homeassistant.components.http:Serving /api/camera_proxy/camera.entrance1 to 192.168.79.244 (auth: True)
+Jul 02 20:23:12 hassbian hass[2175]: ERROR:homeassistant.components.camera.mjpeg:Error getting new camera image: RawResponseMessage(version=HttpVersion(major=1, minor=0), code=200, reason='OK', headers=<CIMultiDict('Server': 'ZoneMinder Video Server/1.30.4', 'Expires': 'Mon, 26 Jul 1997 05:00:00 GMT', 'Last-Modified': 'Sun, 02 Jul 2017 20:23:11 GMT', 'Cache-Control': 'no-store, no-cache, must-revalidate', 'Cache-Control': 'post-check=0, pre-check=0', 'Pragma': 'no-cache')>, raw_headers=((b'Server', b'ZoneMinder Video Server/1.30.4'), (b'Expires', b'Mon, 26 Jul 1997 05:00:00 GMT'), (b'Last-Modified', b'Sun, 02 Jul 2017 20:23:11 GMT'), (b'Cache-Control', b'no-store, no-cache, must-revalidate'), (b'Cache-Control', b'post-check=0, pre-check=0'), (b'Pragma', b'no-cache')), should_close=True, compression=None, upgrade=False, chunked=False)
+Jul 02 20:23:14 hassbian hass[2175]: INFO:homeassistant.components.http:Serving /api/camera_proxy/camera.dog_cam1 to 192.168.79.244 (auth: True)
+Jul 02 20:23:14 hassbian hass[2175]: INFO:homeassistant.components.http:Serving /api/camera_proxy/camera.dog_cam2 to 192.168.79.244 (auth: True)
+Jul 02 20:23:14 hassbian hass[2175]: INFO:homeassistant.components.http:Serving /api/camera_proxy/camera.usb_dogs_room to 192.168.79.244 (auth: True)
+Jul 02 20:23:14 hassbian hass[2175]: INFO:homeassistant.components.http:Serving /api/camera_proxy/camera.garage1 to 192.168.79.244 (auth: True)
+Jul 02 20:23:14 hassbian hass[2175]: INFO:homeassistant.components.http:Serving /api/camera_proxy/camera.entrance1 to 192.168.79.244 (auth: True)
+Jul 02 20:23:15 hassbian hass[2175]: ERROR:homeassistant.components.camera.mjpeg:Error getting new camera image: RawResponseMessage(version=HttpVersion(major=1, minor=0), code=200, reason='OK', headers=<CIMultiDict('Server': 'ZoneMinder Video Server/1.30.4', 'Expires': 'Mon, 26 Jul 1997 05:00:00 GMT', 'Last-Modified': 'Sun, 02 Jul 2017 20:23:14 GMT', 'Cache-Control': 'no-store, no-cache, must-revalidate', 'Cache-Control': 'post-check=0, pre-check=0', 'Pragma': 'no-cache')>, raw_headers=((b'Server', b'ZoneMinder Video Server/1.30.4'), (b'Expires', b'Mon, 26 Jul 1997 05:00:00 GMT'), (b'Last-Modified', b'Sun, 02 Jul 2017 20:23:14 GMT'), (b'Cache-Control', b'no-store, no-cache, must-revalidate'), (b'Cache-Control', b'post-check=0, pre-check=0'), (b'Pragma', b'no-cache')), should_close=True, compression=None, upgrade=False, chunked=False)
+Jul 02 20:23:17 hassbian hass[2175]: INFO:homeassistant.components.device_tracker.asuswrt:Checking ARP

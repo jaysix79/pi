@@ -1,0 +1,17 @@
+● home-assistant@homeassistant.service - Home Assistant for homeassistant
+   Loaded: loaded (/etc/systemd/system/home-assistant@homeassistant.service; enabled)
+   Active: active (running) since Sun 2017-07-02 19:27:15 PDT; 10s ago
+ Main PID: 5496 (hass)
+   CGroup: /system.slice/system-home\x2dassistant.slice/home-assistant@homeassistant.service
+           └─5496 /srv/homeassistant/bin/python3 /srv/homeassistant/bin/hass
+
+Jul 02 19:27:24 hassbian hass[5496]: INFO:homeassistant.core:Bus:Handling <Event component_loaded[L]: component=http>
+Jul 02 19:27:24 hassbian hass[5496]: INFO:homeassistant.setup:Setting up websocket_api
+Jul 02 19:27:24 hassbian hass[5496]: INFO:homeassistant.setup:Setup of domain websocket_api took 0.0 seconds.
+Jul 02 19:27:24 hassbian hass[5496]: INFO:homeassistant.core:Bus:Handling <Event component_loaded[L]: component=websocket_api>
+Jul 02 19:27:24 hassbian hass[5496]: INFO:homeassistant.setup:Setting up api
+Jul 02 19:27:24 hassbian hass[5496]: INFO:homeassistant.setup:Setup of domain api took 0.0 seconds.
+Jul 02 19:27:24 hassbian hass[5496]: INFO:homeassistant.core:Bus:Handling <Event component_loaded[L]: component=api>
+Jul 02 19:27:24 hassbian hass[5496]: INFO:homeassistant.setup:Setting up frontend
+Jul 02 19:27:24 hassbian hass[5496]: INFO:homeassistant.setup:Setup of domain frontend took 0.1 seconds.
+Jul 02 19:27:24 hassbian hass[5496]: INFO:homeassistant.core:Bus:Handling <Event component_loaded[L]: component=frontend>

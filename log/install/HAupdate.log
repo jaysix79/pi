@@ -1,0 +1,174 @@
+UPDATE STARTING.....
+Requirement already up-to-date: homeassistant in /usr/local/lib/python3.4/dist-packages
+Requirement already up-to-date: requests==2.14.2 in /usr/local/lib/python3.4/dist-packages (from homeassistant)
+Requirement already up-to-date: aiohttp==2.2.0 in /usr/local/lib/python3.4/dist-packages (from homeassistant)
+Requirement already up-to-date: chardet==3.0.2 in /usr/local/lib/python3.4/dist-packages (from homeassistant)
+Requirement already up-to-date: async-timeout==1.2.1 in /usr/local/lib/python3.4/dist-packages (from homeassistant)
+Requirement already up-to-date: pytz>=2017.02 in /usr/local/lib/python3.4/dist-packages (from homeassistant)
+Requirement already up-to-date: typing<4,>=3 in /usr/local/lib/python3.4/dist-packages (from homeassistant)
+Requirement already up-to-date: jinja2>=2.9.5 in /usr/local/lib/python3.4/dist-packages (from homeassistant)
+Requirement already up-to-date: astral==1.4 in /usr/local/lib/python3.4/dist-packages (from homeassistant)
+Requirement already up-to-date: voluptuous==0.10.5 in /usr/local/lib/python3.4/dist-packages (from homeassistant)
+Requirement already up-to-date: pyyaml<4,>=3.11 in /usr/local/lib/python3.4/dist-packages (from homeassistant)
+Requirement already up-to-date: pip>=7.1.0 in /usr/local/lib/python3.4/dist-packages (from homeassistant)
+Requirement already up-to-date: multidict>=2.1.4 in /usr/local/lib/python3.4/dist-packages (from aiohttp==2.2.0->homeassistant)
+Requirement already up-to-date: yarl<0.11,>=0.10.0 in /usr/local/lib/python3.4/dist-packages (from aiohttp==2.2.0->homeassistant)
+Requirement already up-to-date: MarkupSafe>=0.23 in /usr/local/lib/python3.4/dist-packages (from jinja2>=2.9.5->homeassistant)
+UPDATE STARTING.....
+Requirement already up-to-date: homeassistant in /usr/local/lib/python3.4/dist-packages
+Requirement already up-to-date: chardet==3.0.2 in /usr/local/lib/python3.4/dist-packages (from homeassistant)
+Requirement already up-to-date: jinja2>=2.9.5 in /usr/local/lib/python3.4/dist-packages (from homeassistant)
+Requirement already up-to-date: astral==1.4 in /usr/local/lib/python3.4/dist-packages (from homeassistant)
+Requirement already up-to-date: pytz>=2017.02 in /usr/local/lib/python3.4/dist-packages (from homeassistant)
+Requirement already up-to-date: pip>=7.1.0 in /usr/local/lib/python3.4/dist-packages (from homeassistant)
+Requirement already up-to-date: pyyaml<4,>=3.11 in /usr/local/lib/python3.4/dist-packages (from homeassistant)
+Requirement already up-to-date: requests==2.14.2 in /usr/local/lib/python3.4/dist-packages (from homeassistant)
+Requirement already up-to-date: voluptuous==0.10.5 in /usr/local/lib/python3.4/dist-packages (from homeassistant)
+Requirement already up-to-date: aiohttp==2.2.0 in /usr/local/lib/python3.4/dist-packages (from homeassistant)
+Requirement already up-to-date: async-timeout==1.2.1 in /usr/local/lib/python3.4/dist-packages (from homeassistant)
+Requirement already up-to-date: typing<4,>=3 in /usr/local/lib/python3.4/dist-packages (from homeassistant)
+Requirement already up-to-date: MarkupSafe>=0.23 in /usr/local/lib/python3.4/dist-packages (from jinja2>=2.9.5->homeassistant)
+Requirement already up-to-date: multidict>=2.1.4 in /usr/local/lib/python3.4/dist-packages (from aiohttp==2.2.0->homeassistant)
+Requirement already up-to-date: yarl<0.11,>=0.10.0 in /usr/local/lib/python3.4/dist-packages (from aiohttp==2.2.0->homeassistant)
+exit
+● home-assistant@homeassistant.service - Home Assistant for homeassistant
+   Loaded: loaded (/etc/systemd/system/home-assistant@homeassistant.service; enabled)
+   Active: active (running) since Sun 2017-07-02 20:27:33 UTC; 10s ago
+ Main PID: 2600 (hass)
+   CGroup: /system.slice/system-home\x2dassistant.slice/home-assistant@homeassistant.service
+           └─2600 /srv/homeassistant/bin/python3 /srv/homeassistant/bin/hass
+
+Jul 02 20:27:43 hassbian hass[2600]: INFO:homeassistant.core:Bus:Handling <Event state_changed[L]: entity_id=sensor.cpu_use, new_state=<state sensor.cpu_use=29; friendly_name=CPU Speed, unit_of_measurement=%, icon=mdi:memory @ 2017-07-02T13:27:43.296389-07:00>, old_state=None>
+Jul 02 20:27:43 hassbian hass[2600]: INFO:homeassistant.core:Bus:Handling <Event state_changed[L]: entity_id=group.zoneminder, new_state=<state group.zoneminder=off; order=38, assumed_state=False, entity_id=('sensor.usb_dogs_room_events', 'sensor.usb_dogs_room_status', 'switch.usb_dogs_room_state', 'sensor.dog_cam1_events', 'sensor.dog_cam1_status', 'switch.dog_cam1_state', 'sensor.dog_cam2_events', 'sensor.dog_cam2_status', 'switch.dog_cam2_state', 'sensor.entrance1_events', 'sensor.entrance1_status', 'switch.entrance1_state', 'sensor.garage1_events', 'sensor.garage1_status', 'switch.garage1_state'), friendly_name=Zoneminder @ 2017-07-02T13:27:43.299061-07:00>, old_state=<state group.zoneminder=unknown; order=38, assumed_state=False, entity_id=('sensor.usb_dogs_room_events', 'sensor.usb_dogs_room_status', 'switch.usb_dogs_room_state', 'sensor.dog_cam1_events', 'sensor.dog_cam1_status', 'switch.dog_cam1_state', 'sensor.dog_cam2_events', 'sensor.dog_cam2_status', 'switch.dog_cam2_state', 'sensor.entrance1_events', 'sensor.entrance1_status', 'switch.entrance1_state', 'sensor.garage1_events', 'sensor.garage1_status', 'switch.garage1_state'), friendly_name=Zoneminder @ 2017-07-02T13:27:40.683786-07:00>>
+Jul 02 20:27:43 hassbian hass[2600]: INFO:homeassistant.core:Bus:Handling <Event call_service[L]: service=set, service_call_id=1979276784-2, domain=group, service_data=visible=False, object_id=all_switches, entities=['switch.dog_cam1_state', 'switch.dog_cam2_state', 'switch.entrance1_state', 'switch.garage1_state', 'switch.usb_dogs_room_state'], name=all switches>
+Jul 02 20:27:43 hassbian hass[2600]: INFO:homeassistant.core:Bus:Handling <Event state_changed[L]: entity_id=group.all_switches, new_state=<state group.all_switches=off; order=43, entity_id=('switch.dog_cam1_state', 'switch.dog_cam2_state', 'switch.entrance1_state', 'switch.garage1_state', 'switch.usb_dogs_room_state'), auto=True, friendly_name=all switches, hidden=True, assumed_state=False @ 2017-07-02T13:27:43.311207-07:00>, old_state=None>
+Jul 02 20:27:43 hassbian hass[2600]: INFO:homeassistant.core:Bus:Handling <Event service_executed[L]: service_call_id=1979276784-2>
+Jul 02 20:27:43 hassbian hass[2600]: INFO:homeassistant.components.sensor:Setting up sensor.yweather
+Jul 02 20:27:43 hassbian hass[2600]: INFO:homeassistant.components.sensor:Setting up sensor.google_travel_time
+Jul 02 20:27:43 hassbian hass[2600]: INFO:homeassistant.components.sensor:Setting up sensor.yweather
+Jul 02 20:27:43 hassbian hass[2600]: INFO:homeassistant.components.sensor:Setting up sensor.yweather
+Jul 02 20:27:43 hassbian hass[2600]: INFO:homeassistant.components.sensor:Setting up sensor.google_travel_time
+Jul 02 20:27:43 hassbian hass[2600]: INFO:homeassistant.components.sensor:Setting up sensor.speedtest
+Jul 02 20:27:43 hassbian hass[2600]: INFO:homeassistant.components.sensor:Setting up sensor.google_travel_time
+● home-assistant@homeassistant.service - Home Assistant for homeassistant
+   Loaded: loaded (/etc/systemd/system/home-assistant@homeassistant.service; enabled)
+   Active: active (running) since Sun 2017-07-02 20:27:33 UTC; 30s ago
+ Main PID: 2600 (hass)
+   CGroup: /system.slice/system-home\x2dassistant.slice/home-assistant@homeassistant.service
+           ├─2600 /srv/homeassistant/bin/python3 /srv/homeassistant/bin/hass
+           └─2681 /usr/bin/ssh -q -p 22 -l jaysix79 192.168.79.1
+
+Jul 02 20:27:54 hassbian hass[2600]: INFO:homeassistant.components.http:Serving /api/camera_proxy/camera.dog_cam2 to 192.168.79.244 (auth: True)
+Jul 02 20:27:54 hassbian hass[2600]: INFO:homeassistant.components.http:Serving /api/camera_proxy/camera.garage1 to 192.168.79.244 (auth: True)
+Jul 02 20:27:54 hassbian hass[2600]: INFO:homeassistant.components.http:Serving /api/camera_proxy/camera.entrance1 to 192.168.79.244 (auth: True)
+Jul 02 20:27:56 hassbian hass[2600]: INFO:homeassistant.components.http:Serving /api/websocket to 192.168.79.244 (auth: True)
+Jul 02 20:27:57 hassbian hass[2600]: INFO:homeassistant.components.http:Serving /api/camera_proxy/camera.dog_cam1 to 192.168.79.244 (auth: True)
+Jul 02 20:27:57 hassbian hass[2600]: INFO:homeassistant.components.http:Serving /api/camera_proxy/camera.dog_cam2 to 192.168.79.244 (auth: True)
+Jul 02 20:27:57 hassbian hass[2600]: INFO:homeassistant.components.http:Serving /api/camera_proxy/camera.usb_dogs_room to 192.168.79.244 (auth: True)
+Jul 02 20:27:57 hassbian hass[2600]: INFO:homeassistant.components.http:Serving /api/camera_proxy/camera.garage1 to 192.168.79.244 (auth: True)
+Jul 02 20:27:57 hassbian hass[2600]: INFO:homeassistant.components.http:Serving /api/camera_proxy/camera.entrance1 to 192.168.79.244 (auth: True)
+Jul 02 20:27:58 hassbian hass[2600]: INFO:homeassistant.components.device_tracker.asuswrt:Checking ARP
+UPDATE STARTING.....
+Requirement already up-to-date: homeassistant in /usr/local/lib/python3.4/dist-packages
+Requirement already up-to-date: chardet==3.0.2 in /usr/local/lib/python3.4/dist-packages (from homeassistant)
+Requirement already up-to-date: pip>=7.1.0 in /usr/local/lib/python3.4/dist-packages (from homeassistant)
+Requirement already up-to-date: aiohttp==2.2.0 in /usr/local/lib/python3.4/dist-packages (from homeassistant)
+Requirement already up-to-date: voluptuous==0.10.5 in /usr/local/lib/python3.4/dist-packages (from homeassistant)
+Requirement already up-to-date: requests==2.14.2 in /usr/local/lib/python3.4/dist-packages (from homeassistant)
+Requirement already up-to-date: pytz>=2017.02 in /usr/local/lib/python3.4/dist-packages (from homeassistant)
+Requirement already up-to-date: async-timeout==1.2.1 in /usr/local/lib/python3.4/dist-packages (from homeassistant)
+Requirement already up-to-date: astral==1.4 in /usr/local/lib/python3.4/dist-packages (from homeassistant)
+Requirement already up-to-date: typing<4,>=3 in /usr/local/lib/python3.4/dist-packages (from homeassistant)
+Requirement already up-to-date: jinja2>=2.9.5 in /usr/local/lib/python3.4/dist-packages (from homeassistant)
+Requirement already up-to-date: pyyaml<4,>=3.11 in /usr/local/lib/python3.4/dist-packages (from homeassistant)
+Requirement already up-to-date: multidict>=2.1.4 in /usr/local/lib/python3.4/dist-packages (from aiohttp==2.2.0->homeassistant)
+Requirement already up-to-date: yarl<0.11,>=0.10.0 in /usr/local/lib/python3.4/dist-packages (from aiohttp==2.2.0->homeassistant)
+Requirement already up-to-date: MarkupSafe>=0.23 in /usr/local/lib/python3.4/dist-packages (from jinja2>=2.9.5->homeassistant)
+exit
+● home-assistant@homeassistant.service - Home Assistant for homeassistant
+   Loaded: loaded (/etc/systemd/system/home-assistant@homeassistant.service; enabled)
+   Active: active (running) since Sun 2017-07-02 20:29:54 UTC; 10s ago
+ Main PID: 2806 (hass)
+   CGroup: /system.slice/system-home\x2dassistant.slice/home-assistant@homeassistant.service
+           └─2806 /srv/homeassistant/bin/python3 /srv/homeassistant/bin/hass
+
+Jul 02 20:30:04 hassbian hass[2806]: INFO:homeassistant.core:Bus:Handling <Event state_changed[L]: old_state=None, entity_id=automation.update_available_notifications, new_state=<state automation.update_available_notifications=off; last_triggered=None, friendly_name=Update Available Notifications @ 2017-07-02T13:30:04.656152-07:00>>
+Jul 02 20:30:04 hassbian hass[2806]: INFO:homeassistant.core:Bus:Handling <Event state_changed[L]: old_state=None, entity_id=automation.bedroom_lights_turn_off_at_11_pm, new_state=<state automation.bedroom_lights_turn_off_at_11_pm=off; last_triggered=None, friendly_name=BEDROOM lights (Turn off) at 11 pm @ 2017-07-02T13:30:04.660059-07:00>>
+Jul 02 20:30:04 hassbian hass[2806]: INFO:homeassistant.core:Bus:Handling <Event state_changed[L]: old_state=None, entity_id=automation.furnace_heater_on_upstairs, new_state=<state automation.furnace_heater_on_upstairs=off; last_triggered=2017-07-02T20:02:13.825900+00:00, friendly_name=Furnace Heater ON upstairs @ 2017-07-02T13:30:04.664068-07:00>>
+Jul 02 20:30:04 hassbian hass[2806]: INFO:homeassistant.core:Bus:Handling <Event state_changed[L]: old_state=None, entity_id=automation.bedroom_lights_turn_on_at_9_pm, new_state=<state automation.bedroom_lights_turn_on_at_9_pm=off; last_triggered=None, friendly_name=BEDROOM lights (Turn on) at 9 pm @ 2017-07-02T13:30:04.668247-07:00>>
+Jul 02 20:30:04 hassbian hass[2806]: INFO:homeassistant.core:Bus:Handling <Event state_changed[L]: old_state=None, entity_id=automation.notification__reminder__garage_door_is_now_opened_for_5_minutes, new_state=<state automation.notification__reminder__garage_door_is_now_opened_for_5_minutes=off; last_triggered=None, friendly_name=Notification - Reminder - GARAGE DOOR is now OPENED for 5 Minutes @ 2017-07-02T13:30:04.673848-07:00>>
+Jul 02 20:30:04 hassbian hass[2806]: INFO:homeassistant.core:Bus:Handling <Event state_changed[L]: old_state=None, entity_id=sensor.speedtest_download, new_state=<state sensor.speedtest_download=unknown; unit_of_measurement=Mbit/s, icon=mdi:speedometer, friendly_name=Download @ 2017-07-02T13:30:04.678509-07:00>>
+Jul 02 20:30:04 hassbian hass[2806]: INFO:homeassistant.core:Bus:Handling <Event state_changed[L]: old_state=None, entity_id=sensor.speedtest_upload, new_state=<state sensor.speedtest_upload=unknown; unit_of_measurement=Mbit/s, icon=mdi:cloud-upload, friendly_name=Upload @ 2017-07-02T13:30:04.682811-07:00>>
+Jul 02 20:30:04 hassbian hass[2806]: INFO:homeassistant.core:Bus:Handling <Event state_changed[L]: old_state=None, entity_id=sensor.speedtest_ping, new_state=<state sensor.speedtest_ping=unknown; unit_of_measurement=ms, icon=mdi:radio-tower, friendly_name=Ping @ 2017-07-02T13:30:04.688291-07:00>>
+Jul 02 20:30:04 hassbian hass[2806]: INFO:homeassistant.core:Bus:Handling <Event call_service[L]: service_call_id=1979452912-2, service_data=name=all automations, object_id=all_automations, visible=False, entities=['automation.aquarium_lights_turn_off_with_the_sun_angle', 'automation.aquarium_lights_turn_on_with_the_sun_angle', 'automation.bedroom_lights_turn_off_at_11_pm', 'automation.bedroom_lights_turn_on_at_8_pm', 'automation.bedroom_lights_turn_on_at_9_pm', 'automation.charger_in_dogs_old_room', 'automation.furnace_ac_on_downstairs', 'automation.furnace_ac_on_upstairs', 'automation.furnace_fan_on_downstairs', 'automation.furnace_fan_on_upstairs', 'automation.furnace_heater_on_downstairs', 'automation.furnace_heater_on_upstairs', 'automation.garage_toggle_2_sec', 'automation.john_home', 'automation.john_not_home', 'automation.media_center_turn_on_at_8_am_and_john_is_home', 'automation.media_center_turn_off_at_12_pm', 'automation.media_center_turn_off_when_mayu_or_john_leave', 'automation.media_center_turn_on_at_6_am', 'automation.media_center_turn_on_when_mayu_or_john', 'automation.notification__garage_door_is_now_close', 'automation.notification__garage_door_is_now_open', 'automation.notification__reminder__garage_door_is_now_opened_for_1_hour', 'automation.notification__reminder__garage_door_is_now_opened_for_15_minutes', 'automation.notification__reminder__garage_door_is_now_opened_for_2_hours', 'automation.notification__reminder__garage_door_is_now_opened_for_30_minutes', 'automation.notification__reminder__garage_door_is_now_opened_for_5_minutes', 'automation.notification__test', 'automation.notification__vent_off', 'automation.notification__vent_on', 'automation.rice_cooker_turn_off_at_12_am', 'automation.rice_cooker_turn_on_at_8_am_friday', 'automation.rice_cooker_turn_on_at_8_am_saturday_and_sunday', 'automation.shut_down_everything__ones_is_home', 'automation.tracker_no_one_is_home_2', 'automation.tracker_no_one_is_home', 'automation.tracker_someone_is_home', 'automation.turn_off_charger_in_dogs_old_room_after_1_hour', 'automation.turn_
+Jul 02 20:30:04 hassbian hass[2806]: off_exhaust_fan_after_20_minutes', 'automation.turn_on_exhaust_fan_every_hour_when_its_90_degree_hot_outside', 'automation.update_available_notifications', 'automation.test__off', 'automation.test__on'], domain=group, service=set>
+● home-assistant@homeassistant.service - Home Assistant for homeassistant
+   Loaded: loaded (/etc/systemd/system/home-assistant@homeassistant.service; enabled)
+   Active: active (running) since Sun 2017-07-02 20:29:54 UTC; 30s ago
+ Main PID: 2806 (hass)
+   CGroup: /system.slice/system-home\x2dassistant.slice/home-assistant@homeassistant.service
+           ├─2806 /srv/homeassistant/bin/python3 /srv/homeassistant/bin/hass
+           └─2895 /usr/bin/ssh -q -p 22 -l jaysix79 192.168.79.1
+
+Jul 02 20:30:13 hassbian hass[2806]: INFO:homeassistant.components.http:Serving /api/camera_proxy/camera.entrance1 to 192.168.79.244 (auth: True)
+Jul 02 20:30:14 hassbian hass[2806]: ERROR:homeassistant.components.camera.mjpeg:Error getting new camera image: RawResponseMessage(version=HttpVersion(major=1, minor=0), code=200, reason='OK', headers=<CIMultiDict('Server': 'ZoneMinder Video Server/1.30.4', 'Expires': 'Mon, 26 Jul 1997 05:00:00 GMT', 'Last-Modified': 'Sun, 02 Jul 2017 20:30:13 GMT', 'Cache-Control': 'no-store, no-cache, must-revalidate', 'Cache-Control': 'post-check=0, pre-check=0', 'Pragma': 'no-cache')>, raw_headers=((b'Server', b'ZoneMinder Video Server/1.30.4'), (b'Expires', b'Mon, 26 Jul 1997 05:00:00 GMT'), (b'Last-Modified', b'Sun, 02 Jul 2017 20:30:13 GMT'), (b'Cache-Control', b'no-store, no-cache, must-revalidate'), (b'Cache-Control', b'post-check=0, pre-check=0'), (b'Pragma', b'no-cache')), should_close=True, compression=None, upgrade=False, chunked=False)
+Jul 02 20:30:20 hassbian hass[2806]: INFO:homeassistant.components.device_tracker.asuswrt:Checking ARP
+Jul 02 20:30:21 hassbian hass[2806]: INFO:homeassistant.components.http:Serving /api/camera_proxy/camera.garage1 to 192.168.79.244 (auth: True)
+Jul 02 20:30:21 hassbian hass[2806]: INFO:homeassistant.components.http:Serving /api/camera_proxy/camera.entrance1 to 192.168.79.244 (auth: True)
+Jul 02 20:30:23 hassbian hass[2806]: INFO:homeassistant.components.http:Serving /api/camera_proxy/camera.dog_cam1 to 192.168.79.244 (auth: True)
+Jul 02 20:30:23 hassbian hass[2806]: INFO:homeassistant.components.http:Serving /api/camera_proxy/camera.dog_cam2 to 192.168.79.244 (auth: True)
+Jul 02 20:30:23 hassbian hass[2806]: INFO:homeassistant.components.http:Serving /api/camera_proxy/camera.usb_dogs_room to 192.168.79.244 (auth: True)
+Jul 02 20:30:23 hassbian hass[2806]: INFO:homeassistant.components.http:Serving /api/camera_proxy/camera.garage1 to 192.168.79.244 (auth: True)
+Jul 02 20:30:23 hassbian hass[2806]: INFO:homeassistant.components.http:Serving /api/camera_proxy/camera.entrance1 to 192.168.79.244 (auth: True)
+UPDATE STARTING.....
+ 
+ 
+ 
+Requirement already up-to-date: homeassistant in /usr/local/lib/python3.4/dist-packages
+Requirement already up-to-date: pytz>=2017.02 in /usr/local/lib/python3.4/dist-packages (from homeassistant)
+Requirement already up-to-date: voluptuous==0.10.5 in /usr/local/lib/python3.4/dist-packages (from homeassistant)
+Requirement already up-to-date: astral==1.4 in /usr/local/lib/python3.4/dist-packages (from homeassistant)
+Requirement already up-to-date: requests==2.14.2 in /usr/local/lib/python3.4/dist-packages (from homeassistant)
+Requirement already up-to-date: pyyaml<4,>=3.11 in /usr/local/lib/python3.4/dist-packages (from homeassistant)
+Requirement already up-to-date: typing<4,>=3 in /usr/local/lib/python3.4/dist-packages (from homeassistant)
+Requirement already up-to-date: aiohttp==2.2.0 in /usr/local/lib/python3.4/dist-packages (from homeassistant)
+Requirement already up-to-date: chardet==3.0.2 in /usr/local/lib/python3.4/dist-packages (from homeassistant)
+Requirement already up-to-date: jinja2>=2.9.5 in /usr/local/lib/python3.4/dist-packages (from homeassistant)
+Requirement already up-to-date: pip>=7.1.0 in /usr/local/lib/python3.4/dist-packages (from homeassistant)
+Requirement already up-to-date: async-timeout==1.2.1 in /usr/local/lib/python3.4/dist-packages (from homeassistant)
+Requirement already up-to-date: multidict>=2.1.4 in /usr/local/lib/python3.4/dist-packages (from aiohttp==2.2.0->homeassistant)
+Requirement already up-to-date: yarl<0.11,>=0.10.0 in /usr/local/lib/python3.4/dist-packages (from aiohttp==2.2.0->homeassistant)
+Requirement already up-to-date: MarkupSafe>=0.23 in /usr/local/lib/python3.4/dist-packages (from jinja2>=2.9.5->homeassistant)
+UPDATE STARTING.....
+ 
+ 
+ 
+Requirement already up-to-date: homeassistant in /usr/local/lib/python3.4/dist-packages
+Requirement already up-to-date: async-timeout==1.2.1 in /usr/local/lib/python3.4/dist-packages (from homeassistant)
+Requirement already up-to-date: jinja2>=2.9.5 in /usr/local/lib/python3.4/dist-packages (from homeassistant)
+Requirement already up-to-date: pyyaml<4,>=3.11 in /usr/local/lib/python3.4/dist-packages (from homeassistant)
+Requirement already up-to-date: typing<4,>=3 in /usr/local/lib/python3.4/dist-packages (from homeassistant)
+Requirement already up-to-date: astral==1.4 in /usr/local/lib/python3.4/dist-packages (from homeassistant)
+Requirement already up-to-date: voluptuous==0.10.5 in /usr/local/lib/python3.4/dist-packages (from homeassistant)
+Requirement already up-to-date: aiohttp==2.2.0 in /usr/local/lib/python3.4/dist-packages (from homeassistant)
+Requirement already up-to-date: chardet==3.0.2 in /usr/local/lib/python3.4/dist-packages (from homeassistant)
+Requirement already up-to-date: requests==2.14.2 in /usr/local/lib/python3.4/dist-packages (from homeassistant)
+UPDATE STARTING.....
+ 
+ 
+ 
+Requirement already up-to-date: homeassistant in /usr/local/lib/python3.4/dist-packages
+Requirement already up-to-date: voluptuous==0.10.5 in /usr/local/lib/python3.4/dist-packages (from homeassistant)
+Requirement already up-to-date: chardet==3.0.2 in /usr/local/lib/python3.4/dist-packages (from homeassistant)
+Requirement already up-to-date: pyyaml<4,>=3.11 in /usr/local/lib/python3.4/dist-packages (from homeassistant)
+Requirement already up-to-date: async-timeout==1.2.1 in /usr/local/lib/python3.4/dist-packages (from homeassistant)
+Requirement already up-to-date: requests==2.14.2 in /usr/local/lib/python3.4/dist-packages (from homeassistant)
+Requirement already up-to-date: typing<4,>=3 in /usr/local/lib/python3.4/dist-packages (from homeassistant)
+Requirement already up-to-date: aiohttp==2.2.0 in /usr/local/lib/python3.4/dist-packages (from homeassistant)
+Requirement already up-to-date: pip>=7.1.0 in /usr/local/lib/python3.4/dist-packages (from homeassistant)
+Requirement already up-to-date: pytz>=2017.02 in /usr/local/lib/python3.4/dist-packages (from homeassistant)
+Requirement already up-to-date: jinja2>=2.9.5 in /usr/local/lib/python3.4/dist-packages (from homeassistant)
+Requirement already up-to-date: astral==1.4 in /usr/local/lib/python3.4/dist-packages (from homeassistant)
+Requirement already up-to-date: multidict>=2.1.4 in /usr/local/lib/python3.4/dist-packages (from aiohttp==2.2.0->homeassistant)
+Requirement already up-to-date: yarl<0.11,>=0.10.0 in /usr/local/lib/python3.4/dist-packages (from aiohttp==2.2.0->homeassistant)
+Requirement already up-to-date: MarkupSafe>=0.23 in /usr/local/lib/python3.4/dist-packages (from jinja2>=2.9.5->homeassistant)

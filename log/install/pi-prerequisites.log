@@ -1,0 +1,1680 @@
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
+# # # # # # # #  Starting apt-get pi-prerequisites.sh   # # # # # # # # # # # # # # # # # # #
+
+
+You are Running the pi-prerequisites.sh script.
+This script is best to run right after a fresh Pi Installation
+
+
+Now this will clean and update the system
+
+
+
+Now this will set IP address to 192.168.xxx.5
+
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
+# # # # # # # #  Starting apt-get static_ip.sh  # # # # # # # # # # # # # # # # # # #
+Sun  2 Jul 19:24:52 UTC 2017
+
+changing IP address to static XXX.XXX.XX.5
+
+‘/etc/dhcpcd.conf’ -> ‘/etc/dhcpcd.conf.bak’
+‘/home/pi/programs/backup/network/dhcpcd.conf’ -> ‘/etc/dhcpcd.conf’
+IP address to static XXX.XXX.XX.5 ..................
+Congratuation install static_ip.sh is now installed.......
+
+Sun  2 Jul 19:25:02 UTC 2017
+# # # # # # # #        static_ip.sh DONE!!     	  # # # # # # # # # # # # # # # # # #
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
+
+
+
+
+
+
+
+Successfully changed IP address  to 192.168.xxx.5
+
+
+Now this install SAMBA file sharing over the network 
+
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
+# # # # # # # #   Starting apt-get-samba_install.sh     # # # # # # # # # # # # # # # # # # #
+Sun  2 Jul 19:25:04 UTC 2017
+
+Installing samba.........................................
+Reading package lists...
+Building dependency tree...
+Reading state information...
+The following extra packages will be installed:
+  attr libaio1 libasn1-8-heimdal libavahi-client3 libcups2
+  libfile-copy-recursive-perl libhcrypto4-heimdal libhdb9-heimdal
+  libheimbase1-heimdal libhx509-5-heimdal libkrb5-26-heimdal libldb1 libntdb1
+  libroken18-heimdal libtdb1 libtevent0 libwind0-heimdal python-crypto
+  python-dnspython python-ldb python-ntdb python-samba python-talloc
+  python-tdb samba-dsdb-modules samba-libs samba-vfs-modules tdb-tools
+  update-inetd
+Suggested packages:
+  cups-common python-crypto-dbg python-crypto-doc bind9 bind9utils ctdb
+  ldb-tools smbldap-tools winbind heimdal-clients
+The following NEW packages will be installed:
+  attr libaio1 libasn1-8-heimdal libavahi-client3 libcups2
+  libfile-copy-recursive-perl libhcrypto4-heimdal libhdb9-heimdal
+  libheimbase1-heimdal libhx509-5-heimdal libkrb5-26-heimdal libldb1 libntdb1
+  libroken18-heimdal libtdb1 libtevent0 libwind0-heimdal python-crypto
+  python-dnspython python-ldb python-ntdb python-samba python-talloc
+  python-tdb samba samba-common-bin samba-dsdb-modules samba-libs
+  samba-vfs-modules tdb-tools update-inetd
+0 upgraded, 31 newly installed, 0 to remove and 0 not upgraded.
+Need to get 9,015 kB of archives.
+After this operation, 44.6 MB of additional disk space will be used.
+Get:1 http://mirrordirector.raspbian.org/raspbian/ jessie/main libaio1 armhf 0.3.110-1 [9,228 B]
+Get:2 http://mirrordirector.raspbian.org/raspbian/ jessie/main libroken18-heimdal armhf 1.6~rc2+dfsg-9+rpi1 [56.6 kB]
+Get:3 http://mirrordirector.raspbian.org/raspbian/ jessie/main libasn1-8-heimdal armhf 1.6~rc2+dfsg-9+rpi1 [161 kB]
+Get:4 http://mirrordirector.raspbian.org/raspbian/ jessie/main libavahi-client3 armhf 0.6.31-5 [50.6 kB]
+Get:5 http://mirrordirector.raspbian.org/raspbian/ jessie/main libcups2 armhf 1.7.5-11+deb8u1 [253 kB]
+Get:6 http://mirrordirector.raspbian.org/raspbian/ jessie/main libhcrypto4-heimdal armhf 1.6~rc2+dfsg-9+rpi1 [98.3 kB]
+Get:7 http://mirrordirector.raspbian.org/raspbian/ jessie/main libheimbase1-heimdal armhf 1.6~rc2+dfsg-9+rpi1 [46.4 kB]
+Get:8 http://mirrordirector.raspbian.org/raspbian/ jessie/main libwind0-heimdal armhf 1.6~rc2+dfsg-9+rpi1 [71.0 kB]
+Get:9 http://mirrordirector.raspbian.org/raspbian/ jessie/main libhx509-5-heimdal armhf 1.6~rc2+dfsg-9+rpi1 [111 kB]
+Get:10 http://mirrordirector.raspbian.org/raspbian/ jessie/main libkrb5-26-heimdal armhf 1.6~rc2+dfsg-9+rpi1 [188 kB]
+Get:11 http://mirrordirector.raspbian.org/raspbian/ jessie/main libhdb9-heimdal armhf 1.6~rc2+dfsg-9+rpi1 [73.6 kB]
+Get:12 http://mirrordirector.raspbian.org/raspbian/ jessie/main libtdb1 armhf 1.3.6-0+deb8u1 [37.1 kB]
+Get:13 http://mirrordirector.raspbian.org/raspbian/ jessie/main libtevent0 armhf 0.9.28-0+deb8u1 [23.5 kB]
+Get:14 http://mirrordirector.raspbian.org/raspbian/ jessie/main libldb1 armhf 2:1.1.20-0+deb8u1 [90.9 kB]
+Get:15 http://mirrordirector.raspbian.org/raspbian/ jessie/main libntdb1 armhf 1.0-5 [37.8 kB]
+Get:16 http://mirrordirector.raspbian.org/raspbian/ jessie/main python-ldb armhf 2:1.1.20-0+deb8u1 [26.0 kB]
+Get:17 http://mirrordirector.raspbian.org/raspbian/ jessie/main python-dnspython all 1.12.0-1 [101 kB]
+Get:18 http://mirrordirector.raspbian.org/raspbian/ jessie/main python-talloc armhf 2.1.2-0+deb8u1 [9,912 B]
+Get:19 http://mirrordirector.raspbian.org/raspbian/ jessie/main python-ntdb armhf 1.0-5 [8,372 B]
+Get:20 http://mirrordirector.raspbian.org/raspbian/ jessie/main python-tdb armhf 1.3.6-0+deb8u1 [14.0 kB]
+Get:21 http://mirrordirector.raspbian.org/raspbian/ jessie/main python-crypto armhf 2.6.1-5+deb8u1 [249 kB]
+Err http://mirrordirector.raspbian.org/raspbian/ jessie/main samba-libs armhf 2:4.2.14+dfsg-0+deb8u5
+  404  Not Found [IP: 93.93.128.193 80]
+Err http://mirrordirector.raspbian.org/raspbian/ jessie/main python-samba armhf 2:4.2.14+dfsg-0+deb8u5
+  404  Not Found [IP: 93.93.128.193 80]
+Err http://mirrordirector.raspbian.org/raspbian/ jessie/main samba-common-bin armhf 2:4.2.14+dfsg-0+deb8u5
+  404  Not Found [IP: 93.93.128.193 80]
+Err http://mirrordirector.raspbian.org/raspbian/ jessie/main samba-dsdb-modules armhf 2:4.2.14+dfsg-0+deb8u5
+  404  Not Found [IP: 93.93.128.193 80]
+Get:22 http://mirrordirector.raspbian.org/raspbian/ jessie/main tdb-tools armhf 1.3.6-0+deb8u1 [25.5 kB]
+Get:23 http://mirrordirector.raspbian.org/raspbian/ jessie/main libfile-copy-recursive-perl all 0.38-1 [20.6 kB]
+Get:24 http://mirrordirector.raspbian.org/raspbian/ jessie/main update-inetd all 4.43 [21.8 kB]
+Err http://mirrordirector.raspbian.org/raspbian/ jessie/main samba armhf 2:4.2.14+dfsg-0+deb8u5
+  404  Not Found [IP: 93.93.128.193 80]
+Get:25 http://mirrordirector.raspbian.org/raspbian/ jessie/main attr armhf 1:2.4.47-2 [41.3 kB]
+Err http://mirrordirector.raspbian.org/raspbian/ jessie/main samba-vfs-modules armhf 2:4.2.14+dfsg-0+deb8u5
+  404  Not Found [IP: 93.93.128.193 80]
+Fetched 1,825 kB in 7s (229 kB/s)
+
+
+Finalizing samba.........................................
+‘/etc/samba/smb.conf’ -> ‘/etc/samba/smb.conf.bak’
+‘/home/pi/programs/backup/samba/smb.conf’ -> ‘/etc/samba/smb.conf’
+
+[3;J[H[2JPi USER password.......
+
+
+
+Password for user Pi on SAMABA.......
+
+Sun  2 Jul 19:25:49 UTC 2017
+# # # # # # # #        samba_install.sh DONE!!       # # # # # # # # # # # # # # # # # #
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
+
+
+
+
+
+
+Successfully Installed SAMBA
+
+
+Now this install Garage Notification for Pi using GPIO 
+
+Please reboot your computer for the change to take effect!!!
+
+
+
+
+
+
+
+
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
+# # # # # # # #  Starting apt-get pi-prerequisites.sh   # # # # # # # # # # # # # # # # # # #
+
+
+You are Running the pi-prerequisites.sh script.
+This script is best to run right after a fresh Pi Installation
+
+
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
+# # # # # # # #	 Starting apt-get git_clone.sh 	      # # # # # # # # # # # # # # # # # # #
+Sun  2 Jul 20:55:10 UTC 2017
+
+
+mode of ‘./programs’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/static_ip.sh’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/.git’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/.git/logs’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/.git/logs/HEAD’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/.git/logs/refs’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/.git/logs/refs/heads’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/.git/logs/refs/heads/master’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/.git/logs/refs/remotes’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/.git/logs/refs/remotes/origin’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/.git/logs/refs/remotes/origin/HEAD’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/.git/hooks’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/.git/hooks/applypatch-msg.sample’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/.git/hooks/pre-applypatch.sample’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/.git/hooks/prepare-commit-msg.sample’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/.git/hooks/post-update.sample’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/.git/hooks/pre-push.sample’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/.git/hooks/pre-rebase.sample’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/.git/hooks/pre-commit.sample’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/.git/hooks/commit-msg.sample’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/.git/hooks/update.sample’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/.git/branches’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/.git/index’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/.git/packed-refs’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/.git/HEAD’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/.git/description’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/.git/refs’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/.git/refs/tags’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/.git/refs/heads’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/.git/refs/heads/master’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/.git/refs/remotes’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/.git/refs/remotes/origin’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/.git/refs/remotes/origin/HEAD’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/.git/config’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/.git/objects’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/.git/objects/pack’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/.git/objects/pack/pack-aa55a814afc0f844166f5631c5f401b3397826bd.pack’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/.git/objects/pack/pack-aa55a814afc0f844166f5631c5f401b3397826bd.idx’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/.git/objects/info’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/.git/info’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/.git/info/exclude’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/install’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/install/Install_blynk.sh’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/install/Install_blynk_latest.sh’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/install/Install_pi_garage_alert.sh’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/install/Install_samba.sh’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/install/SIP’ retained as 0755 (rwxr-xr-x)
+neither symbolic link ‘./programs/install/SIP/ospi.py’ nor referent has been changed
+mode of ‘./programs/install/Install_WebIOPi.sh’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/install/static_IP.sh’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/install/blank.sh’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/install/Install_wiringPi.sh’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/install/Initial_Pi_Update.sh’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/install/Install_sip_sprinkler.sh’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/git_clone.sh’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/pi-prerequisites2.sh’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/memory_cleaning.sh’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/homeassistant_initializing.sh’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/openhab_script.sh’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/startup’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/startup/startup.sh’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/update_hass.sh’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/command’ retained as 0755 (rwxr-xr-x)
+mode of ‘./programs/command/HAupdate’ retained as 0755 (rwxr-xr-x)
+mode of ‘./programs/command/HArestart’ retained as 0755 (rwxr-xr-x)
+mode of ‘./programs/command/NEW’ retained as 0755 (rwxr-xr-x)
+mode of ‘./programs/rf_send.py’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/fix’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/backup’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/backup/pi_garage_alert’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/backup/pi_garage_alert/bin’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/backup/pi_garage_alert/bin/pi_garage_alert.py’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/backup/pi_garage_alert/init.d’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/backup/pi_garage_alert/init.d/pi_garage_alert’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/backup/pi_garage_alert/email’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/backup/pi_garage_alert/email/sasl_passwd’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/backup/pi_garage_alert/email/main.cf’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/backup/pi_garage_alert/etc’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/backup/pi_garage_alert/etc/pi_garage_alert_config.py’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/backup/email’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/backup/email/sasl_passwd’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/backup/email/main.cf’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/backup/network’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/backup/network/dhcpcd.conf’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/backup/network/interfaces’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/backup/samba’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/backup/samba/smb.conf’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/backup/crontab’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/autoupdater.sh’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/blank.sh’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/notes.txt’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/rpi-rf_receive.py’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/backing_up_pi.sh’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/pi-prerequisites.sh’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/pre’ retained as 0775 (rwxrwxr-x)
+Congratuation downloaded git_clone.sh is now installed.......
+
+
+Sun  2 Jul 20:55:12 UTC 2017
+# # # # # # # #      	  git_clone.sh DONE!!       	# # # # # # # # # # # # # # # # # #
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
+
+
+
+
+
+
+Successfully cleaned and updated the system
+
+
+Now this will set IP address to 192.168.xxx.5
+
+
+
+Now  his install SAMBA file sharing over the network 
+
+
+
+Now this install Garage Notification for Pi using GPIO 
+
+
+Please reboot your computer for the change to take effect!!!
+
+
+
+
+
+
+
+
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
+# # # # # # # #  Starting apt-get pi-prerequisites.sh   # # # # # # # # # # # # # # # # # # #
+
+
+You are Running the pi-prerequisites.sh script.
+This script is best to run right after a fresh Pi Installation
+
+
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
+# # # # # # # #	 Starting apt-get git_clone.sh 	      # # # # # # # # # # # # # # # # # # #
+Sun  2 Jul 20:57:41 UTC 2017
+
+
+mode of ‘./programs’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/static_ip.sh’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/.git’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/.git/logs’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/.git/logs/HEAD’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/.git/logs/refs’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/.git/logs/refs/heads’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/.git/logs/refs/heads/master’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/.git/logs/refs/remotes’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/.git/logs/refs/remotes/origin’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/.git/logs/refs/remotes/origin/HEAD’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/.git/hooks’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/.git/hooks/applypatch-msg.sample’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/.git/hooks/pre-applypatch.sample’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/.git/hooks/prepare-commit-msg.sample’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/.git/hooks/post-update.sample’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/.git/hooks/pre-push.sample’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/.git/hooks/pre-rebase.sample’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/.git/hooks/pre-commit.sample’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/.git/hooks/commit-msg.sample’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/.git/hooks/update.sample’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/.git/branches’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/.git/index’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/.git/packed-refs’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/.git/HEAD’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/.git/description’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/.git/refs’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/.git/refs/tags’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/.git/refs/heads’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/.git/refs/heads/master’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/.git/refs/remotes’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/.git/refs/remotes/origin’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/.git/refs/remotes/origin/HEAD’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/.git/config’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/.git/objects’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/.git/objects/pack’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/.git/objects/pack/pack-aa55a814afc0f844166f5631c5f401b3397826bd.pack’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/.git/objects/pack/pack-aa55a814afc0f844166f5631c5f401b3397826bd.idx’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/.git/objects/info’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/.git/info’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/.git/info/exclude’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/install’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/install/Install_blynk.sh’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/install/Install_blynk_latest.sh’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/install/Install_pi_garage_alert.sh’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/install/Install_samba.sh’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/install/SIP’ retained as 0755 (rwxr-xr-x)
+neither symbolic link ‘./programs/install/SIP/ospi.py’ nor referent has been changed
+mode of ‘./programs/install/Install_WebIOPi.sh’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/install/static_IP.sh’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/install/blank.sh’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/install/Install_wiringPi.sh’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/install/Initial_Pi_Update.sh’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/install/Install_sip_sprinkler.sh’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/git_clone.sh’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/pi-prerequisites2.sh’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/memory_cleaning.sh’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/homeassistant_initializing.sh’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/openhab_script.sh’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/startup’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/startup/startup.sh’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/update_hass.sh’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/command’ retained as 0755 (rwxr-xr-x)
+mode of ‘./programs/command/HAupdate’ retained as 0755 (rwxr-xr-x)
+mode of ‘./programs/command/HArestart’ retained as 0755 (rwxr-xr-x)
+mode of ‘./programs/command/NEW’ retained as 0755 (rwxr-xr-x)
+mode of ‘./programs/rf_send.py’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/fix’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/backup’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/backup/pi_garage_alert’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/backup/pi_garage_alert/bin’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/backup/pi_garage_alert/bin/pi_garage_alert.py’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/backup/pi_garage_alert/init.d’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/backup/pi_garage_alert/init.d/pi_garage_alert’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/backup/pi_garage_alert/email’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/backup/pi_garage_alert/email/sasl_passwd’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/backup/pi_garage_alert/email/main.cf’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/backup/pi_garage_alert/etc’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/backup/pi_garage_alert/etc/pi_garage_alert_config.py’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/backup/email’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/backup/email/sasl_passwd’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/backup/email/main.cf’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/backup/network’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/backup/network/dhcpcd.conf’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/backup/network/interfaces’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/backup/samba’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/backup/samba/smb.conf’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/backup/crontab’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/autoupdater.sh’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/blank.sh’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/notes.txt’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/rpi-rf_receive.py’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/backing_up_pi.sh’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/pi-prerequisites.sh’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/pre’ retained as 0775 (rwxrwxr-x)
+Congratuation downloaded git_clone.sh is now installed.......
+
+
+Sun  2 Jul 20:57:42 UTC 2017
+# # # # # # # #      	  git_clone.sh DONE!!       	# # # # # # # # # # # # # # # # # #
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
+
+
+
+
+
+
+Successfully cleaned and updated the system
+
+
+Now this will set IP address to 192.168.xxx.5
+
+
+
+Now  his install SAMBA file sharing over the network 
+
+
+
+Do you want to add the custom commands? 	
+
+
+Successfully added the custom commands
+
+
+Now this install done 
+
+Please reboot your computer for the change to take effect!!!
+
+
+
+
+
+
+
+
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
+# # # # # # # #  Starting apt-get pi-prerequisites.sh   # # # # # # # # # # # # # # # # # # #
+
+
+You are Running the pi-prerequisites.sh script.
+This script is best to run right after a fresh Pi Installation
+
+
+
+
+Now this will set IP address to 192.168.xxx.5
+
+
+
+Now  his install SAMBA file sharing over the network 
+
+
+
+Do you want to add the custom commands? 	
+
+
+Successfully added the custom commands
+
+
+Now this install done 
+
+Please reboot your computer for the change to take effect!!!
+
+
+
+
+
+
+
+
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
+# # # # # # # #  Starting apt-get pi-prerequisites.sh   # # # # # # # # # # # # # # # # # # #
+
+
+You are Running the pi-prerequisites.sh script.
+This script is best to run right after a fresh Pi Installation
+First I will SYNC with GitHub.......
+
+
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
+# # # # # # # #	 Starting apt-get git_clone.sh 	      # # # # # # # # # # # # # # # # # # #
+Sun  2 Jul 21:01:12 UTC 2017
+
+
+mode of ‘./programs’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/static_ip.sh’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/.git’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/.git/logs’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/.git/logs/HEAD’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/.git/logs/refs’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/.git/logs/refs/heads’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/.git/logs/refs/heads/master’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/.git/logs/refs/remotes’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/.git/logs/refs/remotes/origin’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/.git/logs/refs/remotes/origin/HEAD’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/.git/hooks’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/.git/hooks/applypatch-msg.sample’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/.git/hooks/pre-applypatch.sample’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/.git/hooks/prepare-commit-msg.sample’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/.git/hooks/post-update.sample’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/.git/hooks/pre-push.sample’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/.git/hooks/pre-rebase.sample’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/.git/hooks/pre-commit.sample’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/.git/hooks/commit-msg.sample’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/.git/hooks/update.sample’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/.git/branches’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/.git/index’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/.git/packed-refs’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/.git/HEAD’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/.git/description’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/.git/refs’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/.git/refs/tags’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/.git/refs/heads’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/.git/refs/heads/master’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/.git/refs/remotes’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/.git/refs/remotes/origin’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/.git/refs/remotes/origin/HEAD’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/.git/config’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/.git/objects’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/.git/objects/pack’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/.git/objects/pack/pack-aa55a814afc0f844166f5631c5f401b3397826bd.pack’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/.git/objects/pack/pack-aa55a814afc0f844166f5631c5f401b3397826bd.idx’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/.git/objects/info’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/.git/info’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/.git/info/exclude’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/install’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/install/Install_blynk.sh’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/install/Install_blynk_latest.sh’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/install/Install_pi_garage_alert.sh’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/install/Install_samba.sh’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/install/SIP’ retained as 0755 (rwxr-xr-x)
+neither symbolic link ‘./programs/install/SIP/ospi.py’ nor referent has been changed
+mode of ‘./programs/install/Install_WebIOPi.sh’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/install/static_IP.sh’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/install/blank.sh’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/install/Install_wiringPi.sh’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/install/Initial_Pi_Update.sh’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/install/Install_sip_sprinkler.sh’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/git_clone.sh’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/pi-prerequisites2.sh’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/memory_cleaning.sh’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/homeassistant_initializing.sh’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/openhab_script.sh’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/startup’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/startup/startup.sh’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/update_hass.sh’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/command’ retained as 0755 (rwxr-xr-x)
+mode of ‘./programs/command/HAupdate’ retained as 0755 (rwxr-xr-x)
+mode of ‘./programs/command/HArestart’ retained as 0755 (rwxr-xr-x)
+mode of ‘./programs/command/NEW’ retained as 0755 (rwxr-xr-x)
+mode of ‘./programs/rf_send.py’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/fix’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/backup’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/backup/pi_garage_alert’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/backup/pi_garage_alert/bin’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/backup/pi_garage_alert/bin/pi_garage_alert.py’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/backup/pi_garage_alert/init.d’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/backup/pi_garage_alert/init.d/pi_garage_alert’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/backup/pi_garage_alert/email’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/backup/pi_garage_alert/email/sasl_passwd’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/backup/pi_garage_alert/email/main.cf’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/backup/pi_garage_alert/etc’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/backup/pi_garage_alert/etc/pi_garage_alert_config.py’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/backup/email’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/backup/email/sasl_passwd’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/backup/email/main.cf’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/backup/network’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/backup/network/dhcpcd.conf’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/backup/network/interfaces’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/backup/samba’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/backup/samba/smb.conf’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/backup/crontab’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/autoupdater.sh’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/blank.sh’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/notes.txt’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/rpi-rf_receive.py’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/backing_up_pi.sh’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/pi-prerequisites.sh’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/pre’ retained as 0775 (rwxrwxr-x)
+Congratuation downloaded git_clone.sh is now installed.......
+
+
+Sun  2 Jul 21:01:13 UTC 2017
+# # # # # # # #      	  git_clone.sh DONE!!       	# # # # # # # # # # # # # # # # # #
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
+
+
+
+
+
+
+Successfully SYNCed with GitHub.......
+
+
+Now this will set IP address to 192.168.xxx.5
+
+
+
+Now  his install SAMBA file sharing over the network 
+
+
+
+Do you want to add the custom commands? 	
+
+
+Successfully added the custom commands
+
+
+Now this install done 
+
+Please reboot your computer for the change to take effect!!!
+
+
+
+
+
+
+
+
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
+# # # # # # # #  Starting apt-get pi-prerequisites.sh   # # # # # # # # # # # # # # # # # # #
+
+
+You are Running the pi-prerequisites.sh script.
+This script is best to run right after a fresh Pi Installation
+First I will SYNC with GitHub.......
+
+
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
+# # # # # # # #	 Starting apt-get git_clone.sh 	      # # # # # # # # # # # # # # # # # # #
+Sun  2 Jul 21:02:49 UTC 2017
+
+
+mode of ‘./programs’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/static_ip.sh’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/.git’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/.git/logs’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/.git/logs/HEAD’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/.git/logs/refs’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/.git/logs/refs/heads’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/.git/logs/refs/heads/master’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/.git/logs/refs/remotes’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/.git/logs/refs/remotes/origin’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/.git/logs/refs/remotes/origin/HEAD’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/.git/hooks’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/.git/hooks/applypatch-msg.sample’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/.git/hooks/pre-applypatch.sample’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/.git/hooks/prepare-commit-msg.sample’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/.git/hooks/post-update.sample’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/.git/hooks/pre-push.sample’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/.git/hooks/pre-rebase.sample’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/.git/hooks/pre-commit.sample’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/.git/hooks/commit-msg.sample’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/.git/hooks/update.sample’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/.git/branches’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/.git/index’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/.git/packed-refs’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/.git/HEAD’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/.git/description’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/.git/refs’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/.git/refs/tags’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/.git/refs/heads’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/.git/refs/heads/master’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/.git/refs/remotes’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/.git/refs/remotes/origin’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/.git/refs/remotes/origin/HEAD’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/.git/config’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/.git/objects’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/.git/objects/pack’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/.git/objects/pack/pack-aa55a814afc0f844166f5631c5f401b3397826bd.pack’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/.git/objects/pack/pack-aa55a814afc0f844166f5631c5f401b3397826bd.idx’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/.git/objects/info’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/.git/info’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/.git/info/exclude’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/install’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/install/Install_blynk.sh’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/install/Install_blynk_latest.sh’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/install/Install_pi_garage_alert.sh’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/install/Install_samba.sh’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/install/SIP’ retained as 0755 (rwxr-xr-x)
+neither symbolic link ‘./programs/install/SIP/ospi.py’ nor referent has been changed
+mode of ‘./programs/install/Install_WebIOPi.sh’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/install/static_IP.sh’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/install/blank.sh’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/install/Install_wiringPi.sh’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/install/Initial_Pi_Update.sh’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/install/Install_sip_sprinkler.sh’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/git_clone.sh’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/pi-prerequisites2.sh’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/memory_cleaning.sh’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/homeassistant_initializing.sh’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/openhab_script.sh’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/startup’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/startup/startup.sh’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/update_hass.sh’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/command’ retained as 0755 (rwxr-xr-x)
+mode of ‘./programs/command/HAupdate’ retained as 0755 (rwxr-xr-x)
+mode of ‘./programs/command/HArestart’ retained as 0755 (rwxr-xr-x)
+mode of ‘./programs/command/NEW’ retained as 0755 (rwxr-xr-x)
+mode of ‘./programs/rf_send.py’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/fix’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/backup’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/backup/pi_garage_alert’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/backup/pi_garage_alert/bin’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/backup/pi_garage_alert/bin/pi_garage_alert.py’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/backup/pi_garage_alert/init.d’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/backup/pi_garage_alert/init.d/pi_garage_alert’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/backup/pi_garage_alert/email’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/backup/pi_garage_alert/email/sasl_passwd’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/backup/pi_garage_alert/email/main.cf’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/backup/pi_garage_alert/etc’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/backup/pi_garage_alert/etc/pi_garage_alert_config.py’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/backup/email’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/backup/email/sasl_passwd’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/backup/email/main.cf’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/backup/network’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/backup/network/dhcpcd.conf’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/backup/network/interfaces’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/backup/samba’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/backup/samba/smb.conf’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/backup/crontab’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/autoupdater.sh’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/blank.sh’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/notes.txt’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/rpi-rf_receive.py’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/backing_up_pi.sh’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/pi-prerequisites.sh’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/pre’ retained as 0775 (rwxrwxr-x)
+Congratuation downloaded git_clone.sh is now installed.......
+
+
+Sun  2 Jul 21:02:51 UTC 2017
+# # # # # # # #      	  git_clone.sh DONE!!       	# # # # # # # # # # # # # # # # # #
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
+
+
+
+
+
+
+Successfully SYNCed with GitHub.......
+
+
+Now this will set IP address to 192.168.xxx.5
+
+
+
+Now  his install SAMBA file sharing over the network 
+
+
+
+Do you want to add the custom commands? 	
+
+
+Successfully added the custom commands
+
+
+Now this install done 
+
+Please reboot your computer for the change to take effect!!!
+
+
+
+
+
+
+
+
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
+# # # # # # # #  Starting apt-get pi-prerequisites.sh   # # # # # # # # # # # # # # # # # # #
+
+
+You are Running the pi-prerequisites.sh script.
+This script is best to run right after a fresh Pi Installation
+First I will SYNC with GitHub.......
+
+
+
+
+Now this will set IP address to 192.168.xxx.5
+
+
+
+Now  his install SAMBA file sharing over the network 
+
+
+
+Do you want to add the custom commands? 	
+
+
+Successfully added the custom commands
+
+
+Now this install done 
+
+Please reboot your computer for the change to take effect!!!
+
+
+
+
+
+
+
+
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
+# # # # # # # #  Starting apt-get pi-prerequisites.sh   # # # # # # # # # # # # # # # # # # #
+
+
+You are Running the pi-prerequisites.sh script.
+This script is best to run right after a fresh Pi Installation
+First I will SYNC with GitHub.......
+
+
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
+# # # # # # # #	 Starting apt-get git_clone.sh 	      # # # # # # # # # # # # # # # # # # #
+Sun  2 Jul 21:05:14 UTC 2017
+
+
+mode of ‘./programs’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/static_ip.sh’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/.git’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/.git/logs’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/.git/logs/HEAD’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/.git/logs/refs’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/.git/logs/refs/heads’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/.git/logs/refs/heads/master’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/.git/logs/refs/remotes’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/.git/logs/refs/remotes/origin’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/.git/logs/refs/remotes/origin/HEAD’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/.git/hooks’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/.git/hooks/applypatch-msg.sample’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/.git/hooks/pre-applypatch.sample’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/.git/hooks/prepare-commit-msg.sample’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/.git/hooks/post-update.sample’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/.git/hooks/pre-push.sample’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/.git/hooks/pre-rebase.sample’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/.git/hooks/pre-commit.sample’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/.git/hooks/commit-msg.sample’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/.git/hooks/update.sample’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/.git/branches’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/.git/index’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/.git/packed-refs’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/.git/HEAD’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/.git/description’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/.git/refs’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/.git/refs/tags’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/.git/refs/heads’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/.git/refs/heads/master’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/.git/refs/remotes’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/.git/refs/remotes/origin’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/.git/refs/remotes/origin/HEAD’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/.git/config’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/.git/objects’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/.git/objects/pack’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/.git/objects/pack/pack-aa55a814afc0f844166f5631c5f401b3397826bd.pack’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/.git/objects/pack/pack-aa55a814afc0f844166f5631c5f401b3397826bd.idx’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/.git/objects/info’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/.git/info’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/.git/info/exclude’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/install’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/install/Install_blynk.sh’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/install/Install_blynk_latest.sh’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/install/Install_pi_garage_alert.sh’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/install/Install_samba.sh’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/install/SIP’ retained as 0755 (rwxr-xr-x)
+neither symbolic link ‘./programs/install/SIP/ospi.py’ nor referent has been changed
+mode of ‘./programs/install/Install_WebIOPi.sh’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/install/static_IP.sh’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/install/blank.sh’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/install/Install_wiringPi.sh’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/install/Initial_Pi_Update.sh’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/install/Install_sip_sprinkler.sh’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/git_clone.sh’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/pi-prerequisites2.sh’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/memory_cleaning.sh’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/homeassistant_initializing.sh’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/openhab_script.sh’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/startup’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/startup/startup.sh’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/update_hass.sh’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/command’ retained as 0755 (rwxr-xr-x)
+mode of ‘./programs/command/HAupdate’ retained as 0755 (rwxr-xr-x)
+mode of ‘./programs/command/HArestart’ retained as 0755 (rwxr-xr-x)
+mode of ‘./programs/command/NEW’ retained as 0755 (rwxr-xr-x)
+mode of ‘./programs/rf_send.py’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/fix’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/backup’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/backup/pi_garage_alert’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/backup/pi_garage_alert/bin’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/backup/pi_garage_alert/bin/pi_garage_alert.py’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/backup/pi_garage_alert/init.d’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/backup/pi_garage_alert/init.d/pi_garage_alert’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/backup/pi_garage_alert/email’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/backup/pi_garage_alert/email/sasl_passwd’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/backup/pi_garage_alert/email/main.cf’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/backup/pi_garage_alert/etc’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/backup/pi_garage_alert/etc/pi_garage_alert_config.py’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/backup/email’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/backup/email/sasl_passwd’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/backup/email/main.cf’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/backup/network’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/backup/network/dhcpcd.conf’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/backup/network/interfaces’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/backup/samba’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/backup/samba/smb.conf’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/backup/crontab’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/autoupdater.sh’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/blank.sh’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/notes.txt’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/rpi-rf_receive.py’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/backing_up_pi.sh’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/pi-prerequisites.sh’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/pre’ retained as 0775 (rwxrwxr-x)
+Congratuation downloaded git_clone.sh is now installed.......
+
+
+Sun  2 Jul 21:05:16 UTC 2017
+# # # # # # # #      	  git_clone.sh DONE!!       	# # # # # # # # # # # # # # # # # #
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
+
+
+
+
+
+
+Successfully SYNCed with GitHub.......
+
+
+Now this will set IP address to 192.168.xxx.5
+
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
+# # # # # # # #  Starting apt-get static_ip.sh  # # # # # # # # # # # # # # # # # # #
+Sun  2 Jul 21:05:22 UTC 2017
+
+changing IP address to static XXX.XXX.XX.5
+
+‘/etc/dhcpcd.conf’ -> ‘/etc/dhcpcd.conf.bak’
+‘/home/pi/programs/backup/network/dhcpcd.conf’ -> ‘/etc/dhcpcd.conf’
+IP address to static XXX.XXX.XX.5 ..................
+Congratuation install static_ip.sh is now installed.......
+
+Sun  2 Jul 21:05:32 UTC 2017
+# # # # # # # #        static_ip.sh DONE!!     	  # # # # # # # # # # # # # # # # # #
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
+
+
+
+
+
+
+
+Successfully changed IP address  to 192.168.xxx.5
+
+
+Now this install SAMBA file sharing over the network 
+
+
+
+Do you want to add the custom commands? 	
+
+
+Successfully added the custom commands
+
+
+Now this install done 
+
+Please reboot your computer for the change to take effect!!!
+
+
+
+
+
+
+
+
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
+# # # # # # # #  Starting apt-get pi-prerequisites.sh   # # # # # # # # # # # # # # # # # # #
+
+
+You are Running the pi-prerequisites.sh script.
+This script is best to run right after a fresh Pi Installation
+First I will SYNC with GitHub.......
+
+
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
+# # # # # # # #	 Starting apt-get git_clone.sh 	      # # # # # # # # # # # # # # # # # # #
+Sun  2 Jul 19:35:49 PDT 2017
+
+
+mode of ‘./programs’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/static_ip.sh’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/.git’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/.git/logs’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/.git/logs/HEAD’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/.git/logs/refs’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/.git/logs/refs/heads’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/.git/logs/refs/heads/master’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/.git/logs/refs/remotes’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/.git/logs/refs/remotes/upstream’ retained as 0755 (rwxr-xr-x)
+mode of ‘./programs/.git/logs/refs/remotes/origin’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/.git/logs/refs/remotes/origin/HEAD’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/.git/hooks’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/.git/hooks/applypatch-msg.sample’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/.git/hooks/pre-applypatch.sample’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/.git/hooks/prepare-commit-msg.sample’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/.git/hooks/post-update.sample’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/.git/hooks/pre-push.sample’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/.git/hooks/pre-rebase.sample’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/.git/hooks/pre-commit.sample’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/.git/hooks/commit-msg.sample’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/.git/hooks/update.sample’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/.git/branches’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/.git/index’ retained as 0777 (rwxrwxrwx)
+mode of ‘./programs/.git/packed-refs’ changed from 0644 (rw-r--r--) to 0755 (rwxr-xr-x)
+mode of ‘./programs/.git/HEAD’ changed from 0644 (rw-r--r--) to 0755 (rwxr-xr-x)
+mode of ‘./programs/.git/ORIG_HEAD’ retained as 0777 (rwxrwxrwx)
+mode of ‘./programs/.git/COMMIT_EDITMSG’ retained as 0777 (rwxrwxrwx)
+mode of ‘./programs/.git/description’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/.git/refs’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/.git/refs/tags’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/.git/refs/heads’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/.git/refs/heads/master’ retained as 0777 (rwxrwxrwx)
+mode of ‘./programs/.git/refs/remotes’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/.git/refs/remotes/upstream’ retained as 0755 (rwxr-xr-x)
+mode of ‘./programs/.git/FETCH_HEAD’ retained as 0777 (rwxrwxrwx)
+mode of ‘./programs/.git/config’ retained as 0777 (rwxrwxrwx)
+mode of ‘./programs/.git/objects’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/.git/objects/35’ retained as 0777 (rwxrwxrwx)
+mode of ‘./programs/.git/objects/35/38d44934af3f88280f4868ed74742edd9969d2’ retained as 0777 (rwxrwxrwx)
+mode of ‘./programs/.git/objects/35/bc92a49a97e3ccd4f843358939e5f4ab908a37’ retained as 0777 (rwxrwxrwx)
+mode of ‘./programs/.git/objects/88’ retained as 0777 (rwxrwxrwx)
+mode of ‘./programs/.git/objects/88/f6e84a10543c6534204022ee9df73bff06ac4d’ retained as 0777 (rwxrwxrwx)
+mode of ‘./programs/.git/objects/95’ retained as 0777 (rwxrwxrwx)
+mode of ‘./programs/.git/objects/95/979b5f1df1ef0a7ed68e54939f4fc153e20eea’ retained as 0777 (rwxrwxrwx)
+mode of ‘./programs/.git/objects/18’ retained as 0755 (rwxr-xr-x)
+mode of ‘./programs/.git/objects/18/fd8871b82860c341c6f11c4fca0e1ddd225177’ changed from 0444 (r--r--r--) to 0555 (r-xr-xr-x)
+mode of ‘./programs/.git/objects/4c’ retained as 0777 (rwxrwxrwx)
+mode of ‘./programs/.git/objects/4c/6b6a4f224bec9c2485f4a77b0973974ccd323a’ retained as 0777 (rwxrwxrwx)
+mode of ‘./programs/.git/objects/d1’ retained as 0777 (rwxrwxrwx)
+mode of ‘./programs/.git/objects/d1/f003e0a88906a10ab08355d4636f6928149431’ retained as 0777 (rwxrwxrwx)
+mode of ‘./programs/.git/objects/b8’ retained as 0777 (rwxrwxrwx)
+mode of ‘./programs/.git/objects/b8/ce0c0eea7a9327fc3ad87eded7936bd4620265’ retained as 0777 (rwxrwxrwx)
+mode of ‘./programs/.git/objects/7b’ retained as 0777 (rwxrwxrwx)
+mode of ‘./programs/.git/objects/7b/a26cb8cabe5f055c8ed8d846aa12ffe165dd0f’ retained as 0777 (rwxrwxrwx)
+mode of ‘./programs/.git/objects/16’ retained as 0777 (rwxrwxrwx)
+mode of ‘./programs/.git/objects/16/6fe622f63833dfcb169c5be8be67cc7b486813’ retained as 0777 (rwxrwxrwx)
+mode of ‘./programs/.git/objects/16/354ea68fac7ab302c17a397a45a3e55a254320’ retained as 0777 (rwxrwxrwx)
+mode of ‘./programs/.git/objects/c5’ retained as 0777 (rwxrwxrwx)
+mode of ‘./programs/.git/objects/c5/541482230075d4b4800ebbb7ac42fad29e5133’ retained as 0777 (rwxrwxrwx)
+mode of ‘./programs/.git/objects/dd’ retained as 0777 (rwxrwxrwx)
+mode of ‘./programs/.git/objects/dd/bf7dc8af8348725b593a8d2adf160add36e7c6’ retained as 0777 (rwxrwxrwx)
+mode of ‘./programs/.git/objects/79’ retained as 0777 (rwxrwxrwx)
+mode of ‘./programs/.git/objects/79/105df19c907f524ea5254c79ab72bb4998c6a1’ retained as 0777 (rwxrwxrwx)
+mode of ‘./programs/.git/objects/79/a3e2ae066e3daa1c7921f4f823c48c576acf2a’ retained as 0777 (rwxrwxrwx)
+mode of ‘./programs/.git/objects/22’ retained as 0755 (rwxr-xr-x)
+mode of ‘./programs/.git/objects/22/8f1ed005376d4eeb73ffe201d4e2f64bc25a3a’ changed from 0444 (r--r--r--) to 0555 (r-xr-xr-x)
+mode of ‘./programs/.git/objects/78’ retained as 0777 (rwxrwxrwx)
+mode of ‘./programs/.git/objects/78/28954b223b25a58505583c04b62fc13695ab9e’ retained as 0777 (rwxrwxrwx)
+mode of ‘./programs/.git/objects/1b’ retained as 0777 (rwxrwxrwx)
+mode of ‘./programs/.git/objects/1b/ad0a77332094b3d37434ffb335df3d8a2216d8’ retained as 0777 (rwxrwxrwx)
+mode of ‘./programs/.git/objects/1b/22cf606be1206b87c618260585359f65824389’ retained as 0777 (rwxrwxrwx)
+mode of ‘./programs/.git/objects/1b/263578ccbb0939d192c6f56df60b189a70f334’ retained as 0777 (rwxrwxrwx)
+mode of ‘./programs/.git/objects/bf’ retained as 0777 (rwxrwxrwx)
+mode of ‘./programs/.git/objects/bf/6aa80602d9303b61e8d5e63c10568e55b6a4d8’ retained as 0777 (rwxrwxrwx)
+mode of ‘./programs/.git/objects/c0’ retained as 0777 (rwxrwxrwx)
+mode of ‘./programs/.git/objects/c0/bbf5111e150e0908d3c7341a0c7f402215975a’ retained as 0777 (rwxrwxrwx)
+mode of ‘./programs/.git/objects/07’ retained as 0777 (rwxrwxrwx)
+mode of ‘./programs/.git/objects/07/d9167ad67c76e9421d1276875ac655729f74df’ retained as 0777 (rwxrwxrwx)
+mode of ‘./programs/.git/objects/b3’ retained as 0777 (rwxrwxrwx)
+mode of ‘./programs/.git/objects/b3/79f82fa879119426df630a3724dd354ca20d84’ retained as 0777 (rwxrwxrwx)
+mode of ‘./programs/.git/objects/12’ retained as 0777 (rwxrwxrwx)
+mode of ‘./programs/.git/objects/12/afb3dda327abdefbac5e3d320822c0f2e801a5’ retained as 0777 (rwxrwxrwx)
+mode of ‘./programs/.git/objects/45’ retained as 0777 (rwxrwxrwx)
+mode of ‘./programs/.git/objects/45/704c11f871b6bcc116c135804d60c36cda8403’ retained as 0777 (rwxrwxrwx)
+mode of ‘./programs/.git/objects/ed’ retained as 0777 (rwxrwxrwx)
+mode of ‘./programs/.git/objects/ed/3905e0e0c91d4ed7d8aa14412dffeb038745ff’ retained as 0777 (rwxrwxrwx)
+mode of ‘./programs/.git/objects/77’ retained as 0777 (rwxrwxrwx)
+mode of ‘./programs/.git/objects/77/364f5607ade760e4a2a8dd53eb6080fa1602f5’ retained as 0777 (rwxrwxrwx)
+mode of ‘./programs/.git/objects/ef’ retained as 0755 (rwxr-xr-x)
+mode of ‘./programs/.git/objects/ef/a03a5ea2fe7c350ea3ff6242ca11d65d8a36d9’ changed from 0444 (r--r--r--) to 0555 (r-xr-xr-x)
+mode of ‘./programs/.git/objects/0c’ retained as 0755 (rwxr-xr-x)
+mode of ‘./programs/.git/objects/0c/2548e3dd4eb5714aa6208f078fae7aa1a8719b’ retained as 0777 (rwxrwxrwx)
+mode of ‘./programs/.git/objects/0c/58ea6bc2f60190b0ebb3ed22d0c6378d546c5d’ changed from 0444 (r--r--r--) to 0555 (r-xr-xr-x)
+mode of ‘./programs/.git/objects/0c/ddaf35d882bf184d39ad5accb04b2da1505af9’ retained as 0777 (rwxrwxrwx)
+mode of ‘./programs/.git/objects/8d’ retained as 0777 (rwxrwxrwx)
+mode of ‘./programs/.git/objects/8d/faedde49cda1adbbecfa678bc5102f4a81f197’ retained as 0777 (rwxrwxrwx)
+mode of ‘./programs/.git/objects/0b’ retained as 0755 (rwxr-xr-x)
+mode of ‘./programs/.git/objects/0b/fbd097d51446da6f893b8e3e6c896fdd995802’ changed from 0444 (r--r--r--) to 0555 (r-xr-xr-x)
+mode of ‘./programs/.git/objects/09’ retained as 0777 (rwxrwxrwx)
+mode of ‘./programs/.git/objects/09/aabfa3b0d3bbf96e4a8707fdee93cb1fcdc389’ retained as 0777 (rwxrwxrwx)
+mode of ‘./programs/.git/objects/fd’ retained as 0777 (rwxrwxrwx)
+mode of ‘./programs/.git/objects/fd/19daa0f11be7e719872aa5a5434b8467e245e1’ retained as 0777 (rwxrwxrwx)
+mode of ‘./programs/.git/objects/f9’ retained as 0777 (rwxrwxrwx)
+mode of ‘./programs/.git/objects/f9/4bf58eca308e34b1e50412e9e37af7f220e5c6’ retained as 0777 (rwxrwxrwx)
+mode of ‘./programs/.git/objects/f9/97786f123ea614eb3733e33525aa91fdd64b0c’ retained as 0777 (rwxrwxrwx)
+mode of ‘./programs/.git/objects/40’ retained as 0777 (rwxrwxrwx)
+mode of ‘./programs/.git/objects/40/e9f40a0ade3a088c757afd454acb9750da90c3’ retained as 0777 (rwxrwxrwx)
+mode of ‘./programs/.git/objects/13’ retained as 0777 (rwxrwxrwx)
+mode of ‘./programs/.git/objects/13/719d92681df33e2aebec5b8ac806a0c2509695’ retained as 0777 (rwxrwxrwx)
+mode of ‘./programs/.git/objects/ab’ retained as 0777 (rwxrwxrwx)
+mode of ‘./programs/.git/objects/ab/b6afe8f3ff28984a72c151ccf861b9cdab51e9’ retained as 0777 (rwxrwxrwx)
+mode of ‘./programs/.git/objects/e9’ retained as 0777 (rwxrwxrwx)
+mode of ‘./programs/.git/objects/e9/75cd899efa1c2dc4386034c4601754dfc2a5a2’ retained as 0777 (rwxrwxrwx)
+mode of ‘./programs/.git/objects/94’ retained as 0777 (rwxrwxrwx)
+mode of ‘./programs/.git/objects/94/ce44d8710fd89343884fd9a38eeb694d39bf4d’ retained as 0777 (rwxrwxrwx)
+mode of ‘./programs/.git/objects/94/fb5490a2ed10b2c69a4a567a4fd2e4f706d841’ retained as 0777 (rwxrwxrwx)
+mode of ‘./programs/.git/objects/94/813e9006074c2ce411b02c4014be94b5bb6039’ retained as 0777 (rwxrwxrwx)
+mode of ‘./programs/.git/objects/f7’ retained as 0755 (rwxr-xr-x)
+mode of ‘./programs/.git/objects/f7/637fda5555ecf0a86a62054d4aec3e3d7d79a4’ changed from 0444 (r--r--r--) to 0555 (r-xr-xr-x)
+mode of ‘./programs/.git/objects/f7/8ff74f6fe2cd445072d5718813e69fd74607c5’ retained as 0777 (rwxrwxrwx)
+mode of ‘./programs/.git/objects/21’ retained as 0777 (rwxrwxrwx)
+mode of ‘./programs/.git/objects/21/36ed39f55d61bbf35d652836850b0b02417159’ retained as 0777 (rwxrwxrwx)
+mode of ‘./programs/.git/objects/6d’ retained as 0777 (rwxrwxrwx)
+mode of ‘./programs/.git/objects/6d/f057431866318ea813f2aedc2098bf79a39b37’ retained as 0777 (rwxrwxrwx)
+mode of ‘./programs/.git/objects/6d/2237e9d87e856029035433639a08d2bf2daa20’ retained as 0777 (rwxrwxrwx)
+mode of ‘./programs/.git/objects/a0’ retained as 0777 (rwxrwxrwx)
+mode of ‘./programs/.git/objects/a0/f2d0f6a641dd9aeda905b85de31db6a87fc5d7’ retained as 0777 (rwxrwxrwx)
+mode of ‘./programs/.git/objects/fa’ retained as 0777 (rwxrwxrwx)
+mode of ‘./programs/.git/objects/fa/1d4e1a5344d3b01500e47bebeb2a1fd21dc563’ retained as 0777 (rwxrwxrwx)
+mode of ‘./programs/.git/objects/fa/97c64bae8d1a33385c086bf60566452367316d’ retained as 0777 (rwxrwxrwx)
+mode of ‘./programs/.git/objects/8a’ retained as 0777 (rwxrwxrwx)
+mode of ‘./programs/.git/objects/8a/2e99a535d47e5798b167d1074ae2c77cab21e7’ retained as 0777 (rwxrwxrwx)
+mode of ‘./programs/.git/objects/81’ retained as 0777 (rwxrwxrwx)
+mode of ‘./programs/.git/objects/81/58582cef4c9e75ff788871defd1325c798e6f9’ retained as 0777 (rwxrwxrwx)
+mode of ‘./programs/.git/objects/ba’ retained as 0777 (rwxrwxrwx)
+mode of ‘./programs/.git/objects/ba/41d9d35e52361a45550c028724970d72601d4c’ retained as 0777 (rwxrwxrwx)
+mode of ‘./programs/.git/objects/11’ retained as 0755 (rwxr-xr-x)
+mode of ‘./programs/.git/objects/11/c2bb3555c56ebfc0c0ff4328ac160122b26b7e’ changed from 0444 (r--r--r--) to 0555 (r-xr-xr-x)
+mode of ‘./programs/.git/objects/11/194b7694e99f83a1bf8dc21a4f21d10676fe84’ retained as 0777 (rwxrwxrwx)
+mode of ‘./programs/.git/objects/55’ retained as 0777 (rwxrwxrwx)
+mode of ‘./programs/.git/objects/55/57435edfd64329809b86f6835f9f3455873278’ retained as 0777 (rwxrwxrwx)
+mode of ‘./programs/.git/objects/55/a10799c52c76815705419c6e6eecb988d49a1c’ retained as 0777 (rwxrwxrwx)
+mode of ‘./programs/.git/objects/1e’ retained as 0777 (rwxrwxrwx)
+mode of ‘./programs/.git/objects/1e/bf74837e7a790ccdf7947cfccc314d8299c1d1’ retained as 0777 (rwxrwxrwx)
+mode of ‘./programs/.git/objects/1e/f99fdbf07060f133c39685bdc56130a9d6dcc8’ retained as 0777 (rwxrwxrwx)
+mode of ‘./programs/.git/objects/a2’ retained as 0777 (rwxrwxrwx)
+mode of ‘./programs/.git/objects/a2/e813f9f190b3c8a331a785c8e93354b2ec7e07’ retained as 0777 (rwxrwxrwx)
+mode of ‘./programs/.git/objects/a2/7f52521f9664c5377f2d16e43f3a8d5b327153’ retained as 0777 (rwxrwxrwx)
+mode of ‘./programs/.git/objects/30’ retained as 0777 (rwxrwxrwx)
+mode of ‘./programs/.git/objects/30/99fa4391c9831aff9a90832756771c6047479d’ retained as 0777 (rwxrwxrwx)
+mode of ‘./programs/.git/objects/23’ retained as 0777 (rwxrwxrwx)
+mode of ‘./programs/.git/objects/23/a4973b53d67b6dd12319c391d26b30717415ec’ retained as 0777 (rwxrwxrwx)
+mode of ‘./programs/.git/objects/eb’ retained as 0777 (rwxrwxrwx)
+mode of ‘./programs/.git/objects/eb/eca37e177fa175b4754ba0de9507ab32bbd3ab’ retained as 0777 (rwxrwxrwx)
+mode of ‘./programs/.git/objects/a7’ retained as 0777 (rwxrwxrwx)
+mode of ‘./programs/.git/objects/a7/ccb76de46e037ade4be6219a8529cf2f448639’ retained as 0777 (rwxrwxrwx)
+mode of ‘./programs/.git/objects/ac’ retained as 0777 (rwxrwxrwx)
+mode of ‘./programs/.git/objects/ac/53adb0870ca675b19570a5dab7958091094b43’ retained as 0777 (rwxrwxrwx)
+mode of ‘./programs/.git/objects/5e’ retained as 0777 (rwxrwxrwx)
+mode of ‘./programs/.git/objects/5e/208a36c2899131d0bbbc94828aeecc2b95d68d’ retained as 0777 (rwxrwxrwx)
+mode of ‘./programs/.git/objects/5e/a90558f61d2cec9accc98e4258bfcd0a2ea279’ retained as 0777 (rwxrwxrwx)
+mode of ‘./programs/.git/objects/5e/39401957d87d5d810f3d05ab05aca5febd7b5d’ retained as 0777 (rwxrwxrwx)
+mode of ‘./programs/.git/objects/31’ retained as 0777 (rwxrwxrwx)
+mode of ‘./programs/.git/objects/31/d8882661324aedb8693f8bb7322c4af8374ae0’ retained as 0777 (rwxrwxrwx)
+mode of ‘./programs/.git/objects/9b’ retained as 0777 (rwxrwxrwx)
+mode of ‘./programs/.git/objects/9b/cd2fccaed9442f1460191d6670ca5e8e08520c’ retained as 0777 (rwxrwxrwx)
+mode of ‘./programs/.git/objects/5d’ retained as 0777 (rwxrwxrwx)
+mode of ‘./programs/.git/objects/5d/6213a4dfc881201dc691902b7998fc5d8407a8’ retained as 0777 (rwxrwxrwx)
+mode of ‘./programs/.git/objects/cc’ retained as 0777 (rwxrwxrwx)
+mode of ‘./programs/.git/objects/cc/439cebf672ec1308648bb60badfcf140f8801e’ retained as 0777 (rwxrwxrwx)
+mode of ‘./programs/.git/objects/cc/df43a31989d487d2258e49e68ba1d6a841df7e’ retained as 0777 (rwxrwxrwx)
+mode of ‘./programs/.git/objects/f6’ retained as 0777 (rwxrwxrwx)
+mode of ‘./programs/.git/objects/f6/a6a99e60ee9a5ce4d0922a3a82c6d81c1db7f2’ retained as 0777 (rwxrwxrwx)
+mode of ‘./programs/.git/objects/14’ retained as 0777 (rwxrwxrwx)
+mode of ‘./programs/.git/objects/14/032aabd85b43a058cfc7025dd4fa9dd325ea97’ retained as 0777 (rwxrwxrwx)
+mode of ‘./programs/.git/objects/14/13fc609ab6f21774de0cb7e01360095584f65b’ retained as 0777 (rwxrwxrwx)
+mode of ‘./programs/.git/objects/ec’ retained as 0777 (rwxrwxrwx)
+mode of ‘./programs/.git/objects/ec/794b2f02a21e2402bac7df5e080ea9f49146e4’ retained as 0777 (rwxrwxrwx)
+mode of ‘./programs/.git/objects/57’ retained as 0777 (rwxrwxrwx)
+mode of ‘./programs/.git/objects/57/39a75102f6c8e0e6ed19d3105917358b1462e9’ retained as 0777 (rwxrwxrwx)
+mode of ‘./programs/.git/objects/56’ retained as 0777 (rwxrwxrwx)
+mode of ‘./programs/.git/objects/56/0788584a3510c084eb2085188e7f53c4200f25’ retained as 0777 (rwxrwxrwx)
+mode of ‘./programs/.git/objects/3e’ retained as 0777 (rwxrwxrwx)
+mode of ‘./programs/.git/objects/3e/59e7aae0983993daa01ac61b9c1e6db0df7c2b’ retained as 0777 (rwxrwxrwx)
+mode of ‘./programs/.git/objects/3d’ retained as 0777 (rwxrwxrwx)
+mode of ‘./programs/.git/objects/3d/0be6f2bafbd678b46975cd89e99d74f072a1b7’ retained as 0777 (rwxrwxrwx)
+mode of ‘./programs/.git/objects/dc’ retained as 0777 (rwxrwxrwx)
+mode of ‘./programs/.git/objects/dc/b6d9ef1729a0bc5b86b1a4189bdc31aee05db1’ retained as 0777 (rwxrwxrwx)
+mode of ‘./programs/.git/objects/dc/85fc7fa4d9f7961044014fb06c8191c3ee2cd2’ retained as 0777 (rwxrwxrwx)
+mode of ‘./programs/.git/objects/dc/8dd02822a55a58bbb2186ed3cded64ecedaea7’ retained as 0777 (rwxrwxrwx)
+mode of ‘./programs/.git/objects/38’ retained as 0777 (rwxrwxrwx)
+mode of ‘./programs/.git/objects/38/164747adc06ee933c6b69f26cbd7d05ab1dd01’ retained as 0777 (rwxrwxrwx)
+mode of ‘./programs/.git/objects/67’ retained as 0777 (rwxrwxrwx)
+mode of ‘./programs/.git/objects/67/e67ab1e59595d724db45f17e26bd710658c6bf’ retained as 0777 (rwxrwxrwx)
+mode of ‘./programs/.git/objects/53’ retained as 0777 (rwxrwxrwx)
+mode of ‘./programs/.git/objects/53/15ad4ff1c23e0935e4b807a2e20277813bd3e2’ retained as 0777 (rwxrwxrwx)
+mode of ‘./programs/.git/objects/41’ retained as 0755 (rwxr-xr-x)
+mode of ‘./programs/.git/objects/41/d5f63124b158234b42f305708e2878ee4241f8’ changed from 0444 (r--r--r--) to 0555 (r-xr-xr-x)
+mode of ‘./programs/.git/objects/a5’ retained as 0777 (rwxrwxrwx)
+mode of ‘./programs/.git/objects/a5/2094293ee1fef8a18bd85c772b20cf923232ce’ retained as 0777 (rwxrwxrwx)
+mode of ‘./programs/.git/objects/d8’ retained as 0755 (rwxr-xr-x)
+mode of ‘./programs/.git/objects/d8/f6ec42523fa0f2eded1970ed0fe61d39cc67b9’ retained as 0777 (rwxrwxrwx)
+mode of ‘./programs/.git/objects/d8/76f60fb4fd2a1c421a4813ef080ac97b670465’ retained as 0777 (rwxrwxrwx)
+mode of ‘./programs/.git/objects/d8/fe9f7c281b57cb02304fa24e12410dd3e45691’ retained as 0777 (rwxrwxrwx)
+mode of ‘./programs/.git/objects/3f’ retained as 0777 (rwxrwxrwx)
+mode of ‘./programs/.git/objects/3f/59b9213bb6c78b4ba02e7cee6e0a8fd8e4d94a’ retained as 0777 (rwxrwxrwx)
+mode of ‘./programs/.git/objects/pack’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/.git/objects/pack/pack-debc21141400525caa1e5322f4bf5fa421a9a289.idx’ changed from 0444 (r--r--r--) to 0555 (r-xr-xr-x)
+mode of ‘./programs/.git/objects/pack/pack-debc21141400525caa1e5322f4bf5fa421a9a289.pack’ retained as 0777 (rwxrwxrwx)
+mode of ‘./programs/.git/objects/pack/pack-aa55a814afc0f844166f5631c5f401b3397826bd.pack’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/.git/objects/pack/pack-aa55a814afc0f844166f5631c5f401b3397826bd.idx’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/.git/objects/26’ retained as 0777 (rwxrwxrwx)
+mode of ‘./programs/.git/objects/26/9e36246831a04c93c107f679a8190ffae8b578’ retained as 0777 (rwxrwxrwx)
+mode of ‘./programs/.git/objects/7c’ retained as 0777 (rwxrwxrwx)
+mode of ‘./programs/.git/objects/7c/c4ac7207870846dbbe813a11d18c72283bb0a7’ retained as 0777 (rwxrwxrwx)
+mode of ‘./programs/.git/objects/7c/227d8f3ae1cc04c85abe1216a6f2ecddd319cf’ retained as 0777 (rwxrwxrwx)
+mode of ‘./programs/.git/objects/7c/17dc64c019cda682e434c38a922f08085d3fcd’ retained as 0777 (rwxrwxrwx)
+mode of ‘./programs/.git/objects/da’ retained as 0777 (rwxrwxrwx)
+mode of ‘./programs/.git/objects/da/9d2c292aacf6476ab500bc75f1457f70d18f79’ retained as 0777 (rwxrwxrwx)
+mode of ‘./programs/.git/objects/8b’ retained as 0777 (rwxrwxrwx)
+mode of ‘./programs/.git/objects/8b/174e2e6efeda11bb90093a509f43bdeda90666’ retained as 0777 (rwxrwxrwx)
+mode of ‘./programs/.git/objects/2e’ retained as 0777 (rwxrwxrwx)
+mode of ‘./programs/.git/objects/2e/d51fcb1fa6e8269f8b796660c65ca148237976’ retained as 0777 (rwxrwxrwx)
+mode of ‘./programs/.git/objects/17’ retained as 0755 (rwxr-xr-x)
+mode of ‘./programs/.git/objects/17/f639e0c5fcd034c16ac534b998107864c346c3’ changed from 0444 (r--r--r--) to 0555 (r-xr-xr-x)
+mode of ‘./programs/.git/objects/60’ retained as 0777 (rwxrwxrwx)
+mode of ‘./programs/.git/objects/60/22bc8cfb60c6f1f12e557ab8617ceb2b986f3d’ retained as 0777 (rwxrwxrwx)
+mode of ‘./programs/.git/objects/a1’ retained as 0777 (rwxrwxrwx)
+mode of ‘./programs/.git/objects/a1/814250ab8d131147ace57c44b84044283c9b4e’ retained as 0777 (rwxrwxrwx)
+mode of ‘./programs/.git/objects/61’ retained as 0777 (rwxrwxrwx)
+mode of ‘./programs/.git/objects/61/67622cecfb5c0f04156363565e3d4109fc55c5’ retained as 0777 (rwxrwxrwx)
+mode of ‘./programs/.git/objects/3c’ retained as 0777 (rwxrwxrwx)
+mode of ‘./programs/.git/objects/3c/51cb5e1d7128b1eeb388d29b439dc24730ac6b’ retained as 0777 (rwxrwxrwx)
+mode of ‘./programs/.git/objects/b4’ retained as 0777 (rwxrwxrwx)
+mode of ‘./programs/.git/objects/b4/4739387ba850eea10be9e6c514de6cc3684f06’ retained as 0777 (rwxrwxrwx)
+mode of ‘./programs/.git/objects/b4/3839d426c2e1be54ce0282aa1dfc56143cb3f3’ retained as 0777 (rwxrwxrwx)
+mode of ‘./programs/.git/objects/e5’ retained as 0777 (rwxrwxrwx)
+mode of ‘./programs/.git/objects/e5/63002f794f30d93b32c02b88f92bd8e3de85eb’ retained as 0777 (rwxrwxrwx)
+mode of ‘./programs/.git/objects/ff’ retained as 0777 (rwxrwxrwx)
+mode of ‘./programs/.git/objects/ff/cb52a0a1d596e971e3eadca55e9cb0faa2acd2’ retained as 0777 (rwxrwxrwx)
+mode of ‘./programs/.git/objects/70’ retained as 0777 (rwxrwxrwx)
+mode of ‘./programs/.git/objects/70/48f490a40573af2613267426446fa3148b4bf4’ retained as 0777 (rwxrwxrwx)
+mode of ‘./programs/.git/objects/28’ retained as 0777 (rwxrwxrwx)
+mode of ‘./programs/.git/objects/28/ee1213b5f8eaadf301771a2e22cbda45e4b101’ retained as 0777 (rwxrwxrwx)
+mode of ‘./programs/.git/objects/f8’ retained as 0777 (rwxrwxrwx)
+mode of ‘./programs/.git/objects/f8/549a514d2b4056947d5de4efa609a7d3912395’ retained as 0777 (rwxrwxrwx)
+mode of ‘./programs/.git/objects/c6’ retained as 0777 (rwxrwxrwx)
+mode of ‘./programs/.git/objects/c6/96d86ba20ba31407433f91adbd156f9bfca059’ retained as 0777 (rwxrwxrwx)
+mode of ‘./programs/.git/objects/d6’ retained as 0777 (rwxrwxrwx)
+mode of ‘./programs/.git/objects/d6/fbbe5286a988ecdfed296bcd435a304ec707cf’ retained as 0777 (rwxrwxrwx)
+mode of ‘./programs/.git/objects/d6/1d0da0a03279adda26907a7021baca76d7efbc’ retained as 0777 (rwxrwxrwx)
+mode of ‘./programs/.git/objects/89’ retained as 0777 (rwxrwxrwx)
+mode of ‘./programs/.git/objects/89/dc4fafc78ca6f9bec5df7f24cabef11b0f745d’ retained as 0777 (rwxrwxrwx)
+mode of ‘./programs/.git/objects/89/30317c0ff382496bf6e21a946131956cc3ed9b’ retained as 0777 (rwxrwxrwx)
+mode of ‘./programs/.git/objects/ee’ retained as 0755 (rwxr-xr-x)
+mode of ‘./programs/.git/objects/ee/d862e4f3778c49c872e77aa8aa3a6729f3ad60’ changed from 0444 (r--r--r--) to 0555 (r-xr-xr-x)
+mode of ‘./programs/.git/objects/6c’ retained as 0777 (rwxrwxrwx)
+mode of ‘./programs/.git/objects/6c/7fa40b98db056a6d36faf96c77ef85d4a68bba’ retained as 0777 (rwxrwxrwx)
+mode of ‘./programs/.git/objects/f0’ retained as 0755 (rwxr-xr-x)
+mode of ‘./programs/.git/objects/f0/10c82d113c25336f5ae7df32ce5de0caaddbd2’ retained as 0777 (rwxrwxrwx)
+mode of ‘./programs/.git/objects/f0/67bc22e201d702469ec5baacf617b3efee5e85’ retained as 0777 (rwxrwxrwx)
+mode of ‘./programs/.git/objects/f0/6506281f968dccce2b343e2f8082d60d817dac’ changed from 0444 (r--r--r--) to 0555 (r-xr-xr-x)
+mode of ‘./programs/.git/objects/f0/d3e1cc7c1eba2e6824f79a932e3e4790958676’ retained as 0777 (rwxrwxrwx)
+mode of ‘./programs/.git/objects/00’ retained as 0777 (rwxrwxrwx)
+mode of ‘./programs/.git/objects/00/b276e8f2d61d318872d4f1e60cd3489e661db2’ retained as 0777 (rwxrwxrwx)
+mode of ‘./programs/.git/objects/32’ retained as 0777 (rwxrwxrwx)
+mode of ‘./programs/.git/objects/32/9d774dad41557fc4c7ba8b834504b6c3bc8e83’ retained as 0777 (rwxrwxrwx)
+mode of ‘./programs/.git/objects/64’ retained as 0777 (rwxrwxrwx)
+mode of ‘./programs/.git/objects/64/539b54c3751a6d9adb44c8e3a45ba5a73b77f0’ retained as 0777 (rwxrwxrwx)
+mode of ‘./programs/.git/objects/64/f781b26d00e963942c827be34978d9367bb32a’ retained as 0777 (rwxrwxrwx)
+mode of ‘./programs/.git/objects/42’ retained as 0777 (rwxrwxrwx)
+mode of ‘./programs/.git/objects/42/5daa13ece9983387c612a2de1408336d5df542’ retained as 0777 (rwxrwxrwx)
+mode of ‘./programs/.git/objects/c1’ retained as 0777 (rwxrwxrwx)
+mode of ‘./programs/.git/objects/c1/c5bb14e82f15f47ce76d25b1c7352c0d49fe43’ retained as 0777 (rwxrwxrwx)
+mode of ‘./programs/.git/objects/6b’ retained as 0777 (rwxrwxrwx)
+mode of ‘./programs/.git/objects/6b/e7716f14ac67ad1e3755e1315f544e96c05f63’ retained as 0777 (rwxrwxrwx)
+mode of ‘./programs/.git/objects/59’ retained as 0777 (rwxrwxrwx)
+mode of ‘./programs/.git/objects/59/972126323b2f6fcafff57dd8c6f03ed369d8b0’ retained as 0777 (rwxrwxrwx)
+mode of ‘./programs/.git/objects/69’ retained as 0777 (rwxrwxrwx)
+mode of ‘./programs/.git/objects/69/116da9dfe3322cae2963569366bdd02af38d52’ retained as 0777 (rwxrwxrwx)
+mode of ‘./programs/.git/objects/69/a94278e299a6b3a13a5afe844fcc252b0da528’ retained as 0777 (rwxrwxrwx)
+mode of ‘./programs/.git/objects/69/f1aa07a48665b292ebf3fd7f80e141cddac8d6’ retained as 0777 (rwxrwxrwx)
+mode of ‘./programs/.git/objects/10’ retained as 0777 (rwxrwxrwx)
+mode of ‘./programs/.git/objects/10/144de1f2ffc30a1c16b674ca204e62425e5ce1’ retained as 0777 (rwxrwxrwx)
+mode of ‘./programs/.git/objects/10/45459aa8ae51130f0387513064a8865ba60489’ retained as 0777 (rwxrwxrwx)
+mode of ‘./programs/.git/objects/fc’ retained as 0777 (rwxrwxrwx)
+mode of ‘./programs/.git/objects/fc/76b06c3d35778948e6009f89b2fc2f2550c771’ retained as 0777 (rwxrwxrwx)
+mode of ‘./programs/.git/objects/75’ retained as 0777 (rwxrwxrwx)
+mode of ‘./programs/.git/objects/75/5ab8f6af7be4f3ddefae020510ca1516b5d170’ retained as 0777 (rwxrwxrwx)
+mode of ‘./programs/.git/objects/08’ retained as 0777 (rwxrwxrwx)
+mode of ‘./programs/.git/objects/08/e21e9b1f4d7a3b7e5ade9b028a817dc83c2ed8’ retained as 0777 (rwxrwxrwx)
+mode of ‘./programs/.git/objects/8f’ retained as 0777 (rwxrwxrwx)
+mode of ‘./programs/.git/objects/8f/496bc07a7da7a2e46b585ba65163a5da6df24a’ retained as 0777 (rwxrwxrwx)
+mode of ‘./programs/.git/objects/80’ retained as 0777 (rwxrwxrwx)
+mode of ‘./programs/.git/objects/80/9b619de70154da76861803fd8bbbdb4ff9b790’ retained as 0777 (rwxrwxrwx)
+mode of ‘./programs/.git/objects/05’ retained as 0777 (rwxrwxrwx)
+mode of ‘./programs/.git/objects/05/6270d7dec35d51ece7421bd754e8ba0ae9cbb6’ retained as 0777 (rwxrwxrwx)
+mode of ‘./programs/.git/objects/cd’ retained as 0777 (rwxrwxrwx)
+mode of ‘./programs/.git/objects/cd/81b0226cd9b5b6484c350c0b4cd9dc4df0b984’ retained as 0777 (rwxrwxrwx)
+mode of ‘./programs/.git/objects/cd/1c6f741e22085a38b40148281afb2ca3fbc391’ retained as 0777 (rwxrwxrwx)
+mode of ‘./programs/.git/objects/b9’ retained as 0777 (rwxrwxrwx)
+mode of ‘./programs/.git/objects/b9/3a4953fff68df523aa7656497ee339d6026d64’ retained as 0777 (rwxrwxrwx)
+mode of ‘./programs/.git/objects/d7’ retained as 0777 (rwxrwxrwx)
+mode of ‘./programs/.git/objects/d7/badfbc81980da0796623d4c269e6d863395115’ retained as 0777 (rwxrwxrwx)
+mode of ‘./programs/.git/objects/99’ retained as 0777 (rwxrwxrwx)
+mode of ‘./programs/.git/objects/99/ee62a1af69604a6564678f9509dd004c179570’ retained as 0777 (rwxrwxrwx)
+mode of ‘./programs/.git/objects/99/d469c903de35c0cbd35ad6dad34b11c7d96414’ retained as 0777 (rwxrwxrwx)
+mode of ‘./programs/.git/objects/b5’ retained as 0777 (rwxrwxrwx)
+mode of ‘./programs/.git/objects/b5/fe05502491f5cfc5d0753e932c816186bfef2e’ retained as 0777 (rwxrwxrwx)
+mode of ‘./programs/.git/objects/6e’ retained as 0777 (rwxrwxrwx)
+mode of ‘./programs/.git/objects/6e/741581becc20370f0a228196dbaea5fd7c92dd’ retained as 0777 (rwxrwxrwx)
+mode of ‘./programs/.git/objects/6e/1994784b4ddc4d4d89306f50d0c4328ce49519’ retained as 0777 (rwxrwxrwx)
+mode of ‘./programs/.git/objects/85’ retained as 0777 (rwxrwxrwx)
+mode of ‘./programs/.git/objects/85/7e79e3d8c6899e6c547521e01ebedbc521949e’ retained as 0777 (rwxrwxrwx)
+mode of ‘./programs/.git/objects/87’ retained as 0777 (rwxrwxrwx)
+mode of ‘./programs/.git/objects/87/155a53531a99b2e8051a98839a4797d5060721’ retained as 0777 (rwxrwxrwx)
+mode of ‘./programs/.git/objects/87/cd7a22bc49fb3c47f98ed1ed8e259396ee47a4’ retained as 0777 (rwxrwxrwx)
+mode of ‘./programs/.git/objects/df’ retained as 0777 (rwxrwxrwx)
+mode of ‘./programs/.git/objects/df/f0375ffd831b9db8df09074ac7684358196b9f’ retained as 0777 (rwxrwxrwx)
+mode of ‘./programs/.git/objects/df/f25498487ce4a2150d4ed8ada709e0860213b1’ retained as 0777 (rwxrwxrwx)
+mode of ‘./programs/.git/objects/cb’ retained as 0777 (rwxrwxrwx)
+mode of ‘./programs/.git/objects/cb/3fef85f7ca42ff24153aa92e05729dc1966b18’ retained as 0777 (rwxrwxrwx)
+mode of ‘./programs/.git/objects/19’ retained as 0755 (rwxr-xr-x)
+mode of ‘./programs/.git/objects/19/6532728948cef6e8c4111b0f31561521668df5’ changed from 0444 (r--r--r--) to 0555 (r-xr-xr-x)
+mode of ‘./programs/.git/objects/e1’ retained as 0777 (rwxrwxrwx)
+mode of ‘./programs/.git/objects/e1/fe057700355ed1b500dbacbccb4ef633c121ea’ retained as 0777 (rwxrwxrwx)
+mode of ‘./programs/.git/objects/4f’ retained as 0777 (rwxrwxrwx)
+mode of ‘./programs/.git/objects/4f/07e73ffcf541901cbf79cb03cb2ec34ee12ab1’ retained as 0777 (rwxrwxrwx)
+mode of ‘./programs/.git/objects/4f/67dd7544fbe2bb7efeed87967921f34090c875’ retained as 0777 (rwxrwxrwx)
+mode of ‘./programs/.git/objects/e0’ retained as 0777 (rwxrwxrwx)
+mode of ‘./programs/.git/objects/e0/6491cf988d26dcea0de9302fa0a84b5cc397cb’ retained as 0777 (rwxrwxrwx)
+mode of ‘./programs/.git/objects/c2’ retained as 0777 (rwxrwxrwx)
+mode of ‘./programs/.git/objects/c2/fba732e0f26584f0863bdb336523f9a6f3fcc3’ retained as 0777 (rwxrwxrwx)
+mode of ‘./programs/.git/objects/c2/df4e85c1990d6fc82bee21d284f9dbc46995ea’ retained as 0777 (rwxrwxrwx)
+mode of ‘./programs/.git/objects/be’ retained as 0777 (rwxrwxrwx)
+mode of ‘./programs/.git/objects/be/0be369c4ae3fcdd281c9a2cb5f85d429577bce’ retained as 0777 (rwxrwxrwx)
+mode of ‘./programs/.git/objects/96’ retained as 0777 (rwxrwxrwx)
+mode of ‘./programs/.git/objects/96/0baf9e98495ee0a81f228c4afa4fad3c0fee26’ retained as 0777 (rwxrwxrwx)
+mode of ‘./programs/.git/objects/info’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/.git/objects/76’ retained as 0777 (rwxrwxrwx)
+mode of ‘./programs/.git/objects/76/b2f11aad4f36bf50d73fe0f77e6747c3354ca6’ retained as 0777 (rwxrwxrwx)
+mode of ‘./programs/.git/objects/ae’ retained as 0777 (rwxrwxrwx)
+mode of ‘./programs/.git/objects/ae/139613fb65ab0b2f50254f47e52bce86f01feb’ retained as 0777 (rwxrwxrwx)
+mode of ‘./programs/.git/objects/b7’ retained as 0777 (rwxrwxrwx)
+mode of ‘./programs/.git/objects/b7/9072e3f10f4fef4774f5344a4719a364ec9620’ retained as 0777 (rwxrwxrwx)
+mode of ‘./programs/.git/objects/6f’ retained as 0777 (rwxrwxrwx)
+mode of ‘./programs/.git/objects/6f/bb2f303c637a506f90258dfbb2745e3ca91d81’ retained as 0777 (rwxrwxrwx)
+mode of ‘./programs/.git/objects/6f/0be5802563126a4276895641d1445d2a979012’ retained as 0777 (rwxrwxrwx)
+mode of ‘./programs/.git/objects/9e’ retained as 0777 (rwxrwxrwx)
+mode of ‘./programs/.git/objects/9e/612858f802245ddcbf59788a0db942224bab35’ retained as 0777 (rwxrwxrwx)
+mode of ‘./programs/.git/objects/9e/123ef1490cb93e43fdb9039b58cf8235cf3ae3’ retained as 0777 (rwxrwxrwx)
+mode of ‘./programs/.git/objects/f2’ retained as 0777 (rwxrwxrwx)
+mode of ‘./programs/.git/objects/f2/0b8fac92317c665297f04172a4d14612e7e35c’ retained as 0777 (rwxrwxrwx)
+mode of ‘./programs/.git/objects/44’ retained as 0777 (rwxrwxrwx)
+mode of ‘./programs/.git/objects/44/8d55550f02b49e8f0e88599409c3f173af3491’ retained as 0777 (rwxrwxrwx)
+mode of ‘./programs/.git/objects/44/8cb2b25f786a718679741b6e349ddd418e0914’ retained as 0777 (rwxrwxrwx)
+mode of ‘./programs/.git/objects/c7’ retained as 0777 (rwxrwxrwx)
+mode of ‘./programs/.git/objects/c7/27b9d242a7c265795ea8d32df2d897fcf98f10’ retained as 0777 (rwxrwxrwx)
+mode of ‘./programs/.git/objects/43’ retained as 0777 (rwxrwxrwx)
+mode of ‘./programs/.git/objects/43/dd84668096f032912c1f31ab235e6586559ab0’ retained as 0777 (rwxrwxrwx)
+mode of ‘./programs/.git/objects/39’ retained as 0777 (rwxrwxrwx)
+mode of ‘./programs/.git/objects/39/58764b53da0cefd69618a3986ce77a682b032c’ retained as 0777 (rwxrwxrwx)
+mode of ‘./programs/.git/objects/74’ retained as 0777 (rwxrwxrwx)
+mode of ‘./programs/.git/objects/74/3bf8e12df1f02be5924a58a85bf29d6d985feb’ retained as 0777 (rwxrwxrwx)
+mode of ‘./programs/.git/objects/74/f864a6906cd145d115e028f4ab1e6339b3f073’ retained as 0777 (rwxrwxrwx)
+mode of ‘./programs/.git/objects/2b’ retained as 0777 (rwxrwxrwx)
+mode of ‘./programs/.git/objects/2b/fbd6303060c4272940305e23db252ef3c14727’ retained as 0777 (rwxrwxrwx)
+mode of ‘./programs/.git/objects/2b/9e3b8a91a27e07ccf4c98f1fd7a93f36082469’ retained as 0777 (rwxrwxrwx)
+mode of ‘./programs/.git/objects/2b/a8c98ff5a53048683955ee256faf86392237d5’ retained as 0777 (rwxrwxrwx)
+mode of ‘./programs/.git/objects/03’ retained as 0777 (rwxrwxrwx)
+mode of ‘./programs/.git/objects/03/943b92fa5d2ff15adecac8d193fa9eb3ede164’ retained as 0777 (rwxrwxrwx)
+mode of ‘./programs/.git/objects/92’ retained as 0777 (rwxrwxrwx)
+mode of ‘./programs/.git/objects/92/d5ed810921dc9fc69d0fb0c25e2ea0d0c6be4e’ retained as 0777 (rwxrwxrwx)
+mode of ‘./programs/.git/objects/4e’ retained as 0777 (rwxrwxrwx)
+mode of ‘./programs/.git/objects/4e/eed4f5a263711b5220e89509f839a1f649b780’ retained as 0777 (rwxrwxrwx)
+mode of ‘./programs/.git/objects/4e/ac77022d4ee66989ff90d3a4f0906d0ec275f7’ retained as 0777 (rwxrwxrwx)
+mode of ‘./programs/.git/objects/e6’ retained as 0777 (rwxrwxrwx)
+mode of ‘./programs/.git/objects/e6/9de29bb2d1d6434b8b29ae775ad8c2e48c5391’ retained as 0777 (rwxrwxrwx)
+mode of ‘./programs/.git/objects/fe’ retained as 0777 (rwxrwxrwx)
+mode of ‘./programs/.git/objects/fe/73e7461f3e281ac5be5de613d8b93309d5c611’ retained as 0777 (rwxrwxrwx)
+mode of ‘./programs/.git/objects/fe/69d2d5f5496a2d1c39323f9627a2c3e46b3a96’ retained as 0777 (rwxrwxrwx)
+mode of ‘./programs/.git/info’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/.git/info/exclude’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/install’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/install/Install_blynk.sh’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/install/Install_blynk_latest.sh’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/install/Install_pi_garage_alert.sh’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/install/Install_samba.sh’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/install/SIP’ retained as 0755 (rwxr-xr-x)
+neither symbolic link ‘./programs/install/SIP/ospi.py’ nor referent has been changed
+mode of ‘./programs/install/Install_WebIOPi.sh’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/install/static_IP.sh’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/install/blank.sh’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/install/Install_wiringPi.sh’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/install/Initial_Pi_Update.sh’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/install/Install_sip_sprinkler.sh’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/git_clone.sh’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/pi-prerequisites2.sh’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/memory_cleaning.sh’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/homeassistant_initializing.sh’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/openhab_script.sh’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/update_hass.sh’ retained as 0777 (rwxrwxrwx)
+mode of ‘./programs/command’ retained as 0755 (rwxr-xr-x)
+mode of ‘./programs/command/HAupdate’ retained as 0755 (rwxr-xr-x)
+mode of ‘./programs/command/HArestart’ retained as 0755 (rwxr-xr-x)
+mode of ‘./programs/command/PIreboot’ retained as 0777 (rwxrwxrwx)
+mode of ‘./programs/command/NEW’ retained as 0755 (rwxr-xr-x)
+mode of ‘./programs/rf_send.py’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/fix’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/backup’ retained as 0777 (rwxrwxrwx)
+mode of ‘./programs/backup/pi_garage_alert’ retained as 0777 (rwxrwxrwx)
+mode of ‘./programs/backup/pi_garage_alert/bin’ retained as 0777 (rwxrwxrwx)
+mode of ‘./programs/backup/pi_garage_alert/bin/pi_garage_alert.py’ retained as 0777 (rwxrwxrwx)
+mode of ‘./programs/backup/pi_garage_alert/init.d’ retained as 0777 (rwxrwxrwx)
+mode of ‘./programs/backup/pi_garage_alert/init.d/pi_garage_alert’ retained as 0777 (rwxrwxrwx)
+mode of ‘./programs/backup/pi_garage_alert/email’ retained as 0777 (rwxrwxrwx)
+mode of ‘./programs/backup/pi_garage_alert/email/sasl_passwd’ retained as 0777 (rwxrwxrwx)
+mode of ‘./programs/backup/pi_garage_alert/email/main.cf’ retained as 0777 (rwxrwxrwx)
+mode of ‘./programs/backup/pi_garage_alert/etc’ retained as 0777 (rwxrwxrwx)
+mode of ‘./programs/backup/pi_garage_alert/etc/pi_garage_alert_config.py’ retained as 0777 (rwxrwxrwx)
+mode of ‘./programs/backup/email’ retained as 0777 (rwxrwxrwx)
+mode of ‘./programs/backup/email/sasl_passwd’ retained as 0777 (rwxrwxrwx)
+mode of ‘./programs/backup/email/main.cf’ retained as 0777 (rwxrwxrwx)
+mode of ‘./programs/backup/SIP’ retained as 0755 (rwxr-xr-x)
+mode of ‘./programs/backup/SIP/i18n’ retained as 0755 (rwxr-xr-x)
+mode of ‘./programs/backup/SIP/i18n/sl_SL’ retained as 0755 (rwxr-xr-x)
+mode of ‘./programs/backup/SIP/i18n/sl_SL/LC_MESSAGES’ retained as 0755 (rwxr-xr-x)
+mode of ‘./programs/backup/SIP/i18n/sl_SL/LC_MESSAGES/sip_messages.mo’ changed from 0644 (rw-r--r--) to 0755 (rwxr-xr-x)
+mode of ‘./programs/backup/SIP/i18n/sl_SL/LC_MESSAGES/sip_messages.pot’ changed from 0644 (rw-r--r--) to 0755 (rwxr-xr-x)
+mode of ‘./programs/backup/SIP/i18n/de_DE’ retained as 0755 (rwxr-xr-x)
+mode of ‘./programs/backup/SIP/i18n/de_DE/LC_MESSAGES’ retained as 0755 (rwxr-xr-x)
+mode of ‘./programs/backup/SIP/i18n/de_DE/LC_MESSAGES/sip_messages.mo’ changed from 0644 (rw-r--r--) to 0755 (rwxr-xr-x)
+mode of ‘./programs/backup/SIP/i18n/de_DE/LC_MESSAGES/sip_messages.po’ changed from 0644 (rw-r--r--) to 0755 (rwxr-xr-x)
+mode of ‘./programs/backup/SIP/i18n/cs_CZ’ retained as 0755 (rwxr-xr-x)
+mode of ‘./programs/backup/SIP/i18n/cs_CZ/LC_MESSAGES’ retained as 0755 (rwxr-xr-x)
+mode of ‘./programs/backup/SIP/i18n/cs_CZ/LC_MESSAGES/sip_messages.mo’ changed from 0644 (rw-r--r--) to 0755 (rwxr-xr-x)
+mode of ‘./programs/backup/SIP/i18n/cs_CZ/LC_MESSAGES/sip_messages.po’ changed from 0644 (rw-r--r--) to 0755 (rwxr-xr-x)
+mode of ‘./programs/backup/SIP/i18n/sip_messages.pot’ changed from 0644 (rw-r--r--) to 0755 (rwxr-xr-x)
+mode of ‘./programs/backup/SIP/i18n/it_IT’ retained as 0755 (rwxr-xr-x)
+mode of ‘./programs/backup/SIP/i18n/it_IT/LC_MESSAGES’ retained as 0755 (rwxr-xr-x)
+mode of ‘./programs/backup/SIP/i18n/it_IT/LC_MESSAGES/sip_messages.mo’ changed from 0644 (rw-r--r--) to 0755 (rwxr-xr-x)
+mode of ‘./programs/backup/SIP/i18n/it_IT/LC_MESSAGES/sip_messages.po’ changed from 0644 (rw-r--r--) to 0755 (rwxr-xr-x)
+mode of ‘./programs/backup/SIP/i18n/es_ES’ retained as 0755 (rwxr-xr-x)
+mode of ‘./programs/backup/SIP/i18n/es_ES/LC_MESSAGES’ retained as 0755 (rwxr-xr-x)
+mode of ‘./programs/backup/SIP/i18n/es_ES/LC_MESSAGES/sip_messages.mo’ changed from 0644 (rw-r--r--) to 0755 (rwxr-xr-x)
+mode of ‘./programs/backup/SIP/i18n/es_ES/LC_MESSAGES/sip_messages.po’ changed from 0644 (rw-r--r--) to 0755 (rwxr-xr-x)
+mode of ‘./programs/backup/SIP/i18n/.gitignore’ changed from 0644 (rw-r--r--) to 0755 (rwxr-xr-x)
+mode of ‘./programs/backup/SIP/i18n/gr_GR’ retained as 0755 (rwxr-xr-x)
+mode of ‘./programs/backup/SIP/i18n/gr_GR/LC_MESSAGES’ retained as 0755 (rwxr-xr-x)
+mode of ‘./programs/backup/SIP/i18n/gr_GR/LC_MESSAGES/sip_messages.mo’ changed from 0644 (rw-r--r--) to 0755 (rwxr-xr-x)
+mode of ‘./programs/backup/SIP/i18n/gr_GR/LC_MESSAGES/sip_messages.po’ changed from 0644 (rw-r--r--) to 0755 (rwxr-xr-x)
+mode of ‘./programs/backup/SIP/i18n/fr_FR’ retained as 0755 (rwxr-xr-x)
+mode of ‘./programs/backup/SIP/i18n/fr_FR/LC_MESSAGES’ retained as 0755 (rwxr-xr-x)
+mode of ‘./programs/backup/SIP/i18n/fr_FR/LC_MESSAGES/sip_messages.mo’ changed from 0644 (rw-r--r--) to 0755 (rwxr-xr-x)
+mode of ‘./programs/backup/SIP/i18n/fr_FR/LC_MESSAGES/sip_messages.po’ changed from 0644 (rw-r--r--) to 0755 (rwxr-xr-x)
+mode of ‘./programs/backup/SIP/i18n/en_US’ retained as 0755 (rwxr-xr-x)
+mode of ‘./programs/backup/SIP/i18n/en_US/LC_MESSAGES’ retained as 0755 (rwxr-xr-x)
+mode of ‘./programs/backup/SIP/i18n/en_US/LC_MESSAGES/sip_messages.mo’ changed from 0644 (rw-r--r--) to 0755 (rwxr-xr-x)
+mode of ‘./programs/backup/SIP/ReverseProxied.py’ changed from 0644 (rw-r--r--) to 0755 (rwxr-xr-x)
+mode of ‘./programs/backup/SIP/helpers.py’ changed from 0644 (rw-r--r--) to 0755 (rwxr-xr-x)
+mode of ‘./programs/backup/SIP/sip.service’ changed from 0644 (rw-r--r--) to 0755 (rwxr-xr-x)
+mode of ‘./programs/backup/SIP/blinker’ retained as 0755 (rwxr-xr-x)
+mode of ‘./programs/backup/SIP/blinker/_utilities.py’ changed from 0644 (rw-r--r--) to 0755 (rwxr-xr-x)
+mode of ‘./programs/backup/SIP/blinker/base.py’ changed from 0644 (rw-r--r--) to 0755 (rwxr-xr-x)
+mode of ‘./programs/backup/SIP/blinker/_saferef.py’ changed from 0644 (rw-r--r--) to 0755 (rwxr-xr-x)
+mode of ‘./programs/backup/SIP/blinker/LICENSE’ changed from 0644 (rw-r--r--) to 0755 (rwxr-xr-x)
+mode of ‘./programs/backup/SIP/blinker/__init__.py’ changed from 0644 (rw-r--r--) to 0755 (rwxr-xr-x)
+mode of ‘./programs/backup/SIP/templates’ retained as 0755 (rwxr-xr-x)
+mode of ‘./programs/backup/SIP/templates/plugins_repo.html’ changed from 0644 (rw-r--r--) to 0755 (rwxr-xr-x)
+mode of ‘./programs/backup/SIP/templates/log.html’ changed from 0644 (rw-r--r--) to 0755 (rwxr-xr-x)
+mode of ‘./programs/backup/SIP/templates/proto.html’ changed from 0644 (rw-r--r--) to 0755 (rwxr-xr-x)
+mode of ‘./programs/backup/SIP/templates/monthly.html’ changed from 0644 (rw-r--r--) to 0755 (rwxr-xr-x)
+mode of ‘./programs/backup/SIP/templates/runonce.html’ changed from 0644 (rw-r--r--) to 0755 (rwxr-xr-x)
+mode of ‘./programs/backup/SIP/templates/base.html’ changed from 0644 (rw-r--r--) to 0755 (rwxr-xr-x)
+mode of ‘./programs/backup/SIP/templates/restarting.html’ changed from 0644 (rw-r--r--) to 0755 (rwxr-xr-x)
+mode of ‘./programs/backup/SIP/templates/system_update.html’ changed from 0644 (rw-r--r--) to 0755 (rwxr-xr-x)
+mode of ‘./programs/backup/SIP/templates/weather_adj.html’ changed from 0644 (rw-r--r--) to 0755 (rwxr-xr-x)
+mode of ‘./programs/backup/SIP/templates/login.html’ changed from 0644 (rw-r--r--) to 0755 (rwxr-xr-x)
+mode of ‘./programs/backup/SIP/templates/options.html’ changed from 0644 (rw-r--r--) to 0755 (rwxr-xr-x)
+mode of ‘./programs/backup/SIP/templates/stations.html’ changed from 0644 (rw-r--r--) to 0755 (rwxr-xr-x)
+mode of ‘./programs/backup/SIP/templates/california_monthly.html’ changed from 0644 (rw-r--r--) to 0755 (rwxr-xr-x)
+mode of ‘./programs/backup/SIP/templates/weather_level_adj.html’ changed from 0644 (rw-r--r--) to 0755 (rwxr-xr-x)
+mode of ‘./programs/backup/SIP/templates/relay_board.html’ changed from 0644 (rw-r--r--) to 0755 (rwxr-xr-x)
+mode of ‘./programs/backup/SIP/templates/plugins.html’ changed from 0644 (rw-r--r--) to 0755 (rwxr-xr-x)
+mode of ‘./programs/backup/SIP/templates/programs.html’ changed from 0644 (rw-r--r--) to 0755 (rwxr-xr-x)
+mode of ‘./programs/backup/SIP/templates/modify.html’ changed from 0644 (rw-r--r--) to 0755 (rwxr-xr-x)
+mode of ‘./programs/backup/SIP/templates/home.html’ changed from 0644 (rw-r--r--) to 0755 (rwxr-xr-x)
+mode of ‘./programs/backup/SIP/pigpiod.sh’ changed from 0644 (rw-r--r--) to 0755 (rwxr-xr-x)
+mode of ‘./programs/backup/SIP/i18n.py’ changed from 0644 (rw-r--r--) to 0755 (rwxr-xr-x)
+mode of ‘./programs/backup/SIP/gpio_pins.py’ changed from 0644 (rw-r--r--) to 0755 (rwxr-xr-x)
+mode of ‘./programs/backup/SIP/README.md’ changed from 0644 (rw-r--r--) to 0755 (rwxr-xr-x)
+mode of ‘./programs/backup/SIP/test’ changed from 0644 (rw-r--r--) to 0755 (rwxr-xr-x)
+mode of ‘./programs/backup/SIP/rtcdev.sh’ changed from 0644 (rw-r--r--) to 0755 (rwxr-xr-x)
+mode of ‘./programs/backup/SIP/.project’ changed from 0644 (rw-r--r--) to 0755 (rwxr-xr-x)
+mode of ‘./programs/backup/SIP/plugins’ retained as 0755 (rwxr-xr-x)
+mode of ‘./programs/backup/SIP/plugins/plugin_manager.py’ changed from 0644 (rw-r--r--) to 0755 (rwxr-xr-x)
+mode of ‘./programs/backup/SIP/plugins/mobile_app.py’ changed from 0644 (rw-r--r--) to 0755 (rwxr-xr-x)
+mode of ‘./programs/backup/SIP/plugins/signaling_examples.py’ changed from 0644 (rw-r--r--) to 0755 (rwxr-xr-x)
+mode of ‘./programs/backup/SIP/plugins/proto.py’ changed from 0644 (rw-r--r--) to 0755 (rwxr-xr-x)
+mode of ‘./programs/backup/SIP/plugins/system_update.py’ changed from 0644 (rw-r--r--) to 0755 (rwxr-xr-x)
+mode of ‘./programs/backup/SIP/gv.py’ changed from 0644 (rw-r--r--) to 0755 (rwxr-xr-x)
+mode of ‘./programs/backup/SIP/sip.sh’ changed from 0644 (rw-r--r--) to 0755 (rwxr-xr-x)
+mode of ‘./programs/backup/SIP/sip.py’ changed from 0644 (rw-r--r--) to 0755 (rwxr-xr-x)
+mode of ‘./programs/backup/SIP/data’ retained as 0755 (rwxr-xr-x)
+mode of ‘./programs/backup/SIP/data/dir.info’ changed from 0644 (rw-r--r--) to 0755 (rwxr-xr-x)
+mode of ‘./programs/backup/SIP/data/weather_log.txt’ changed from 0644 (rw-r--r--) to 0755 (rwxr-xr-x)
+mode of ‘./programs/backup/SIP/ospi.py’ changed from 0644 (rw-r--r--) to 0755 (rwxr-xr-x)
+mode of ‘./programs/backup/SIP/.gitignore’ changed from 0644 (rw-r--r--) to 0755 (rwxr-xr-x)
+mode of ‘./programs/backup/SIP/gv_reference.txt’ changed from 0644 (rw-r--r--) to 0755 (rwxr-xr-x)
+mode of ‘./programs/backup/SIP/webpages.py’ changed from 0644 (rw-r--r--) to 0755 (rwxr-xr-x)
+mode of ‘./programs/backup/SIP/.pydevproject’ changed from 0644 (rw-r--r--) to 0755 (rwxr-xr-x)
+mode of ‘./programs/backup/SIP/static’ retained as 0755 (rwxr-xr-x)
+mode of ‘./programs/backup/SIP/static/bootstrap-timepicker’ retained as 0755 (rwxr-xr-x)
+mode of ‘./programs/backup/SIP/static/bootstrap-timepicker/composer.json’ changed from 0644 (rw-r--r--) to 0755 (rwxr-xr-x)
+mode of ‘./programs/backup/SIP/static/bootstrap-timepicker/bower.json’ changed from 0644 (rw-r--r--) to 0755 (rwxr-xr-x)
+mode of ‘./programs/backup/SIP/static/bootstrap-timepicker/README.md’ changed from 0644 (rw-r--r--) to 0755 (rwxr-xr-x)
+mode of ‘./programs/backup/SIP/static/bootstrap-timepicker/js’ retained as 0755 (rwxr-xr-x)
+mode of ‘./programs/backup/SIP/static/bootstrap-timepicker/js/bootstrap-timepicker.min.js’ changed from 0644 (rw-r--r--) to 0755 (rwxr-xr-x)
+mode of ‘./programs/backup/SIP/static/bootstrap-timepicker/js/bootstrap-timepicker.js’ changed from 0644 (rw-r--r--) to 0755 (rwxr-xr-x)
+mode of ‘./programs/backup/SIP/static/bootstrap-timepicker/CHANGELOG.md’ changed from 0644 (rw-r--r--) to 0755 (rwxr-xr-x)
+mode of ‘./programs/backup/SIP/static/bootstrap-timepicker/css’ retained as 0755 (rwxr-xr-x)
+mode of ‘./programs/backup/SIP/static/bootstrap-timepicker/css/timepicker.less’ changed from 0644 (rw-r--r--) to 0755 (rwxr-xr-x)
+mode of ‘./programs/backup/SIP/static/bootstrap-timepicker/css/bootstrap-timepicker.min.css’ changed from 0644 (rw-r--r--) to 0755 (rwxr-xr-x)
+mode of ‘./programs/backup/SIP/static/bootstrap-timepicker/css/bootstrap-timepicker.css’ changed from 0644 (rw-r--r--) to 0755 (rwxr-xr-x)
+mode of ‘./programs/backup/SIP/static/bootstrap-timepicker/package.json’ changed from 0644 (rw-r--r--) to 0755 (rwxr-xr-x)
+mode of ‘./programs/backup/SIP/static/images’ retained as 0755 (rwxr-xr-x)
+mode of ‘./programs/backup/SIP/static/images/apple-icon-144x144.png’ changed from 0644 (rw-r--r--) to 0755 (rwxr-xr-x)
+mode of ‘./programs/backup/SIP/static/images/browserconfig.xml’ changed from 0644 (rw-r--r--) to 0755 (rwxr-xr-x)
+mode of ‘./programs/backup/SIP/static/images/apple-icon-180x180.png’ changed from 0644 (rw-r--r--) to 0755 (rwxr-xr-x)
+mode of ‘./programs/backup/SIP/static/images/apple-icon-76x76.png’ changed from 0644 (rw-r--r--) to 0755 (rwxr-xr-x)
+mode of ‘./programs/backup/SIP/static/images/apple-icon-precomposed.png’ changed from 0644 (rw-r--r--) to 0755 (rwxr-xr-x)
+mode of ‘./programs/backup/SIP/static/images/favicon-96x96.png’ changed from 0644 (rw-r--r--) to 0755 (rwxr-xr-x)
+mode of ‘./programs/backup/SIP/static/images/android-icon-192x192.png’ changed from 0644 (rw-r--r--) to 0755 (rwxr-xr-x)
+mode of ‘./programs/backup/SIP/static/images/android-icon-36x36.png’ changed from 0644 (rw-r--r--) to 0755 (rwxr-xr-x)
+mode of ‘./programs/backup/SIP/static/images/favicon.png’ changed from 0644 (rw-r--r--) to 0755 (rwxr-xr-x)
+mode of ‘./programs/backup/SIP/static/images/android-icon-48x48.png’ changed from 0644 (rw-r--r--) to 0755 (rwxr-xr-x)
+mode of ‘./programs/backup/SIP/static/images/apple-icon-60x60.png’ changed from 0644 (rw-r--r--) to 0755 (rwxr-xr-x)
+mode of ‘./programs/backup/SIP/static/images/favicon.ico’ changed from 0644 (rw-r--r--) to 0755 (rwxr-xr-x)
+mode of ‘./programs/backup/SIP/static/images/apple-icon-152x152.png’ changed from 0644 (rw-r--r--) to 0755 (rwxr-xr-x)
+mode of ‘./programs/backup/SIP/static/images/apple-icon-114x114.png’ changed from 0644 (rw-r--r--) to 0755 (rwxr-xr-x)
+mode of ‘./programs/backup/SIP/static/images/favicon-32x32.png’ changed from 0644 (rw-r--r--) to 0755 (rwxr-xr-x)
+mode of ‘./programs/backup/SIP/static/images/ms-icon-310x310.png’ changed from 0644 (rw-r--r--) to 0755 (rwxr-xr-x)
+mode of ‘./programs/backup/SIP/static/images/favicon-16x16.png’ changed from 0644 (rw-r--r--) to 0755 (rwxr-xr-x)
+mode of ‘./programs/backup/SIP/static/images/ms-icon-150x150.png’ changed from 0644 (rw-r--r--) to 0755 (rwxr-xr-x)
+mode of ‘./programs/backup/SIP/static/images/apple-icon-72x72.png’ changed from 0644 (rw-r--r--) to 0755 (rwxr-xr-x)
+mode of ‘./programs/backup/SIP/static/images/android-icon-96x96.png’ changed from 0644 (rw-r--r--) to 0755 (rwxr-xr-x)
+mode of ‘./programs/backup/SIP/static/images/apple-icon-57x57.png’ changed from 0644 (rw-r--r--) to 0755 (rwxr-xr-x)
+mode of ‘./programs/backup/SIP/static/images/android-icon-144x144.png’ changed from 0644 (rw-r--r--) to 0755 (rwxr-xr-x)
+mode of ‘./programs/backup/SIP/static/images/android-icon-72x72.png’ changed from 0644 (rw-r--r--) to 0755 (rwxr-xr-x)
+mode of ‘./programs/backup/SIP/static/images/ms-icon-144x144.png’ changed from 0644 (rw-r--r--) to 0755 (rwxr-xr-x)
+mode of ‘./programs/backup/SIP/static/images/apple-icon-120x120.png’ changed from 0644 (rw-r--r--) to 0755 (rwxr-xr-x)
+mode of ‘./programs/backup/SIP/static/images/ms-icon-70x70.png’ changed from 0644 (rw-r--r--) to 0755 (rwxr-xr-x)
+mode of ‘./programs/backup/SIP/static/images/apple-icon.png’ changed from 0644 (rw-r--r--) to 0755 (rwxr-xr-x)
+mode of ‘./programs/backup/SIP/static/images/manifest.json’ changed from 0644 (rw-r--r--) to 0755 (rwxr-xr-x)
+mode of ‘./programs/backup/SIP/static/images/logo.png’ changed from 0644 (rw-r--r--) to 0755 (rwxr-xr-x)
+mode of ‘./programs/backup/SIP/static/bootstrap-3.3.7’ retained as 0755 (rwxr-xr-x)
+mode of ‘./programs/backup/SIP/static/bootstrap-3.3.7/js’ retained as 0755 (rwxr-xr-x)
+mode of ‘./programs/backup/SIP/static/bootstrap-3.3.7/js/npm.js’ changed from 0644 (rw-r--r--) to 0755 (rwxr-xr-x)
+mode of ‘./programs/backup/SIP/static/bootstrap-3.3.7/js/bootstrap.min.js’ changed from 0644 (rw-r--r--) to 0755 (rwxr-xr-x)
+mode of ‘./programs/backup/SIP/static/bootstrap-3.3.7/js/bootstrap.js’ changed from 0644 (rw-r--r--) to 0755 (rwxr-xr-x)
+mode of ‘./programs/backup/SIP/static/bootstrap-3.3.7/fonts’ retained as 0755 (rwxr-xr-x)
+mode of ‘./programs/backup/SIP/static/bootstrap-3.3.7/fonts/glyphicons-halflings-regular.eot’ changed from 0644 (rw-r--r--) to 0755 (rwxr-xr-x)
+mode of ‘./programs/backup/SIP/static/bootstrap-3.3.7/fonts/glyphicons-halflings-regular.ttf’ changed from 0644 (rw-r--r--) to 0755 (rwxr-xr-x)
+mode of ‘./programs/backup/SIP/static/bootstrap-3.3.7/fonts/glyphicons-halflings-regular.woff’ changed from 0644 (rw-r--r--) to 0755 (rwxr-xr-x)
+mode of ‘./programs/backup/SIP/static/bootstrap-3.3.7/fonts/glyphicons-halflings-regular.svg’ changed from 0644 (rw-r--r--) to 0755 (rwxr-xr-x)
+mode of ‘./programs/backup/SIP/static/bootstrap-3.3.7/fonts/glyphicons-halflings-regular.woff2’ changed from 0644 (rw-r--r--) to 0755 (rwxr-xr-x)
+mode of ‘./programs/backup/SIP/static/bootstrap-3.3.7/css’ retained as 0755 (rwxr-xr-x)
+mode of ‘./programs/backup/SIP/static/bootstrap-3.3.7/css/bootstrap-theme.min.css’ changed from 0644 (rw-r--r--) to 0755 (rwxr-xr-x)
+mode of ‘./programs/backup/SIP/static/bootstrap-3.3.7/css/bootstrap.css’ changed from 0644 (rw-r--r--) to 0755 (rwxr-xr-x)
+mode of ‘./programs/backup/SIP/static/bootstrap-3.3.7/css/bootstrap-theme.css’ changed from 0644 (rw-r--r--) to 0755 (rwxr-xr-x)
+mode of ‘./programs/backup/SIP/static/bootstrap-3.3.7/css/bootstrap-theme.css.map’ changed from 0644 (rw-r--r--) to 0755 (rwxr-xr-x)
+mode of ‘./programs/backup/SIP/static/bootstrap-3.3.7/css/bootstrap-theme.min.css.map’ changed from 0644 (rw-r--r--) to 0755 (rwxr-xr-x)
+mode of ‘./programs/backup/SIP/static/bootstrap-3.3.7/css/bootstrap.min.css’ changed from 0644 (rw-r--r--) to 0755 (rwxr-xr-x)
+mode of ‘./programs/backup/SIP/static/bootstrap-3.3.7/css/bootstrap.min.css.map’ changed from 0644 (rw-r--r--) to 0755 (rwxr-xr-x)
+mode of ‘./programs/backup/SIP/static/bootstrap-3.3.7/css/bootstrap.css.map’ changed from 0644 (rw-r--r--) to 0755 (rwxr-xr-x)
+mode of ‘./programs/backup/SIP/static/docs’ retained as 0755 (rwxr-xr-x)
+mode of ‘./programs/backup/SIP/static/docs/plugins’ retained as 0755 (rwxr-xr-x)
+mode of ‘./programs/backup/SIP/static/docs/plugins/system_update-docs.html’ changed from 0644 (rw-r--r--) to 0755 (rwxr-xr-x)
+mode of ‘./programs/backup/SIP/static/docs/plugins/ca_monthly-docs.html’ changed from 0644 (rw-r--r--) to 0755 (rwxr-xr-x)
+mode of ‘./programs/backup/SIP/static/docs/plugins/proto-docs.html’ changed from 0644 (rw-r--r--) to 0755 (rwxr-xr-x)
+mode of ‘./programs/backup/SIP/static/themes’ retained as 0755 (rwxr-xr-x)
+mode of ‘./programs/backup/SIP/static/themes/basic’ retained as 0755 (rwxr-xr-x)
+mode of ‘./programs/backup/SIP/static/themes/basic/BlueTile.png’ changed from 0644 (rw-r--r--) to 0755 (rwxr-xr-x)
+mode of ‘./programs/backup/SIP/static/themes/basic/checkmark.png’ changed from 0644 (rw-r--r--) to 0755 (rwxr-xr-x)
+mode of ‘./programs/backup/SIP/static/themes/basic/off.png’ changed from 0644 (rw-r--r--) to 0755 (rwxr-xr-x)
+mode of ‘./programs/backup/SIP/static/themes/basic/on.png’ changed from 0644 (rw-r--r--) to 0755 (rwxr-xr-x)
+mode of ‘./programs/backup/SIP/static/themes/basic/expanded.png’ changed from 0644 (rw-r--r--) to 0755 (rwxr-xr-x)
+mode of ‘./programs/backup/SIP/static/themes/basic/whitestripes.png’ changed from 0644 (rw-r--r--) to 0755 (rwxr-xr-x)
+mode of ‘./programs/backup/SIP/static/themes/basic/grass.jpg’ changed from 0644 (rw-r--r--) to 0755 (rwxr-xr-x)
+mode of ‘./programs/backup/SIP/static/themes/basic/home.png’ changed from 0644 (rw-r--r--) to 0755 (rwxr-xr-x)
+mode of ‘./programs/backup/SIP/static/themes/basic/grass.png’ changed from 0644 (rw-r--r--) to 0755 (rwxr-xr-x)
+mode of ‘./programs/backup/SIP/static/themes/basic/base.css’ changed from 0644 (rw-r--r--) to 0755 (rwxr-xr-x)
+mode of ‘./programs/backup/SIP/static/themes/basic/collapsed.png’ changed from 0644 (rw-r--r--) to 0755 (rwxr-xr-x)
+mode of ‘./programs/backup/SIP/static/themes/basic/logo.png’ changed from 0644 (rw-r--r--) to 0755 (rwxr-xr-x)
+mode of ‘./programs/backup/SIP/static/scripts’ retained as 0755 (rwxr-xr-x)
+mode of ‘./programs/backup/SIP/static/scripts/behaviors.js’ changed from 0644 (rw-r--r--) to 0755 (rwxr-xr-x)
+mode of ‘./programs/backup/SIP/static/scripts/jquery-3.1.0.min.js’ changed from 0644 (rw-r--r--) to 0755 (rwxr-xr-x)
+mode of ‘./programs/backup/SIP/static/scripts/intervalSelect.js’ changed from 0644 (rw-r--r--) to 0755 (rwxr-xr-x)
+mode of ‘./programs/backup/SIP/static/scripts/schedule.js’ changed from 0644 (rw-r--r--) to 0755 (rwxr-xr-x)
+mode of ‘./programs/backup/SIP/urls.py’ changed from 0644 (rw-r--r--) to 0755 (rwxr-xr-x)
+mode of ‘./programs/backup/network’ retained as 0777 (rwxrwxrwx)
+mode of ‘./programs/backup/network/dhcpcd.conf’ retained as 0777 (rwxrwxrwx)
+mode of ‘./programs/backup/network/interfaces’ retained as 0777 (rwxrwxrwx)
+mode of ‘./programs/backup/samba’ retained as 0777 (rwxrwxrwx)
+mode of ‘./programs/backup/samba/smb.conf’ retained as 0777 (rwxrwxrwx)
+mode of ‘./programs/backup/PiHome2342-02-07-2017.tgz’ retained as 0777 (rwxrwxrwx)
+mode of ‘./programs/backup/crontab’ retained as 0777 (rwxrwxrwx)
+mode of ‘./programs/backup/crontab/20170702.crontab’ retained as 0777 (rwxrwxrwx)
+mode of ‘./programs/autoupdater.sh’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/blank.sh’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/notes.txt’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/rpi-rf_receive.py’ retained as 0775 (rwxrwxr-x)
+mode of ‘./programs/backing_up_pi.sh’ retained as 0777 (rwxrwxrwx)
+mode of ‘./programs/pi-prerequisites.sh’ retained as 0777 (rwxrwxrwx)
+mode of ‘./programs/pre’ retained as 0775 (rwxrwxr-x)
+Congratuation downloaded git_clone.sh is now installed.......
+
+
+Sun  2 Jul 19:35:52 PDT 2017
+# # # # # # # #      	  git_clone.sh DONE!!       	# # # # # # # # # # # # # # # # # #
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
+
+
+
+
+
+
+Successfully SYNCed with GitHub.......
+
+
+Now this will set IP address to 192.168.xxx.5
+
+
+
+Now  his install SAMBA file sharing over the network 
+
+
+
+Do you want to add the custom commands? 	
+
+
+Successfully added the custom commands
+
+
+Now this install done 
+
+Please reboot your computer for the change to take effect!!!
+
+
+
+
+
+
+
+
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
+# # # # # # # #  Starting apt-get pi-prerequisites.sh   # # # # # # # # # # # # # # # # # # #
+
+
+You are Running the pi-prerequisites.sh script.
+This script is best to run right after a fresh Pi Installation
+First I will SYNC with GitHub.......
+
+
+
+
+Now this will set IP address to 192.168.xxx.5
+
+
+
+Now  his install SAMBA file sharing over the network 
+
+
+
+Do you want to add the custom commands? 	
+
+
+Successfully added the custom commands
+
+
+Now this install done 
+
+Please reboot your computer for the change to take effect!!!
+
+
+
+
+
+
+
+

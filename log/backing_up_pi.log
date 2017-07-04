@@ -1,0 +1,991 @@
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
+# # # # # # # #          Starting backing_up_pi.sh      # # # # # # # # # # # # # # # # # # #
+Sun  2 Jul 23:23:52 UTC 2017
+
+failed to change mode of ‘/home/pi/backup/’ from 0000 (---------) to 0000 (---------)
+mode of ‘/home/pi/log/’ changed from 0775 (rwxrwxr-x) to 0777 (rwxrwxrwx)
+mode of ‘/home/pi/log/backing_up_pi.log’ changed from 0644 (rw-r--r--) to 0777 (rwxrwxrwx)
+mode of ‘/home/pi/log/install’ changed from 0775 (rwxrwxr-x) to 0777 (rwxrwxrwx)
+mode of ‘/home/pi/log/install/pi-prerequisites.log’ changed from 0775 (rwxrwxr-x) to 0777 (rwxrwxrwx)
+mode of ‘/home/pi/log/install/Install_sip_sprinkler.log’ changed from 0644 (rw-r--r--) to 0777 (rwxrwxrwx)
+mode of ‘/home/pi/log/install/samba_install.sh.log’ changed from 0775 (rwxrwxr-x) to 0777 (rwxrwxrwx)
+mode of ‘/home/pi/log/install/git_clone.log’ changed from 0775 (rwxrwxr-x) to 0777 (rwxrwxrwx)
+mode of ‘/home/pi/log/install/static_ip.log’ changed from 0775 (rwxrwxr-x) to 0777 (rwxrwxrwx)
+mode of ‘/home/pi/log/install/HAupdate.log’ changed from 0644 (rw-r--r--) to 0777 (rwxrwxrwx)
+mode of ‘/home/pi/log/install/HArestart.log’ changed from 0644 (rw-r--r--) to 0777 (rwxrwxrwx)
+mode of ‘/home/pi/log/install/Install_WebIOPi.log’ changed from 0644 (rw-r--r--) to 0777 (rwxrwxrwx)
+
+sending incremental file list
+
+sent 18 bytes  received 12 bytes  60.00 bytes/sec
+total size is 0  speedup is 0.00
+sending incremental file list
+
+sent 18 bytes  received 12 bytes  60.00 bytes/sec
+total size is 0  speedup is 0.00
+sending incremental file list
+
+sent 18 bytes  received 12 bytes  60.00 bytes/sec
+total size is 0  speedup is 0.00
+sending incremental file list
+
+sent 20 bytes  received 12 bytes  64.00 bytes/sec
+total size is 0  speedup is 0.00
+sending incremental file list
+
+sent 20 bytes  received 12 bytes  64.00 bytes/sec
+total size is 0  speedup is 0.00
+
+sending incremental file list
+
+sent 20 bytes  received 12 bytes  64.00 bytes/sec
+total size is 0  speedup is 0.00
+sending incremental file list
+
+sent 20 bytes  received 12 bytes  64.00 bytes/sec
+total size is 0  speedup is 0.00
+
+sending incremental file list
+smb.conf
+
+sent 12,460 bytes  received 35 bytes  24,990.00 bytes/sec
+total size is 12,367  speedup is 0.99
+
+sending incremental file list
+interfaces
+
+sent 619 bytes  received 35 bytes  1,308.00 bytes/sec
+total size is 523  speedup is 0.80
+sending incremental file list
+dhcpcd.conf
+
+sent 1,563 bytes  received 35 bytes  3,196.00 bytes/sec
+total size is 1,467  speedup is 0.92
+
+mode of ‘/home/pi/backup/’ changed from 0755 (rwxr-xr-x) to 0777 (rwxrwxrwx)
+mode of ‘/home/pi/backup/pi_garage_alert’ changed from 0755 (rwxr-xr-x) to 0777 (rwxrwxrwx)
+mode of ‘/home/pi/backup/pi_garage_alert/bin’ changed from 0755 (rwxr-xr-x) to 0777 (rwxrwxrwx)
+mode of ‘/home/pi/backup/pi_garage_alert/init.d’ changed from 0755 (rwxr-xr-x) to 0777 (rwxrwxrwx)
+mode of ‘/home/pi/backup/pi_garage_alert/email’ changed from 0755 (rwxr-xr-x) to 0777 (rwxrwxrwx)
+mode of ‘/home/pi/backup/pi_garage_alert/etc’ changed from 0755 (rwxr-xr-x) to 0777 (rwxrwxrwx)
+mode of ‘/home/pi/backup/email’ changed from 0755 (rwxr-xr-x) to 0777 (rwxrwxrwx)
+mode of ‘/home/pi/backup/network’ changed from 0755 (rwxr-xr-x) to 0777 (rwxrwxrwx)
+mode of ‘/home/pi/backup/network/dhcpcd.conf’ changed from 0755 (rwxr-xr-x) to 0777 (rwxrwxrwx)
+mode of ‘/home/pi/backup/network/interfaces’ changed from 0644 (rw-r--r--) to 0777 (rwxrwxrwx)
+mode of ‘/home/pi/backup/samba’ changed from 0755 (rwxr-xr-x) to 0777 (rwxrwxrwx)
+mode of ‘/home/pi/backup/samba/smb.conf’ changed from 0755 (rwxr-xr-x) to 0777 (rwxrwxrwx)
+mode of ‘/home/pi/backup/PiHome2323-02-07-2017.tgz’ changed from 0644 (rw-r--r--) to 0777 (rwxrwxrwx)
+mode of ‘/home/pi/log/’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/log/backing_up_pi.log’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/log/install’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/log/install/pi-prerequisites.log’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/log/install/Install_sip_sprinkler.log’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/log/install/samba_install.sh.log’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/log/install/git_clone.log’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/log/install/static_ip.log’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/log/install/HAupdate.log’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/log/install/HArestart.log’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/log/install/Install_WebIOPi.log’ retained as 0777 (rwxrwxrwx)
+
+Sun  2 Jul 23:24:08 UTC 2017
+# # # # # # # #        /home/pi/programs/backing_up_pi DONE!!       # # # # # # # # # # # # #
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
+
+
+
+
+
+
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
+# # # # # # # #          Starting backing_up_pi.sh      # # # # # # # # # # # # # # # # # # #
+Sun  2 Jul 23:31:41 UTC 2017
+
+mode of ‘/home/pi/backup/’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/backup/pi_garage_alert’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/backup/pi_garage_alert/bin’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/backup/pi_garage_alert/init.d’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/backup/pi_garage_alert/email’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/backup/pi_garage_alert/etc’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/backup/email’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/backup/network’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/backup/network/dhcpcd.conf’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/backup/network/interfaces’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/backup/samba’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/backup/samba/smb.conf’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/backup/PiHome2323-02-07-2017.tgz’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/log/’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/log/backing_up_pi.log’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/log/install’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/log/install/pi-prerequisites.log’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/log/install/Install_sip_sprinkler.log’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/log/install/samba_install.sh.log’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/log/install/git_clone.log’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/log/install/static_ip.log’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/log/install/HAupdate.log’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/log/install/HArestart.log’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/log/install/Install_WebIOPi.log’ retained as 0777 (rwxrwxrwx)
+
+
+sending incremental file list
+created directory /home/pi/backup/crontab
+
+sent 20 bytes  received 58 bytes  156.00 bytes/sec
+total size is 0  speedup is 0.00
+sending incremental file list
+
+sent 20 bytes  received 12 bytes  64.00 bytes/sec
+total size is 0  speedup is 0.00
+
+sending incremental file list
+
+sent 53 bytes  received 19 bytes  144.00 bytes/sec
+total size is 12,367  speedup is 171.76
+
+sending incremental file list
+
+sent 56 bytes  received 19 bytes  150.00 bytes/sec
+total size is 523  speedup is 6.97
+sending incremental file list
+
+sent 56 bytes  received 19 bytes  150.00 bytes/sec
+total size is 1,467  speedup is 19.56
+
+mode of ‘/home/pi/backup/’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/backup/pi_garage_alert’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/backup/pi_garage_alert/bin’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/backup/pi_garage_alert/init.d’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/backup/pi_garage_alert/email’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/backup/pi_garage_alert/etc’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/backup/email’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/backup/network’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/backup/network/dhcpcd.conf’ changed from 0755 (rwxr-xr-x) to 0777 (rwxrwxrwx)
+mode of ‘/home/pi/backup/network/interfaces’ changed from 0644 (rw-r--r--) to 0777 (rwxrwxrwx)
+mode of ‘/home/pi/backup/samba’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/backup/samba/smb.conf’ changed from 0755 (rwxr-xr-x) to 0777 (rwxrwxrwx)
+mode of ‘/home/pi/backup/PiHome2331-02-07-2017.tgz’ changed from 0644 (rw-r--r--) to 0777 (rwxrwxrwx)
+mode of ‘/home/pi/backup/crontab’ changed from 0755 (rwxr-xr-x) to 0777 (rwxrwxrwx)
+mode of ‘/home/pi/backup/PiHome2323-02-07-2017.tgz’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/log/’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/log/backing_up_pi.log’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/log/install’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/log/install/pi-prerequisites.log’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/log/install/Install_sip_sprinkler.log’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/log/install/samba_install.sh.log’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/log/install/git_clone.log’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/log/install/static_ip.log’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/log/install/HAupdate.log’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/log/install/HArestart.log’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/log/install/Install_WebIOPi.log’ retained as 0777 (rwxrwxrwx)
+
+Sun  2 Jul 23:31:59 UTC 2017
+# # # # # # # #        /home/pi/programs/backing_up_pi DONE!!       # # # # # # # # # # # # #
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
+
+
+
+
+
+
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
+# # # # # # # #          Starting backing_up_pi.sh      # # # # # # # # # # # # # # # # # # #
+Sun  2 Jul 23:36:25 UTC 2017
+
+mode of ‘/home/pi/backup/’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/backup/pi_garage_alert’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/backup/pi_garage_alert/bin’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/backup/pi_garage_alert/init.d’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/backup/pi_garage_alert/email’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/backup/pi_garage_alert/etc’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/backup/email’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/backup/network’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/backup/network/dhcpcd.conf’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/backup/network/interfaces’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/backup/samba’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/backup/samba/smb.conf’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/backup/PiHome2331-02-07-2017.tgz’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/backup/crontab’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/backup/PiHome2323-02-07-2017.tgz’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/log/’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/log/backing_up_pi.log’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/log/install’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/log/install/pi-prerequisites.log’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/log/install/Install_sip_sprinkler.log’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/log/install/samba_install.sh.log’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/log/install/git_clone.log’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/log/install/static_ip.log’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/log/install/HAupdate.log’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/log/install/HArestart.log’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/log/install/Install_WebIOPi.log’ retained as 0777 (rwxrwxrwx)
+
+
+sending incremental file list
+
+sent 20 bytes  received 12 bytes  64.00 bytes/sec
+total size is 0  speedup is 0.00
+sending incremental file list
+
+sent 20 bytes  received 12 bytes  64.00 bytes/sec
+total size is 0  speedup is 0.00
+
+sending incremental file list
+
+sent 53 bytes  received 19 bytes  144.00 bytes/sec
+total size is 12,367  speedup is 171.76
+
+sending incremental file list
+
+sent 56 bytes  received 19 bytes  150.00 bytes/sec
+total size is 523  speedup is 6.97
+sending incremental file list
+
+sent 56 bytes  received 19 bytes  150.00 bytes/sec
+total size is 1,467  speedup is 19.56
+
+mode of ‘/home/pi/backup/’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/backup/pi_garage_alert’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/backup/pi_garage_alert/bin’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/backup/pi_garage_alert/init.d’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/backup/pi_garage_alert/email’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/backup/pi_garage_alert/etc’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/backup/email’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/backup/network’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/backup/network/dhcpcd.conf’ changed from 0755 (rwxr-xr-x) to 0777 (rwxrwxrwx)
+mode of ‘/home/pi/backup/network/interfaces’ changed from 0644 (rw-r--r--) to 0777 (rwxrwxrwx)
+mode of ‘/home/pi/backup/samba’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/backup/samba/smb.conf’ changed from 0755 (rwxr-xr-x) to 0777 (rwxrwxrwx)
+mode of ‘/home/pi/backup/PiHome2331-02-07-2017.tgz’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/backup/crontab’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/backup/crontab/20170702’ changed from 0644 (rw-r--r--) to 0777 (rwxrwxrwx)
+mode of ‘/home/pi/backup/PiHome2323-02-07-2017.tgz’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/log/’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/log/backing_up_pi.log’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/log/install’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/log/install/pi-prerequisites.log’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/log/install/Install_sip_sprinkler.log’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/log/install/samba_install.sh.log’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/log/install/git_clone.log’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/log/install/static_ip.log’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/log/install/HAupdate.log’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/log/install/HArestart.log’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/log/install/Install_WebIOPi.log’ retained as 0777 (rwxrwxrwx)
+
+Sun  2 Jul 23:36:25 UTC 2017
+# # # # # # # #        /home/pi/programs/backing_up_pi DONE!!       # # # # # # # # # # # # #
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
+
+
+
+
+
+
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
+# # # # # # # #          Starting backing_up_pi.sh      # # # # # # # # # # # # # # # # # # #
+Sun  2 Jul 23:37:24 UTC 2017
+
+mode of ‘/home/pi/backup/’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/backup/pi_garage_alert’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/backup/pi_garage_alert/bin’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/backup/pi_garage_alert/init.d’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/backup/pi_garage_alert/email’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/backup/pi_garage_alert/etc’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/backup/email’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/backup/network’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/backup/network/dhcpcd.conf’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/backup/network/interfaces’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/backup/samba’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/backup/samba/smb.conf’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/backup/PiHome2331-02-07-2017.tgz’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/backup/crontab’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/backup/crontab/20170702’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/backup/PiHome2323-02-07-2017.tgz’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/log/’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/log/backing_up_pi.log’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/log/install’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/log/install/pi-prerequisites.log’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/log/install/Install_sip_sprinkler.log’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/log/install/samba_install.sh.log’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/log/install/git_clone.log’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/log/install/static_ip.log’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/log/install/HAupdate.log’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/log/install/HArestart.log’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/log/install/Install_WebIOPi.log’ retained as 0777 (rwxrwxrwx)
+
+
+sending incremental file list
+
+sent 20 bytes  received 12 bytes  64.00 bytes/sec
+total size is 0  speedup is 0.00
+sending incremental file list
+
+sent 20 bytes  received 12 bytes  64.00 bytes/sec
+total size is 0  speedup is 0.00
+
+sending incremental file list
+
+sent 53 bytes  received 19 bytes  144.00 bytes/sec
+total size is 12,367  speedup is 171.76
+
+sending incremental file list
+
+sent 56 bytes  received 19 bytes  150.00 bytes/sec
+total size is 523  speedup is 6.97
+sending incremental file list
+
+sent 56 bytes  received 19 bytes  150.00 bytes/sec
+total size is 1,467  speedup is 19.56
+
+mode of ‘/home/pi/backup/’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/backup/pi_garage_alert’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/backup/pi_garage_alert/bin’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/backup/pi_garage_alert/init.d’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/backup/pi_garage_alert/email’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/backup/pi_garage_alert/etc’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/backup/email’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/backup/network’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/backup/network/dhcpcd.conf’ changed from 0755 (rwxr-xr-x) to 0777 (rwxrwxrwx)
+mode of ‘/home/pi/backup/network/interfaces’ changed from 0644 (rw-r--r--) to 0777 (rwxrwxrwx)
+mode of ‘/home/pi/backup/samba’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/backup/samba/smb.conf’ changed from 0755 (rwxr-xr-x) to 0777 (rwxrwxrwx)
+mode of ‘/home/pi/backup/PiHome2331-02-07-2017.tgz’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/backup/crontab’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/backup/crontab/20170702’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/backup/crontab/20170702.crontab’ changed from 0644 (rw-r--r--) to 0777 (rwxrwxrwx)
+mode of ‘/home/pi/backup/PiHome2323-02-07-2017.tgz’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/log/’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/log/backing_up_pi.log’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/log/install’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/log/install/pi-prerequisites.log’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/log/install/Install_sip_sprinkler.log’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/log/install/samba_install.sh.log’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/log/install/git_clone.log’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/log/install/static_ip.log’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/log/install/HAupdate.log’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/log/install/HArestart.log’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/log/install/Install_WebIOPi.log’ retained as 0777 (rwxrwxrwx)
+
+Sun  2 Jul 23:37:24 UTC 2017
+# # # # # # # #        /home/pi/programs/backing_up_pi DONE!!       # # # # # # # # # # # # #
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
+
+
+
+
+
+
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
+# # # # # # # #          Starting backing_up_pi.sh      # # # # # # # # # # # # # # # # # # #
+Sun  2 Jul 23:39:35 UTC 2017
+
+mode of ‘/home/pi/programs/backup/’ changed from 0775 (rwxrwxr-x) to 0777 (rwxrwxrwx)
+mode of ‘/home/pi/programs/backup/pi_garage_alert’ changed from 0775 (rwxrwxr-x) to 0777 (rwxrwxrwx)
+mode of ‘/home/pi/programs/backup/pi_garage_alert/bin’ changed from 0775 (rwxrwxr-x) to 0777 (rwxrwxrwx)
+mode of ‘/home/pi/programs/backup/pi_garage_alert/bin/pi_garage_alert.py’ changed from 0775 (rwxrwxr-x) to 0777 (rwxrwxrwx)
+mode of ‘/home/pi/programs/backup/pi_garage_alert/init.d’ changed from 0775 (rwxrwxr-x) to 0777 (rwxrwxrwx)
+mode of ‘/home/pi/programs/backup/pi_garage_alert/init.d/pi_garage_alert’ changed from 0775 (rwxrwxr-x) to 0777 (rwxrwxrwx)
+mode of ‘/home/pi/programs/backup/pi_garage_alert/email’ changed from 0775 (rwxrwxr-x) to 0777 (rwxrwxrwx)
+mode of ‘/home/pi/programs/backup/pi_garage_alert/email/sasl_passwd’ changed from 0775 (rwxrwxr-x) to 0777 (rwxrwxrwx)
+mode of ‘/home/pi/programs/backup/pi_garage_alert/email/main.cf’ changed from 0775 (rwxrwxr-x) to 0777 (rwxrwxrwx)
+mode of ‘/home/pi/programs/backup/pi_garage_alert/etc’ changed from 0775 (rwxrwxr-x) to 0777 (rwxrwxrwx)
+mode of ‘/home/pi/programs/backup/pi_garage_alert/etc/pi_garage_alert_config.py’ changed from 0775 (rwxrwxr-x) to 0777 (rwxrwxrwx)
+mode of ‘/home/pi/programs/backup/email’ changed from 0775 (rwxrwxr-x) to 0777 (rwxrwxrwx)
+mode of ‘/home/pi/programs/backup/email/sasl_passwd’ changed from 0775 (rwxrwxr-x) to 0777 (rwxrwxrwx)
+mode of ‘/home/pi/programs/backup/email/main.cf’ changed from 0775 (rwxrwxr-x) to 0777 (rwxrwxrwx)
+mode of ‘/home/pi/programs/backup/network’ changed from 0775 (rwxrwxr-x) to 0777 (rwxrwxrwx)
+mode of ‘/home/pi/programs/backup/network/dhcpcd.conf’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/programs/backup/network/interfaces’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/programs/backup/samba’ changed from 0775 (rwxrwxr-x) to 0777 (rwxrwxrwx)
+mode of ‘/home/pi/programs/backup/samba/smb.conf’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/programs/backup/crontab’ changed from 0775 (rwxrwxr-x) to 0777 (rwxrwxrwx)
+mode of ‘/home/pi/log/’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/log/backing_up_pi.log’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/log/install’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/log/install/pi-prerequisites.log’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/log/install/Install_sip_sprinkler.log’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/log/install/samba_install.sh.log’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/log/install/git_clone.log’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/log/install/static_ip.log’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/log/install/HAupdate.log’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/log/install/HArestart.log’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/log/install/Install_WebIOPi.log’ retained as 0777 (rwxrwxrwx)
+
+
+sending incremental file list
+
+sent 20 bytes  received 12 bytes  64.00 bytes/sec
+total size is 0  speedup is 0.00
+sending incremental file list
+
+sent 20 bytes  received 12 bytes  64.00 bytes/sec
+total size is 0  speedup is 0.00
+
+sending incremental file list
+
+sent 53 bytes  received 19 bytes  144.00 bytes/sec
+total size is 12,367  speedup is 171.76
+
+sending incremental file list
+
+sent 56 bytes  received 19 bytes  150.00 bytes/sec
+total size is 523  speedup is 6.97
+sending incremental file list
+
+sent 56 bytes  received 19 bytes  150.00 bytes/sec
+total size is 1,467  speedup is 19.56
+
+mode of ‘/home/pi/programs/backup/’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/programs/backup/pi_garage_alert’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/programs/backup/pi_garage_alert/bin’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/programs/backup/pi_garage_alert/bin/pi_garage_alert.py’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/programs/backup/pi_garage_alert/init.d’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/programs/backup/pi_garage_alert/init.d/pi_garage_alert’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/programs/backup/pi_garage_alert/email’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/programs/backup/pi_garage_alert/email/sasl_passwd’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/programs/backup/pi_garage_alert/email/main.cf’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/programs/backup/pi_garage_alert/etc’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/programs/backup/pi_garage_alert/etc/pi_garage_alert_config.py’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/programs/backup/email’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/programs/backup/email/sasl_passwd’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/programs/backup/email/main.cf’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/programs/backup/network’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/programs/backup/network/dhcpcd.conf’ changed from 0755 (rwxr-xr-x) to 0777 (rwxrwxrwx)
+mode of ‘/home/pi/programs/backup/network/interfaces’ changed from 0644 (rw-r--r--) to 0777 (rwxrwxrwx)
+mode of ‘/home/pi/programs/backup/samba’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/programs/backup/samba/smb.conf’ changed from 0755 (rwxr-xr-x) to 0777 (rwxrwxrwx)
+mode of ‘/home/pi/programs/backup/crontab’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/log/’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/log/backing_up_pi.log’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/log/install’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/log/install/pi-prerequisites.log’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/log/install/Install_sip_sprinkler.log’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/log/install/samba_install.sh.log’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/log/install/git_clone.log’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/log/install/static_ip.log’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/log/install/HAupdate.log’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/log/install/HArestart.log’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/log/install/Install_WebIOPi.log’ retained as 0777 (rwxrwxrwx)
+
+Sun  2 Jul 23:39:35 UTC 2017
+# # # # # # # #        /home/pi/programs/backing_up_pi DONE!!       # # # # # # # # # # # # #
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
+
+
+
+
+
+
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
+# # # # # # # #          Starting backing_up_pi.sh      # # # # # # # # # # # # # # # # # # #
+Sun  2 Jul 23:40:02 UTC 2017
+
+mode of ‘/home/pi/programs/backup/’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/programs/backup/pi_garage_alert’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/programs/backup/pi_garage_alert/bin’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/programs/backup/pi_garage_alert/bin/pi_garage_alert.py’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/programs/backup/pi_garage_alert/init.d’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/programs/backup/pi_garage_alert/init.d/pi_garage_alert’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/programs/backup/pi_garage_alert/email’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/programs/backup/pi_garage_alert/email/sasl_passwd’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/programs/backup/pi_garage_alert/email/main.cf’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/programs/backup/pi_garage_alert/etc’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/programs/backup/pi_garage_alert/etc/pi_garage_alert_config.py’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/programs/backup/email’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/programs/backup/email/sasl_passwd’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/programs/backup/email/main.cf’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/programs/backup/network’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/programs/backup/network/dhcpcd.conf’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/programs/backup/network/interfaces’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/programs/backup/samba’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/programs/backup/samba/smb.conf’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/log/’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/log/backing_up_pi.log’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/log/install’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/log/install/pi-prerequisites.log’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/log/install/Install_sip_sprinkler.log’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/log/install/samba_install.sh.log’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/log/install/git_clone.log’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/log/install/static_ip.log’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/log/install/HAupdate.log’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/log/install/HArestart.log’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/log/install/Install_WebIOPi.log’ retained as 0777 (rwxrwxrwx)
+
+
+sending incremental file list
+
+sent 20 bytes  received 12 bytes  64.00 bytes/sec
+total size is 0  speedup is 0.00
+sending incremental file list
+
+sent 20 bytes  received 12 bytes  64.00 bytes/sec
+total size is 0  speedup is 0.00
+
+sending incremental file list
+
+sent 53 bytes  received 19 bytes  144.00 bytes/sec
+total size is 12,367  speedup is 171.76
+
+sending incremental file list
+
+sent 56 bytes  received 19 bytes  150.00 bytes/sec
+total size is 523  speedup is 6.97
+sending incremental file list
+
+sent 56 bytes  received 19 bytes  150.00 bytes/sec
+total size is 1,467  speedup is 19.56
+
+mode of ‘/home/pi/programs/backup/’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/programs/backup/pi_garage_alert’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/programs/backup/pi_garage_alert/bin’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/programs/backup/pi_garage_alert/bin/pi_garage_alert.py’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/programs/backup/pi_garage_alert/init.d’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/programs/backup/pi_garage_alert/init.d/pi_garage_alert’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/programs/backup/pi_garage_alert/email’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/programs/backup/pi_garage_alert/email/sasl_passwd’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/programs/backup/pi_garage_alert/email/main.cf’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/programs/backup/pi_garage_alert/etc’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/programs/backup/pi_garage_alert/etc/pi_garage_alert_config.py’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/programs/backup/email’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/programs/backup/email/sasl_passwd’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/programs/backup/email/main.cf’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/programs/backup/network’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/programs/backup/network/dhcpcd.conf’ changed from 0755 (rwxr-xr-x) to 0777 (rwxrwxrwx)
+mode of ‘/home/pi/programs/backup/network/interfaces’ changed from 0644 (rw-r--r--) to 0777 (rwxrwxrwx)
+mode of ‘/home/pi/programs/backup/samba’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/programs/backup/samba/smb.conf’ changed from 0755 (rwxr-xr-x) to 0777 (rwxrwxrwx)
+mode of ‘/home/pi/programs/backup/crontab’ changed from 0755 (rwxr-xr-x) to 0777 (rwxrwxrwx)
+mode of ‘/home/pi/programs/backup/crontab/20170702.crontab’ changed from 0644 (rw-r--r--) to 0777 (rwxrwxrwx)
+mode of ‘/home/pi/log/’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/log/backing_up_pi.log’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/log/install’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/log/install/pi-prerequisites.log’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/log/install/Install_sip_sprinkler.log’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/log/install/samba_install.sh.log’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/log/install/git_clone.log’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/log/install/static_ip.log’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/log/install/HAupdate.log’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/log/install/HArestart.log’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/log/install/Install_WebIOPi.log’ retained as 0777 (rwxrwxrwx)
+
+Sun  2 Jul 23:40:02 UTC 2017
+# # # # # # # #        /home/pi/programs/backing_up_pi DONE!!       # # # # # # # # # # # # #
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
+
+
+
+
+
+
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
+# # # # # # # #          Starting backing_up_pi.sh      # # # # # # # # # # # # # # # # # # #
+Sun  2 Jul 23:41:37 UTC 2017
+
+mode of ‘/home/pi/programs/backup/’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/programs/backup/pi_garage_alert’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/programs/backup/pi_garage_alert/bin’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/programs/backup/pi_garage_alert/bin/pi_garage_alert.py’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/programs/backup/pi_garage_alert/init.d’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/programs/backup/pi_garage_alert/init.d/pi_garage_alert’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/programs/backup/pi_garage_alert/email’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/programs/backup/pi_garage_alert/email/sasl_passwd’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/programs/backup/pi_garage_alert/email/main.cf’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/programs/backup/pi_garage_alert/etc’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/programs/backup/pi_garage_alert/etc/pi_garage_alert_config.py’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/programs/backup/email’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/programs/backup/email/sasl_passwd’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/programs/backup/email/main.cf’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/programs/backup/network’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/programs/backup/network/dhcpcd.conf’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/programs/backup/network/interfaces’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/programs/backup/samba’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/programs/backup/samba/smb.conf’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/programs/backup/crontab’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/programs/backup/crontab/20170702.crontab’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/log/’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/log/backing_up_pi.log’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/log/install’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/log/install/pi-prerequisites.log’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/log/install/Install_sip_sprinkler.log’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/log/install/samba_install.sh.log’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/log/install/git_clone.log’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/log/install/static_ip.log’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/log/install/HAupdate.log’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/log/install/HArestart.log’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/log/install/Install_WebIOPi.log’ retained as 0777 (rwxrwxrwx)
+
+
+sending incremental file list
+
+sent 20 bytes  received 12 bytes  64.00 bytes/sec
+total size is 0  speedup is 0.00
+sending incremental file list
+
+sent 20 bytes  received 12 bytes  64.00 bytes/sec
+total size is 0  speedup is 0.00
+
+sending incremental file list
+
+sent 53 bytes  received 19 bytes  144.00 bytes/sec
+total size is 12,367  speedup is 171.76
+
+sending incremental file list
+
+sent 56 bytes  received 19 bytes  150.00 bytes/sec
+total size is 523  speedup is 6.97
+sending incremental file list
+
+sent 56 bytes  received 19 bytes  150.00 bytes/sec
+total size is 1,467  speedup is 19.56
+
+mode of ‘/home/pi/programs/backup/’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/programs/backup/pi_garage_alert’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/programs/backup/pi_garage_alert/bin’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/programs/backup/pi_garage_alert/bin/pi_garage_alert.py’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/programs/backup/pi_garage_alert/init.d’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/programs/backup/pi_garage_alert/init.d/pi_garage_alert’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/programs/backup/pi_garage_alert/email’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/programs/backup/pi_garage_alert/email/sasl_passwd’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/programs/backup/pi_garage_alert/email/main.cf’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/programs/backup/pi_garage_alert/etc’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/programs/backup/pi_garage_alert/etc/pi_garage_alert_config.py’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/programs/backup/email’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/programs/backup/email/sasl_passwd’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/programs/backup/email/main.cf’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/programs/backup/network’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/programs/backup/network/dhcpcd.conf’ changed from 0755 (rwxr-xr-x) to 0777 (rwxrwxrwx)
+mode of ‘/home/pi/programs/backup/network/interfaces’ changed from 0644 (rw-r--r--) to 0777 (rwxrwxrwx)
+mode of ‘/home/pi/programs/backup/samba’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/programs/backup/samba/smb.conf’ changed from 0755 (rwxr-xr-x) to 0777 (rwxrwxrwx)
+mode of ‘/home/pi/programs/backup/crontab’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/programs/backup/crontab/20170702.crontab’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/log/’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/log/backing_up_pi.log’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/log/install’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/log/install/pi-prerequisites.log’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/log/install/Install_sip_sprinkler.log’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/log/install/samba_install.sh.log’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/log/install/git_clone.log’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/log/install/static_ip.log’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/log/install/HAupdate.log’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/log/install/HArestart.log’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/log/install/Install_WebIOPi.log’ retained as 0777 (rwxrwxrwx)
+
+Sun  2 Jul 23:41:37 UTC 2017
+# # # # # # # #        /home/pi/programs/backing_up_pi DONE!!       # # # # # # # # # # # # #
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
+
+
+
+
+
+
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
+# # # # # # # #          Starting backing_up_pi.sh      # # # # # # # # # # # # # # # # # # #
+Sun  2 Jul 23:42:21 UTC 2017
+
+mode of ‘/home/pi/programs/backup/’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/programs/backup/pi_garage_alert’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/programs/backup/pi_garage_alert/bin’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/programs/backup/pi_garage_alert/bin/pi_garage_alert.py’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/programs/backup/pi_garage_alert/init.d’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/programs/backup/pi_garage_alert/init.d/pi_garage_alert’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/programs/backup/pi_garage_alert/email’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/programs/backup/pi_garage_alert/email/sasl_passwd’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/programs/backup/pi_garage_alert/email/main.cf’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/programs/backup/pi_garage_alert/etc’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/programs/backup/pi_garage_alert/etc/pi_garage_alert_config.py’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/programs/backup/email’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/programs/backup/email/sasl_passwd’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/programs/backup/email/main.cf’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/programs/backup/network’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/programs/backup/network/dhcpcd.conf’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/programs/backup/network/interfaces’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/programs/backup/samba’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/programs/backup/samba/smb.conf’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/programs/backup/crontab’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/programs/backup/crontab/20170702.crontab’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/log/’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/log/backing_up_pi.log’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/log/install’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/log/install/pi-prerequisites.log’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/log/install/Install_sip_sprinkler.log’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/log/install/samba_install.sh.log’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/log/install/git_clone.log’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/log/install/static_ip.log’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/log/install/HAupdate.log’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/log/install/HArestart.log’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/log/install/Install_WebIOPi.log’ retained as 0777 (rwxrwxrwx)
+
+
+sending incremental file list
+
+sent 20 bytes  received 12 bytes  64.00 bytes/sec
+total size is 0  speedup is 0.00
+sending incremental file list
+
+sent 20 bytes  received 12 bytes  64.00 bytes/sec
+total size is 0  speedup is 0.00
+
+sending incremental file list
+
+sent 53 bytes  received 19 bytes  144.00 bytes/sec
+total size is 12,367  speedup is 171.76
+
+sending incremental file list
+
+sent 56 bytes  received 19 bytes  150.00 bytes/sec
+total size is 523  speedup is 6.97
+sending incremental file list
+
+sent 56 bytes  received 19 bytes  150.00 bytes/sec
+total size is 1,467  speedup is 19.56
+
+mode of ‘/home/pi/programs/backup/’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/programs/backup/pi_garage_alert’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/programs/backup/pi_garage_alert/bin’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/programs/backup/pi_garage_alert/bin/pi_garage_alert.py’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/programs/backup/pi_garage_alert/init.d’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/programs/backup/pi_garage_alert/init.d/pi_garage_alert’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/programs/backup/pi_garage_alert/email’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/programs/backup/pi_garage_alert/email/sasl_passwd’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/programs/backup/pi_garage_alert/email/main.cf’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/programs/backup/pi_garage_alert/etc’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/programs/backup/pi_garage_alert/etc/pi_garage_alert_config.py’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/programs/backup/email’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/programs/backup/email/sasl_passwd’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/programs/backup/email/main.cf’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/programs/backup/network’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/programs/backup/network/dhcpcd.conf’ changed from 0755 (rwxr-xr-x) to 0777 (rwxrwxrwx)
+mode of ‘/home/pi/programs/backup/network/interfaces’ changed from 0644 (rw-r--r--) to 0777 (rwxrwxrwx)
+mode of ‘/home/pi/programs/backup/samba’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/programs/backup/samba/smb.conf’ changed from 0755 (rwxr-xr-x) to 0777 (rwxrwxrwx)
+mode of ‘/home/pi/programs/backup/PiHome2342-02-07-2017.tgz’ changed from 0644 (rw-r--r--) to 0777 (rwxrwxrwx)
+mode of ‘/home/pi/programs/backup/crontab’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/programs/backup/crontab/20170702.crontab’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/log/’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/log/backing_up_pi.log’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/log/install’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/log/install/pi-prerequisites.log’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/log/install/Install_sip_sprinkler.log’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/log/install/samba_install.sh.log’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/log/install/git_clone.log’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/log/install/static_ip.log’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/log/install/HAupdate.log’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/log/install/HArestart.log’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/log/install/Install_WebIOPi.log’ retained as 0777 (rwxrwxrwx)
+
+Sun  2 Jul 23:42:39 UTC 2017
+# # # # # # # #        /home/pi/programs/backing_up_pi DONE!!       # # # # # # # # # # # # #
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
+
+
+
+
+
+
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
+# # # # # # # #          Starting backing_up_pi.sh      # # # # # # # # # # # # # # # # # # #
+Mon  3 Jul 00:00:02 PDT 2017
+
+failed to change mode of ‘/home/pi/backup/’ from 0000 (---------) to 0000 (---------)
+mode of ‘/home/pi/log/’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/log/backing_up_pi.log’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/log/install’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/log/install/pi-prerequisites.log’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/log/install/Install_sip_sprinkler.log’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/log/install/samba_install.sh.log’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/log/install/git_clone.log’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/log/install/static_ip.log’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/log/install/HAupdate.log’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/log/install/HArestart.log’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/log/install/Install_WebIOPi.log’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/log/memory_cleaning.log’ changed from 0644 (rw-r--r--) to 0777 (rwxrwxrwx)
+mode of ‘/home/pi/log/PIreboot.log’ changed from 0644 (rw-r--r--) to 0777 (rwxrwxrwx)
+mode of ‘/home/pi/log/HArestart.log’ changed from 0644 (rw-r--r--) to 0777 (rwxrwxrwx)
+
+sending incremental file list
+
+sent 18 bytes  received 12 bytes  60.00 bytes/sec
+total size is 0  speedup is 0.00
+sending incremental file list
+
+sent 18 bytes  received 12 bytes  60.00 bytes/sec
+total size is 0  speedup is 0.00
+sending incremental file list
+
+sent 18 bytes  received 12 bytes  60.00 bytes/sec
+total size is 0  speedup is 0.00
+sending incremental file list
+
+sent 20 bytes  received 12 bytes  64.00 bytes/sec
+total size is 0  speedup is 0.00
+sending incremental file list
+
+sent 20 bytes  received 12 bytes  64.00 bytes/sec
+total size is 0  speedup is 0.00
+
+sending incremental file list
+
+sent 20 bytes  received 12 bytes  64.00 bytes/sec
+total size is 0  speedup is 0.00
+sending incremental file list
+
+sent 20 bytes  received 12 bytes  64.00 bytes/sec
+total size is 0  speedup is 0.00
+
+sending incremental file list
+smb.conf
+
+sent 12,460 bytes  received 35 bytes  24,990.00 bytes/sec
+total size is 12,367  speedup is 0.99
+
+sending incremental file list
+interfaces
+
+sent 619 bytes  received 35 bytes  1,308.00 bytes/sec
+total size is 523  speedup is 0.80
+sending incremental file list
+dhcpcd.conf
+
+sent 1,563 bytes  received 35 bytes  3,196.00 bytes/sec
+total size is 1,467  speedup is 0.92
+
+mode of ‘/home/pi/backup/’ changed from 0755 (rwxr-xr-x) to 0777 (rwxrwxrwx)
+mode of ‘/home/pi/backup/PiHome0000-03-07-2017.tgz’ changed from 0644 (rw-r--r--) to 0777 (rwxrwxrwx)
+mode of ‘/home/pi/backup/pi_garage_alert’ changed from 0755 (rwxr-xr-x) to 0777 (rwxrwxrwx)
+mode of ‘/home/pi/backup/pi_garage_alert/bin’ changed from 0755 (rwxr-xr-x) to 0777 (rwxrwxrwx)
+mode of ‘/home/pi/backup/pi_garage_alert/init.d’ changed from 0755 (rwxr-xr-x) to 0777 (rwxrwxrwx)
+mode of ‘/home/pi/backup/pi_garage_alert/email’ changed from 0755 (rwxr-xr-x) to 0777 (rwxrwxrwx)
+mode of ‘/home/pi/backup/pi_garage_alert/etc’ changed from 0755 (rwxr-xr-x) to 0777 (rwxrwxrwx)
+mode of ‘/home/pi/backup/email’ changed from 0755 (rwxr-xr-x) to 0777 (rwxrwxrwx)
+mode of ‘/home/pi/backup/network’ changed from 0755 (rwxr-xr-x) to 0777 (rwxrwxrwx)
+mode of ‘/home/pi/backup/network/dhcpcd.conf’ changed from 0755 (rwxr-xr-x) to 0777 (rwxrwxrwx)
+mode of ‘/home/pi/backup/network/interfaces’ changed from 0644 (rw-r--r--) to 0777 (rwxrwxrwx)
+mode of ‘/home/pi/backup/samba’ changed from 0755 (rwxr-xr-x) to 0777 (rwxrwxrwx)
+mode of ‘/home/pi/backup/samba/smb.conf’ changed from 0755 (rwxr-xr-x) to 0777 (rwxrwxrwx)
+mode of ‘/home/pi/log/’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/log/backing_up_pi.log’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/log/install’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/log/install/pi-prerequisites.log’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/log/install/Install_sip_sprinkler.log’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/log/install/samba_install.sh.log’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/log/install/git_clone.log’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/log/install/static_ip.log’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/log/install/HAupdate.log’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/log/install/HArestart.log’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/log/install/Install_WebIOPi.log’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/log/memory_cleaning.log’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/log/PIreboot.log’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/log/HArestart.log’ retained as 0777 (rwxrwxrwx)
+
+Mon  3 Jul 00:00:50 PDT 2017
+# # # # # # # #        /home/pi/programs/backing_up_pi DONE!!       # # # # # # # # # # # # #
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
+
+
+
+
+
+
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
+# # # # # # # #          Starting backing_up_pi.sh      # # # # # # # # # # # # # # # # # # #
+Tue  4 Jul 10:36:58 PDT 2017
+
+failed to change mode of ‘/home/pi/programs/backup/’ from 0000 (---------) to 0000 (---------)
+mode of ‘/home/pi/log/’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/log/backing_up_pi.log’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/log/install’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/log/install/pi-prerequisites.log’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/log/install/Install_sip_sprinkler.log’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/log/install/samba_install.sh.log’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/log/install/git_clone.log’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/log/install/static_ip.log’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/log/install/HAupdate.log’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/log/install/HArestart.log’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/log/install/Install_WebIOPi.log’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/log/memory_cleaning.log’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/log/PIreboot.log’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/log/HArestart.log’ retained as 0777 (rwxrwxrwx)
+
+sending incremental file list
+
+sent 18 bytes  received 12 bytes  60.00 bytes/sec
+total size is 0  speedup is 0.00
+sending incremental file list
+
+sent 18 bytes  received 12 bytes  60.00 bytes/sec
+total size is 0  speedup is 0.00
+sending incremental file list
+
+sent 18 bytes  received 12 bytes  60.00 bytes/sec
+total size is 0  speedup is 0.00
+sending incremental file list
+
+sent 20 bytes  received 12 bytes  64.00 bytes/sec
+total size is 0  speedup is 0.00
+sending incremental file list
+
+sent 20 bytes  received 12 bytes  64.00 bytes/sec
+total size is 0  speedup is 0.00
+
+sending incremental file list
+
+sent 20 bytes  received 12 bytes  64.00 bytes/sec
+total size is 0  speedup is 0.00
+sending incremental file list
+
+sent 20 bytes  received 12 bytes  64.00 bytes/sec
+total size is 0  speedup is 0.00
+
+sending incremental file list
+smb.conf
+
+sent 12,460 bytes  received 35 bytes  24,990.00 bytes/sec
+total size is 12,367  speedup is 0.99
+
+sending incremental file list
+interfaces
+
+sent 619 bytes  received 35 bytes  1,308.00 bytes/sec
+total size is 523  speedup is 0.80
+sending incremental file list
+dhcpcd.conf
+
+sent 1,563 bytes  received 35 bytes  3,196.00 bytes/sec
+total size is 1,467  speedup is 0.92
+
+mode of ‘/home/pi/programs/backup/’ changed from 0755 (rwxr-xr-x) to 0777 (rwxrwxrwx)
+mode of ‘/home/pi/programs/backup/pi_garage_alert’ changed from 0755 (rwxr-xr-x) to 0777 (rwxrwxrwx)
+mode of ‘/home/pi/programs/backup/pi_garage_alert/bin’ changed from 0755 (rwxr-xr-x) to 0777 (rwxrwxrwx)
+mode of ‘/home/pi/programs/backup/pi_garage_alert/init.d’ changed from 0755 (rwxr-xr-x) to 0777 (rwxrwxrwx)
+mode of ‘/home/pi/programs/backup/pi_garage_alert/email’ changed from 0755 (rwxr-xr-x) to 0777 (rwxrwxrwx)
+mode of ‘/home/pi/programs/backup/pi_garage_alert/etc’ changed from 0755 (rwxr-xr-x) to 0777 (rwxrwxrwx)
+mode of ‘/home/pi/programs/backup/PiHome1036-04-07-2017.tgz’ changed from 0644 (rw-r--r--) to 0777 (rwxrwxrwx)
+mode of ‘/home/pi/programs/backup/email’ changed from 0755 (rwxr-xr-x) to 0777 (rwxrwxrwx)
+mode of ‘/home/pi/programs/backup/network’ changed from 0755 (rwxr-xr-x) to 0777 (rwxrwxrwx)
+mode of ‘/home/pi/programs/backup/network/dhcpcd.conf’ changed from 0755 (rwxr-xr-x) to 0777 (rwxrwxrwx)
+mode of ‘/home/pi/programs/backup/network/interfaces’ changed from 0644 (rw-r--r--) to 0777 (rwxrwxrwx)
+mode of ‘/home/pi/programs/backup/samba’ changed from 0755 (rwxr-xr-x) to 0777 (rwxrwxrwx)
+mode of ‘/home/pi/programs/backup/samba/smb.conf’ changed from 0755 (rwxr-xr-x) to 0777 (rwxrwxrwx)
+mode of ‘/home/pi/log/’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/log/backing_up_pi.log’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/log/install’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/log/install/pi-prerequisites.log’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/log/install/Install_sip_sprinkler.log’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/log/install/samba_install.sh.log’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/log/install/git_clone.log’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/log/install/static_ip.log’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/log/install/HAupdate.log’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/log/install/HArestart.log’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/log/install/Install_WebIOPi.log’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/log/memory_cleaning.log’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/log/PIreboot.log’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/log/HArestart.log’ retained as 0777 (rwxrwxrwx)
+
+Tue  4 Jul 10:38:07 PDT 2017
+# # # # # # # #        /home/pi/programs/backing_up_pi DONE!!       # # # # # # # # # # # # #
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
+
+
+
+
+
+

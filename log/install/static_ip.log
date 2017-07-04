@@ -1,0 +1,42 @@
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
+# # # # # # # #  Starting apt-get static_ip.sh  # # # # # # # # # # # # # # # # # # #
+Sun  2 Jul 19:24:52 UTC 2017
+
+changing IP address to static XXX.XXX.XX.5
+
+‘/etc/dhcpcd.conf’ -> ‘/etc/dhcpcd.conf.bak’
+‘/home/pi/programs/backup/network/dhcpcd.conf’ -> ‘/etc/dhcpcd.conf’
+IP address to static XXX.XXX.XX.5 ..................
+Congratuation install static_ip.sh is now installed.......
+
+Sun  2 Jul 19:25:02 UTC 2017
+# # # # # # # #        static_ip.sh DONE!!     	  # # # # # # # # # # # # # # # # # #
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
+
+
+
+
+
+
+
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
+# # # # # # # #  Starting apt-get static_ip.sh  # # # # # # # # # # # # # # # # # # #
+Sun  2 Jul 21:05:22 UTC 2017
+
+changing IP address to static XXX.XXX.XX.5
+
+‘/etc/dhcpcd.conf’ -> ‘/etc/dhcpcd.conf.bak’
+‘/home/pi/programs/backup/network/dhcpcd.conf’ -> ‘/etc/dhcpcd.conf’
+IP address to static XXX.XXX.XX.5 ..................
+Congratuation install static_ip.sh is now installed.......
+
+Sun  2 Jul 21:05:32 UTC 2017
+# # # # # # # #        static_ip.sh DONE!!     	  # # # # # # # # # # # # # # # # # #
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
+
+
+
+
+
+
+
