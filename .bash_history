@@ -296,3 +296,39 @@ sudo PIreboot
 sudo sh /home/pi/programs/pi-prerequisites.sh
 sudo PIreboot
 free -m
+sudo apt-get install motion
+/home/pi/programs/backing_up_pi.sh 
+sudo /home/pi/programs/backing_up_pi.sh 
+ld
+ls
+git push
+git reset
+git push
+git rm --cached giant_file
+git rm --backup/PiHome0000-03-07-2017.tgz
+git rm --cached backup/PiHome0000-03-07-2017.tgz
+git rm --cached PiHome0000-03-07-2017.tgz
+git rm --cached *.tgz
+git push -f
+git fetch
+git push
+git push -u origin master
+find PiHome0000-03-07-2017.tgz
+sudo find . PiHome0000-03-07-2017.tgz
+rm -rf .git
+git push -u origin master
+ls
+git pull
+ls
+git push
+git init
+get push
+get pull
+ls
+sudo nano ./tgz.tgz
+sudo sh /home/pi/programs/backing_up_pi.sh
+git pull
+git push
+sudo PIpoweroff
+sudo nano /etc/motion/motion.conf
+sudo PIreboot

@@ -39,20 +39,26 @@ fi
 	#mkdir -p /home/pi/programs/backup/ 																				| tee -a 	"$LOG_FILE"
 	#mkdir -p /home/pi/programs/backup/ 																				| tee -a 	"$LOG_FILE"
 	echo																									| tee -a 	"$LOG_FILE"
-	sudo tar -zcf /home/pi/programs/backup/PiHome$(date +%H%M-%d-%m-%Y).tgz /home/ --exclude='*.tgz'					| tee -a 	"$LOG_FILE"
+	sudo tar -zcf /home/pi/PiHome$(date +%H%M-%d-%m-%Y).tgz /home/ --exclude='*.tgz'					| tee -a 	"$LOG_FILE"
 	
 	## BACKUP GARAGE SETTINGS
-	rsync -av /usr/local/sbin/pi_garage_alert.py /home/pi/programs/backup/pi_garage_alert/bin/      					| tee -a 	"$LOG_FILE"
-	rsync -av /usr/local/etc/pi_garage_alert_config.py /home/pi/programs/backup/pi_garage_alert/etc/ 				| tee -a 	"$LOG_FILE"
-	rsync -av /etc/init.d/pi_garage_alert /home/pi/programs/backup/pi_garage_alert/init.d/ 							| tee -a 	"$LOG_FILE"
-	rsync -av /etc/postfix/main.cf /home/pi/programs/backup/pi_garage_alert/email/									| tee -a 	"$LOG_FILE"
-	rsync -av /etc/postfix/sasl_passwd /home/pi/programs/backup/pi_garage_alert/email/								| tee -a 	"$LOG_FILE"
+	#rsync -av /usr/local/sbin/pi_garage_alert.py /home/pi/programs/backup/pi_garage_alert/bin/      					| tee -a 	"$LOG_FILE"
+	#rsync -av /usr/local/etc/pi_garage_alert_config.py /home/pi/programs/backup/pi_garage_alert/etc/ 				| tee -a 	"$LOG_FILE"
+	#rsync -av /etc/init.d/pi_garage_alert /home/pi/programs/backup/pi_garage_alert/init.d/ 							| tee -a 	"$LOG_FILE"
+	#rsync -av /etc/postfix/main.cf /home/pi/programs/backup/pi_garage_alert/email/									| tee -a 	"$LOG_FILE"
+	#rsync -av /etc/postfix/sasl_passwd /home/pi/programs/backup/pi_garage_alert/email/								| tee -a 	"$LOG_FILE"
+	
 	echo																									| tee -a 	"$LOG_FILE"
 	
 	
 	## BACKUP MAIL (postfix)
 	rsync -av /etc/postfix/main.cf /home/pi/programs/backup/email/													| tee -a 	"$LOG_FILE"
 	rsync -av /etc/postfix/sasl_passwd /home/pi/programs/backup/email/												| tee -a 	"$LOG_FILE"
+	echo																									| tee -a 	"$LOG_FILE"
+
+	## Motion
+	rsync -av /etc/default/motion /home/pi/programs/backup/motion/												| tee -a 	"$LOG_FILE"
+	rsync -av /etc/motion/motion.conf /home/pi/programs/backup/motion/												| tee -a 	"$LOG_FILE"
 	echo																									| tee -a 	"$LOG_FILE"
 	
 	## BACK UP SAMBA

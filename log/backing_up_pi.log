@@ -1101,3 +1101,115 @@ Tue  4 Jul 11:44:19 PDT 2017
 
 
 
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
+# # # # # # # #          Starting backing_up_pi.sh      # # # # # # # # # # # # # # # # # # #
+Tue  4 Jul 12:17:16 PDT 2017
+
+mode of ‘/home/pi/programs/backup/’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/programs/backup/pi_garage_alert’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/programs/backup/pi_garage_alert/bin’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/programs/backup/pi_garage_alert/init.d’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/programs/backup/pi_garage_alert/email’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/programs/backup/pi_garage_alert/etc’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/programs/backup/email’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/programs/backup/PiHome1143-04-07-2017.tgz’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/programs/backup/network’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/programs/backup/network/dhcpcd.conf’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/programs/backup/network/interfaces’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/programs/backup/samba’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/programs/backup/samba/smb.conf’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/log/’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/log/backing_up_pi.log’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/log/install’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/log/install/pi-prerequisites.log’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/log/install/Install_sip_sprinkler.log’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/log/install/samba_install.sh.log’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/log/install/git_clone.log’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/log/install/static_ip.log’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/log/install/HAupdate.log’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/log/install/HArestart.log’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/log/install/Install_WebIOPi.log’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/log/memory_cleaning.log’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/log/PIpoweroff.log’ changed from 0644 (rw-r--r--) to 0777 (rwxrwxrwx)
+mode of ‘/home/pi/log/PIreboot.log’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/log/motion.log’ changed from 0644 (rw-r--r--) to 0777 (rwxrwxrwx)
+mode of ‘/home/pi/log/HArestart.log’ retained as 0777 (rwxrwxrwx)
+
+
+sending incremental file list
+
+sent 20 bytes  received 12 bytes  64.00 bytes/sec
+total size is 0  speedup is 0.00
+sending incremental file list
+
+sent 20 bytes  received 12 bytes  64.00 bytes/sec
+total size is 0  speedup is 0.00
+
+sending incremental file list
+created directory /home/pi/programs/backup/motion
+motion
+
+sent 160 bytes  received 89 bytes  498.00 bytes/sec
+total size is 68  speedup is 0.27
+sending incremental file list
+motion.conf
+
+sent 29,125 bytes  received 35 bytes  58,320.00 bytes/sec
+total size is 29,021  speedup is 1.00
+
+sending incremental file list
+
+sent 49 bytes  received 19 bytes  45.33 bytes/sec
+total size is 12,367  speedup is 181.87
+
+sending incremental file list
+
+sent 56 bytes  received 19 bytes  150.00 bytes/sec
+total size is 523  speedup is 6.97
+sending incremental file list
+
+sent 56 bytes  received 19 bytes  150.00 bytes/sec
+total size is 1,467  speedup is 19.56
+
+mode of ‘/home/pi/programs/backup/’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/programs/backup/pi_garage_alert’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/programs/backup/pi_garage_alert/bin’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/programs/backup/pi_garage_alert/init.d’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/programs/backup/pi_garage_alert/email’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/programs/backup/pi_garage_alert/etc’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/programs/backup/motion’ changed from 0755 (rwxr-xr-x) to 0777 (rwxrwxrwx)
+mode of ‘/home/pi/programs/backup/motion/motion’ changed from 0644 (rw-r--r--) to 0777 (rwxrwxrwx)
+mode of ‘/home/pi/programs/backup/motion/motion.conf’ changed from 0640 (rw-r-----) to 0777 (rwxrwxrwx)
+mode of ‘/home/pi/programs/backup/email’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/programs/backup/PiHome1143-04-07-2017.tgz’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/programs/backup/network’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/programs/backup/network/dhcpcd.conf’ changed from 0755 (rwxr-xr-x) to 0777 (rwxrwxrwx)
+mode of ‘/home/pi/programs/backup/network/interfaces’ changed from 0644 (rw-r--r--) to 0777 (rwxrwxrwx)
+mode of ‘/home/pi/programs/backup/samba’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/programs/backup/samba/smb.conf’ changed from 0755 (rwxr-xr-x) to 0777 (rwxrwxrwx)
+mode of ‘/home/pi/log/’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/log/backing_up_pi.log’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/log/install’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/log/install/pi-prerequisites.log’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/log/install/Install_sip_sprinkler.log’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/log/install/samba_install.sh.log’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/log/install/git_clone.log’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/log/install/static_ip.log’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/log/install/HAupdate.log’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/log/install/HArestart.log’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/log/install/Install_WebIOPi.log’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/log/memory_cleaning.log’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/log/PIpoweroff.log’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/log/PIreboot.log’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/log/motion.log’ retained as 0777 (rwxrwxrwx)
+mode of ‘/home/pi/log/HArestart.log’ retained as 0777 (rwxrwxrwx)
+
+Tue  4 Jul 12:17:39 PDT 2017
+# # # # # # # #        /home/pi/programs/backing_up_pi DONE!!       # # # # # # # # # # # # #
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
+
+
+
+
+
+

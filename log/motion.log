@@ -1,0 +1,49 @@
+[0] [NTC] [ALL] [Jul 04 12:13:33] motion_startup: Using log type (ALL) log level (NTC)
+[0] [NTC] [ALL] [Jul 04 12:13:33] become_daemon: Motion going to daemon mode
+[0] [NTC] [ALL] [Jul 04 12:13:33] become_daemon: Created process id file /var/run/motion/motion.pid. Process ID is 1357
+[0] [NTC] [ALL] [Jul 04 12:13:33] motion_startup: Motion running as daemon process
+[0] [NTC] [ENC] [Jul 04 12:13:33] ffmpeg_init: ffmpeg LIBAVCODEC_BUILD 3670016 LIBAVFORMAT_BUILD 3670272
+[0] [NTC] [ALL] [Jul 04 12:13:34] main: Thread 1 is from /etc/motion/motion.conf
+[0] [NTC] [ALL] [Jul 04 12:13:34] main: Thread 1 is device: /dev/video0 input -1
+[0] [NTC] [ALL] [Jul 04 12:13:34] main: Stream port 8081
+[0] [NTC] [ALL] [Jul 04 12:13:34] main: Waiting for threads to finish, pid: 1357
+[1] [NTC] [ALL] [Jul 04 12:13:34] motion_init: Thread 1 started , motion detection Enabled
+[1] [NTC] [VID] [Jul 04 12:13:34] vid_v4lx_start: Using videodevice /dev/video0 and input -1
+[0] [NTC] [STR] [Jul 04 12:13:34] httpd_run: motion-httpd testing : IPV4 addr: 127.0.0.1 port: 8080
+[0] [NTC] [STR] [Jul 04 12:13:34] httpd_run: motion-httpd Bound : IPV4 addr: 127.0.0.1 port: 8080
+[0] [NTC] [STR] [Jul 04 12:13:34] httpd_run: motion-httpd/3.2.12+git20140228 running, accepting connections
+[0] [NTC] [STR] [Jul 04 12:13:34] httpd_run: motion-httpd: waiting for data on 127.0.0.1 port TCP 8080
+[1] [NTC] [VID] [Jul 04 12:13:34] v4l2_get_capability: 
+------------------------
+cap.driver: "uvcvideo"
+cap.card: "UVC Camera (046d:08c9)"
+cap.bus_info: "usb-3f980000.usb-1.5"
+cap.capabilities=0x84200001
+------------------------
+[1] [NTC] [VID] [Jul 04 12:13:34] v4l2_get_capability: - VIDEO_CAPTURE
+[1] [NTC] [VID] [Jul 04 12:13:34] v4l2_get_capability: - STREAMING
+[1] [NTC] [VID] [Jul 04 12:13:34] v4l2_select_input: name = "Camera 1", type 0x00000002, status 00000000
+[1] [NTC] [VID] [Jul 04 12:13:34] v4l2_select_input: - CAMERA
+[1] [WRN] [VID] [Jul 04 12:13:34] v4l2_select_input: Device doesn't support VIDIOC_G_STD
+[1] [NTC] [VID] [Jul 04 12:13:34] v4l2_set_pix_format: Config palette index 17 (YU12) doesn't work.
+[1] [NTC] [VID] [Jul 04 12:13:34] v4l2_set_pix_format: Supported palettes:
+[1] [NTC] [VID] [Jul 04 12:13:34] v4l2_set_pix_format: (0) MJPG (Motion-JPEG)
+[1] [NTC] [VID] [Jul 04 12:13:34] v4l2_set_pix_format: 0 - Motion-JPEG (compressed : 1) (0x47504a4d)
+[1] [NTC] [VID] [Jul 04 12:13:34] v4l2_set_pix_format: (1) YUYV (YUYV 4:2:2)
+[1] [NTC] [VID] [Jul 04 12:13:34] v4l2_set_pix_format: 1 - YUYV 4:2:2 (compressed : 0) (0x56595559)
+[1] [NTC] [VID] [Jul 04 12:13:34] v4l2_set_pix_format Selected palette YUYV
+[1] [NTC] [VID] [Jul 04 12:13:34] v4l2_do_set_pix_format: Testing palette YUYV (640x480)
+[1] [NTC] [VID] [Jul 04 12:13:34] v4l2_do_set_pix_format: Using palette YUYV (640x480) bytesperlines 1280 sizeimage 614400 colorspace 00000008
+[1] [NTC] [VID] [Jul 04 12:13:34] v4l2_scan_controls: found control 0x00980900, "Brightness", range 0,255 
+[1] [NTC] [VID] [Jul 04 12:13:34] v4l2_scan_controls: 	"Brightness", default -8193, current 127
+[1] [NTC] [VID] [Jul 04 12:13:34] v4l2_scan_controls: found control 0x00980901, "Contrast", range 0,255 
+[1] [NTC] [VID] [Jul 04 12:13:34] v4l2_scan_controls: 	"Contrast", default 57343, current 32
+[1] [NTC] [VID] [Jul 04 12:13:34] v4l2_scan_controls: found control 0x00980902, "Saturation", range 0,255 
+[1] [NTC] [VID] [Jul 04 12:13:34] v4l2_scan_controls: 	"Saturation", default 57343, current 32
+[1] [NTC] [VID] [Jul 04 12:13:34] v4l2_scan_controls: found control 0x00980913, "Gain", range 0,255 
+[1] [NTC] [VID] [Jul 04 12:13:34] v4l2_scan_controls: 	"Gain", default 57343, current 0
+[1] [NTC] [VID] [Jul 04 12:13:34] vid_v4lx_start: Using V4L2
+[1] [NTC] [ALL] [Jul 04 12:13:34] image_ring_resize: Resizing pre_capture buffer to 1 items
+[1] [NTC] [STR] [Jul 04 12:13:35] http_bindsock: motion-stream testing : IPV4 addr: 0.0.0.0 port: 8081
+[1] [NTC] [STR] [Jul 04 12:13:35] http_bindsock: motion-stream Bound : IPV4 addr: 0.0.0.0 port: 8081
+[1] [NTC] [ALL] [Jul 04 12:13:35] motion_init: Started motion-stream server in port 8081 auth Disabled
