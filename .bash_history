@@ -332,3 +332,17 @@ git push
 sudo PIpoweroff
 sudo nano /etc/motion/motion.conf
 sudo PIreboot
+sudo nano /etc/motion/motion.conf
+sudo systemctl enable motion
+sudo systemctl status motion
+sudo systemctl restart motion
+sudo systemctl status motion
+sudo nano /etc/motion/motion.conf
+sudo apt-get install motion
+sudo lsusb
+sudo nano /etc/default/motion
+sudo systemctl restart motion
+sudo systemctl status motion
+sudo sh /home/pi/programs/backing_up_pi.sh
+sudo PIreboot
+sudo HArestart

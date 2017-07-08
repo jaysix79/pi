@@ -15,3 +15,736 @@ Jul 02 19:27:24 hassbian hass[5496]: INFO:homeassistant.core:Bus:Handling <Event
 Jul 02 19:27:24 hassbian hass[5496]: INFO:homeassistant.setup:Setting up frontend
 Jul 02 19:27:24 hassbian hass[5496]: INFO:homeassistant.setup:Setup of domain frontend took 0.1 seconds.
 Jul 02 19:27:24 hassbian hass[5496]: INFO:homeassistant.core:Bus:Handling <Event component_loaded[L]: component=frontend>
+● home-assistant@homeassistant.service - Home Assistant for homeassistant
+   Loaded: loaded (/etc/systemd/system/home-assistant@homeassistant.service; enabled)
+   Active: active (running) since Thu 2017-07-06 04:16:00 PDT; 10s ago
+ Main PID: 1119 (hass)
+   CGroup: /system.slice/system-home\x2dassistant.slice/home-assistant@homeassistant.service
+           └─1119 /srv/homeassistant/bin/python3 /srv/homeassistant/bin/hass
+
+Jul 06 04:16:10 hassbian hass[1119]: INFO:homeassistant.setup:Setting up http
+Jul 06 04:16:10 hassbian hass[1119]: INFO:homeassistant.setup:Setup of domain http took 0.1 seconds.
+Jul 06 04:16:10 hassbian hass[1119]: INFO:homeassistant.core:Bus:Handling <Event component_loaded[L]: component=http>
+Jul 06 04:16:10 hassbian hass[1119]: INFO:homeassistant.setup:Setting up api
+Jul 06 04:16:10 hassbian hass[1119]: INFO:homeassistant.setup:Setting up websocket_api
+Jul 06 04:16:10 hassbian hass[1119]: INFO:homeassistant.setup:Setup of domain websocket_api took 0.0 seconds.
+Jul 06 04:16:10 hassbian hass[1119]: INFO:homeassistant.core:Bus:Handling <Event component_loaded[L]: component=websocket_api>
+Jul 06 04:16:10 hassbian hass[1119]: INFO:homeassistant.setup:Setup of domain api took 0.0 seconds.
+Jul 06 04:16:10 hassbian hass[1119]: INFO:homeassistant.core:Bus:Handling <Event component_loaded[L]: component=api>
+Jul 06 04:16:10 hassbian hass[1119]: INFO:homeassistant.setup:Setting up frontend
+● home-assistant@homeassistant.service - Home Assistant for homeassistant
+   Loaded: loaded (/etc/systemd/system/home-assistant@homeassistant.service; enabled)
+   Active: active (running) since Thu 2017-07-06 17:28:20 PDT; 10s ago
+ Main PID: 31693 (hass)
+   CGroup: /system.slice/system-home\x2dassistant.slice/home-assistant@homeassistant.service
+           └─31693 /srv/homeassistant/bin/python3 /srv/homeassistant/bin/hass
+
+Jul 06 17:28:30 hassbian hass[31693]: INFO:homeassistant.core:Bus:Handling <Event component_loaded[L]: component=http>
+Jul 06 17:28:30 hassbian hass[31693]: INFO:homeassistant.setup:Setting up api
+Jul 06 17:28:30 hassbian hass[31693]: INFO:homeassistant.setup:Setting up websocket_api
+Jul 06 17:28:30 hassbian hass[31693]: INFO:homeassistant.setup:Setup of domain websocket_api took 0.0 seconds.
+Jul 06 17:28:30 hassbian hass[31693]: INFO:homeassistant.core:Bus:Handling <Event component_loaded[L]: component=websocket_api>
+Jul 06 17:28:30 hassbian hass[31693]: INFO:homeassistant.setup:Setup of domain api took 0.0 seconds.
+Jul 06 17:28:30 hassbian hass[31693]: INFO:homeassistant.core:Bus:Handling <Event component_loaded[L]: component=api>
+Jul 06 17:28:30 hassbian hass[31693]: INFO:homeassistant.setup:Setting up frontend
+Jul 06 17:28:30 hassbian hass[31693]: INFO:homeassistant.setup:Setup of domain frontend took 0.1 seconds.
+Jul 06 17:28:30 hassbian hass[31693]: INFO:homeassistant.core:Bus:Handling <Event component_loaded[L]: component=frontend>
+● home-assistant@homeassistant.service - Home Assistant for homeassistant
+   Loaded: loaded (/etc/systemd/system/home-assistant@homeassistant.service; enabled)
+   Active: active (running) since Thu 2017-07-06 17:35:24 PDT; 10s ago
+ Main PID: 31928 (hass)
+   CGroup: /system.slice/system-home\x2dassistant.slice/home-assistant@homeassistant.service
+           └─31928 /srv/homeassistant/bin/python3 /srv/homeassistant/bin/hass
+
+Jul 06 17:35:34 hassbian hass[31928]: INFO:homeassistant.setup:Setup of domain conversation took 0.4 seconds.
+Jul 06 17:35:34 hassbian hass[31928]: INFO:homeassistant.core:Bus:Handling <Event component_loaded[L]: component=conversation>
+Jul 06 17:35:34 hassbian hass[31928]: INFO:homeassistant.setup:Setting up device_tracker
+Jul 06 17:35:34 hassbian hass[31928]: INFO:homeassistant.setup:Setting up cover
+Jul 06 17:35:34 hassbian hass[31928]: INFO:homeassistant.setup:Setting up switch
+Jul 06 17:35:34 hassbian hass[31928]: INFO:homeassistant.setup:Setting up automation
+Jul 06 17:35:34 hassbian hass[31928]: INFO:homeassistant.core:Bus:Handling <Event state_changed[L]: entity_id=automation.notification__vent_on, new_state=<state automation.notification__vent_on=off; last_triggered=None, friendly_name=Notification - vent (ON) @ 2017-07-06T17:35:34.516965-07:00>, old_state=None>
+Jul 06 17:35:34 hassbian hass[31928]: INFO:homeassistant.core:Bus:Handling <Event state_changed[L]: entity_id=automation.aquarium_lights_turn_on_with_the_sun_angle, new_state=<state automation.aquarium_lights_turn_on_with_the_sun_angle=off; last_triggered=None, friendly_name=AQUARIUM lights (turn on) with the sun angle @ 2017-07-06T17:35:34.566046-07:00>, old_state=None>
+Jul 06 17:35:34 hassbian hass[31928]: INFO:homeassistant.core:Bus:Handling <Event state_changed[L]: entity_id=automation.notification__reminder__garage_door_is_now_opened_for_1_hour, new_state=<state automation.notification__reminder__garage_door_is_now_opened_for_1_hour=off; last_triggered=None, friendly_name=Notification - Reminder - GARAGE DOOR is now OPENED for 1 hour @ 2017-07-06T17:35:34.585769-07:00>, old_state=None>
+Jul 06 17:35:34 hassbian hass[31928]: INFO:homeassistant.core:Bus:Handling <Event state_changed[L]: entity_id=automation.notification__vent_off, new_state=<state automation.notification__vent_off=off; last_triggered=None, friendly_name=Notification - vent (OFF) @ 2017-07-06T17:35:34.594933-07:00>, old_state=None>
+Jul 06 17:35:34 hassbian hass[31928]: INFO:homeassistant.core:Bus:Handling <Event state_changed[L]: entity_id=automation.notification__test, new_state=<state automation.notification__test=off; last_triggered=None, friendly_name=Notification - test @ 2017-07-06T17:35:34.616985-07:00>, old_state=None>
+● home-assistant@homeassistant.service - Home Assistant for homeassistant
+   Loaded: loaded (/etc/systemd/system/home-assistant@homeassistant.service; enabled)
+   Active: active (running) since Thu 2017-07-06 17:39:47 PDT; 10s ago
+ Main PID: 32163 (hass)
+   CGroup: /system.slice/system-home\x2dassistant.slice/home-assistant@homeassistant.service
+           └─32163 /srv/homeassistant/bin/python3 /srv/homeassistant/bin/hass
+
+Jul 06 17:39:47 hassbian systemd[1]: Started Home Assistant for homeassistant.
+Jul 06 17:39:50 hassbian hass[32163]: ERROR:homeassistant.util.yaml:while parsing a block mapping
+Jul 06 17:39:50 hassbian hass[32163]: in "/home/homeassistant/.homeassistant/automations/timer.yaml", line 1, column 3
+Jul 06 17:39:50 hassbian hass[32163]: expected <block end>, but found '<block mapping start>'
+Jul 06 17:39:50 hassbian hass[32163]: in "/home/homeassistant/.homeassistant/automations/timer.yaml", line 2, column 5
+Jul 06 17:39:50 hassbian hass[32163]: ERROR:homeassistant.bootstrap:Error loading /home/homeassistant/.homeassistant/configuration.yaml: while parsing a block mapping
+Jul 06 17:39:50 hassbian hass[32163]: in "/home/homeassistant/.homeassistant/automations/timer.yaml", line 1, column 3
+Jul 06 17:39:50 hassbian hass[32163]: expected <block end>, but found '<block mapping start>'
+Jul 06 17:39:50 hassbian hass[32163]: in "/home/homeassistant/.homeassistant/automations/timer.yaml", line 2, column 5
+Jul 06 17:39:50 hassbian hass[32163]: Config directory: /home/homeassistant/.homeassistant
+● home-assistant@homeassistant.service - Home Assistant for homeassistant
+   Loaded: loaded (/etc/systemd/system/home-assistant@homeassistant.service; enabled)
+   Active: active (running) since Thu 2017-07-06 17:46:39 PDT; 10s ago
+ Main PID: 32238 (hass)
+   CGroup: /system.slice/system-home\x2dassistant.slice/home-assistant@homeassistant.service
+           └─32238 /srv/homeassistant/bin/python3 /srv/homeassistant/bin/hass
+
+Jul 06 17:46:39 hassbian systemd[1]: Started Home Assistant for homeassistant.
+Jul 06 17:46:43 hassbian hass[32238]: ERROR:homeassistant.util.yaml:while parsing a block mapping
+Jul 06 17:46:43 hassbian hass[32238]: in "/home/homeassistant/.homeassistant/automations/timer.yaml", line 2, column 5
+Jul 06 17:46:43 hassbian hass[32238]: expected <block end>, but found '<block mapping start>'
+Jul 06 17:46:43 hassbian hass[32238]: in "/home/homeassistant/.homeassistant/automations/timer.yaml", line 3, column 7
+Jul 06 17:46:43 hassbian hass[32238]: ERROR:homeassistant.bootstrap:Error loading /home/homeassistant/.homeassistant/configuration.yaml: while parsing a block mapping
+Jul 06 17:46:43 hassbian hass[32238]: in "/home/homeassistant/.homeassistant/automations/timer.yaml", line 2, column 5
+Jul 06 17:46:43 hassbian hass[32238]: expected <block end>, but found '<block mapping start>'
+Jul 06 17:46:43 hassbian hass[32238]: in "/home/homeassistant/.homeassistant/automations/timer.yaml", line 3, column 7
+Jul 06 17:46:43 hassbian hass[32238]: Config directory: /home/homeassistant/.homeassistant
+● home-assistant@homeassistant.service - Home Assistant for homeassistant
+   Loaded: loaded (/etc/systemd/system/home-assistant@homeassistant.service; enabled)
+   Active: active (running) since Thu 2017-07-06 17:47:25 PDT; 10s ago
+ Main PID: 32275 (hass)
+   CGroup: /system.slice/system-home\x2dassistant.slice/home-assistant@homeassistant.service
+           └─32275 /srv/homeassistant/bin/python3 /srv/homeassistant/bin/hass
+
+Jul 06 17:47:35 hassbian hass[32275]: INFO:homeassistant.setup:Setup of domain group took 1.3 seconds.
+Jul 06 17:47:35 hassbian hass[32275]: INFO:homeassistant.core:Bus:Handling <Event component_loaded[L]: component=group>
+Jul 06 17:47:35 hassbian hass[32275]: INFO:homeassistant.setup:Setup of domain updater took 0.0 seconds.
+Jul 06 17:47:35 hassbian hass[32275]: INFO:homeassistant.core:Bus:Handling <Event component_loaded[L]: component=updater>
+Jul 06 17:47:35 hassbian hass[32275]: INFO:homeassistant.components.sensor:Setting up sensor.zoneminder
+Jul 06 17:47:35 hassbian hass[32275]: INFO:homeassistant.components.camera:Setting up camera.zoneminder
+Jul 06 17:47:35 hassbian hass[32275]: INFO:homeassistant.setup:Setting up device_tracker
+Jul 06 17:47:35 hassbian hass[32275]: INFO:homeassistant.setup:Setting up automation
+Jul 06 17:47:35 hassbian hass[32275]: INFO:homeassistant.setup:Setting up switch
+Jul 06 17:47:35 hassbian hass[32275]: INFO:homeassistant.setup:Setting up cover
+Jul 06 17:47:35 hassbian hass[32275]: INFO:homeassistant.components.camera.zoneminder:Initializing camera 1
+Jul 06 17:47:35 hassbian hass[32275]: INFO:homeassistant.components.camera.zoneminder:Initializing camera 2
+Jul 06 17:47:35 hassbian hass[32275]: INFO:homeassistant.components.camera.zoneminder:Initializing camera 3
+● home-assistant@homeassistant.service - Home Assistant for homeassistant
+   Loaded: loaded (/etc/systemd/system/home-assistant@homeassistant.service; enabled)
+   Active: active (running) since Thu 2017-07-06 17:59:49 PDT; 10s ago
+ Main PID: 32575 (hass)
+   CGroup: /system.slice/system-home\x2dassistant.slice/home-assistant@homeassistant.service
+           └─32575 /srv/homeassistant/bin/python3 /srv/homeassistant/bin/hass
+
+Jul 06 17:59:59 hassbian hass[32575]: INFO:homeassistant.components.camera.zoneminder:Initializing camera 1
+Jul 06 17:59:59 hassbian hass[32575]: INFO:homeassistant.components.camera.zoneminder:Initializing camera 2
+Jul 06 17:59:59 hassbian hass[32575]: INFO:homeassistant.components.camera.zoneminder:Initializing camera 3
+Jul 06 17:59:59 hassbian hass[32575]: INFO:homeassistant.components.camera.zoneminder:Initializing camera 4
+Jul 06 17:59:59 hassbian hass[32575]: INFO:homeassistant.components.camera.zoneminder:Initializing camera 5
+Jul 06 17:59:59 hassbian hass[32575]: INFO:homeassistant.setup:Setup of domain conversation took 0.6 seconds.
+Jul 06 17:59:59 hassbian hass[32575]: INFO:homeassistant.core:Bus:Handling <Event component_loaded[L]: component=conversation>
+Jul 06 17:59:59 hassbian hass[32575]: INFO:homeassistant.setup:Setup of domain updater took 0.2 seconds.
+Jul 06 17:59:59 hassbian hass[32575]: INFO:homeassistant.core:Bus:Handling <Event component_loaded[L]: component=updater>
+Jul 06 17:59:59 hassbian hass[32575]: INFO:homeassistant.setup:Setting up discovery
+● home-assistant@homeassistant.service - Home Assistant for homeassistant
+   Loaded: loaded (/etc/systemd/system/home-assistant@homeassistant.service; enabled)
+   Active: active (running) since Thu 2017-07-06 18:06:43 PDT; 10s ago
+ Main PID: 342 (hass)
+   CGroup: /system.slice/system-home\x2dassistant.slice/home-assistant@homeassistant.service
+           └─342 /srv/homeassistant/bin/python3 /srv/homeassistant/bin/hass
+
+Jul 06 18:06:52 hassbian hass[342]: INFO:homeassistant.core:Bus:Handling <Event state_changed[L]: new_state=<state automation.notification__garage_door_is_now_close=off; friendly_name=Notification - GARAGE DOOR is now CLOSE, last_triggered=None @ 2017-07-06T18:06:52.984846-07:00>, old_state=None, entity_id=automation.notification__garage_door_is_now_close>
+Jul 06 18:06:53 hassbian hass[342]: INFO:homeassistant.core:Bus:Handling <Event state_changed[L]: new_state=<state automation.rice_cooker_turn_on_at_8_am_saturday_and_sunday=off; friendly_name=RICE COOKER (Turn on) at 8 AM saturday and sunday, last_triggered=None @ 2017-07-06T18:06:53.004272-07:00>, old_state=None, entity_id=automation.rice_cooker_turn_on_at_8_am_saturday_and_sunday>
+Jul 06 18:06:53 hassbian hass[342]: INFO:homeassistant.core:Bus:Handling <Event state_changed[L]: new_state=<state automation.tracker_someone_is_home=off; friendly_name=TRACKER Someone is home, last_triggered=None @ 2017-07-06T18:06:53.007860-07:00>, old_state=None, entity_id=automation.tracker_someone_is_home>
+Jul 06 18:06:53 hassbian hass[342]: INFO:homeassistant.core:Bus:Handling <Event state_changed[L]: new_state=<state automation.rice_cooker_turn_off_at_12_am=off; friendly_name=RICE COOKER (Turn off) at 12 AM, last_triggered=None @ 2017-07-06T18:06:53.020322-07:00>, old_state=None, entity_id=automation.rice_cooker_turn_off_at_12_am>
+Jul 06 18:06:53 hassbian hass[342]: INFO:homeassistant.core:Bus:Handling <Event state_changed[L]: new_state=<state automation.notification__reminder__garage_door_is_now_opened_for_15_minutes=off; friendly_name=Notification - Reminder - GARAGE DOOR is now OPENED for 15 Minutes, last_triggered=None @ 2017-07-06T18:06:53.050514-07:00>, old_state=None, entity_id=automation.notification__reminder__garage_door_is_now_opened_for_15_minutes>
+Jul 06 18:06:53 hassbian hass[342]: INFO:homeassistant.core:Bus:Handling <Event state_changed[L]: new_state=<state automation.john_home=off; friendly_name=John home, last_triggered=None @ 2017-07-06T18:06:53.054001-07:00>, old_state=None, entity_id=automation.john_home>
+Jul 06 18:06:53 hassbian hass[342]: INFO:homeassistant.core:Bus:Handling <Event state_changed[L]: new_state=<state automation.notification__vent_on=off; friendly_name=Notification - vent (ON), last_triggered=None @ 2017-07-06T18:06:53.073990-07:00>, old_state=None, entity_id=automation.notification__vent_on>
+Jul 06 18:06:53 hassbian hass[342]: INFO:homeassistant.core:Bus:Handling <Event state_changed[L]: new_state=<state automation.notification__vent_off=off; friendly_name=Notification - vent (OFF), last_triggered=None @ 2017-07-06T18:06:53.093595-07:00>, old_state=None, entity_id=automation.notification__vent_off>
+Jul 06 18:06:53 hassbian hass[342]: INFO:homeassistant.core:Bus:Handling <Event state_changed[L]: new_state=<state automation.notification__test=off; friendly_name=Notification - test, last_triggered=None @ 2017-07-06T18:06:53.107355-07:00>, old_state=None, entity_id=automation.notification__test>
+Jul 06 18:06:53 hassbian hass[342]: INFO:homeassistant.core:Bus:Handling <Event state_changed[L]: new_state=<state automation.tracker_no_one_is_home=off; friendly_name=TRACKER No one is home, last_triggered=None @ 2017-07-06T18:06:53.115898-07:00>, old_state=None, entity_id=automation.tracker_no_one_is_home>
+● home-assistant@homeassistant.service - Home Assistant for homeassistant
+   Loaded: loaded (/etc/systemd/system/home-assistant@homeassistant.service; enabled)
+   Active: active (running) since Thu 2017-07-06 18:07:54 PDT; 10s ago
+ Main PID: 561 (hass)
+   CGroup: /system.slice/system-home\x2dassistant.slice/home-assistant@homeassistant.service
+           └─561 /srv/homeassistant/bin/python3 /srv/homeassistant/bin/hass
+
+Jul 06 18:08:04 hassbian hass[561]: INFO:homeassistant.core:Bus:Handling <Event state_changed[L]: entity_id=automation.update_available_notifications, new_state=<state automation.update_available_notifications=off; last_triggered=None, friendly_name=Update Available Notifications @ 2017-07-06T18:08:04.032028-07:00>, old_state=None>
+Jul 06 18:08:04 hassbian hass[561]: INFO:homeassistant.core:Bus:Handling <Event state_changed[L]: entity_id=automation.rice_cooker_turn_on_at_8_am_friday, new_state=<state automation.rice_cooker_turn_on_at_8_am_friday=off; last_triggered=None, friendly_name=RICE COOKER (Turn on) at 8 AM friday @ 2017-07-06T18:08:04.035021-07:00>, old_state=None>
+Jul 06 18:08:04 hassbian hass[561]: INFO:homeassistant.core:Bus:Handling <Event state_changed[L]: entity_id=automation.media_center_turn_on_at_6_am, new_state=<state automation.media_center_turn_on_at_6_am=off; last_triggered=None, friendly_name=MEDIA CENTER (Turn on) at 6 am @ 2017-07-06T18:08:04.053488-07:00>, old_state=None>
+Jul 06 18:08:04 hassbian hass[561]: INFO:homeassistant.core:Bus:Handling <Event state_changed[L]: entity_id=automation.bedroom_lights_turn_on_at_9_pm, new_state=<state automation.bedroom_lights_turn_on_at_9_pm=off; last_triggered=None, friendly_name=BEDROOM lights (Turn on) at 9 pm @ 2017-07-06T18:08:04.072663-07:00>, old_state=None>
+Jul 06 18:08:04 hassbian hass[561]: INFO:homeassistant.core:Bus:Handling <Event state_changed[L]: entity_id=automation.bedroom_lights_turn_on_at_8_pm, new_state=<state automation.bedroom_lights_turn_on_at_8_pm=off; last_triggered=None, friendly_name=BEDROOM lights (Turn on) at 8 pm @ 2017-07-06T18:08:04.088686-07:00>, old_state=None>
+Jul 06 18:08:04 hassbian hass[561]: INFO:homeassistant.core:Bus:Handling <Event state_changed[L]: entity_id=automation.test__on, new_state=<state automation.test__on=off; last_triggered=None, friendly_name=test - on @ 2017-07-06T18:08:04.097062-07:00>, old_state=None>
+Jul 06 18:08:04 hassbian hass[561]: INFO:homeassistant.core:Bus:Handling <Event state_changed[L]: entity_id=automation.shut_down_everything__ones_is_home, new_state=<state automation.shut_down_everything__ones_is_home=off; last_triggered=None, friendly_name=SHUT DOWN EVERYTHING - one's is home @ 2017-07-06T18:08:04.100723-07:00>, old_state=None>
+Jul 06 18:08:04 hassbian hass[561]: INFO:homeassistant.core:Bus:Handling <Event state_changed[L]: entity_id=automation.notification__reminder__garage_door_is_now_opened_for_30_minutes, new_state=<state automation.notification__reminder__garage_door_is_now_opened_for_30_minutes=off; last_triggered=None, friendly_name=Notification - Reminder - GARAGE DOOR is now OPENED for 30 Minutes @ 2017-07-06T18:08:04.104313-07:00>, old_state=None>
+Jul 06 18:08:04 hassbian hass[561]: INFO:homeassistant.core:Bus:Handling <Event state_changed[L]: entity_id=automation.turn_on_exhaust_fan_every_hour_when_its_90_degree_hot_outside, new_state=<state automation.turn_on_exhaust_fan_every_hour_when_its_90_degree_hot_outside=off; last_triggered=None, friendly_name=Turn on exhaust fan every hour when its 90 degree hot outside @ 2017-07-06T18:08:04.107537-07:00>, old_state=None>
+Jul 06 18:08:04 hassbian hass[561]: INFO:homeassistant.core:Bus:Handling <Event state_changed[L]: entity_id=automation.turn_off_exhaust_fan_after_1_hour, new_state=<state automation.turn_off_exhaust_fan_after_1_hour=off; last_triggered=None, friendly_name=Turn off exhaust fan after 1 hour @ 2017-07-06T18:08:04.123493-07:00>, old_state=None>
+● home-assistant@homeassistant.service - Home Assistant for homeassistant
+   Loaded: loaded (/etc/systemd/system/home-assistant@homeassistant.service; enabled)
+   Active: active (running) since Thu 2017-07-06 18:38:23 PDT; 10s ago
+ Main PID: 1250 (hass)
+   CGroup: /system.slice/system-home\x2dassistant.slice/home-assistant@homeassistant.service
+           └─1250 /srv/homeassistant/bin/python3 /srv/homeassistant/bin/hass
+
+Jul 06 18:38:23 hassbian systemd[1]: Started Home Assistant for homeassistant.
+Jul 06 18:38:29 hassbian hass[1250]: ERROR:homeassistant.util.yaml:mapping values are not allowed here
+Jul 06 18:38:29 hassbian hass[1250]: in "/home/homeassistant/.homeassistant/automations/est.yaml", line 24, column 16
+Jul 06 18:38:29 hassbian hass[1250]: ERROR:homeassistant.bootstrap:Error loading /home/homeassistant/.homeassistant/configuration.yaml: mapping values are not allowed here
+Jul 06 18:38:29 hassbian hass[1250]: in "/home/homeassistant/.homeassistant/automations/est.yaml", line 24, column 16
+Jul 06 18:38:29 hassbian hass[1250]: Config directory: /home/homeassistant/.homeassistant
+● home-assistant@homeassistant.service - Home Assistant for homeassistant
+   Loaded: loaded (/etc/systemd/system/home-assistant@homeassistant.service; enabled)
+   Active: active (running) since Thu 2017-07-06 18:40:29 PDT; 10s ago
+ Main PID: 1328 (hass)
+   CGroup: /system.slice/system-home\x2dassistant.slice/home-assistant@homeassistant.service
+           └─1328 /srv/homeassistant/bin/python3 /srv/homeassistant/bin/hass
+
+Jul 06 18:40:39 hassbian hass[1328]: INFO:homeassistant.core:Bus:Handling <Event state_changed[L]: entity_id=group.vent, old_state=None, new_state=<state group.vent=unknown; entity_id=('switch.switch_3',), order=24, friendly_name=Vent Fan, assumed_state=False @ 2017-07-06T18:40:39.727375-07:00>>
+Jul 06 18:40:39 hassbian hass[1328]: INFO:homeassistant.core:Bus:Handling <Event state_changed[L]: entity_id=group.media_center, old_state=None, new_state=<state group.media_center=unknown; entity_id=('switch.switch_5',), order=25, friendly_name=Media Center, assumed_state=False @ 2017-07-06T18:40:39.730304-07:00>>
+Jul 06 18:40:39 hassbian hass[1328]: INFO:homeassistant.core:Bus:Handling <Event state_changed[L]: entity_id=group.network, old_state=None, new_state=<state group.network=unknown; entity_id=('sensor.speedtest_upload', 'sensor.speedtest_download', 'sensor.speedtest_ping', 'input_boolean.notify_home'), order=26, friendly_name=Network, assumed_state=False @ 2017-07-06T18:40:39.732848-07:00>>
+Jul 06 18:40:39 hassbian hass[1328]: INFO:homeassistant.core:Bus:Handling <Event state_changed[L]: entity_id=group.middle_floor_furnace, old_state=None, new_state=<state group.middle_floor_furnace=unknown; entity_id=('switch.heater_down_stairs', 'switch.ac_down_stairs', 'switch.vent_fan_down_stairs'), order=27, friendly_name=Furnace Middle Floor, assumed_state=False @ 2017-07-06T18:40:39.735493-07:00>>
+Jul 06 18:40:39 hassbian hass[1328]: INFO:homeassistant.core:Bus:Handling <Event state_changed[L]: entity_id=group.kitchen, old_state=None, new_state=<state group.kitchen=unknown; entity_id=('switch.switch_1',), order=28, friendly_name=Kitchen, assumed_state=False @ 2017-07-06T18:40:39.738323-07:00>>
+Jul 06 18:40:39 hassbian hass[1328]: INFO:homeassistant.core:Bus:Handling <Event state_changed[L]: entity_id=group.raspberry_pi_rf_switch, old_state=None, new_state=<state group.raspberry_pi_rf_switch=unknown; entity_id=('switch.switch_1', 'switch.switch_2', 'switch.switch_3', 'switch.switch_4', 'switch.switch_5', 'switch.switch_03041', 'switch.switch_03042', 'switch.switch_03043', 'switch.switch_03044', 'switch.switch_03045'), order=29, friendly_name=Raspberry Pi RF Switch, assumed_state=False @ 2017-07-06T18:40:39.741598-07:00>>
+Jul 06 18:40:39 hassbian hass[1328]: INFO:homeassistant.core:Bus:Handling <Event state_changed[L]: entity_id=group.room1, old_state=None, new_state=<state group.room1=unknown; entity_id=('switch.switch_4',), order=30, friendly_name=Bedroom 1, assumed_state=False @ 2017-07-06T18:40:39.744963-07:00>>
+Jul 06 18:40:39 hassbian hass[1328]: INFO:homeassistant.core:Bus:Handling <Event state_changed[L]: entity_id=group.room2, old_state=None, new_state=<state group.room2=unknown; entity_id=('switch.switch_2',), order=31, friendly_name=Aquarium_Lights, assumed_state=False @ 2017-07-06T18:40:39.748444-07:00>>
+Jul 06 18:40:39 hassbian hass[1328]: INFO:homeassistant.core:Bus:Handling <Event state_changed[L]: entity_id=group.scene, old_state=None, new_state=<state group.scene=unknown; entity_id=('scene.top_ac_off', 'scene.top_ac_on', 'scene.top_fan_off', 'scene.top_fan_on', 'scene.top_heater_off', 'scene.top_heater_on'), order=32, friendly_name=Scene, assumed_state=False @ 2017-07-06T18:40:39.751908-07:00>>
+Jul 06 18:40:39 hassbian hass[1328]: INFO:homeassistant.core:Bus:Handling <Event state_changed[L]: entity_id=group.sun, old_state=None, new_state=<state group.sun=unknown; entity_id=('sensor.sunrise', 'sun.sun', 'sensor.solar_angle_2'), order=33, friendly_name=sun, assumed_state=False @ 2017-07-06T18:40:39.755294-07:00>>
+Jul 06 18:40:39 hassbian hass[1328]: INFO:homeassistant.core:Bus:Handling <Event state_changed[L]: entity_id=group.systemmonitor, old_state=None, new_state=<state group.systemmonitor=unknown; entity_id=('sensor.ram_free', 'sensor.cpu_use', 'sensor.disk_use_home', 'sensor.pihole'), order=34, friendly_name=Systemmonitor, assumed_state=False @ 2017-07-06T18:40:39.758645-07:00>>
+Jul 06 18:40:39 hassbian hass[1328]: INFO:homeassistant.core:Bus:Handling <Event state_changed[L]: entity_id=group.top_floor_furnace, old_state=None, new_state=<state group.top_floor_furnace=unknown; entity_id=('switch.heater_up_stairs', 'switch.ac_up_stairs', 'switch.vent_fan_up_stairs'), order=35, friendly_name=Furnace Top Floor, assumed_state=False @ 2017-07-06T18:40:39.762043-07:00>>
+Jul 06 18:40:39 hassbian hass[1328]: INFO:homeassistant.core:Bus:Handling <Event state_changed[L]: entity_id=group.weather, old_state=None, new_state=<state group.weather=unknown; entity_id=('sensor.pws_location', 'sensor.pws_weather', 'sensor.pws_elevation', 'sensor.pws_feelslike_string', 'sensor.weather_summary', 'sensor.pws_precip_today_in', 'sensor.pws_precip_1hr_in', 'sensor.pws_relative_humidity', 'sensor.pws_temp_f'), order=36, friendly_name=Weather, assumed_state=False @ 2017-07-06T18:40:39.765043-07:00>>
+● home-assistant@homeassistant.service - Home Assistant for homeassistant
+   Loaded: loaded (/etc/systemd/system/home-assistant@homeassistant.service; enabled)
+   Active: active (running) since Thu 2017-07-06 18:45:12 PDT; 10s ago
+ Main PID: 1527 (hass)
+   CGroup: /system.slice/system-home\x2dassistant.slice/home-assistant@homeassistant.service
+           └─1527 /srv/homeassistant/bin/python3 /srv/homeassistant/bin/hass
+
+Jul 06 18:45:21 hassbian hass[1527]: INFO:homeassistant.core:Bus:Handling <Event component_loaded[L]: component=logbook>
+Jul 06 18:45:21 hassbian hass[1527]: INFO:homeassistant.setup:Setup of domain config took 0.3 seconds.
+Jul 06 18:45:21 hassbian hass[1527]: INFO:homeassistant.core:Bus:Handling <Event component_loaded[L]: component=config>
+Jul 06 18:45:21 hassbian hass[1527]: INFO:homeassistant.setup:Setup of domain conversation took 0.4 seconds.
+Jul 06 18:45:21 hassbian hass[1527]: INFO:homeassistant.core:Bus:Handling <Event component_loaded[L]: component=conversation>
+Jul 06 18:45:21 hassbian hass[1527]: INFO:homeassistant.core:Bus:Handling <Event state_changed[L]: new_state=<state camera.dog_cam=idle; friendly_name=Dog Cam, access_token=d63d21fedf341de612f45436f9ba4b28c4ce78c6e375d18d0b2d1d34290896a3, entity_picture=/api/camera_proxy/camera.dog_cam?token=d63d21fedf341de612f45436f9ba4b28c4ce78c6e375d18d0b2d1d34290896a3 @ 2017-07-06T18:45:21.884960-07:00>, entity_id=camera.dog_cam, old_state=None>
+Jul 06 18:45:21 hassbian hass[1527]: INFO:homeassistant.setup:Setting up zeroconf
+Jul 06 18:45:21 hassbian hass[1527]: INFO:homeassistant.setup:Setting up discovery
+Jul 06 18:45:22 hassbian hass[1527]: INFO:homeassistant.setup:Setup of domain discovery took 0.1 seconds.
+Jul 06 18:45:22 hassbian hass[1527]: INFO:homeassistant.core:Bus:Handling <Event component_loaded[L]: component=discovery>
+Jul 06 18:45:22 hassbian hass[1527]: INFO:homeassistant.core:Bus:Handling <Event state_changed[L]: new_state=<state sensor.alarm_time=unknown; friendly_name=Time @ 2017-07-06T18:45:22.082628-07:00>, entity_id=sensor.alarm_time, old_state=None>
+Jul 06 18:45:22 hassbian hass[1527]: INFO:homeassistant.core:Bus:Handling <Event state_changed[L]: new_state=<state sensor.pihole_ads_percentage_blocked_today=0; icon=mdi:close-octagon-outline, friendly_name=Pi-Hole Ads Percentage Blocked Today, domains_blocked=110427, unit_of_measurement=% @ 2017-07-06T18:45:22.085448-07:00>, entity_id=sensor.pihole_ads_percentage_blocked_today, old_state=None>
+Jul 06 18:45:22 hassbian hass[1527]: INFO:homeassistant.core:Bus:Handling <Event state_changed[L]: new_state=<state sensor.pihole_dns_queries_today=14114; icon=mdi:network-question, friendly_name=Pi-Hole DNS Queries Today, domains_blocked=110427 @ 2017-07-06T18:45:22.088243-07:00>, entity_id=sensor.pihole_dns_queries_today, old_state=None>
+● home-assistant@homeassistant.service - Home Assistant for homeassistant
+   Loaded: loaded (/etc/systemd/system/home-assistant@homeassistant.service; enabled)
+   Active: active (running) since Thu 2017-07-06 18:47:36 PDT; 10s ago
+ Main PID: 1716 (hass)
+   CGroup: /system.slice/system-home\x2dassistant.slice/home-assistant@homeassistant.service
+           └─1716 /srv/homeassistant/bin/python3 /srv/homeassistant/bin/hass
+
+Jul 06 18:47:46 hassbian hass[1716]: INFO:homeassistant.components.camera.zoneminder:Initializing camera 3
+Jul 06 18:47:46 hassbian hass[1716]: INFO:homeassistant.components.camera.zoneminder:Initializing camera 4
+Jul 06 18:47:46 hassbian hass[1716]: INFO:homeassistant.components.camera.zoneminder:Initializing camera 5
+Jul 06 18:47:46 hassbian hass[1716]: INFO:homeassistant.core:Bus:Handling <Event state_changed[L]: new_state=<state script.timer_off_brm=off; can_cancel=True, last_triggered=None, friendly_name=Ceiling light bedroom timer @ 2017-07-06T18:47:46.952489-07:00>, entity_id=script.timer_off_brm, old_state=None>
+Jul 06 18:47:46 hassbian hass[1716]: INFO:homeassistant.core:Bus:Handling <Event state_changed[L]: new_state=<state automation.notification__reminder__garage_door_is_now_opened_for_15_minutes=off; friendly_name=Notification - Reminder - GARAGE DOOR is now OPENED for 15 Minutes, last_triggered=None @ 2017-07-06T18:47:46.961538-07:00>, entity_id=automation.notification__reminder__garage_door_is_now_opened_for_15_minutes, old_state=None>
+Jul 06 18:47:46 hassbian hass[1716]: INFO:homeassistant.core:Bus:Handling <Event state_changed[L]: new_state=<state automation.media_center_turn_off_at_12_pm=off; friendly_name=MEDIA CENTER (Turn off) at 12 pm, last_triggered=None @ 2017-07-06T18:47:46.964530-07:00>, entity_id=automation.media_center_turn_off_at_12_pm, old_state=None>
+Jul 06 18:47:46 hassbian hass[1716]: INFO:homeassistant.core:Bus:Handling <Event state_changed[L]: new_state=<state automation.notification__garage_door_is_now_open=off; friendly_name=Notification - GARAGE DOOR is now OPEN, last_triggered=None @ 2017-07-06T18:47:46.967785-07:00>, entity_id=automation.notification__garage_door_is_now_open, old_state=None>
+Jul 06 18:47:46 hassbian hass[1716]: INFO:homeassistant.core:Bus:Handling <Event state_changed[L]: new_state=<state automation.furnace_ac_on_upstairs=off; friendly_name=Furnace AC ON upstairs, last_triggered=None @ 2017-07-06T18:47:46.977718-07:00>, entity_id=automation.furnace_ac_on_upstairs, old_state=None>
+Jul 06 18:47:46 hassbian hass[1716]: INFO:homeassistant.core:Bus:Handling <Event state_changed[L]: new_state=<state automation.notification__test=off; friendly_name=Notification - test, last_triggered=None @ 2017-07-06T18:47:46.986041-07:00>, entity_id=automation.notification__test, old_state=None>
+Jul 06 18:47:46 hassbian hass[1716]: INFO:homeassistant.core:Bus:Handling <Event state_changed[L]: new_state=<state automation.furnace_heater_on_upstairs=off; friendly_name=Furnace Heater ON upstairs, last_triggered=None @ 2017-07-06T18:47:46.989180-07:00>, entity_id=automation.furnace_heater_on_upstairs, old_state=None>
+● home-assistant@homeassistant.service - Home Assistant for homeassistant
+   Loaded: loaded (/etc/systemd/system/home-assistant@homeassistant.service; enabled)
+   Active: active (running) since Thu 2017-07-06 18:56:56 PDT; 10s ago
+ Main PID: 1963 (hass)
+   CGroup: /system.slice/system-home\x2dassistant.slice/home-assistant@homeassistant.service
+           └─1963 /srv/homeassistant/bin/python3 /srv/homeassistant/bin/hass
+
+Jul 06 18:56:56 hassbian systemd[1]: Started Home Assistant for homeassistant.
+Jul 06 18:57:00 hassbian hass[1963]: ERROR:homeassistant.util.yaml:mapping values are not allowed here
+Jul 06 18:57:00 hassbian hass[1963]: in "/home/homeassistant/.homeassistant/automations/est.yaml", line 11, column 28
+Jul 06 18:57:00 hassbian hass[1963]: ERROR:homeassistant.bootstrap:Error loading /home/homeassistant/.homeassistant/configuration.yaml: mapping values are not allowed here
+Jul 06 18:57:00 hassbian hass[1963]: in "/home/homeassistant/.homeassistant/automations/est.yaml", line 11, column 28
+Jul 06 18:57:00 hassbian hass[1963]: Config directory: /home/homeassistant/.homeassistant
+● home-assistant@homeassistant.service - Home Assistant for homeassistant
+   Loaded: loaded (/etc/systemd/system/home-assistant@homeassistant.service; enabled)
+   Active: active (running) since Thu 2017-07-06 18:57:23 PDT; 10s ago
+ Main PID: 1998 (hass)
+   CGroup: /system.slice/system-home\x2dassistant.slice/home-assistant@homeassistant.service
+           └─1998 /srv/homeassistant/bin/python3 /srv/homeassistant/bin/hass
+
+Jul 06 18:57:33 hassbian hass[1998]: 'Entity id already exists: {}'.format(entity.entity_id))
+Jul 06 18:57:33 hassbian hass[1998]: homeassistant.exceptions.HomeAssistantError: Entity id already exists: sensor.solar_angle
+Jul 06 18:57:33 hassbian hass[1998]: INFO:homeassistant.setup:Setting up updater
+Jul 06 18:57:33 hassbian hass[1998]: INFO:homeassistant.core:Bus:Handling <Event service_registered[L]: service=enable_motion_detection, domain=camera>
+Jul 06 18:57:33 hassbian hass[1998]: INFO:homeassistant.core:Bus:Handling <Event service_registered[L]: service=disable_motion_detection, domain=camera>
+Jul 06 18:57:33 hassbian hass[1998]: INFO:homeassistant.setup:Setup of domain camera took 0.7 seconds.
+Jul 06 18:57:33 hassbian hass[1998]: INFO:homeassistant.core:Bus:Handling <Event component_loaded[L]: component=camera>
+Jul 06 18:57:33 hassbian hass[1998]: INFO:homeassistant.setup:Setup of domain updater took 0.1 seconds.
+Jul 06 18:57:33 hassbian hass[1998]: INFO:homeassistant.core:Bus:Handling <Event component_loaded[L]: component=updater>
+Jul 06 18:57:33 hassbian hass[1998]: INFO:homeassistant.core:Bus:Handling <Event service_registered[L]: service=process, domain=conversation>
+Jul 06 18:57:33 hassbian hass[1998]: INFO:homeassistant.setup:Setup of domain conversation took 0.4 seconds.
+Jul 06 18:57:33 hassbian hass[1998]: INFO:homeassistant.core:Bus:Handling <Event component_loaded[L]: component=conversation>
+● home-assistant@homeassistant.service - Home Assistant for homeassistant
+   Loaded: loaded (/etc/systemd/system/home-assistant@homeassistant.service; enabled)
+   Active: active (running) since Thu 2017-07-06 19:02:09 PDT; 10s ago
+ Main PID: 2298 (hass)
+   CGroup: /system.slice/system-home\x2dassistant.slice/home-assistant@homeassistant.service
+           └─2298 /srv/homeassistant/bin/python3 /srv/homeassistant/bin/hass
+
+Jul 06 19:02:19 hassbian hass[2298]: INFO:homeassistant.setup:Setting up script
+Jul 06 19:02:19 hassbian hass[2298]: INFO:homeassistant.core:Bus:Handling <Event service_registered[L]: service=timer_off_brm, domain=script>
+Jul 06 19:02:19 hassbian hass[2298]: INFO:homeassistant.setup:Setting up automation
+Jul 06 19:02:19 hassbian hass[2298]: INFO:homeassistant.setup:Setting up device_tracker
+Jul 06 19:02:19 hassbian hass[2298]: INFO:homeassistant.setup:Setting up cover
+Jul 06 19:02:19 hassbian hass[2298]: INFO:homeassistant.setup:Setting up switch
+Jul 06 19:02:19 hassbian hass[2298]: INFO:homeassistant.core:Bus:Handling <Event state_changed[L]: new_state=<state script.timer_off_brm=off; friendly_name=Ceiling light bedroom timer, last_triggered=None, can_cancel=True @ 2017-07-06T19:02:19.084943-07:00>, old_state=None, entity_id=script.timer_off_brm>
+Jul 06 19:02:19 hassbian hass[2298]: INFO:homeassistant.core:Bus:Handling <Event state_changed[L]: new_state=<state automation.bedroom_lights_turn_on_at_8_pm=off; friendly_name=BEDROOM lights (Turn on) at 8 pm, last_triggered=None @ 2017-07-06T19:02:19.087913-07:00>, old_state=None, entity_id=automation.bedroom_lights_turn_on_at_8_pm>
+Jul 06 19:02:19 hassbian hass[2298]: INFO:homeassistant.core:Bus:Handling <Event state_changed[L]: new_state=<state automation.bedroom_lights_turn_on_at_9_pm=off; friendly_name=BEDROOM lights (Turn on) at 9 pm, last_triggered=None @ 2017-07-06T19:02:19.091801-07:00>, old_state=None, entity_id=automation.bedroom_lights_turn_on_at_9_pm>
+Jul 06 19:02:19 hassbian hass[2298]: INFO:homeassistant.core:Bus:Handling <Event state_changed[L]: new_state=<state automation.john_not_home=off; friendly_name=John not home, last_triggered=None @ 2017-07-06T19:02:19.119795-07:00>, old_state=None, entity_id=automation.john_not_home>
+Jul 06 19:02:19 hassbian hass[2298]: INFO:homeassistant.core:Bus:Handling <Event state_changed[L]: new_state=<state automation.bedroom_lights_turn_off_at_11_pm=off; friendly_name=BEDROOM lights (Turn off) at 11 pm, last_triggered=None @ 2017-07-06T19:02:19.122849-07:00>, old_state=None, entity_id=automation.bedroom_lights_turn_off_at_11_pm>
+Jul 06 19:02:19 hassbian hass[2298]: INFO:homeassistant.core:Bus:Handling <Event state_changed[L]: new_state=<state automation.garage_toggle_2_sec=off; friendly_name=Garage toggle 2 sec, last_triggered=None @ 2017-07-06T19:02:19.125941-07:00>, old_state=None, entity_id=automation.garage_toggle_2_sec>
+Jul 06 19:02:19 hassbian hass[2298]: INFO:homeassistant.core:Bus:Handling <Event state_changed[L]: new_state=<state automation.aquarium_lights_turn_on_with_the_sun_angle=off; friendly_name=AQUARIUM lights (turn on) with the sun angle, last_triggered=None @ 2017-07-06T19:02:19.129161-07:00>, old_state=None, entity_id=automation.aquarium_lights_turn_on_with_the_sun_angle>
+Jul 06 19:02:19 hassbian hass[2298]: INFO:homeassistant.core:Bus:Handling <Event state_changed[L]: new_state=<state automation.reveil_matin_aurore_semaine=off; friendly_name=reveil matin Aurore Semaine, last_triggered=None @ 2017-07-06T19:02:19.132129-07:00>, old_state=None, entity_id=automation.reveil_matin_aurore_semaine>
+● home-assistant@homeassistant.service - Home Assistant for homeassistant
+   Loaded: loaded (/etc/systemd/system/home-assistant@homeassistant.service; enabled)
+   Active: active (running) since Thu 2017-07-06 19:41:21 PDT; 10s ago
+ Main PID: 3074 (hass)
+   CGroup: /system.slice/system-home\x2dassistant.slice/home-assistant@homeassistant.service
+           └─3074 /srv/homeassistant/bin/python3 /srv/homeassistant/bin/hass
+
+Jul 06 19:41:30 hassbian hass[3074]: INFO:homeassistant.core:Bus:Handling <Event component_loaded[L]: component=http>
+Jul 06 19:41:30 hassbian hass[3074]: INFO:homeassistant.setup:Setting up api
+Jul 06 19:41:30 hassbian hass[3074]: INFO:homeassistant.setup:Setting up websocket_api
+Jul 06 19:41:30 hassbian hass[3074]: INFO:homeassistant.setup:Setup of domain websocket_api took 0.0 seconds.
+Jul 06 19:41:30 hassbian hass[3074]: INFO:homeassistant.core:Bus:Handling <Event component_loaded[L]: component=websocket_api>
+Jul 06 19:41:30 hassbian hass[3074]: INFO:homeassistant.setup:Setup of domain api took 0.0 seconds.
+Jul 06 19:41:30 hassbian hass[3074]: INFO:homeassistant.core:Bus:Handling <Event component_loaded[L]: component=api>
+Jul 06 19:41:30 hassbian hass[3074]: INFO:homeassistant.setup:Setting up frontend
+Jul 06 19:41:30 hassbian hass[3074]: INFO:homeassistant.setup:Setup of domain frontend took 0.1 seconds.
+Jul 06 19:41:30 hassbian hass[3074]: INFO:homeassistant.core:Bus:Handling <Event component_loaded[L]: component=frontend>
+● home-assistant@homeassistant.service - Home Assistant for homeassistant
+   Loaded: loaded (/etc/systemd/system/home-assistant@homeassistant.service; enabled)
+   Active: active (running) since Thu 2017-07-06 19:42:37 PDT; 10s ago
+ Main PID: 3250 (hass)
+   CGroup: /system.slice/system-home\x2dassistant.slice/home-assistant@homeassistant.service
+           └─3250 /srv/homeassistant/bin/python3 /srv/homeassistant/bin/hass
+
+Jul 06 19:42:47 hassbian hass[3250]: INFO:homeassistant.core:Bus:Handling <Event component_loaded[L]: component=group>
+Jul 06 19:42:47 hassbian hass[3250]: INFO:homeassistant.setup:Setting up script
+Jul 06 19:42:47 hassbian hass[3250]: INFO:homeassistant.core:Bus:Handling <Event service_registered[L]: domain=script, service=timer_off_brm>
+Jul 06 19:42:47 hassbian hass[3250]: INFO:homeassistant.setup:Setting up cover
+Jul 06 19:42:47 hassbian hass[3250]: INFO:homeassistant.setup:Setting up device_tracker
+Jul 06 19:42:47 hassbian hass[3250]: INFO:homeassistant.setup:Setting up automation
+Jul 06 19:42:47 hassbian hass[3250]: INFO:homeassistant.setup:Setting up switch
+Jul 06 19:42:47 hassbian hass[3250]: INFO:homeassistant.core:Bus:Handling <Event state_changed[L]: entity_id=script.timer_off_brm, new_state=<state script.timer_off_brm=off; can_cancel=True, last_triggered=None, friendly_name=Ceiling light bedroom timer @ 2017-07-06T19:42:47.272735-07:00>, old_state=None>
+Jul 06 19:42:47 hassbian hass[3250]: INFO:homeassistant.core:Bus:Handling <Event state_changed[L]: entity_id=automation.furnace_heater_on_upstairs, new_state=<state automation.furnace_heater_on_upstairs=off; friendly_name=Furnace Heater ON upstairs, last_triggered=None @ 2017-07-06T19:42:47.284668-07:00>, old_state=None>
+Jul 06 19:42:47 hassbian hass[3250]: INFO:homeassistant.core:Bus:Handling <Event state_changed[L]: entity_id=automation.tracker_no_one_is_home, new_state=<state automation.tracker_no_one_is_home=off; friendly_name=TRACKER No one is home, last_triggered=None @ 2017-07-06T19:42:47.293006-07:00>, old_state=None>
+● home-assistant@homeassistant.service - Home Assistant for homeassistant
+   Loaded: loaded (/etc/systemd/system/home-assistant@homeassistant.service; enabled)
+   Active: active (running) since Thu 2017-07-06 19:45:31 PDT; 10s ago
+ Main PID: 3441 (hass)
+   CGroup: /system.slice/system-home\x2dassistant.slice/home-assistant@homeassistant.service
+           └─3441 /srv/homeassistant/bin/python3 /srv/homeassistant/bin/hass
+
+Jul 06 19:45:40 hassbian hass[3441]: INFO:homeassistant.core:Bus:Handling <Event state_changed[L]: entity_id=sensor.usb_dogs_room_status, new_state=<state sensor.usb_dogs_room_status=unknown; friendly_name=USB_DOGS_room Status @ 2017-07-06T19:45:40.931082-07:00>, old_state=None>
+Jul 06 19:45:40 hassbian hass[3441]: INFO:homeassistant.core:Bus:Handling <Event service_registered[L]: domain=group, service=reload>
+Jul 06 19:45:40 hassbian hass[3441]: INFO:homeassistant.core:Bus:Handling <Event service_registered[L]: domain=group, service=set>
+Jul 06 19:45:40 hassbian hass[3441]: INFO:homeassistant.core:Bus:Handling <Event service_registered[L]: domain=group, service=remove>
+Jul 06 19:45:40 hassbian hass[3441]: INFO:homeassistant.core:Bus:Handling <Event service_registered[L]: domain=group, service=set_visibility>
+Jul 06 19:45:40 hassbian hass[3441]: INFO:homeassistant.setup:Setup of domain group took 1.8 seconds.
+Jul 06 19:45:40 hassbian hass[3441]: INFO:homeassistant.core:Bus:Handling <Event component_loaded[L]: component=group>
+Jul 06 19:45:40 hassbian hass[3441]: INFO:homeassistant.setup:Setting up cover
+Jul 06 19:45:40 hassbian hass[3441]: INFO:homeassistant.setup:Setting up device_tracker
+Jul 06 19:45:40 hassbian hass[3441]: INFO:homeassistant.setup:Setting up automation
+● home-assistant@homeassistant.service - Home Assistant for homeassistant
+   Loaded: loaded (/etc/systemd/system/home-assistant@homeassistant.service; enabled)
+   Active: active (running) since Thu 2017-07-06 19:48:43 PDT; 10s ago
+ Main PID: 3570 (hass)
+   CGroup: /system.slice/system-home\x2dassistant.slice/home-assistant@homeassistant.service
+           └─3570 /srv/homeassistant/bin/python3 /srv/homeassistant/bin/hass
+
+Jul 06 19:48:53 hassbian hass[3570]: INFO:homeassistant.setup:Setup of domain group took 1.8 seconds.
+Jul 06 19:48:53 hassbian hass[3570]: INFO:homeassistant.core:Bus:Handling <Event component_loaded[L]: component=group>
+Jul 06 19:48:53 hassbian hass[3570]: INFO:homeassistant.setup:Setting up cover
+Jul 06 19:48:53 hassbian hass[3570]: INFO:homeassistant.setup:Setting up script
+Jul 06 19:48:53 hassbian hass[3570]: INFO:homeassistant.core:Bus:Handling <Event service_registered[L]: domain=script, service=timer_off_brm>
+Jul 06 19:48:53 hassbian hass[3570]: INFO:homeassistant.setup:Setting up switch
+Jul 06 19:48:53 hassbian hass[3570]: INFO:homeassistant.setup:Setting up automation
+Jul 06 19:48:53 hassbian hass[3570]: INFO:homeassistant.setup:Setting up device_tracker
+Jul 06 19:48:53 hassbian hass[3570]: INFO:homeassistant.core:Bus:Handling <Event state_changed[L]: old_state=None, new_state=<state script.timer_off_brm=off; friendly_name=Ceiling light bedroom timer, last_triggered=None, can_cancel=True @ 2017-07-06T19:48:53.404887-07:00>, entity_id=script.timer_off_brm>
+Jul 06 19:48:53 hassbian hass[3570]: INFO:homeassistant.core:Bus:Handling <Event state_changed[L]: old_state=None, new_state=<state automation.media_center_turn_on_at_8_am_and_john_is_home=off; friendly_name=MEDIA CENTER (Turn ON) at 8 am and john is home, last_triggered=None @ 2017-07-06T19:48:53.410771-07:00>, entity_id=automation.media_center_turn_on_at_8_am_and_john_is_home>
+● home-assistant@homeassistant.service - Home Assistant for homeassistant
+   Loaded: loaded (/etc/systemd/system/home-assistant@homeassistant.service; enabled)
+   Active: active (running) since Thu 2017-07-06 19:50:04 PDT; 10s ago
+ Main PID: 3749 (hass)
+   CGroup: /system.slice/system-home\x2dassistant.slice/home-assistant@homeassistant.service
+           └─3749 /srv/homeassistant/bin/python3 /srv/homeassistant/bin/hass
+
+Jul 06 19:50:14 hassbian hass[3749]: INFO:homeassistant.core:Bus:Handling <Event service_registered[L]: service=set_visibility, domain=group>
+Jul 06 19:50:14 hassbian hass[3749]: INFO:homeassistant.setup:Setup of domain group took 2.0 seconds.
+Jul 06 19:50:14 hassbian hass[3749]: INFO:homeassistant.core:Bus:Handling <Event component_loaded[L]: component=group>
+Jul 06 19:50:14 hassbian hass[3749]: INFO:homeassistant.setup:Setup of domain updater took 0.0 seconds.
+Jul 06 19:50:14 hassbian hass[3749]: INFO:homeassistant.core:Bus:Handling <Event component_loaded[L]: component=updater>
+Jul 06 19:50:14 hassbian hass[3749]: INFO:homeassistant.setup:Setup of domain zoneminder took 1.1 seconds.
+Jul 06 19:50:14 hassbian hass[3749]: INFO:homeassistant.core:Bus:Handling <Event component_loaded[L]: component=zoneminder>
+Jul 06 19:50:14 hassbian hass[3749]: INFO:homeassistant.setup:Setting up device_tracker
+Jul 06 19:50:14 hassbian hass[3749]: INFO:homeassistant.setup:Setting up automation
+Jul 06 19:50:14 hassbian hass[3749]: INFO:homeassistant.setup:Setting up switch
+Jul 06 19:50:14 hassbian hass[3749]: INFO:homeassistant.setup:Setting up script
+Jul 06 19:50:14 hassbian hass[3749]: INFO:homeassistant.core:Bus:Handling <Event service_registered[L]: service=timer_off_brm, domain=script>
+Jul 06 19:50:14 hassbian hass[3749]: INFO:homeassistant.setup:Setting up cover
+● home-assistant@homeassistant.service - Home Assistant for homeassistant
+   Loaded: loaded (/etc/systemd/system/home-assistant@homeassistant.service; enabled)
+   Active: active (running) since Thu 2017-07-06 19:53:26 PDT; 10s ago
+ Main PID: 3940 (hass)
+   CGroup: /system.slice/system-home\x2dassistant.slice/home-assistant@homeassistant.service
+           └─3940 /srv/homeassistant/bin/python3 /srv/homeassistant/bin/hass
+
+Jul 06 19:53:26 hassbian systemd[1]: Started Home Assistant for homeassistant.
+Jul 06 19:53:29 hassbian hass[3940]: ERROR:homeassistant.util.yaml:while scanning a quoted scalar
+Jul 06 19:53:29 hassbian hass[3940]: in "/home/homeassistant/.homeassistant/configuration.yaml", line 157, column 11
+Jul 06 19:53:29 hassbian hass[3940]: found unexpected end of stream
+Jul 06 19:53:29 hassbian hass[3940]: in "/home/homeassistant/.homeassistant/configuration.yaml", line 188, column 1
+Jul 06 19:53:29 hassbian hass[3940]: ERROR:homeassistant.bootstrap:Error loading /home/homeassistant/.homeassistant/configuration.yaml: while scanning a quoted scalar
+Jul 06 19:53:29 hassbian hass[3940]: in "/home/homeassistant/.homeassistant/configuration.yaml", line 157, column 11
+Jul 06 19:53:29 hassbian hass[3940]: found unexpected end of stream
+Jul 06 19:53:29 hassbian hass[3940]: in "/home/homeassistant/.homeassistant/configuration.yaml", line 188, column 1
+Jul 06 19:53:29 hassbian hass[3940]: Config directory: /home/homeassistant/.homeassistant
+● home-assistant@homeassistant.service - Home Assistant for homeassistant
+   Loaded: loaded (/etc/systemd/system/home-assistant@homeassistant.service; enabled)
+   Active: active (running) since Thu 2017-07-06 19:53:38 PDT; 10s ago
+ Main PID: 3973 (hass)
+   CGroup: /system.slice/system-home\x2dassistant.slice/home-assistant@homeassistant.service
+           └─3973 /srv/homeassistant/bin/python3 /srv/homeassistant/bin/hass
+
+Jul 06 19:53:38 hassbian systemd[1]: Started Home Assistant for homeassistant.
+Jul 06 19:53:41 hassbian hass[3973]: ERROR:homeassistant.util.yaml:while scanning a quoted scalar
+Jul 06 19:53:41 hassbian hass[3973]: in "/home/homeassistant/.homeassistant/configuration.yaml", line 157, column 11
+Jul 06 19:53:41 hassbian hass[3973]: found unexpected end of stream
+Jul 06 19:53:41 hassbian hass[3973]: in "/home/homeassistant/.homeassistant/configuration.yaml", line 188, column 1
+Jul 06 19:53:41 hassbian hass[3973]: ERROR:homeassistant.bootstrap:Error loading /home/homeassistant/.homeassistant/configuration.yaml: while scanning a quoted scalar
+Jul 06 19:53:41 hassbian hass[3973]: in "/home/homeassistant/.homeassistant/configuration.yaml", line 157, column 11
+Jul 06 19:53:41 hassbian hass[3973]: found unexpected end of stream
+Jul 06 19:53:41 hassbian hass[3973]: in "/home/homeassistant/.homeassistant/configuration.yaml", line 188, column 1
+Jul 06 19:53:41 hassbian hass[3973]: Config directory: /home/homeassistant/.homeassistant
+● home-assistant@homeassistant.service - Home Assistant for homeassistant
+   Loaded: loaded (/etc/systemd/system/home-assistant@homeassistant.service; enabled)
+   Active: active (running) since Thu 2017-07-06 19:55:15 PDT; 10s ago
+ Main PID: 4013 (hass)
+   CGroup: /system.slice/system-home\x2dassistant.slice/home-assistant@homeassistant.service
+           └─4013 /srv/homeassistant/bin/python3 /srv/homeassistant/bin/hass
+
+Jul 06 19:55:25 hassbian hass[4013]: INFO:homeassistant.components.camera.zoneminder:Initializing camera 2
+Jul 06 19:55:25 hassbian hass[4013]: INFO:homeassistant.components.camera.zoneminder:Initializing camera 3
+Jul 06 19:55:25 hassbian hass[4013]: INFO:homeassistant.components.camera.zoneminder:Initializing camera 4
+Jul 06 19:55:25 hassbian hass[4013]: INFO:homeassistant.components.camera.zoneminder:Initializing camera 5
+Jul 06 19:55:25 hassbian hass[4013]: INFO:homeassistant.core:Bus:Handling <Event state_changed[L]: old_state=None, new_state=<state camera.usb_dogs_room=idle; entity_picture=/api/camera_proxy/camera.usb_dogs_room?token=f382e25d4bfaba2e182b9104aefc29b84f3141e7896db730403321b4dd2c3813, access_token=f382e25d4bfaba2e182b9104aefc29b84f3141e7896db730403321b4dd2c3813, friendly_name=USB_DOGS_room @ 2017-07-06T19:55:25.103547-07:00>, entity_id=camera.usb_dogs_room>
+Jul 06 19:55:25 hassbian hass[4013]: INFO:homeassistant.core:Bus:Handling <Event state_changed[L]: old_state=None, new_state=<state camera.dog_cam1=idle; entity_picture=/api/camera_proxy/camera.dog_cam1?token=a71cb849d063f028dec81958a24a2ebcdf91b7564a464e1c3ba188efb51ca65d, access_token=a71cb849d063f028dec81958a24a2ebcdf91b7564a464e1c3ba188efb51ca65d, friendly_name=Dog_cam-1 @ 2017-07-06T19:55:25.106699-07:00>, entity_id=camera.dog_cam1>
+Jul 06 19:55:25 hassbian hass[4013]: INFO:homeassistant.core:Bus:Handling <Event state_changed[L]: old_state=None, new_state=<state camera.garage1=idle; entity_picture=/api/camera_proxy/camera.garage1?token=299f4441e05579b4a428d3b5aec7594e1bbbfbceba696ed1d7ea05bc9a83e35c, access_token=299f4441e05579b4a428d3b5aec7594e1bbbfbceba696ed1d7ea05bc9a83e35c, friendly_name=Garage-1 @ 2017-07-06T19:55:25.109896-07:00>, entity_id=camera.garage1>
+Jul 06 19:55:25 hassbian hass[4013]: INFO:homeassistant.core:Bus:Handling <Event state_changed[L]: old_state=None, new_state=<state camera.dog_cam2=idle; entity_picture=/api/camera_proxy/camera.dog_cam2?token=32e0cb3075718c1d4833cca3125b23e66b8fee9516df82c109cc3790864190b7, access_token=32e0cb3075718c1d4833cca3125b23e66b8fee9516df82c109cc3790864190b7, friendly_name=Dog_cam-2 @ 2017-07-06T19:55:25.113486-07:00>, entity_id=camera.dog_cam2>
+Jul 06 19:55:25 hassbian hass[4013]: INFO:homeassistant.core:Bus:Handling <Event state_changed[L]: old_state=None, new_state=<state camera.entrance1=idle; entity_picture=/api/camera_proxy/camera.entrance1?token=ed69aa1743407fd053618a3630bc794f48dd715d28e5e444b725e9e1ebdf0e1a, access_token=ed69aa1743407fd053618a3630bc794f48dd715d28e5e444b725e9e1ebdf0e1a, friendly_name=Entrance-1 @ 2017-07-06T19:55:25.118173-07:00>, entity_id=camera.entrance1>
+Jul 06 19:55:25 hassbian hass[4013]: INFO:homeassistant.core:Bus:Handling <Event state_changed[L]: old_state=None, new_state=<state sensor.garage1_events=unknown; unit_of_measurement=Events, friendly_name=Garage-1 Events @ 2017-07-06T19:55:25.127242-07:00>, entity_id=sensor.garage1_events>
+Jul 06 19:55:25 hassbian hass[4013]: INFO:homeassistant.core:Bus:Handling <Event state_changed[L]: old_state=None, new_state=<state sensor.entrance1_status=unknown; friendly_name=Entrance-1 Status @ 2017-07-06T19:55:25.130904-07:00>, entity_id=sensor.entrance1_status>
+● home-assistant@homeassistant.service - Home Assistant for homeassistant
+   Loaded: loaded (/etc/systemd/system/home-assistant@homeassistant.service; enabled)
+   Active: active (running) since Thu 2017-07-06 20:02:56 PDT; 10s ago
+ Main PID: 4357 (hass)
+   CGroup: /system.slice/system-home\x2dassistant.slice/home-assistant@homeassistant.service
+           └─4357 /srv/homeassistant/bin/python3 /srv/homeassistant/bin/hass
+
+Jul 06 20:03:06 hassbian hass[4357]: INFO:homeassistant.core:Bus:Handling <Event service_registered[L]: service=process, domain=conversation>
+Jul 06 20:03:06 hassbian hass[4357]: INFO:homeassistant.core:Bus:Handling <Event service_registered[L]: service=reload, domain=group>
+Jul 06 20:03:06 hassbian hass[4357]: INFO:homeassistant.core:Bus:Handling <Event service_registered[L]: service=set, domain=group>
+Jul 06 20:03:06 hassbian hass[4357]: INFO:homeassistant.core:Bus:Handling <Event service_registered[L]: service=remove, domain=group>
+Jul 06 20:03:06 hassbian hass[4357]: INFO:homeassistant.core:Bus:Handling <Event service_registered[L]: service=set_visibility, domain=group>
+Jul 06 20:03:06 hassbian hass[4357]: INFO:homeassistant.setup:Setup of domain group took 1.4 seconds.
+Jul 06 20:03:06 hassbian hass[4357]: INFO:homeassistant.core:Bus:Handling <Event component_loaded[L]: component=group>
+Jul 06 20:03:06 hassbian hass[4357]: INFO:homeassistant.setup:Setting up cover
+Jul 06 20:03:06 hassbian hass[4357]: INFO:homeassistant.setup:Setting up device_tracker
+Jul 06 20:03:06 hassbian hass[4357]: INFO:homeassistant.setup:Setting up automation
+● home-assistant@homeassistant.service - Home Assistant for homeassistant
+   Loaded: loaded (/etc/systemd/system/home-assistant@homeassistant.service; enabled)
+   Active: active (running) since Thu 2017-07-06 20:05:32 PDT; 10s ago
+ Main PID: 4542 (hass)
+   CGroup: /system.slice/system-home\x2dassistant.slice/home-assistant@homeassistant.service
+           └─4542 /srv/homeassistant/bin/python3 /srv/homeassistant/bin/hass
+
+Jul 06 20:05:42 hassbian hass[4542]: INFO:homeassistant.setup:Setting up device_tracker
+Jul 06 20:05:42 hassbian hass[4542]: INFO:homeassistant.setup:Setting up automation
+Jul 06 20:05:42 hassbian hass[4542]: INFO:homeassistant.setup:Setting up cover
+Jul 06 20:05:42 hassbian hass[4542]: INFO:homeassistant.setup:Setting up switch
+Jul 06 20:05:42 hassbian hass[4542]: INFO:homeassistant.setup:Setting up script
+Jul 06 20:05:42 hassbian hass[4542]: INFO:homeassistant.core:Bus:Handling <Event service_registered[L]: domain=script, service=timer_off_brm>
+Jul 06 20:05:42 hassbian hass[4542]: INFO:homeassistant.setup:Setup of domain updater took 0.1 seconds.
+Jul 06 20:05:42 hassbian hass[4542]: INFO:homeassistant.core:Bus:Handling <Event component_loaded[L]: component=updater>
+Jul 06 20:05:42 hassbian hass[4542]: INFO:homeassistant.components.camera.zoneminder:Initializing camera 1
+Jul 06 20:05:42 hassbian hass[4542]: INFO:homeassistant.components.camera.zoneminder:Initializing camera 2
+Jul 06 20:05:42 hassbian hass[4542]: INFO:homeassistant.components.camera.zoneminder:Initializing camera 3
+Jul 06 20:05:42 hassbian hass[4542]: INFO:homeassistant.components.camera.zoneminder:Initializing camera 4
+Jul 06 20:05:42 hassbian hass[4542]: INFO:homeassistant.components.camera.zoneminder:Initializing camera 5
+Jul 06 20:05:42 hassbian hass[4542]: INFO:homeassistant.core:Bus:Handling <Event state_changed[L]: new_state=<state automation.tracker_no_one_is_home=off; friendly_name=TRACKER No one is home, last_triggered=None @ 2017-07-06T20:05:42.449351-07:00>, old_state=None, entity_id=automation.tracker_no_one_is_home>
+Jul 06 20:05:42 hassbian hass[4542]: INFO:homeassistant.core:Bus:Handling <Event state_changed[L]: new_state=<state automation.shut_down_everything__ones_is_home=off; friendly_name=SHUT DOWN EVERYTHING - one's is home, last_triggered=None @ 2017-07-06T20:05:42.452459-07:00>, old_state=None, entity_id=automation.shut_down_everything__ones_is_home>
+● home-assistant@homeassistant.service - Home Assistant for homeassistant
+   Loaded: loaded (/etc/systemd/system/home-assistant@homeassistant.service; enabled)
+   Active: active (running) since Thu 2017-07-06 20:09:57 PDT; 10s ago
+ Main PID: 4772 (hass)
+   CGroup: /system.slice/system-home\x2dassistant.slice/home-assistant@homeassistant.service
+           └─4772 /srv/homeassistant/bin/python3 /srv/homeassistant/bin/hass
+
+Jul 06 20:10:07 hassbian hass[4772]: INFO:homeassistant.core:Bus:Handling <Event state_changed[L]: entity_id=sensor.garage1_status, new_state=<state sensor.garage1_status=unknown; friendly_name=Garage-1 Status @ 2017-07-06T20:10:07.193512-07:00>, old_state=None>
+Jul 06 20:10:07 hassbian hass[4772]: INFO:homeassistant.core:Bus:Handling <Event state_changed[L]: entity_id=sensor.dog_cam2_status, new_state=<state sensor.dog_cam2_status=unknown; friendly_name=Dog_cam-2 Status @ 2017-07-06T20:10:07.196789-07:00>, old_state=None>
+Jul 06 20:10:07 hassbian hass[4772]: INFO:homeassistant.core:Bus:Handling <Event state_changed[L]: entity_id=sensor.dog_cam2_events, new_state=<state sensor.dog_cam2_events=unknown; friendly_name=Dog_cam-2 Events, unit_of_measurement=Events @ 2017-07-06T20:10:07.200022-07:00>, old_state=None>
+Jul 06 20:10:07 hassbian hass[4772]: INFO:homeassistant.core:Bus:Handling <Event state_changed[L]: entity_id=sensor.usb_dogs_room_status, new_state=<state sensor.usb_dogs_room_status=unknown; friendly_name=USB_DOGS_room Status @ 2017-07-06T20:10:07.203299-07:00>, old_state=None>
+Jul 06 20:10:07 hassbian hass[4772]: INFO:homeassistant.core:Bus:Handling <Event state_changed[L]: entity_id=sensor.entrance1_status, new_state=<state sensor.entrance1_status=unknown; friendly_name=Entrance-1 Status @ 2017-07-06T20:10:07.206510-07:00>, old_state=None>
+Jul 06 20:10:07 hassbian hass[4772]: INFO:homeassistant.core:Bus:Handling <Event state_changed[L]: entity_id=sensor.usb_dogs_room_events, new_state=<state sensor.usb_dogs_room_events=unknown; friendly_name=USB_DOGS_room Events, unit_of_measurement=Events @ 2017-07-06T20:10:07.210774-07:00>, old_state=None>
+Jul 06 20:10:07 hassbian hass[4772]: INFO:homeassistant.setup:Setting up script
+Jul 06 20:10:07 hassbian hass[4772]: INFO:homeassistant.core:Bus:Handling <Event service_registered[L]: service=timer_off_brm, domain=script>
+Jul 06 20:10:07 hassbian hass[4772]: INFO:homeassistant.setup:Setting up automation
+Jul 06 20:10:07 hassbian hass[4772]: INFO:homeassistant.setup:Setting up switch
+● home-assistant@homeassistant.service - Home Assistant for homeassistant
+   Loaded: loaded (/etc/systemd/system/home-assistant@homeassistant.service; enabled)
+   Active: active (running) since Thu 2017-07-06 20:12:50 PDT; 10s ago
+ Main PID: 4929 (hass)
+   CGroup: /system.slice/system-home\x2dassistant.slice/home-assistant@homeassistant.service
+           └─4929 /srv/homeassistant/bin/python3 /srv/homeassistant/bin/hass
+
+Jul 06 20:13:00 hassbian hass[4929]: INFO:homeassistant.core:Bus:Handling <Event state_changed[L]: entity_id=sensor.dog_cam1_status, old_state=None, new_state=<state sensor.dog_cam1_status=unknown; friendly_name=Dog_cam-1 Status @ 2017-07-06T20:13:00.457464-07:00>>
+Jul 06 20:13:00 hassbian hass[4929]: INFO:homeassistant.core:Bus:Handling <Event state_changed[L]: entity_id=sensor.entrance1_events, old_state=None, new_state=<state sensor.entrance1_events=unknown; unit_of_measurement=Events, friendly_name=Entrance-1 Events @ 2017-07-06T20:13:00.460899-07:00>>
+Jul 06 20:13:00 hassbian hass[4929]: INFO:homeassistant.setup:Setting up script
+Jul 06 20:13:00 hassbian hass[4929]: INFO:homeassistant.core:Bus:Handling <Event service_registered[L]: service=timer_off_brm, domain=script>
+Jul 06 20:13:00 hassbian hass[4929]: INFO:homeassistant.setup:Setting up automation
+Jul 06 20:13:00 hassbian hass[4929]: INFO:homeassistant.setup:Setting up cover
+Jul 06 20:13:00 hassbian hass[4929]: INFO:homeassistant.setup:Setting up switch
+Jul 06 20:13:00 hassbian hass[4929]: INFO:homeassistant.setup:Setting up device_tracker
+Jul 06 20:13:00 hassbian hass[4929]: INFO:homeassistant.core:Bus:Handling <Event state_changed[L]: entity_id=script.timer_off_brm, old_state=None, new_state=<state script.timer_off_brm=off; last_triggered=None, friendly_name=Ceiling light bedroom timer, can_cancel=True @ 2017-07-06T20:13:00.503163-07:00>>
+Jul 06 20:13:00 hassbian hass[4929]: INFO:homeassistant.core:Bus:Handling <Event state_changed[L]: entity_id=automation.furnace_heater_on_upstairs, old_state=None, new_state=<state automation.furnace_heater_on_upstairs=off; last_triggered=None, friendly_name=Furnace Heater ON upstairs @ 2017-07-06T20:13:00.628479-07:00>>
+Jul 06 20:13:00 hassbian hass[4929]: INFO:homeassistant.core:Bus:Handling <Event state_changed[L]: entity_id=automation.turn_off_charger_in_dogs_old_room_after_1_hour, old_state=None, new_state=<state automation.turn_off_charger_in_dogs_old_room_after_1_hour=off; last_triggered=None, friendly_name=Turn off Charger in dogs old room after 1 hour @ 2017-07-06T20:13:00.659875-07:00>>
+● home-assistant@homeassistant.service - Home Assistant for homeassistant
+   Loaded: loaded (/etc/systemd/system/home-assistant@homeassistant.service; enabled)
+   Active: active (running) since Thu 2017-07-06 20:27:34 PDT; 10s ago
+ Main PID: 5357 (hass)
+   CGroup: /system.slice/system-home\x2dassistant.slice/home-assistant@homeassistant.service
+           └─5357 /srv/homeassistant/bin/python3 /srv/homeassistant/bin/hass
+
+Jul 06 20:27:43 hassbian hass[5357]: INFO:homeassistant.core:Bus:Handling <Event component_loaded[L]: component=http>
+Jul 06 20:27:43 hassbian hass[5357]: INFO:homeassistant.setup:Setting up api
+Jul 06 20:27:43 hassbian hass[5357]: INFO:homeassistant.setup:Setting up websocket_api
+Jul 06 20:27:43 hassbian hass[5357]: INFO:homeassistant.setup:Setup of domain websocket_api took 0.0 seconds.
+Jul 06 20:27:43 hassbian hass[5357]: INFO:homeassistant.core:Bus:Handling <Event component_loaded[L]: component=websocket_api>
+Jul 06 20:27:43 hassbian hass[5357]: INFO:homeassistant.setup:Setup of domain api took 0.0 seconds.
+Jul 06 20:27:43 hassbian hass[5357]: INFO:homeassistant.core:Bus:Handling <Event component_loaded[L]: component=api>
+Jul 06 20:27:43 hassbian hass[5357]: INFO:homeassistant.setup:Setting up frontend
+Jul 06 20:27:43 hassbian hass[5357]: INFO:homeassistant.setup:Setup of domain frontend took 0.1 seconds.
+Jul 06 20:27:43 hassbian hass[5357]: INFO:homeassistant.core:Bus:Handling <Event component_loaded[L]: component=frontend>
+● home-assistant@homeassistant.service - Home Assistant for homeassistant
+   Loaded: loaded (/etc/systemd/system/home-assistant@homeassistant.service; enabled)
+   Active: active (running) since Thu 2017-07-06 20:35:24 PDT; 10s ago
+ Main PID: 5599 (hass)
+   CGroup: /system.slice/system-home\x2dassistant.slice/home-assistant@homeassistant.service
+           └─5599 /srv/homeassistant/bin/python3 /srv/homeassistant/bin/hass
+
+Jul 06 20:35:24 hassbian systemd[1]: Started Home Assistant for homeassistant.
+Jul 06 20:35:29 hassbian hass[5599]: ERROR:homeassistant.util.yaml:mapping values are not allowed here
+Jul 06 20:35:29 hassbian hass[5599]: in "/home/homeassistant/.homeassistant/sensors/slider_time.yaml", line 5, column 37
+Jul 06 20:35:29 hassbian hass[5599]: ERROR:homeassistant.bootstrap:Error loading /home/homeassistant/.homeassistant/configuration.yaml: mapping values are not allowed here
+Jul 06 20:35:29 hassbian hass[5599]: in "/home/homeassistant/.homeassistant/sensors/slider_time.yaml", line 5, column 37
+Jul 06 20:35:29 hassbian hass[5599]: Config directory: /home/homeassistant/.homeassistant
+● home-assistant@homeassistant.service - Home Assistant for homeassistant
+   Loaded: loaded (/etc/systemd/system/home-assistant@homeassistant.service; enabled)
+   Active: active (running) since Thu 2017-07-06 20:39:31 PDT; 10s ago
+ Main PID: 5693 (hass)
+   CGroup: /system.slice/system-home\x2dassistant.slice/home-assistant@homeassistant.service
+           └─5693 /srv/homeassistant/bin/python3 /srv/homeassistant/bin/hass
+
+Jul 06 20:39:40 hassbian hass[5693]: INFO:homeassistant.core:Bus:Handling <Event state_changed[L]: new_state=<state sensor.pws_feelslike_string=75.0 F (23.9 C); date=Last Updated on July 6, 8:39 PM PDT, attribution=Data provided by the WUnderground weather service, friendly_name=feels like, icon=mdi:thermometer @ 2017-07-06T20:39:40.958076-07:00>, entity_id=sensor.pws_feelslike_string, old_state=None>
+Jul 06 20:39:40 hassbian hass[5693]: INFO:homeassistant.core:Bus:Handling <Event state_changed[L]: new_state=<state sensor.pws_temp_f=75.0; date=Last Updated on July 6, 8:39 PM PDT, unit_of_measurement=°F, attribution=Data provided by the WUnderground weather service, friendly_name=Temperature, icon=mdi:thermometer @ 2017-07-06T20:39:40.961476-07:00>, entity_id=sensor.pws_temp_f, old_state=None>
+Jul 06 20:39:40 hassbian hass[5693]: INFO:homeassistant.core:Bus:Handling <Event state_changed[L]: new_state=<state sensor.pws_elevation=561; unit_of_measurement=ft, attribution=Data provided by the WUnderground weather service, friendly_name=Elevation, icon=mdi:elevation-rise @ 2017-07-06T20:39:40.964840-07:00>, entity_id=sensor.pws_elevation, old_state=None>
+Jul 06 20:39:40 hassbian hass[5693]: INFO:homeassistant.core:Bus:Handling <Event state_changed[L]: new_state=<state sensor.pws_observation_time=Last Updated on July 6, 8:39 PM PDT; date=Last Updated on July 6, 8:39 PM PDT, attribution=Data provided by the WUnderground weather service, friendly_name=Observation Time, icon=mdi:clock @ 2017-07-06T20:39:40.968189-07:00>, entity_id=sensor.pws_observation_time, old_state=None>
+Jul 06 20:39:40 hassbian hass[5693]: INFO:homeassistant.setup:Setting up conversation
+Jul 06 20:39:40 hassbian hass[5693]: INFO:homeassistant.setup:Setting up device_tracker
+Jul 06 20:39:40 hassbian hass[5693]: INFO:homeassistant.setup:Setting up cover
+Jul 06 20:39:40 hassbian hass[5693]: INFO:homeassistant.setup:Setting up switch
+Jul 06 20:39:40 hassbian hass[5693]: INFO:homeassistant.setup:Setting up automation
+Jul 06 20:39:41 hassbian hass[5693]: INFO:homeassistant.setup:Setting up script
+Jul 06 20:39:41 hassbian hass[5693]: INFO:homeassistant.core:Bus:Handling <Event service_registered[L]: domain=script, service=timer_off_brm>
+Jul 06 20:39:41 hassbian hass[5693]: INFO:homeassistant.core:Bus:Handling <Event state_changed[L]: new_state=<state automation.reveil_matin_aurore_les_weekend=off; last_triggered=None, friendly_name=reveil matin Aurore les weekend @ 2017-07-06T20:39:41.162844-07:00>, entity_id=automation.reveil_matin_aurore_les_weekend, old_state=None>
+● home-assistant@homeassistant.service - Home Assistant for homeassistant
+   Loaded: loaded (/etc/systemd/system/home-assistant@homeassistant.service; enabled)
+   Active: active (running) since Thu 2017-07-06 20:41:48 PDT; 10s ago
+ Main PID: 5876 (hass)
+   CGroup: /system.slice/system-home\x2dassistant.slice/home-assistant@homeassistant.service
+           └─5876 /srv/homeassistant/bin/python3 /srv/homeassistant/bin/hass
+
+Jul 06 20:41:58 hassbian hass[5876]: INFO:homeassistant.core:Bus:Handling <Event service_registered[L]: domain=group, service=set_visibility>
+Jul 06 20:41:58 hassbian hass[5876]: INFO:homeassistant.setup:Setup of domain group took 1.4 seconds.
+Jul 06 20:41:58 hassbian hass[5876]: INFO:homeassistant.core:Bus:Handling <Event component_loaded[L]: component=group>
+Jul 06 20:41:58 hassbian hass[5876]: INFO:homeassistant.components.sensor:Setting up sensor.google_travel_time
+Jul 06 20:41:58 hassbian hass[5876]: INFO:homeassistant.setup:Setting up device_tracker
+Jul 06 20:41:58 hassbian hass[5876]: INFO:homeassistant.setup:Setting up cover
+Jul 06 20:41:58 hassbian hass[5876]: INFO:homeassistant.setup:Setting up switch
+Jul 06 20:41:58 hassbian hass[5876]: INFO:homeassistant.setup:Setting up script
+Jul 06 20:41:58 hassbian hass[5876]: INFO:homeassistant.core:Bus:Handling <Event service_registered[L]: domain=script, service=timer_off_brm>
+Jul 06 20:41:58 hassbian hass[5876]: INFO:homeassistant.setup:Setting up automation
+● home-assistant@homeassistant.service - Home Assistant for homeassistant
+   Loaded: loaded (/etc/systemd/system/home-assistant@homeassistant.service; enabled)
+   Active: active (running) since Thu 2017-07-06 20:43:09 PDT; 10s ago
+ Main PID: 6034 (hass)
+   CGroup: /system.slice/system-home\x2dassistant.slice/home-assistant@homeassistant.service
+           └─6034 /srv/homeassistant/bin/python3 /srv/homeassistant/bin/hass
+
+Jul 06 20:43:19 hassbian hass[6034]: INFO:homeassistant.components.camera.zoneminder:Initializing camera 2
+Jul 06 20:43:19 hassbian hass[6034]: INFO:homeassistant.components.camera.zoneminder:Initializing camera 3
+Jul 06 20:43:19 hassbian hass[6034]: INFO:homeassistant.components.camera.zoneminder:Initializing camera 4
+Jul 06 20:43:19 hassbian hass[6034]: INFO:homeassistant.components.camera.zoneminder:Initializing camera 5
+Jul 06 20:43:19 hassbian hass[6034]: INFO:homeassistant.setup:Setting up script
+Jul 06 20:43:19 hassbian hass[6034]: INFO:homeassistant.core:Bus:Handling <Event service_registered[L]: service=timer_off_brm, domain=script>
+Jul 06 20:43:19 hassbian hass[6034]: INFO:homeassistant.setup:Setting up cover
+Jul 06 20:43:19 hassbian hass[6034]: INFO:homeassistant.setup:Setting up switch
+Jul 06 20:43:19 hassbian hass[6034]: INFO:homeassistant.setup:Setting up device_tracker
+Jul 06 20:43:19 hassbian hass[6034]: INFO:homeassistant.setup:Setting up automation
+● home-assistant@homeassistant.service - Home Assistant for homeassistant
+   Loaded: loaded (/etc/systemd/system/home-assistant@homeassistant.service; enabled)
+   Active: active (running) since Thu 2017-07-06 20:45:26 PDT; 10s ago
+ Main PID: 6180 (hass)
+   CGroup: /system.slice/system-home\x2dassistant.slice/home-assistant@homeassistant.service
+           └─6180 /srv/homeassistant/bin/python3 /srv/homeassistant/bin/hass
+
+Jul 06 20:45:36 hassbian hass[6180]: result = next(coro)
+Jul 06 20:45:36 hassbian hass[6180]: File "/srv/homeassistant/lib/python3.4/site-packages/homeassistant/helpers/entity_component.py", line 381, in async_process_entity
+Jul 06 20:45:36 hassbian hass[6180]: new_entity, self, update_before_add=update_before_add
+Jul 06 20:45:36 hassbian hass[6180]: File "/srv/homeassistant/lib/python3.4/site-packages/homeassistant/helpers/entity_component.py", line 228, in async_add_entity
+Jul 06 20:45:36 hassbian hass[6180]: 'Entity id already exists: {}'.format(entity.entity_id))
+Jul 06 20:45:36 hassbian hass[6180]: homeassistant.exceptions.HomeAssistantError: Entity id already exists: sensor.solar_angle
+Jul 06 20:45:36 hassbian hass[6180]: INFO:homeassistant.core:Bus:Handling <Event state_changed[L]: old_state=None, entity_id=automation.tracker_no_one_is_home, new_state=<state automation.tracker_no_one_is_home=off; last_triggered=None, friendly_name=TRACKER No one is home @ 2017-07-06T20:45:36.718696-07:00>>
+Jul 06 20:45:36 hassbian hass[6180]: INFO:homeassistant.core:Bus:Handling <Event state_changed[L]: old_state=None, entity_id=automation.tracker_someone_is_home, new_state=<state automation.tracker_someone_is_home=off; last_triggered=None, friendly_name=TRACKER Someone is home @ 2017-07-06T20:45:36.722006-07:00>>
+Jul 06 20:45:36 hassbian hass[6180]: INFO:homeassistant.core:Bus:Handling <Event state_changed[L]: old_state=None, entity_id=automation.exhaust_fan_timer_on, new_state=<state automation.exhaust_fan_timer_on=off; last_triggered=None, friendly_name=Exhaust Fan Timer on @ 2017-07-06T20:45:36.767708-07:00>>
+Jul 06 20:45:36 hassbian hass[6180]: INFO:homeassistant.core:Bus:Handling <Event state_changed[L]: old_state=None, entity_id=automation.aquarium_lights_turn_off_with_the_sun_angle, new_state=<state automation.aquarium_lights_turn_off_with_the_sun_angle=off; last_triggered=None, friendly_name=AQUARIUM lights (turn off) with the sun angle @ 2017-07-06T20:45:36.781827-07:00>>
+Jul 06 20:45:36 hassbian hass[6180]: INFO:homeassistant.core:Bus:Handling <Event state_changed[L]: old_state=None, entity_id=automation.reveil_matin_aurore_semaine, new_state=<state automation.reveil_matin_aurore_semaine=off; last_triggered=None, friendly_name=reveil matin Aurore Semaine @ 2017-07-06T20:45:36.807053-07:00>>
+Jul 06 20:45:36 hassbian hass[6180]: INFO:homeassistant.core:Bus:Handling <Event state_changed[L]: old_state=None, entity_id=automation.update_available_notifications, new_state=<state automation.update_available_notifications=off; last_triggered=None, friendly_name=Update Available Notifications @ 2017-07-06T20:45:36.810818-07:00>>
+● home-assistant@homeassistant.service - Home Assistant for homeassistant
+   Loaded: loaded (/etc/systemd/system/home-assistant@homeassistant.service; enabled)
+   Active: active (running) since Thu 2017-07-06 20:47:24 PDT; 10s ago
+ Main PID: 6361 (hass)
+   CGroup: /system.slice/system-home\x2dassistant.slice/home-assistant@homeassistant.service
+           └─6361 /srv/homeassistant/bin/python3 /srv/homeassistant/bin/hass
+
+Jul 06 20:47:34 hassbian hass[6361]: 'Entity id already exists: {}'.format(entity.entity_id))
+Jul 06 20:47:34 hassbian hass[6361]: homeassistant.exceptions.HomeAssistantError: Entity id already exists: sensor.solar_angle
+Jul 06 20:47:34 hassbian hass[6361]: INFO:homeassistant.core:Bus:Handling <Event state_changed[L]: old_state=None, new_state=<state sensor.pihole_ads_percentage_blocked_today=0; friendly_name=Pi-Hole Ads Percentage Blocked Today, unit_of_measurement=%, icon=mdi:close-octagon-outline, domains_blocked=110427 @ 2017-07-06T20:47:34.730949-07:00>, entity_id=sensor.pihole_ads_percentage_blocked_today>
+Jul 06 20:47:34 hassbian hass[6361]: INFO:homeassistant.core:Bus:Handling <Event state_changed[L]: old_state=None, new_state=<state sensor.pihole_ads_blocked_today=0; friendly_name=Pi-Hole Ads Blocked Today, icon=mdi:close-octagon-outline, domains_blocked=110427 @ 2017-07-06T20:47:34.746759-07:00>, entity_id=sensor.pihole_ads_blocked_today>
+Jul 06 20:47:34 hassbian hass[6361]: INFO:homeassistant.core:Bus:Handling <Event state_changed[L]: old_state=None, new_state=<state sensor.pihole_dns_queries_today=15040; friendly_name=Pi-Hole DNS Queries Today, icon=mdi:network-question, domains_blocked=110427 @ 2017-07-06T20:47:34.755926-07:00>, entity_id=sensor.pihole_dns_queries_today>
+Jul 06 20:47:34 hassbian hass[6361]: INFO:homeassistant.core:Bus:Handling <Event service_registered[L]: service=process, domain=conversation>
+Jul 06 20:47:34 hassbian hass[6361]: INFO:homeassistant.setup:Setting up zeroconf
+Jul 06 20:47:34 hassbian hass[6361]: INFO:homeassistant.setup:Setup of domain conversation took 0.3 seconds.
+Jul 06 20:47:34 hassbian hass[6361]: INFO:homeassistant.core:Bus:Handling <Event component_loaded[L]: component=conversation>
+Jul 06 20:47:34 hassbian hass[6361]: INFO:homeassistant.setup:Setting up discovery
+● home-assistant@homeassistant.service - Home Assistant for homeassistant
+   Loaded: loaded (/etc/systemd/system/home-assistant@homeassistant.service; enabled)
+   Active: active (running) since Thu 2017-07-06 20:56:30 PDT; 10s ago
+ Main PID: 6614 (hass)
+   CGroup: /system.slice/system-home\x2dassistant.slice/home-assistant@homeassistant.service
+           └─6614 /srv/homeassistant/bin/python3 /srv/homeassistant/bin/hass
+
+Jul 06 20:56:40 hassbian hass[6614]: INFO:homeassistant.core:Bus:Handling <Event component_loaded[L]: component=conversation>
+Jul 06 20:56:40 hassbian hass[6614]: ERROR:homeassistant.core:Error doing job: Task exception was never retrieved
+Jul 06 20:56:40 hassbian hass[6614]: Traceback (most recent call last):
+Jul 06 20:56:40 hassbian hass[6614]: File "/usr/lib/python3.4/asyncio/tasks.py", line 237, in _step
+Jul 06 20:56:40 hassbian hass[6614]: result = next(coro)
+Jul 06 20:56:40 hassbian hass[6614]: File "/srv/homeassistant/lib/python3.4/site-packages/homeassistant/helpers/entity_component.py", line 381, in async_process_entity
+Jul 06 20:56:40 hassbian hass[6614]: new_entity, self, update_before_add=update_before_add
+Jul 06 20:56:40 hassbian hass[6614]: File "/srv/homeassistant/lib/python3.4/site-packages/homeassistant/helpers/entity_component.py", line 228, in async_add_entity
+Jul 06 20:56:40 hassbian hass[6614]: 'Entity id already exists: {}'.format(entity.entity_id))
+Jul 06 20:56:40 hassbian hass[6614]: homeassistant.exceptions.HomeAssistantError: Entity id already exists: sensor.solar_angle
+Jul 06 20:56:40 hassbian hass[6614]: INFO:homeassistant.setup:Setting up zeroconf
+● home-assistant@homeassistant.service - Home Assistant for homeassistant
+   Loaded: loaded (/etc/systemd/system/home-assistant@homeassistant.service; enabled)
+   Active: active (running) since Thu 2017-07-06 21:09:02 PDT; 10s ago
+ Main PID: 7048 (hass)
+   CGroup: /system.slice/system-home\x2dassistant.slice/home-assistant@homeassistant.service
+           └─7048 /srv/homeassistant/bin/python3 /srv/homeassistant/bin/hass
+
+Jul 06 21:09:11 hassbian hass[7048]: INFO:homeassistant.core:Bus:Handling <Event state_changed[L]: entity_id=sensor.pws_elevation, old_state=None, new_state=<state sensor.pws_elevation=561; unit_of_measurement=ft, friendly_name=Elevation, icon=mdi:elevation-rise, attribution=Data provided by the WUnderground weather service @ 2017-07-06T21:09:11.890289-07:00>>
+Jul 06 21:09:11 hassbian hass[7048]: INFO:homeassistant.core:Bus:Handling <Event state_changed[L]: entity_id=sensor.pws_location, old_state=None, new_state=<state sensor.pws_location=South Pasadena, CA; friendly_name=Location, icon=mdi:map-marker, attribution=Data provided by the WUnderground weather service @ 2017-07-06T21:09:11.966192-07:00>>
+Jul 06 21:09:11 hassbian hass[7048]: INFO:homeassistant.core:Bus:Handling <Event service_registered[L]: domain=conversation, service=process>
+Jul 06 21:09:12 hassbian hass[7048]: INFO:homeassistant.core:Bus:Handling <Event state_changed[L]: entity_id=sensor.slidertimeexhaustfan, old_state=None, new_state=<state sensor.slidertimeexhaustfan=unknown; friendly_name=Slider_Time @ 2017-07-06T21:09:12.007530-07:00>>
+Jul 06 21:09:12 hassbian hass[7048]: INFO:homeassistant.core:Bus:Handling <Event state_changed[L]: entity_id=sensor.pihole_dns_queries_today, old_state=None, new_state=<state sensor.pihole_dns_queries_today=14890; friendly_name=Pi-Hole DNS Queries Today, domains_blocked=110427, icon=mdi:network-question @ 2017-07-06T21:09:12.021309-07:00>>
+Jul 06 21:09:12 hassbian hass[7048]: INFO:homeassistant.core:Bus:Handling <Event state_changed[L]: entity_id=sensor.pihole_ads_percentage_blocked_today, old_state=None, new_state=<state sensor.pihole_ads_percentage_blocked_today=0; unit_of_measurement=%, friendly_name=Pi-Hole Ads Percentage Blocked Today, domains_blocked=110427, icon=mdi:close-octagon-outline @ 2017-07-06T21:09:12.029494-07:00>>
+Jul 06 21:09:12 hassbian hass[7048]: INFO:homeassistant.core:Bus:Handling <Event state_changed[L]: entity_id=sensor.solar_angle, old_state=None, new_state=<state sensor.solar_angle=unknown; unit_of_measurement=°, friendly_name=Solar Angle, icon=mdi:weather-sunset-up @ 2017-07-06T21:09:12.034346-07:00>>
+Jul 06 21:09:12 hassbian hass[7048]: INFO:homeassistant.core:Bus:Handling <Event state_changed[L]: entity_id=sensor.sunrise, old_state=None, new_state=<state sensor.sunrise=unknown; friendly_name=Sunrise (time), icon=mdi:weather-sunset @ 2017-07-06T21:09:12.054866-07:00>>
+Jul 06 21:09:12 hassbian hass[7048]: INFO:homeassistant.setup:Setup of domain conversation took 0.4 seconds.
+Jul 06 21:09:12 hassbian hass[7048]: INFO:homeassistant.core:Bus:Handling <Event component_loaded[L]: component=conversation>
+Jul 06 21:09:12 hassbian hass[7048]: ERROR:homeassistant.core:Error doing job: Task exception was never retrieved
+Jul 06 21:09:12 hassbian hass[7048]: Traceback (most recent call last):
+Jul 06 21:09:12 hassbian hass[7048]: File "/usr/lib/python3.4/asyncio/tasks.py", line 237, in _step
+Jul 06 21:09:12 hassbian hass[7048]: result = next(coro)
+Jul 06 21:09:12 hassbian hass[7048]: File "/srv/homeassistant/lib/python3.4/site-packages/homeassistant/helpers/entity_component.py", line 381, in async_process_entity
+Jul 06 21:09:12 hassbian hass[7048]: new_entity, self, update_before_add=update_before_add
+Jul 06 21:09:12 hassbian hass[7048]: File "/srv/homeassistant/lib/python3.4/site-packages/homeassistant/helpers/entity_component.py", line 228, in async_add_entity
+Jul 06 21:09:12 hassbian hass[7048]: 'Entity id already exists: {}'.format(entity.entity_id))
+Jul 06 21:09:12 hassbian hass[7048]: homeassistant.exceptions.HomeAssistantError: Entity id already exists: sensor.solar_angle
+● home-assistant@homeassistant.service - Home Assistant for homeassistant
+   Loaded: loaded (/etc/systemd/system/home-assistant@homeassistant.service; enabled)
+   Active: active (running) since Thu 2017-07-06 21:11:00 PDT; 10s ago
+ Main PID: 7226 (hass)
+   CGroup: /system.slice/system-home\x2dassistant.slice/home-assistant@homeassistant.service
+           └─7226 /srv/homeassistant/bin/python3 /srv/homeassistant/bin/hass
+
+Jul 06 21:11:10 hassbian hass[7226]: INFO:homeassistant.core:Bus:Handling <Event state_changed[L]: old_state=None, entity_id=sensor.pws_feelslike_string, new_state=<state sensor.pws_feelslike_string=73.1 F (22.8 C); friendly_name=feels like, icon=mdi:thermometer, attribution=Data provided by the WUnderground weather service, date=Last Updated on July 6, 9:08 PM PDT @ 2017-07-06T21:11:10.351644-07:00>>
+Jul 06 21:11:10 hassbian hass[7226]: INFO:homeassistant.core:Bus:Handling <Event state_changed[L]: old_state=None, entity_id=sensor.pws_temp_f, new_state=<state sensor.pws_temp_f=73.1; friendly_name=Temperature, unit_of_measurement=°F, attribution=Data provided by the WUnderground weather service, icon=mdi:thermometer, date=Last Updated on July 6, 9:08 PM PDT @ 2017-07-06T21:11:10.355161-07:00>>
+Jul 06 21:11:10 hassbian hass[7226]: INFO:homeassistant.core:Bus:Handling <Event state_changed[L]: old_state=None, entity_id=sensor.slidertimeexhaustfan, new_state=<state sensor.slidertimeexhaustfan=unknown; friendly_name=Slider_Time @ 2017-07-06T21:11:10.364504-07:00>>
+Jul 06 21:11:10 hassbian hass[7226]: INFO:homeassistant.core:Bus:Handling <Event state_changed[L]: old_state=None, entity_id=sensor.solar_angle, new_state=<state sensor.solar_angle=unknown; friendly_name=Solar Angle, unit_of_measurement=°, icon=mdi:weather-sunset-up @ 2017-07-06T21:11:10.405340-07:00>>
+Jul 06 21:11:10 hassbian hass[7226]: INFO:homeassistant.setup:Setup of domain updater took 0.2 seconds.
+Jul 06 21:11:10 hassbian hass[7226]: INFO:homeassistant.core:Bus:Handling <Event component_loaded[L]: component=updater>
+Jul 06 21:11:10 hassbian hass[7226]: INFO:homeassistant.core:Bus:Handling <Event state_changed[L]: old_state=None, entity_id=sensor.sunrise, new_state=<state sensor.sunrise=unknown; friendly_name=Sunrise (time), icon=mdi:weather-sunset @ 2017-07-06T21:11:10.451668-07:00>>
+Jul 06 21:11:10 hassbian hass[7226]: INFO:homeassistant.setup:Setup of domain zoneminder took 1.0 seconds.
+Jul 06 21:11:10 hassbian hass[7226]: INFO:homeassistant.core:Bus:Handling <Event component_loaded[L]: component=zoneminder>
+Jul 06 21:11:10 hassbian hass[7226]: INFO:homeassistant.setup:Setting up discovery
+● home-assistant@homeassistant.service - Home Assistant for homeassistant
+   Loaded: loaded (/etc/systemd/system/home-assistant@homeassistant.service; enabled)
+   Active: active (running) since Thu 2017-07-06 21:15:16 PDT; 10s ago
+ Main PID: 7527 (hass)
+   CGroup: /system.slice/system-home\x2dassistant.slice/home-assistant@homeassistant.service
+           └─7527 /srv/homeassistant/bin/python3 /srv/homeassistant/bin/hass
+
+Jul 06 21:15:26 hassbian hass[7527]: INFO:homeassistant.setup:Setting up http
+Jul 06 21:15:26 hassbian hass[7527]: INFO:homeassistant.setup:Setup of domain http took 0.2 seconds.
+Jul 06 21:15:26 hassbian hass[7527]: INFO:homeassistant.core:Bus:Handling <Event component_loaded[L]: component=http>
+Jul 06 21:15:26 hassbian hass[7527]: INFO:homeassistant.setup:Setting up api
+Jul 06 21:15:26 hassbian hass[7527]: INFO:homeassistant.setup:Setting up websocket_api
+Jul 06 21:15:26 hassbian hass[7527]: INFO:homeassistant.setup:Setup of domain websocket_api took 0.0 seconds.
+Jul 06 21:15:26 hassbian hass[7527]: INFO:homeassistant.core:Bus:Handling <Event component_loaded[L]: component=websocket_api>
+Jul 06 21:15:26 hassbian hass[7527]: INFO:homeassistant.setup:Setup of domain api took 0.0 seconds.
+Jul 06 21:15:26 hassbian hass[7527]: INFO:homeassistant.core:Bus:Handling <Event component_loaded[L]: component=api>
+Jul 06 21:15:26 hassbian hass[7527]: INFO:homeassistant.setup:Setting up frontend
+● home-assistant@homeassistant.service - Home Assistant for homeassistant
+   Loaded: loaded (/etc/systemd/system/home-assistant@homeassistant.service; enabled)
+   Active: active (running) since Thu 2017-07-06 21:20:58 PDT; 10s ago
+ Main PID: 7732 (hass)
+   CGroup: /system.slice/system-home\x2dassistant.slice/home-assistant@homeassistant.service
+           └─7732 /srv/homeassistant/bin/python3 /srv/homeassistant/bin/hass
+
+Jul 06 21:21:08 hassbian hass[7732]: result = next(coro)
+Jul 06 21:21:08 hassbian hass[7732]: File "/srv/homeassistant/lib/python3.4/site-packages/homeassistant/helpers/entity_component.py", line 381, in async_process_entity
+Jul 06 21:21:08 hassbian hass[7732]: new_entity, self, update_before_add=update_before_add
+Jul 06 21:21:08 hassbian hass[7732]: File "/srv/homeassistant/lib/python3.4/site-packages/homeassistant/helpers/entity_component.py", line 228, in async_add_entity
+Jul 06 21:21:08 hassbian hass[7732]: 'Entity id already exists: {}'.format(entity.entity_id))
+Jul 06 21:21:08 hassbian hass[7732]: homeassistant.exceptions.HomeAssistantError: Entity id already exists: sensor.solar_angle
+Jul 06 21:21:08 hassbian hass[7732]: INFO:homeassistant.setup:Setting up zeroconf
+Jul 06 21:21:08 hassbian hass[7732]: INFO:homeassistant.setup:Setup of domain conversation took 0.4 seconds.
+Jul 06 21:21:08 hassbian hass[7732]: INFO:homeassistant.core:Bus:Handling <Event component_loaded[L]: component=conversation>
+Jul 06 21:21:08 hassbian hass[7732]: INFO:homeassistant.setup:Setting up discovery
+● home-assistant@homeassistant.service - Home Assistant for homeassistant
+   Loaded: loaded (/etc/systemd/system/home-assistant@homeassistant.service; enabled)
+   Active: active (running) since Thu 2017-07-06 21:38:54 PDT; 10s ago
+ Main PID: 8086 (hass)
+   CGroup: /system.slice/system-home\x2dassistant.slice/home-assistant@homeassistant.service
+           └─8086 /srv/homeassistant/bin/python3 /srv/homeassistant/bin/hass
+
+Jul 06 21:39:04 hassbian hass[8086]: INFO:homeassistant.core:Bus:Handling <Event state_changed[L]: entity_id=input_slider.exhaustfanhours, new_state=<state input_slider.exhaustfanhours=1.0; min=0.0, friendly_name=Hour, step=1.0, max=6.0, icon=mdi:timer @ 2017-07-06T21:39:04.048119-07:00>, old_state=None>
+Jul 06 21:39:04 hassbian hass[8086]: INFO:homeassistant.core:Bus:Handling <Event state_changed[L]: entity_id=input_slider.alarmhour, new_state=<state input_slider.alarmhour=0.0; min=0.0, friendly_name=Hour, step=1.0, max=23.0, icon=mdi:timer @ 2017-07-06T21:39:04.053280-07:00>, old_state=None>
+Jul 06 21:39:04 hassbian hass[8086]: INFO:homeassistant.core:Bus:Handling <Event state_changed[L]: entity_id=sun.sun, new_state=<state sun.sun=below_horizon; next_dawn=2017-07-07T12:18:34+00:00, friendly_name=Sun, next_dusk=2017-07-08T03:36:27+00:00, elevation=-16.26, next_noon=2017-07-07T19:57:31+00:00, next_rising=2017-07-07T12:47:30+00:00, azimuth=312.85, next_setting=2017-07-08T03:07:31+00:00, next_midnight=2017-07-07T07:57:38+00:00 @ 2017-07-06T21:39:04.056677-07:00>, old_state=None>
+Jul 06 21:39:04 hassbian hass[8086]: INFO:homeassistant.setup:Setting up zone
+Jul 06 21:39:04 hassbian hass[8086]: INFO:homeassistant.loader:Loaded rpi_gpio from homeassistant.components.rpi_gpio
+Jul 06 21:39:04 hassbian hass[8086]: INFO:homeassistant.setup:Setting up panel_iframe
+Jul 06 21:39:04 hassbian hass[8086]: INFO:homeassistant.components.notify:Setting up notify.smtp
+Jul 06 21:39:04 hassbian hass[8086]: INFO:homeassistant.components.notify:Setting up notify.nfandroidtv
+Jul 06 21:39:04 hassbian hass[8086]: INFO:homeassistant.components.notify:Setting up notify.smtp
+Jul 06 21:39:04 hassbian hass[8086]: INFO:homeassistant.setup:Setting up config
+Jul 06 21:39:04 hassbian hass[8086]: INFO:homeassistant.core:Bus:Handling <Event state_changed[L]: entity_id=group.vent, new_state=<state group.vent=off; assumed_state=False, entity_id=('input_boolean.exhaustventfantimer', 'input_slider.exhaustfanhours', 'input_slider.exhaustfanminutes', 'sensor.slidertimeexhaustfan'), order=24, friendly_name=Vent Fan @ 2017-07-06T21:39:04.148942-07:00>, old_state=<state group.vent=unknown; assumed_state=False, entity_id=('input_boolean.exhaustventfantimer', 'input_slider.exhaustfanhours', 'input_slider.exhaustfanminutes', 'sensor.slidertimeexhaustfan'), order=24, friendly_name=Vent Fan @ 2017-07-06T21:39:03.946793-07:00>>
+Jul 06 21:39:04 hassbian hass[8086]: INFO:homeassistant.setup:Setup of domain input_boolean took 0.6 seconds.
+Jul 06 21:39:04 hassbian hass[8086]: INFO:homeassistant.core:Bus:Handling <Event component_loaded[L]: component=input_boolean>
+Jul 06 21:39:04 hassbian hass[8086]: INFO:homeassistant.setup:Setting up camera
+Jul 06 21:39:04 hassbian hass[8086]: INFO:homeassistant.setup:Setup of domain input_slider took 0.4 seconds.
+Jul 06 21:39:04 hassbian hass[8086]: INFO:homeassistant.core:Bus:Handling <Event component_loaded[L]: component=input_slider>
+Jul 06 21:39:04 hassbian hass[8086]: INFO:homeassistant.core:Bus:Handling <Event state_changed[L]: entity_id=zone.home, new_state=<state zone.home=zoning; latitude=34.1121, friendly_name=Home, longitude=-118.1564, radius=100, hidden=True, icon=mdi:home @ 2017-07-06T21:39:04.172886-07:00>, old_state=None>
+Jul 06 21:39:04 hassbian hass[8086]: INFO:homeassistant.setup:Setting up logbook
