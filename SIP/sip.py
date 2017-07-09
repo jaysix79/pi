@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+# !/usr/bin/env python
 # -*- coding: utf-8 -*-
 
 import i18n
@@ -15,18 +15,7 @@ sys.path.append('./plugins')
 import web  # the Web.py module. See webpy.org (Enables the Python SIP web interface)
 
 import gv
-from helpers import (
-                     report_station_completed, 
-                     plugin_adjustment, 
-                     prog_match, 
-                     schedule_stations, 
-                     log_run, 
-                     stop_onrain, 
-                     check_rain, 
-                     jsave, 
-                     station_names, 
-                     get_rpi_revision
-                     )
+from helpers import plugin_adjustment, prog_match, schedule_stations, log_run, stop_onrain, check_rain, jsave, station_names, get_rpi_revision
 from urls import urls  # Provides access to URLs for UI pages
 from gpio_pins import set_output
 from ReverseProxied import ReverseProxied
@@ -37,9 +26,15 @@ from ReverseProxied import ReverseProxied
 
 gv.restarted = 1
 
+try:
+    gv.os_cname = subprocess.check_output(['lsb_release', '-c'])[10:-1]
+except Exception:
+    gv.os_cname = "not found"
+
 def timing_loop():
     """ ***** Main timing algorithm. Runs in a separate thread.***** """
     try:
+        print _('OS code name: '), gv.os_cname
         print _('Starting timing loop') + '\n'
     except Exception:
         pass
@@ -66,16 +61,10 @@ def timing_loop():
             				# station duration condionally scaled by "water level"
                                 if gv.sd['iw'][b] & 1 << s:
                                     duration_adj = 1.0
-                                    if gv.sd['idd'] == 1:
-                                        duration = p[-1][sid]
-                                    else:
-                                        duration = p[6]
+                                    duration = p[6] 
                                 else:
-                                    duration_adj = (float(gv.sd['wl']) / 100) * extra_adjustment
-                                    if gv.sd['idd'] == 1:
-                                        duration = p[-1][sid] * duration_adj
-                                    else:
-                                        duration = p[6] * duration_adj
+                                    duration_adj = gv.sd['wl'] / 100 * extra_adjustment
+                                    duration = p[6] * duration_adj
                                     duration = int(round(duration)) # convert to int
                                 if p[7 + b] & 1 << s:  # if this station is scheduled in this program
                                     if gv.sd['seq']:  # sequential mode
@@ -110,7 +99,6 @@ def timing_loop():
                                 gv.lrun[2] = int(gv.now - gv.rs[sid][0])
                                 gv.lrun[3] = gv.now
                                 log_run()
-                                report_station_completed(sid + 1)
                                 gv.pon = None  # Program has ended
                             gv.rs[sid] = [0, 0, 0, 0]
                     else:  # if this station is not yet on
@@ -127,7 +115,7 @@ def timing_loop():
                                     gv.rs[masid][1] = gv.rs[sid][1] + gv.sd['mtoff']
                                     gv.rs[masid][3] = gv.rs[sid][3]
                             elif gv.sd['mas'] == sid + 1:
-                                gv.sbits[b] |= 1 << sid
+                                gv.sbits[b] |= 1 << sid  # (gv.sd['mas'] - 1)
                                 gv.srvals[masid] = 1
                                 set_output()
 
@@ -140,7 +128,7 @@ def timing_loop():
                 gv.pon = None
 
             if program_running:
-                if gv.sd['urs'] and gv.sd['rs']:  #  Stop stations if use rain sensor and rain detected.
+                if gv.sd['urs'] and gv.sd['rs']:  # Stop stations if use rain sensor and rain detected.
                     stop_onrain()  # Clear schedule for stations that do not ignore rain.
                 for idx in range(len(gv.rs)):  # loop through program schedule (gv.ps)
                     if gv.rs[idx][2] == 0:  # skip stations with no duration
@@ -160,31 +148,24 @@ def timing_loop():
                     gv.rs.append([0, 0, 0, 0])
                 gv.sd['bsy'] = 0
 
-            if (gv.sd['mas'] #  master is defined
-                and (gv.sd['mm'] or not gv.sd['seq']) #  manual or concurrent mode.
-                ):
-                stayon = 0
-                for octet in xrange(gv.sd['nbrd']):
-                    base = octet * 8
-                    for s in xrange(8):
-                        stn = base + s
-                        if (gv.srvals[stn] #  station is on
-                            and gv.rs[stn][1] >= gv.now #  station has a stop time >= now
-                            and gv.sd['mo'][octet] & 1 << s #  station activates master   
-                            ):                  
-                            stayon = 1
-                            break
-                if not stayon:
-                    gv.rs[gv.sd['mas'] - 1][1] = gv.now  # set master to turn off next cycle 
+            if gv.sd['mas'] and (gv.sd['mm'] or not gv.sd['seq']):  # handle master for maual or concurrent mode.
+                mval = 0
+                for sid in range(gv.sd['nst']):
+                    bid = sid / 8
+                    s = sid - bid * 8
+                    if gv.sd['mas'] != sid + 1 and (gv.srvals[sid] and gv.sd['mo'][bid] & 1 << s):
+                        mval = 1
+                        break
+                if not mval:
+                    gv.rs[gv.sd['mas'] - 1][1] = gv.now  # turn off master
 
         if gv.sd['urs']:
             check_rain()  # in helpers.py
 
-        if gv.sd['rd'] and gv.now >= gv.sd['rdst']:  # Check if rain delay time is up
+        if gv.sd['rd'] and gv.now >= gv.sd['rdst']:  # Check of rain delay time is up
             gv.sd['rd'] = 0
             gv.sd['rdst'] = 0  # Rain delay stop time
-            jsave(gv.sd, 'sd')        
-
+            jsave(gv.sd, 'sd')
         time.sleep(1)
         #### End of timing loop ####
 
@@ -195,7 +176,7 @@ class SIPApp(web.application):
     def run(self, port=gv.sd['htp'], *middleware):  # get port number from options settings
         func = self.wsgifunc(*middleware)
         func = ReverseProxied(func)
-        return web.httpserver.runsimple(func, ('0.0.0.0', 7979))
+        return web.httpserver.runsimple(func, ('0.0.0.0', port))
 
 
 app = SIPApp(urls, globals())
@@ -214,7 +195,7 @@ template_globals = {
     '_': _,
     'i18n': i18n,
     'app_path': lambda p: web.ctx.homepath + p,
-    'web': web,
+    'web' : web,
 }
 
 template_render = web.template.render('templates', globals=template_globals, base='base')
@@ -234,6 +215,18 @@ if __name__ == '__main__':
         print ' ', name
 
     gv.plugin_menu.sort(key=lambda entry: entry[0])
+
+    # Ensure first three characters ('/' plus two characters of base name of each
+    # plugin is unique.  This allows the gv.plugin_data dictionary to be indexed
+    # by the two characters in the base name.
+    plugin_map = {}
+    for p in gv.plugin_menu:
+        three_char = p[1][0:3]
+        if three_char not in plugin_map:
+            plugin_map[three_char] = p[0] + '; ' + p[1]
+        else:
+            print 'ERROR - Plugin Conflict:', p[0] + '; ' + p[1] + ' and ', plugin_map[three_char]
+            exit()
 
     #  Keep plugin manager at top of menu
     try:

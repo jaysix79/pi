@@ -357,3 +357,18 @@ sudo service sip restart
 sudo service sip status
 sudo service sip restart
 sudo service sip status
+sudo service sip restart
+sudo service sip status
+git pull
+sudo service sip restart
+sudo service sip status
+sudo PIreboot
+sudo systemctl restart sip
+sudo systemctl status sip
+sudo service sip status 
+sudo service sip restart
+sudo service sip status 
+sudo service sip restart
+sudo service sip status 
+git pull
+sudo service sip restart

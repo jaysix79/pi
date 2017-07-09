@@ -1,6 +1,5 @@
 // Global vars
-var tzOffsetDif = cliTzOffset - devTzOffset
-var displayScheduleDate = new Date(Date.now() + tzOffsetDif); // dk
+var displayScheduleDate = new Date(Date.now() + cliTzOffset - devTzOffset); // dk
 var displayScheduleTimeout;
 var sid,sn,t;
 var simdate = displayScheduleDate; // date for simulation
@@ -59,10 +58,7 @@ function doSimulation() { // Create schedule by a full program simulation, was d
           bid=sid>>3;s=sid%8; //set board index (bid) and station number per board (s) from station index (sid) 
           if(mas==(sid+1)) continue; // skip master station
           if(pd[7+bid]&(1<<s)) { // if this station is selected in this program...
-            var duration=pd[6]; // get the program duration
-            if(idd==1)  //is individual station time
-               duration=pd[pd.length-1][sid];  //get the station duration
-            et_array[sid]=duration; // Set duration for this station to duration
+            et_array[sid]=pd[6]; // Set duration for this station to duration
             if (iw[bid]&(1<<s) == 0) { // adjust duration by water level
               et_array[sid] *= wl/100*wlx/100;
             }
@@ -159,7 +155,7 @@ function displaySchedule(schedule) {
 	if (displayScheduleTimeout != null) {
 		clearTimeout(displayScheduleTimeout);
 	}
-	var now = new Date(Date.now() + tzOffsetDif); // will show device time
+	var now = new Date(Date.now() + cliTzOffset - devTzOffset); // will show device time
 	var nowMark = now.getHours()*60 + now.getMinutes();
 	var isToday = toXSDate(displayScheduleDate) == toXSDate(now);
 	var programClassesUsed = new Object();
@@ -214,7 +210,7 @@ function displaySchedule(schedule) {
 
 function displayProgram() { // Controls home page irrigation timeline
 	//if (displayScheduleDate > devt) { //dk
-	if (displayScheduleDate > new Date(Date.now() + tzOffsetDif)) { //dk
+	if (displayScheduleDate > new Date(Date.now() + cliTzOffset - devTzOffset)) { //dk
 		var schedule = doSimulation(); //dk
 		displaySchedule(schedule);
 	} else {
@@ -228,7 +224,7 @@ function displayProgram() { // Controls home page irrigation timeline
 				}
 				log[l].label = toClock(log[l].start, timeFormat) + " for " + toClock(log[l].duration, 1);
 			}
-			if (toXSDate(displayScheduleDate) == toXSDate(new Date(Date.now()- devTzOffset + tzOffsetDif))) {
+			if (toXSDate(displayScheduleDate) == toXSDate(new Date(Date.now() + cliTzOffset - devTzOffset))) {
 				var schedule = doSimulation(); //dk
 				log = log.concat(schedule);
 			}

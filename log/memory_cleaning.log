@@ -2173,3 +2173,108 @@ Sat  8 Jul 17:15:05 PDT 2017
 
 
 
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
+# # # # # # # # Starting apt-get-memory_cleaning  # # # # # # # # # # # # # #
+Sat  8 Jul 18:15:01 PDT 2017
+vm.drop_caches = 3
+3
+
+Sat  8 Jul 18:15:05 PDT 2017
+# # # # # # # #        memory_cleaning DONE!!       # # # # # # # # # # # # #
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
+
+
+
+
+
+
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
+# # # # # # # # Starting apt-get-memory_cleaning  # # # # # # # # # # # # # #
+Sat  8 Jul 19:15:02 PDT 2017
+vm.drop_caches = 3
+3
+
+Sat  8 Jul 19:15:04 PDT 2017
+# # # # # # # #        memory_cleaning DONE!!       # # # # # # # # # # # # #
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
+
+
+
+
+
+
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
+# # # # # # # # Starting apt-get-memory_cleaning  # # # # # # # # # # # # # #
+Sat  8 Jul 20:15:01 PDT 2017
+vm.drop_caches = 3
+3
+
+Sat  8 Jul 20:15:04 PDT 2017
+# # # # # # # #        memory_cleaning DONE!!       # # # # # # # # # # # # #
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
+
+
+
+
+
+
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
+# # # # # # # # Starting apt-get-memory_cleaning  # # # # # # # # # # # # # #
+Sat  8 Jul 21:15:02 PDT 2017
+vm.drop_caches = 3
+3
+
+Sat  8 Jul 21:15:04 PDT 2017
+# # # # # # # #        memory_cleaning DONE!!       # # # # # # # # # # # # #
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
+
+
+
+
+
+
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
+# # # # # # # # Starting apt-get-memory_cleaning  # # # # # # # # # # # # # #
+Sat  8 Jul 22:15:01 PDT 2017
+vm.drop_caches = 3
+3
+
+Sat  8 Jul 22:15:04 PDT 2017
+# # # # # # # #        memory_cleaning DONE!!       # # # # # # # # # # # # #
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
+
+
+
+
+
+
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
+# # # # # # # # Starting apt-get-memory_cleaning  # # # # # # # # # # # # # #
+Sat  8 Jul 23:15:01 PDT 2017
+vm.drop_caches = 3
+3
+
+Sat  8 Jul 23:15:03 PDT 2017
+# # # # # # # #        memory_cleaning DONE!!       # # # # # # # # # # # # #
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
+
+
+
+
+
+
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
+# # # # # # # # Starting apt-get-memory_cleaning  # # # # # # # # # # # # # #
+Sun  9 Jul 00:15:01 PDT 2017
+vm.drop_caches = 3
+3
+
+Sun  9 Jul 00:15:04 PDT 2017
+# # # # # # # #        memory_cleaning DONE!!       # # # # # # # # # # # # #
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
+
+
+
+
+
+

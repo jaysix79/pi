@@ -3129,3 +3129,2627 @@ cap.capabilities=0x84200001
 [1] [NTC] [VID] [Jul 08 17:30:51] vid_v4lx_start: Using V4L1
 [1] [ERR] [ALL] [Jul 08 17:30:51] motion_loop: Video device fatal error - Closing video device
 [1] [NTC] [VID] [Jul 08 17:30:51] vid_close: Closing video device /dev/video0
+[1] [WRN] [ALL] [Jul 08 17:31:00] motion_loop: Retrying until successful connection with camera
+[1] [NTC] [VID] [Jul 08 17:31:00] vid_v4lx_start: Using videodevice /dev/video0 and input -1
+[1] [NTC] [VID] [Jul 08 17:31:00] v4l2_get_capability: 
+------------------------
+cap.driver: "uvcvideo"
+cap.card: "UVC Camera (046d:08c9)"
+cap.bus_info: "usb-3f980000.usb-1.5"
+cap.capabilities=0x84200001
+------------------------
+[1] [NTC] [VID] [Jul 08 17:31:00] v4l2_get_capability: - VIDEO_CAPTURE
+[1] [NTC] [VID] [Jul 08 17:31:00] v4l2_get_capability: - STREAMING
+[1] [NTC] [VID] [Jul 08 17:31:00] v4l2_select_input: name = "Camera 1", type 0x00000002, status 00000000
+[1] [NTC] [VID] [Jul 08 17:31:00] v4l2_select_input: - CAMERA
+[1] [WRN] [VID] [Jul 08 17:31:00] v4l2_select_input: Device doesn't support VIDIOC_G_STD
+[1] [NTC] [VID] [Jul 08 17:31:05] v4l2_set_pix_format: Config palette index 17 (YU12) doesn't work.
+[1] [NTC] [VID] [Jul 08 17:31:05] v4l2_set_pix_format: Supported palettes:
+[1] [NTC] [VID] [Jul 08 17:31:05] v4l2_set_pix_format: (0) MJPG (Motion-JPEG)
+[1] [NTC] [VID] [Jul 08 17:31:05] v4l2_set_pix_format: 0 - Motion-JPEG (compressed : 1) (0x47504a4d)
+[1] [NTC] [VID] [Jul 08 17:31:05] v4l2_set_pix_format: (1) YUYV (YUYV 4:2:2)
+[1] [NTC] [VID] [Jul 08 17:31:05] v4l2_set_pix_format: 1 - YUYV 4:2:2 (compressed : 0) (0x56595559)
+[1] [NTC] [VID] [Jul 08 17:31:05] v4l2_set_pix_format Selected palette YUYV
+[1] [ERR] [VID] [Jul 08 17:31:10] VIDIOC_TRY_FMT failed for format v4l2_set_pix_format: 
+[1] [ERR] [VID] [Jul 08 17:31:10] v4l2_set_pix_format: Unable to find a compatible palette format.
+[1] [NTC] [VID] [Jul 08 17:31:10] vid_v4lx_start: Using V4L1
+[1] [ERR] [ALL] [Jul 08 17:31:10] motion_loop: Video device fatal error - Closing video device
+[1] [NTC] [VID] [Jul 08 17:31:10] vid_close: Closing video device /dev/video0
+[1] [WRN] [ALL] [Jul 08 17:31:10] motion_loop: Retrying until successful connection with camera
+[1] [NTC] [VID] [Jul 08 17:31:10] vid_v4lx_start: Using videodevice /dev/video0 and input -1
+[1] [NTC] [VID] [Jul 08 17:31:10] v4l2_get_capability: 
+------------------------
+cap.driver: "uvcvideo"
+cap.card: "UVC Camera (046d:08c9)"
+cap.bus_info: "usb-3f980000.usb-1.5"
+cap.capabilities=0x84200001
+------------------------
+[1] [NTC] [VID] [Jul 08 17:31:10] v4l2_get_capability: - VIDEO_CAPTURE
+[1] [NTC] [VID] [Jul 08 17:31:10] v4l2_get_capability: - STREAMING
+[1] [NTC] [VID] [Jul 08 17:31:10] v4l2_select_input: name = "Camera 1", type 0x00000002, status 00000000
+[1] [NTC] [VID] [Jul 08 17:31:10] v4l2_select_input: - CAMERA
+[1] [WRN] [VID] [Jul 08 17:31:10] v4l2_select_input: Device doesn't support VIDIOC_G_STD
+[1] [NTC] [VID] [Jul 08 17:31:15] v4l2_set_pix_format: Config palette index 17 (YU12) doesn't work.
+[1] [NTC] [VID] [Jul 08 17:31:15] v4l2_set_pix_format: Supported palettes:
+[1] [NTC] [VID] [Jul 08 17:31:15] v4l2_set_pix_format: (0) MJPG (Motion-JPEG)
+[1] [NTC] [VID] [Jul 08 17:31:15] v4l2_set_pix_format: 0 - Motion-JPEG (compressed : 1) (0x47504a4d)
+[1] [NTC] [VID] [Jul 08 17:31:15] v4l2_set_pix_format: (1) YUYV (YUYV 4:2:2)
+[1] [NTC] [VID] [Jul 08 17:31:15] v4l2_set_pix_format: 1 - YUYV 4:2:2 (compressed : 0) (0x56595559)
+[1] [NTC] [VID] [Jul 08 17:31:15] v4l2_set_pix_format Selected palette YUYV
+[1] [ERR] [VID] [Jul 08 17:31:20] VIDIOC_TRY_FMT failed for format v4l2_set_pix_format: 
+[1] [ERR] [VID] [Jul 08 17:31:20] v4l2_set_pix_format: Unable to find a compatible palette format.
+[1] [NTC] [VID] [Jul 08 17:31:20] vid_v4lx_start: Using V4L1
+[1] [ERR] [ALL] [Jul 08 17:31:20] motion_loop: Video device fatal error - Closing video device
+[1] [NTC] [VID] [Jul 08 17:31:20] vid_close: Closing video device /dev/video0
+[1] [WRN] [ALL] [Jul 08 17:31:20] motion_loop: Retrying until successful connection with camera
+[1] [NTC] [VID] [Jul 08 17:31:20] vid_v4lx_start: Using videodevice /dev/video0 and input -1
+[1] [NTC] [VID] [Jul 08 17:31:20] v4l2_get_capability: 
+------------------------
+cap.driver: "uvcvideo"
+cap.card: "UVC Camera (046d:08c9)"
+cap.bus_info: "usb-3f980000.usb-1.5"
+cap.capabilities=0x84200001
+------------------------
+[1] [NTC] [VID] [Jul 08 17:31:20] v4l2_get_capability: - VIDEO_CAPTURE
+[1] [NTC] [VID] [Jul 08 17:31:20] v4l2_get_capability: - STREAMING
+[1] [NTC] [VID] [Jul 08 17:31:20] v4l2_select_input: name = "Camera 1", type 0x00000002, status 00000000
+[1] [NTC] [VID] [Jul 08 17:31:20] v4l2_select_input: - CAMERA
+[1] [WRN] [VID] [Jul 08 17:31:20] v4l2_select_input: Device doesn't support VIDIOC_G_STD
+[1] [NTC] [VID] [Jul 08 17:31:25] v4l2_set_pix_format: Config palette index 17 (YU12) doesn't work.
+[1] [NTC] [VID] [Jul 08 17:31:25] v4l2_set_pix_format: Supported palettes:
+[1] [NTC] [VID] [Jul 08 17:31:25] v4l2_set_pix_format: (0) MJPG (Motion-JPEG)
+[1] [NTC] [VID] [Jul 08 17:31:25] v4l2_set_pix_format: 0 - Motion-JPEG (compressed : 1) (0x47504a4d)
+[1] [NTC] [VID] [Jul 08 17:31:25] v4l2_set_pix_format: (1) YUYV (YUYV 4:2:2)
+[1] [NTC] [VID] [Jul 08 17:31:25] v4l2_set_pix_format: 1 - YUYV 4:2:2 (compressed : 0) (0x56595559)
+[1] [NTC] [VID] [Jul 08 17:31:25] v4l2_set_pix_format Selected palette YUYV
+[1] [ERR] [VID] [Jul 08 17:31:30] VIDIOC_TRY_FMT failed for format v4l2_set_pix_format: 
+[1] [ERR] [VID] [Jul 08 17:31:30] v4l2_set_pix_format: Unable to find a compatible palette format.
+[1] [NTC] [VID] [Jul 08 17:31:30] vid_v4lx_start: Using V4L1
+[1] [ERR] [ALL] [Jul 08 17:31:30] motion_loop: Video device fatal error - Closing video device
+[1] [NTC] [VID] [Jul 08 17:31:30] vid_close: Closing video device /dev/video0
+[1] [WRN] [ALL] [Jul 08 17:31:30] motion_loop: Retrying until successful connection with camera
+[1] [NTC] [VID] [Jul 08 17:31:30] vid_v4lx_start: Using videodevice /dev/video0 and input -1
+[1] [NTC] [VID] [Jul 08 17:31:30] v4l2_get_capability: 
+------------------------
+cap.driver: "uvcvideo"
+cap.card: "UVC Camera (046d:08c9)"
+cap.bus_info: "usb-3f980000.usb-1.5"
+cap.capabilities=0x84200001
+------------------------
+[1] [NTC] [VID] [Jul 08 17:31:30] v4l2_get_capability: - VIDEO_CAPTURE
+[1] [NTC] [VID] [Jul 08 17:31:30] v4l2_get_capability: - STREAMING
+[1] [NTC] [VID] [Jul 08 17:31:30] v4l2_select_input: name = "Camera 1", type 0x00000002, status 00000000
+[1] [NTC] [VID] [Jul 08 17:31:30] v4l2_select_input: - CAMERA
+[1] [WRN] [VID] [Jul 08 17:31:30] v4l2_select_input: Device doesn't support VIDIOC_G_STD
+[1] [NTC] [VID] [Jul 08 17:31:35] v4l2_set_pix_format: Config palette index 17 (YU12) doesn't work.
+[1] [NTC] [VID] [Jul 08 17:31:35] v4l2_set_pix_format: Supported palettes:
+[1] [NTC] [VID] [Jul 08 17:31:35] v4l2_set_pix_format: (0) MJPG (Motion-JPEG)
+[1] [NTC] [VID] [Jul 08 17:31:35] v4l2_set_pix_format: 0 - Motion-JPEG (compressed : 1) (0x47504a4d)
+[1] [NTC] [VID] [Jul 08 17:31:35] v4l2_set_pix_format: (1) YUYV (YUYV 4:2:2)
+[1] [NTC] [VID] [Jul 08 17:31:35] v4l2_set_pix_format: 1 - YUYV 4:2:2 (compressed : 0) (0x56595559)
+[1] [NTC] [VID] [Jul 08 17:31:35] v4l2_set_pix_format Selected palette YUYV
+[1] [ERR] [VID] [Jul 08 17:31:40] VIDIOC_TRY_FMT failed for format v4l2_set_pix_format: 
+[1] [ERR] [VID] [Jul 08 17:31:40] v4l2_set_pix_format: Unable to find a compatible palette format.
+[1] [NTC] [VID] [Jul 08 17:31:40] vid_v4lx_start: Using V4L1
+[1] [ERR] [ALL] [Jul 08 17:31:40] motion_loop: Video device fatal error - Closing video device
+[1] [NTC] [VID] [Jul 08 17:31:40] vid_close: Closing video device /dev/video0
+[1] [WRN] [ALL] [Jul 08 17:31:40] motion_loop: Retrying until successful connection with camera
+[1] [NTC] [VID] [Jul 08 17:31:40] vid_v4lx_start: Using videodevice /dev/video0 and input -1
+[1] [NTC] [VID] [Jul 08 17:31:40] v4l2_get_capability: 
+------------------------
+cap.driver: "uvcvideo"
+cap.card: "UVC Camera (046d:08c9)"
+cap.bus_info: "usb-3f980000.usb-1.5"
+cap.capabilities=0x84200001
+------------------------
+[1] [NTC] [VID] [Jul 08 17:31:40] v4l2_get_capability: - VIDEO_CAPTURE
+[1] [NTC] [VID] [Jul 08 17:31:40] v4l2_get_capability: - STREAMING
+[1] [NTC] [VID] [Jul 08 17:31:40] v4l2_select_input: name = "Camera 1", type 0x00000002, status 00000000
+[1] [NTC] [VID] [Jul 08 17:31:40] v4l2_select_input: - CAMERA
+[1] [WRN] [VID] [Jul 08 17:31:40] v4l2_select_input: Device doesn't support VIDIOC_G_STD
+[1] [NTC] [VID] [Jul 08 17:31:45] v4l2_set_pix_format: Config palette index 17 (YU12) doesn't work.
+[1] [NTC] [VID] [Jul 08 17:31:45] v4l2_set_pix_format: Supported palettes:
+[1] [NTC] [VID] [Jul 08 17:31:45] v4l2_set_pix_format: (0) MJPG (Motion-JPEG)
+[1] [NTC] [VID] [Jul 08 17:31:45] v4l2_set_pix_format: 0 - Motion-JPEG (compressed : 1) (0x47504a4d)
+[1] [NTC] [VID] [Jul 08 17:31:45] v4l2_set_pix_format: (1) YUYV (YUYV 4:2:2)
+[1] [NTC] [VID] [Jul 08 17:31:45] v4l2_set_pix_format: 1 - YUYV 4:2:2 (compressed : 0) (0x56595559)
+[1] [NTC] [VID] [Jul 08 17:31:45] v4l2_set_pix_format Selected palette YUYV
+[1] [ERR] [VID] [Jul 08 17:31:50] VIDIOC_TRY_FMT failed for format v4l2_set_pix_format: 
+[1] [ERR] [VID] [Jul 08 17:31:50] v4l2_set_pix_format: Unable to find a compatible palette format.
+[1] [NTC] [VID] [Jul 08 17:31:50] vid_v4lx_start: Using V4L1
+[1] [ERR] [ALL] [Jul 08 17:31:50] motion_loop: Video device fatal error - Closing video device
+[1] [NTC] [VID] [Jul 08 17:31:50] vid_close: Closing video device /dev/video0
+[1] [WRN] [ALL] [Jul 08 17:31:50] motion_loop: Retrying until successful connection with camera
+[1] [NTC] [VID] [Jul 08 17:31:50] vid_v4lx_start: Using videodevice /dev/video0 and input -1
+[1] [NTC] [VID] [Jul 08 17:31:50] v4l2_get_capability: 
+------------------------
+cap.driver: "uvcvideo"
+cap.card: "UVC Camera (046d:08c9)"
+cap.bus_info: "usb-3f980000.usb-1.5"
+cap.capabilities=0x84200001
+------------------------
+[1] [NTC] [VID] [Jul 08 17:31:50] v4l2_get_capability: - VIDEO_CAPTURE
+[1] [NTC] [VID] [Jul 08 17:31:50] v4l2_get_capability: - STREAMING
+[1] [NTC] [VID] [Jul 08 17:31:50] v4l2_select_input: name = "Camera 1", type 0x00000002, status 00000000
+[1] [NTC] [VID] [Jul 08 17:31:50] v4l2_select_input: - CAMERA
+[1] [WRN] [VID] [Jul 08 17:31:50] v4l2_select_input: Device doesn't support VIDIOC_G_STD
+[1] [NTC] [VID] [Jul 08 17:31:55] v4l2_set_pix_format: Config palette index 17 (YU12) doesn't work.
+[1] [NTC] [VID] [Jul 08 17:31:55] v4l2_set_pix_format: Supported palettes:
+[1] [NTC] [VID] [Jul 08 17:31:55] v4l2_set_pix_format: (0) MJPG (Motion-JPEG)
+[1] [NTC] [VID] [Jul 08 17:31:55] v4l2_set_pix_format: 0 - Motion-JPEG (compressed : 1) (0x47504a4d)
+[1] [NTC] [VID] [Jul 08 17:31:55] v4l2_set_pix_format: (1) YUYV (YUYV 4:2:2)
+[1] [NTC] [VID] [Jul 08 17:31:55] v4l2_set_pix_format: 1 - YUYV 4:2:2 (compressed : 0) (0x56595559)
+[1] [NTC] [VID] [Jul 08 17:31:55] v4l2_set_pix_format Selected palette YUYV
+[1] [ERR] [VID] [Jul 08 17:32:01] VIDIOC_TRY_FMT failed for format v4l2_set_pix_format: 
+[1] [ERR] [VID] [Jul 08 17:32:01] v4l2_set_pix_format: Unable to find a compatible palette format.
+[1] [NTC] [VID] [Jul 08 17:32:01] vid_v4lx_start: Using V4L1
+[1] [ERR] [ALL] [Jul 08 17:32:01] motion_loop: Video device fatal error - Closing video device
+[1] [NTC] [VID] [Jul 08 17:32:01] vid_close: Closing video device /dev/video0
+[1] [WRN] [ALL] [Jul 08 17:32:10] motion_loop: Retrying until successful connection with camera
+[1] [NTC] [VID] [Jul 08 17:32:10] vid_v4lx_start: Using videodevice /dev/video0 and input -1
+[1] [NTC] [VID] [Jul 08 17:32:10] v4l2_get_capability: 
+------------------------
+cap.driver: "uvcvideo"
+cap.card: "UVC Camera (046d:08c9)"
+cap.bus_info: "usb-3f980000.usb-1.5"
+cap.capabilities=0x84200001
+------------------------
+[1] [NTC] [VID] [Jul 08 17:32:10] v4l2_get_capability: - VIDEO_CAPTURE
+[1] [NTC] [VID] [Jul 08 17:32:10] v4l2_get_capability: - STREAMING
+[1] [NTC] [VID] [Jul 08 17:32:10] v4l2_select_input: name = "Camera 1", type 0x00000002, status 00000000
+[1] [NTC] [VID] [Jul 08 17:32:10] v4l2_select_input: - CAMERA
+[1] [WRN] [VID] [Jul 08 17:32:10] v4l2_select_input: Device doesn't support VIDIOC_G_STD
+[1] [NTC] [VID] [Jul 08 17:32:15] v4l2_set_pix_format: Config palette index 17 (YU12) doesn't work.
+[1] [NTC] [VID] [Jul 08 17:32:15] v4l2_set_pix_format: Supported palettes:
+[1] [NTC] [VID] [Jul 08 17:32:15] v4l2_set_pix_format: (0) MJPG (Motion-JPEG)
+[1] [NTC] [VID] [Jul 08 17:32:15] v4l2_set_pix_format: 0 - Motion-JPEG (compressed : 1) (0x47504a4d)
+[1] [NTC] [VID] [Jul 08 17:32:15] v4l2_set_pix_format: (1) YUYV (YUYV 4:2:2)
+[1] [NTC] [VID] [Jul 08 17:32:15] v4l2_set_pix_format: 1 - YUYV 4:2:2 (compressed : 0) (0x56595559)
+[1] [NTC] [VID] [Jul 08 17:32:15] v4l2_set_pix_format Selected palette YUYV
+[1] [ERR] [VID] [Jul 08 17:32:20] VIDIOC_TRY_FMT failed for format v4l2_set_pix_format: 
+[1] [ERR] [VID] [Jul 08 17:32:20] v4l2_set_pix_format: Unable to find a compatible palette format.
+[1] [NTC] [VID] [Jul 08 17:32:20] vid_v4lx_start: Using V4L1
+[1] [ERR] [ALL] [Jul 08 17:32:20] motion_loop: Video device fatal error - Closing video device
+[1] [NTC] [VID] [Jul 08 17:32:20] vid_close: Closing video device /dev/video0
+[1] [WRN] [ALL] [Jul 08 17:32:20] motion_loop: Retrying until successful connection with camera
+[1] [NTC] [VID] [Jul 08 17:32:20] vid_v4lx_start: Using videodevice /dev/video0 and input -1
+[1] [NTC] [VID] [Jul 08 17:32:20] v4l2_get_capability: 
+------------------------
+cap.driver: "uvcvideo"
+cap.card: "UVC Camera (046d:08c9)"
+cap.bus_info: "usb-3f980000.usb-1.5"
+cap.capabilities=0x84200001
+------------------------
+[1] [NTC] [VID] [Jul 08 17:32:20] v4l2_get_capability: - VIDEO_CAPTURE
+[1] [NTC] [VID] [Jul 08 17:32:20] v4l2_get_capability: - STREAMING
+[1] [NTC] [VID] [Jul 08 17:32:20] v4l2_select_input: name = "Camera 1", type 0x00000002, status 00000000
+[1] [NTC] [VID] [Jul 08 17:32:20] v4l2_select_input: - CAMERA
+[1] [WRN] [VID] [Jul 08 17:32:20] v4l2_select_input: Device doesn't support VIDIOC_G_STD
+[1] [NTC] [VID] [Jul 08 17:32:25] v4l2_set_pix_format: Config palette index 17 (YU12) doesn't work.
+[1] [NTC] [VID] [Jul 08 17:32:25] v4l2_set_pix_format: Supported palettes:
+[1] [NTC] [VID] [Jul 08 17:32:25] v4l2_set_pix_format: (0) MJPG (Motion-JPEG)
+[1] [NTC] [VID] [Jul 08 17:32:25] v4l2_set_pix_format: 0 - Motion-JPEG (compressed : 1) (0x47504a4d)
+[1] [NTC] [VID] [Jul 08 17:32:25] v4l2_set_pix_format: (1) YUYV (YUYV 4:2:2)
+[1] [NTC] [VID] [Jul 08 17:32:25] v4l2_set_pix_format: 1 - YUYV 4:2:2 (compressed : 0) (0x56595559)
+[1] [NTC] [VID] [Jul 08 17:32:25] v4l2_set_pix_format Selected palette YUYV
+[1] [ERR] [VID] [Jul 08 17:32:30] VIDIOC_TRY_FMT failed for format v4l2_set_pix_format: 
+[1] [ERR] [VID] [Jul 08 17:32:30] v4l2_set_pix_format: Unable to find a compatible palette format.
+[1] [NTC] [VID] [Jul 08 17:32:30] vid_v4lx_start: Using V4L1
+[1] [ERR] [ALL] [Jul 08 17:32:30] motion_loop: Video device fatal error - Closing video device
+[1] [NTC] [VID] [Jul 08 17:32:30] vid_close: Closing video device /dev/video0
+[1] [WRN] [ALL] [Jul 08 17:32:30] motion_loop: Retrying until successful connection with camera
+[1] [NTC] [VID] [Jul 08 17:32:30] vid_v4lx_start: Using videodevice /dev/video0 and input -1
+[1] [NTC] [VID] [Jul 08 17:32:30] v4l2_get_capability: 
+------------------------
+cap.driver: "uvcvideo"
+cap.card: "UVC Camera (046d:08c9)"
+cap.bus_info: "usb-3f980000.usb-1.5"
+cap.capabilities=0x84200001
+------------------------
+[1] [NTC] [VID] [Jul 08 17:32:30] v4l2_get_capability: - VIDEO_CAPTURE
+[1] [NTC] [VID] [Jul 08 17:32:30] v4l2_get_capability: - STREAMING
+[1] [NTC] [VID] [Jul 08 17:32:30] v4l2_select_input: name = "Camera 1", type 0x00000002, status 00000000
+[1] [NTC] [VID] [Jul 08 17:32:30] v4l2_select_input: - CAMERA
+[1] [WRN] [VID] [Jul 08 17:32:30] v4l2_select_input: Device doesn't support VIDIOC_G_STD
+[1] [NTC] [VID] [Jul 08 17:32:35] v4l2_set_pix_format: Config palette index 17 (YU12) doesn't work.
+[1] [NTC] [VID] [Jul 08 17:32:35] v4l2_set_pix_format: Supported palettes:
+[1] [NTC] [VID] [Jul 08 17:32:35] v4l2_set_pix_format: (0) MJPG (Motion-JPEG)
+[1] [NTC] [VID] [Jul 08 17:32:35] v4l2_set_pix_format: 0 - Motion-JPEG (compressed : 1) (0x47504a4d)
+[1] [NTC] [VID] [Jul 08 17:32:35] v4l2_set_pix_format: (1) YUYV (YUYV 4:2:2)
+[1] [NTC] [VID] [Jul 08 17:32:35] v4l2_set_pix_format: 1 - YUYV 4:2:2 (compressed : 0) (0x56595559)
+[1] [NTC] [VID] [Jul 08 17:32:35] v4l2_set_pix_format Selected palette YUYV
+[1] [ERR] [VID] [Jul 08 17:32:40] VIDIOC_TRY_FMT failed for format v4l2_set_pix_format: 
+[1] [ERR] [VID] [Jul 08 17:32:40] v4l2_set_pix_format: Unable to find a compatible palette format.
+[1] [NTC] [VID] [Jul 08 17:32:40] vid_v4lx_start: Using V4L1
+[1] [ERR] [ALL] [Jul 08 17:32:40] motion_loop: Video device fatal error - Closing video device
+[1] [NTC] [VID] [Jul 08 17:32:40] vid_close: Closing video device /dev/video0
+[1] [WRN] [ALL] [Jul 08 17:32:40] motion_loop: Retrying until successful connection with camera
+[1] [NTC] [VID] [Jul 08 17:32:40] vid_v4lx_start: Using videodevice /dev/video0 and input -1
+[1] [NTC] [VID] [Jul 08 17:32:40] v4l2_get_capability: 
+------------------------
+cap.driver: "uvcvideo"
+cap.card: "UVC Camera (046d:08c9)"
+cap.bus_info: "usb-3f980000.usb-1.5"
+cap.capabilities=0x84200001
+------------------------
+[1] [NTC] [VID] [Jul 08 17:32:40] v4l2_get_capability: - VIDEO_CAPTURE
+[1] [NTC] [VID] [Jul 08 17:32:40] v4l2_get_capability: - STREAMING
+[1] [NTC] [VID] [Jul 08 17:32:40] v4l2_select_input: name = "Camera 1", type 0x00000002, status 00000000
+[1] [NTC] [VID] [Jul 08 17:32:40] v4l2_select_input: - CAMERA
+[1] [WRN] [VID] [Jul 08 17:32:40] v4l2_select_input: Device doesn't support VIDIOC_G_STD
+[1] [NTC] [VID] [Jul 08 17:32:45] v4l2_set_pix_format: Config palette index 17 (YU12) doesn't work.
+[1] [NTC] [VID] [Jul 08 17:32:45] v4l2_set_pix_format: Supported palettes:
+[1] [NTC] [VID] [Jul 08 17:32:45] v4l2_set_pix_format: (0) MJPG (Motion-JPEG)
+[1] [NTC] [VID] [Jul 08 17:32:45] v4l2_set_pix_format: 0 - Motion-JPEG (compressed : 1) (0x47504a4d)
+[1] [NTC] [VID] [Jul 08 17:32:45] v4l2_set_pix_format: (1) YUYV (YUYV 4:2:2)
+[1] [NTC] [VID] [Jul 08 17:32:45] v4l2_set_pix_format: 1 - YUYV 4:2:2 (compressed : 0) (0x56595559)
+[1] [NTC] [VID] [Jul 08 17:32:45] v4l2_set_pix_format Selected palette YUYV
+[1] [ERR] [VID] [Jul 08 17:32:50] VIDIOC_TRY_FMT failed for format v4l2_set_pix_format: 
+[1] [ERR] [VID] [Jul 08 17:32:50] v4l2_set_pix_format: Unable to find a compatible palette format.
+[1] [NTC] [VID] [Jul 08 17:32:50] vid_v4lx_start: Using V4L1
+[1] [ERR] [ALL] [Jul 08 17:32:50] motion_loop: Video device fatal error - Closing video device
+[1] [NTC] [VID] [Jul 08 17:32:50] vid_close: Closing video device /dev/video0
+[1] [WRN] [ALL] [Jul 08 17:32:50] motion_loop: Retrying until successful connection with camera
+[1] [NTC] [VID] [Jul 08 17:32:50] vid_v4lx_start: Using videodevice /dev/video0 and input -1
+[1] [NTC] [VID] [Jul 08 17:32:50] v4l2_get_capability: 
+------------------------
+cap.driver: "uvcvideo"
+cap.card: "UVC Camera (046d:08c9)"
+cap.bus_info: "usb-3f980000.usb-1.5"
+cap.capabilities=0x84200001
+------------------------
+[1] [NTC] [VID] [Jul 08 17:32:50] v4l2_get_capability: - VIDEO_CAPTURE
+[1] [NTC] [VID] [Jul 08 17:32:50] v4l2_get_capability: - STREAMING
+[1] [NTC] [VID] [Jul 08 17:32:50] v4l2_select_input: name = "Camera 1", type 0x00000002, status 00000000
+[1] [NTC] [VID] [Jul 08 17:32:50] v4l2_select_input: - CAMERA
+[1] [WRN] [VID] [Jul 08 17:32:50] v4l2_select_input: Device doesn't support VIDIOC_G_STD
+[1] [NTC] [VID] [Jul 08 17:32:55] v4l2_set_pix_format: Config palette index 17 (YU12) doesn't work.
+[1] [NTC] [VID] [Jul 08 17:32:55] v4l2_set_pix_format: Supported palettes:
+[1] [NTC] [VID] [Jul 08 17:32:55] v4l2_set_pix_format: (0) MJPG (Motion-JPEG)
+[1] [NTC] [VID] [Jul 08 17:32:55] v4l2_set_pix_format: 0 - Motion-JPEG (compressed : 1) (0x47504a4d)
+[1] [NTC] [VID] [Jul 08 17:32:55] v4l2_set_pix_format: (1) YUYV (YUYV 4:2:2)
+[1] [NTC] [VID] [Jul 08 17:32:55] v4l2_set_pix_format: 1 - YUYV 4:2:2 (compressed : 0) (0x56595559)
+[1] [NTC] [VID] [Jul 08 17:32:55] v4l2_set_pix_format Selected palette YUYV
+[1] [ERR] [VID] [Jul 08 17:33:00] VIDIOC_TRY_FMT failed for format v4l2_set_pix_format: 
+[1] [ERR] [VID] [Jul 08 17:33:00] v4l2_set_pix_format: Unable to find a compatible palette format.
+[1] [NTC] [VID] [Jul 08 17:33:00] vid_v4lx_start: Using V4L1
+[1] [ERR] [ALL] [Jul 08 17:33:00] motion_loop: Video device fatal error - Closing video device
+[1] [NTC] [VID] [Jul 08 17:33:00] vid_close: Closing video device /dev/video0
+[1] [WRN] [ALL] [Jul 08 17:33:00] motion_loop: Retrying until successful connection with camera
+[1] [NTC] [VID] [Jul 08 17:33:00] vid_v4lx_start: Using videodevice /dev/video0 and input -1
+[1] [NTC] [VID] [Jul 08 17:33:00] v4l2_get_capability: 
+------------------------
+cap.driver: "uvcvideo"
+cap.card: "UVC Camera (046d:08c9)"
+cap.bus_info: "usb-3f980000.usb-1.5"
+cap.capabilities=0x84200001
+------------------------
+[1] [NTC] [VID] [Jul 08 17:33:00] v4l2_get_capability: - VIDEO_CAPTURE
+[1] [NTC] [VID] [Jul 08 17:33:00] v4l2_get_capability: - STREAMING
+[1] [NTC] [VID] [Jul 08 17:33:00] v4l2_select_input: name = "Camera 1", type 0x00000002, status 00000000
+[1] [NTC] [VID] [Jul 08 17:33:00] v4l2_select_input: - CAMERA
+[1] [WRN] [VID] [Jul 08 17:33:00] v4l2_select_input: Device doesn't support VIDIOC_G_STD
+[1] [NTC] [VID] [Jul 08 17:33:05] v4l2_set_pix_format: Config palette index 17 (YU12) doesn't work.
+[1] [NTC] [VID] [Jul 08 17:33:05] v4l2_set_pix_format: Supported palettes:
+[1] [NTC] [VID] [Jul 08 17:33:05] v4l2_set_pix_format: (0) MJPG (Motion-JPEG)
+[1] [NTC] [VID] [Jul 08 17:33:05] v4l2_set_pix_format: 0 - Motion-JPEG (compressed : 1) (0x47504a4d)
+[1] [NTC] [VID] [Jul 08 17:33:05] v4l2_set_pix_format: (1) YUYV (YUYV 4:2:2)
+[1] [NTC] [VID] [Jul 08 17:33:05] v4l2_set_pix_format: 1 - YUYV 4:2:2 (compressed : 0) (0x56595559)
+[1] [NTC] [VID] [Jul 08 17:33:05] v4l2_set_pix_format Selected palette YUYV
+[1] [ERR] [VID] [Jul 08 17:33:11] VIDIOC_TRY_FMT failed for format v4l2_set_pix_format: 
+[1] [ERR] [VID] [Jul 08 17:33:11] v4l2_set_pix_format: Unable to find a compatible palette format.
+[1] [NTC] [VID] [Jul 08 17:33:11] vid_v4lx_start: Using V4L1
+[1] [ERR] [ALL] [Jul 08 17:33:11] motion_loop: Video device fatal error - Closing video device
+[1] [NTC] [VID] [Jul 08 17:33:11] vid_close: Closing video device /dev/video0
+[1] [WRN] [ALL] [Jul 08 17:33:20] motion_loop: Retrying until successful connection with camera
+[1] [NTC] [VID] [Jul 08 17:33:20] vid_v4lx_start: Using videodevice /dev/video0 and input -1
+[1] [NTC] [VID] [Jul 08 17:33:20] v4l2_get_capability: 
+------------------------
+cap.driver: "uvcvideo"
+cap.card: "UVC Camera (046d:08c9)"
+cap.bus_info: "usb-3f980000.usb-1.5"
+cap.capabilities=0x84200001
+------------------------
+[1] [NTC] [VID] [Jul 08 17:33:20] v4l2_get_capability: - VIDEO_CAPTURE
+[1] [NTC] [VID] [Jul 08 17:33:20] v4l2_get_capability: - STREAMING
+[1] [NTC] [VID] [Jul 08 17:33:20] v4l2_select_input: name = "Camera 1", type 0x00000002, status 00000000
+[1] [NTC] [VID] [Jul 08 17:33:20] v4l2_select_input: - CAMERA
+[1] [WRN] [VID] [Jul 08 17:33:20] v4l2_select_input: Device doesn't support VIDIOC_G_STD
+[1] [NTC] [VID] [Jul 08 17:33:25] v4l2_set_pix_format: Config palette index 17 (YU12) doesn't work.
+[1] [NTC] [VID] [Jul 08 17:33:25] v4l2_set_pix_format: Supported palettes:
+[1] [NTC] [VID] [Jul 08 17:33:25] v4l2_set_pix_format: (0) MJPG (Motion-JPEG)
+[1] [NTC] [VID] [Jul 08 17:33:25] v4l2_set_pix_format: 0 - Motion-JPEG (compressed : 1) (0x47504a4d)
+[1] [NTC] [VID] [Jul 08 17:33:25] v4l2_set_pix_format: (1) YUYV (YUYV 4:2:2)
+[1] [NTC] [VID] [Jul 08 17:33:25] v4l2_set_pix_format: 1 - YUYV 4:2:2 (compressed : 0) (0x56595559)
+[1] [NTC] [VID] [Jul 08 17:33:25] v4l2_set_pix_format Selected palette YUYV
+[1] [ERR] [VID] [Jul 08 17:33:30] VIDIOC_TRY_FMT failed for format v4l2_set_pix_format: 
+[1] [ERR] [VID] [Jul 08 17:33:30] v4l2_set_pix_format: Unable to find a compatible palette format.
+[1] [NTC] [VID] [Jul 08 17:33:30] vid_v4lx_start: Using V4L1
+[1] [ERR] [ALL] [Jul 08 17:33:30] motion_loop: Video device fatal error - Closing video device
+[1] [NTC] [VID] [Jul 08 17:33:30] vid_close: Closing video device /dev/video0
+[1] [WRN] [ALL] [Jul 08 17:33:30] motion_loop: Retrying until successful connection with camera
+[1] [NTC] [VID] [Jul 08 17:33:30] vid_v4lx_start: Using videodevice /dev/video0 and input -1
+[1] [NTC] [VID] [Jul 08 17:33:30] v4l2_get_capability: 
+------------------------
+cap.driver: "uvcvideo"
+cap.card: "UVC Camera (046d:08c9)"
+cap.bus_info: "usb-3f980000.usb-1.5"
+cap.capabilities=0x84200001
+------------------------
+[1] [NTC] [VID] [Jul 08 17:33:30] v4l2_get_capability: - VIDEO_CAPTURE
+[1] [NTC] [VID] [Jul 08 17:33:30] v4l2_get_capability: - STREAMING
+[1] [NTC] [VID] [Jul 08 17:33:30] v4l2_select_input: name = "Camera 1", type 0x00000002, status 00000000
+[1] [NTC] [VID] [Jul 08 17:33:30] v4l2_select_input: - CAMERA
+[1] [WRN] [VID] [Jul 08 17:33:30] v4l2_select_input: Device doesn't support VIDIOC_G_STD
+[1] [NTC] [VID] [Jul 08 17:33:35] v4l2_set_pix_format: Config palette index 17 (YU12) doesn't work.
+[1] [NTC] [VID] [Jul 08 17:33:35] v4l2_set_pix_format: Supported palettes:
+[1] [NTC] [VID] [Jul 08 17:33:35] v4l2_set_pix_format: (0) MJPG (Motion-JPEG)
+[1] [NTC] [VID] [Jul 08 17:33:35] v4l2_set_pix_format: 0 - Motion-JPEG (compressed : 1) (0x47504a4d)
+[1] [NTC] [VID] [Jul 08 17:33:35] v4l2_set_pix_format: (1) YUYV (YUYV 4:2:2)
+[1] [NTC] [VID] [Jul 08 17:33:35] v4l2_set_pix_format: 1 - YUYV 4:2:2 (compressed : 0) (0x56595559)
+[1] [NTC] [VID] [Jul 08 17:33:35] v4l2_set_pix_format Selected palette YUYV
+[1] [ERR] [VID] [Jul 08 17:33:40] VIDIOC_TRY_FMT failed for format v4l2_set_pix_format: 
+[1] [ERR] [VID] [Jul 08 17:33:40] v4l2_set_pix_format: Unable to find a compatible palette format.
+[1] [NTC] [VID] [Jul 08 17:33:40] vid_v4lx_start: Using V4L1
+[1] [ERR] [ALL] [Jul 08 17:33:40] motion_loop: Video device fatal error - Closing video device
+[1] [NTC] [VID] [Jul 08 17:33:40] vid_close: Closing video device /dev/video0
+[1] [WRN] [ALL] [Jul 08 17:33:40] motion_loop: Retrying until successful connection with camera
+[1] [NTC] [VID] [Jul 08 17:33:40] vid_v4lx_start: Using videodevice /dev/video0 and input -1
+[1] [NTC] [VID] [Jul 08 17:33:40] v4l2_get_capability: 
+------------------------
+cap.driver: "uvcvideo"
+cap.card: "UVC Camera (046d:08c9)"
+cap.bus_info: "usb-3f980000.usb-1.5"
+cap.capabilities=0x84200001
+------------------------
+[1] [NTC] [VID] [Jul 08 17:33:40] v4l2_get_capability: - VIDEO_CAPTURE
+[1] [NTC] [VID] [Jul 08 17:33:40] v4l2_get_capability: - STREAMING
+[1] [NTC] [VID] [Jul 08 17:33:40] v4l2_select_input: name = "Camera 1", type 0x00000002, status 00000000
+[1] [NTC] [VID] [Jul 08 17:33:40] v4l2_select_input: - CAMERA
+[1] [WRN] [VID] [Jul 08 17:33:40] v4l2_select_input: Device doesn't support VIDIOC_G_STD
+[1] [NTC] [VID] [Jul 08 17:33:45] v4l2_set_pix_format: Config palette index 17 (YU12) doesn't work.
+[1] [NTC] [VID] [Jul 08 17:33:45] v4l2_set_pix_format: Supported palettes:
+[1] [NTC] [VID] [Jul 08 17:33:45] v4l2_set_pix_format: (0) MJPG (Motion-JPEG)
+[1] [NTC] [VID] [Jul 08 17:33:45] v4l2_set_pix_format: 0 - Motion-JPEG (compressed : 1) (0x47504a4d)
+[1] [NTC] [VID] [Jul 08 17:33:45] v4l2_set_pix_format: (1) YUYV (YUYV 4:2:2)
+[1] [NTC] [VID] [Jul 08 17:33:45] v4l2_set_pix_format: 1 - YUYV 4:2:2 (compressed : 0) (0x56595559)
+[1] [NTC] [VID] [Jul 08 17:33:45] v4l2_set_pix_format Selected palette YUYV
+[1] [ERR] [VID] [Jul 08 17:33:50] VIDIOC_TRY_FMT failed for format v4l2_set_pix_format: 
+[1] [ERR] [VID] [Jul 08 17:33:50] v4l2_set_pix_format: Unable to find a compatible palette format.
+[1] [NTC] [VID] [Jul 08 17:33:50] vid_v4lx_start: Using V4L1
+[1] [ERR] [ALL] [Jul 08 17:33:50] motion_loop: Video device fatal error - Closing video device
+[1] [NTC] [VID] [Jul 08 17:33:50] vid_close: Closing video device /dev/video0
+[1] [WRN] [ALL] [Jul 08 17:33:50] motion_loop: Retrying until successful connection with camera
+[1] [NTC] [VID] [Jul 08 17:33:50] vid_v4lx_start: Using videodevice /dev/video0 and input -1
+[1] [NTC] [VID] [Jul 08 17:33:50] v4l2_get_capability: 
+------------------------
+cap.driver: "uvcvideo"
+cap.card: "UVC Camera (046d:08c9)"
+cap.bus_info: "usb-3f980000.usb-1.5"
+cap.capabilities=0x84200001
+------------------------
+[1] [NTC] [VID] [Jul 08 17:33:50] v4l2_get_capability: - VIDEO_CAPTURE
+[1] [NTC] [VID] [Jul 08 17:33:50] v4l2_get_capability: - STREAMING
+[1] [NTC] [VID] [Jul 08 17:33:50] v4l2_select_input: name = "Camera 1", type 0x00000002, status 00000000
+[1] [NTC] [VID] [Jul 08 17:33:50] v4l2_select_input: - CAMERA
+[1] [WRN] [VID] [Jul 08 17:33:50] v4l2_select_input: Device doesn't support VIDIOC_G_STD
+[1] [NTC] [VID] [Jul 08 17:33:55] v4l2_set_pix_format: Config palette index 17 (YU12) doesn't work.
+[1] [NTC] [VID] [Jul 08 17:33:55] v4l2_set_pix_format: Supported palettes:
+[1] [NTC] [VID] [Jul 08 17:33:55] v4l2_set_pix_format: (0) MJPG (Motion-JPEG)
+[1] [NTC] [VID] [Jul 08 17:33:55] v4l2_set_pix_format: 0 - Motion-JPEG (compressed : 1) (0x47504a4d)
+[1] [NTC] [VID] [Jul 08 17:33:55] v4l2_set_pix_format: (1) YUYV (YUYV 4:2:2)
+[1] [NTC] [VID] [Jul 08 17:33:55] v4l2_set_pix_format: 1 - YUYV 4:2:2 (compressed : 0) (0x56595559)
+[1] [NTC] [VID] [Jul 08 17:33:55] v4l2_set_pix_format Selected palette YUYV
+[1] [ERR] [VID] [Jul 08 17:34:00] VIDIOC_TRY_FMT failed for format v4l2_set_pix_format: 
+[1] [ERR] [VID] [Jul 08 17:34:00] v4l2_set_pix_format: Unable to find a compatible palette format.
+[1] [NTC] [VID] [Jul 08 17:34:00] vid_v4lx_start: Using V4L1
+[1] [ERR] [ALL] [Jul 08 17:34:00] motion_loop: Video device fatal error - Closing video device
+[1] [NTC] [VID] [Jul 08 17:34:00] vid_close: Closing video device /dev/video0
+[1] [WRN] [ALL] [Jul 08 17:34:00] motion_loop: Retrying until successful connection with camera
+[1] [NTC] [VID] [Jul 08 17:34:00] vid_v4lx_start: Using videodevice /dev/video0 and input -1
+[1] [NTC] [VID] [Jul 08 17:34:00] v4l2_get_capability: 
+------------------------
+cap.driver: "uvcvideo"
+cap.card: "UVC Camera (046d:08c9)"
+cap.bus_info: "usb-3f980000.usb-1.5"
+cap.capabilities=0x84200001
+------------------------
+[1] [NTC] [VID] [Jul 08 17:34:00] v4l2_get_capability: - VIDEO_CAPTURE
+[1] [NTC] [VID] [Jul 08 17:34:00] v4l2_get_capability: - STREAMING
+[1] [NTC] [VID] [Jul 08 17:34:00] v4l2_select_input: name = "Camera 1", type 0x00000002, status 00000000
+[1] [NTC] [VID] [Jul 08 17:34:00] v4l2_select_input: - CAMERA
+[1] [WRN] [VID] [Jul 08 17:34:00] v4l2_select_input: Device doesn't support VIDIOC_G_STD
+[1] [NTC] [VID] [Jul 08 17:34:05] v4l2_set_pix_format: Config palette index 17 (YU12) doesn't work.
+[1] [NTC] [VID] [Jul 08 17:34:05] v4l2_set_pix_format: Supported palettes:
+[1] [NTC] [VID] [Jul 08 17:34:05] v4l2_set_pix_format: (0) MJPG (Motion-JPEG)
+[1] [NTC] [VID] [Jul 08 17:34:05] v4l2_set_pix_format: 0 - Motion-JPEG (compressed : 1) (0x47504a4d)
+[1] [NTC] [VID] [Jul 08 17:34:05] v4l2_set_pix_format: (1) YUYV (YUYV 4:2:2)
+[1] [NTC] [VID] [Jul 08 17:34:05] v4l2_set_pix_format: 1 - YUYV 4:2:2 (compressed : 0) (0x56595559)
+[1] [NTC] [VID] [Jul 08 17:34:05] v4l2_set_pix_format Selected palette YUYV
+[1] [ERR] [VID] [Jul 08 17:34:10] VIDIOC_TRY_FMT failed for format v4l2_set_pix_format: 
+[1] [ERR] [VID] [Jul 08 17:34:10] v4l2_set_pix_format: Unable to find a compatible palette format.
+[1] [NTC] [VID] [Jul 08 17:34:10] vid_v4lx_start: Using V4L1
+[1] [ERR] [ALL] [Jul 08 17:34:10] motion_loop: Video device fatal error - Closing video device
+[1] [NTC] [VID] [Jul 08 17:34:10] vid_close: Closing video device /dev/video0
+[1] [WRN] [ALL] [Jul 08 17:34:10] motion_loop: Retrying until successful connection with camera
+[1] [NTC] [VID] [Jul 08 17:34:10] vid_v4lx_start: Using videodevice /dev/video0 and input -1
+[1] [NTC] [VID] [Jul 08 17:34:10] v4l2_get_capability: 
+------------------------
+cap.driver: "uvcvideo"
+cap.card: "UVC Camera (046d:08c9)"
+cap.bus_info: "usb-3f980000.usb-1.5"
+cap.capabilities=0x84200001
+------------------------
+[1] [NTC] [VID] [Jul 08 17:34:10] v4l2_get_capability: - VIDEO_CAPTURE
+[1] [NTC] [VID] [Jul 08 17:34:10] v4l2_get_capability: - STREAMING
+[1] [NTC] [VID] [Jul 08 17:34:10] v4l2_select_input: name = "Camera 1", type 0x00000002, status 00000000
+[1] [NTC] [VID] [Jul 08 17:34:10] v4l2_select_input: - CAMERA
+[1] [WRN] [VID] [Jul 08 17:34:10] v4l2_select_input: Device doesn't support VIDIOC_G_STD
+[1] [NTC] [VID] [Jul 08 17:34:15] v4l2_set_pix_format: Config palette index 17 (YU12) doesn't work.
+[1] [NTC] [VID] [Jul 08 17:34:15] v4l2_set_pix_format: Supported palettes:
+[1] [NTC] [VID] [Jul 08 17:34:15] v4l2_set_pix_format: (0) MJPG (Motion-JPEG)
+[1] [NTC] [VID] [Jul 08 17:34:15] v4l2_set_pix_format: 0 - Motion-JPEG (compressed : 1) (0x47504a4d)
+[1] [NTC] [VID] [Jul 08 17:34:15] v4l2_set_pix_format: (1) YUYV (YUYV 4:2:2)
+[1] [NTC] [VID] [Jul 08 17:34:15] v4l2_set_pix_format: 1 - YUYV 4:2:2 (compressed : 0) (0x56595559)
+[1] [NTC] [VID] [Jul 08 17:34:15] v4l2_set_pix_format Selected palette YUYV
+[1] [ERR] [VID] [Jul 08 17:34:20] VIDIOC_TRY_FMT failed for format v4l2_set_pix_format: 
+[1] [ERR] [VID] [Jul 08 17:34:20] v4l2_set_pix_format: Unable to find a compatible palette format.
+[1] [NTC] [VID] [Jul 08 17:34:20] vid_v4lx_start: Using V4L1
+[1] [ERR] [ALL] [Jul 08 17:34:20] motion_loop: Video device fatal error - Closing video device
+[1] [NTC] [VID] [Jul 08 17:34:20] vid_close: Closing video device /dev/video0
+[1] [WRN] [ALL] [Jul 08 17:34:20] motion_loop: Retrying until successful connection with camera
+[1] [NTC] [VID] [Jul 08 17:34:20] vid_v4lx_start: Using videodevice /dev/video0 and input -1
+[1] [NTC] [VID] [Jul 08 17:34:20] v4l2_get_capability: 
+------------------------
+cap.driver: "uvcvideo"
+cap.card: "UVC Camera (046d:08c9)"
+cap.bus_info: "usb-3f980000.usb-1.5"
+cap.capabilities=0x84200001
+------------------------
+[1] [NTC] [VID] [Jul 08 17:34:20] v4l2_get_capability: - VIDEO_CAPTURE
+[1] [NTC] [VID] [Jul 08 17:34:20] v4l2_get_capability: - STREAMING
+[1] [NTC] [VID] [Jul 08 17:34:20] v4l2_select_input: name = "Camera 1", type 0x00000002, status 00000000
+[1] [NTC] [VID] [Jul 08 17:34:20] v4l2_select_input: - CAMERA
+[1] [WRN] [VID] [Jul 08 17:34:20] v4l2_select_input: Device doesn't support VIDIOC_G_STD
+[1] [NTC] [VID] [Jul 08 17:34:26] v4l2_set_pix_format: Config palette index 17 (YU12) doesn't work.
+[1] [NTC] [VID] [Jul 08 17:34:26] v4l2_set_pix_format: Supported palettes:
+[1] [NTC] [VID] [Jul 08 17:34:26] v4l2_set_pix_format: (0) MJPG (Motion-JPEG)
+[1] [NTC] [VID] [Jul 08 17:34:26] v4l2_set_pix_format: 0 - Motion-JPEG (compressed : 1) (0x47504a4d)
+[1] [NTC] [VID] [Jul 08 17:34:26] v4l2_set_pix_format: (1) YUYV (YUYV 4:2:2)
+[1] [NTC] [VID] [Jul 08 17:34:26] v4l2_set_pix_format: 1 - YUYV 4:2:2 (compressed : 0) (0x56595559)
+[1] [NTC] [VID] [Jul 08 17:34:26] v4l2_set_pix_format Selected palette YUYV
+[1] [ERR] [VID] [Jul 08 17:34:31] VIDIOC_TRY_FMT failed for format v4l2_set_pix_format: 
+[1] [ERR] [VID] [Jul 08 17:34:31] v4l2_set_pix_format: Unable to find a compatible palette format.
+[1] [NTC] [VID] [Jul 08 17:34:31] vid_v4lx_start: Using V4L1
+[1] [ERR] [ALL] [Jul 08 17:34:31] motion_loop: Video device fatal error - Closing video device
+[1] [NTC] [VID] [Jul 08 17:34:31] vid_close: Closing video device /dev/video0
+[1] [WRN] [ALL] [Jul 08 17:34:40] motion_loop: Retrying until successful connection with camera
+[1] [NTC] [VID] [Jul 08 17:34:40] vid_v4lx_start: Using videodevice /dev/video0 and input -1
+[1] [NTC] [VID] [Jul 08 17:34:40] v4l2_get_capability: 
+------------------------
+cap.driver: "uvcvideo"
+cap.card: "UVC Camera (046d:08c9)"
+cap.bus_info: "usb-3f980000.usb-1.5"
+cap.capabilities=0x84200001
+------------------------
+[1] [NTC] [VID] [Jul 08 17:34:40] v4l2_get_capability: - VIDEO_CAPTURE
+[1] [NTC] [VID] [Jul 08 17:34:40] v4l2_get_capability: - STREAMING
+[1] [NTC] [VID] [Jul 08 17:34:40] v4l2_select_input: name = "Camera 1", type 0x00000002, status 00000000
+[1] [NTC] [VID] [Jul 08 17:34:40] v4l2_select_input: - CAMERA
+[1] [WRN] [VID] [Jul 08 17:34:40] v4l2_select_input: Device doesn't support VIDIOC_G_STD
+[1] [NTC] [VID] [Jul 08 17:34:45] v4l2_set_pix_format: Config palette index 17 (YU12) doesn't work.
+[1] [NTC] [VID] [Jul 08 17:34:45] v4l2_set_pix_format: Supported palettes:
+[1] [NTC] [VID] [Jul 08 17:34:45] v4l2_set_pix_format: (0) MJPG (Motion-JPEG)
+[1] [NTC] [VID] [Jul 08 17:34:45] v4l2_set_pix_format: 0 - Motion-JPEG (compressed : 1) (0x47504a4d)
+[1] [NTC] [VID] [Jul 08 17:34:45] v4l2_set_pix_format: (1) YUYV (YUYV 4:2:2)
+[1] [NTC] [VID] [Jul 08 17:34:45] v4l2_set_pix_format: 1 - YUYV 4:2:2 (compressed : 0) (0x56595559)
+[1] [NTC] [VID] [Jul 08 17:34:45] v4l2_set_pix_format Selected palette YUYV
+[1] [ERR] [VID] [Jul 08 17:34:50] VIDIOC_TRY_FMT failed for format v4l2_set_pix_format: 
+[1] [ERR] [VID] [Jul 08 17:34:50] v4l2_set_pix_format: Unable to find a compatible palette format.
+[1] [NTC] [VID] [Jul 08 17:34:50] vid_v4lx_start: Using V4L1
+[1] [ERR] [ALL] [Jul 08 17:34:50] motion_loop: Video device fatal error - Closing video device
+[1] [NTC] [VID] [Jul 08 17:34:50] vid_close: Closing video device /dev/video0
+[1] [WRN] [ALL] [Jul 08 17:34:50] motion_loop: Retrying until successful connection with camera
+[1] [NTC] [VID] [Jul 08 17:34:50] vid_v4lx_start: Using videodevice /dev/video0 and input -1
+[1] [NTC] [VID] [Jul 08 17:34:50] v4l2_get_capability: 
+------------------------
+cap.driver: "uvcvideo"
+cap.card: "UVC Camera (046d:08c9)"
+cap.bus_info: "usb-3f980000.usb-1.5"
+cap.capabilities=0x84200001
+------------------------
+[1] [NTC] [VID] [Jul 08 17:34:50] v4l2_get_capability: - VIDEO_CAPTURE
+[1] [NTC] [VID] [Jul 08 17:34:50] v4l2_get_capability: - STREAMING
+[1] [NTC] [VID] [Jul 08 17:34:50] v4l2_select_input: name = "Camera 1", type 0x00000002, status 00000000
+[1] [NTC] [VID] [Jul 08 17:34:50] v4l2_select_input: - CAMERA
+[1] [WRN] [VID] [Jul 08 17:34:50] v4l2_select_input: Device doesn't support VIDIOC_G_STD
+[1] [NTC] [VID] [Jul 08 17:34:55] v4l2_set_pix_format: Config palette index 17 (YU12) doesn't work.
+[1] [NTC] [VID] [Jul 08 17:34:55] v4l2_set_pix_format: Supported palettes:
+[1] [NTC] [VID] [Jul 08 17:34:55] v4l2_set_pix_format: (0) MJPG (Motion-JPEG)
+[1] [NTC] [VID] [Jul 08 17:34:55] v4l2_set_pix_format: 0 - Motion-JPEG (compressed : 1) (0x47504a4d)
+[1] [NTC] [VID] [Jul 08 17:34:55] v4l2_set_pix_format: (1) YUYV (YUYV 4:2:2)
+[1] [NTC] [VID] [Jul 08 17:34:55] v4l2_set_pix_format: 1 - YUYV 4:2:2 (compressed : 0) (0x56595559)
+[1] [NTC] [VID] [Jul 08 17:34:55] v4l2_set_pix_format Selected palette YUYV
+[1] [ERR] [VID] [Jul 08 17:35:00] VIDIOC_TRY_FMT failed for format v4l2_set_pix_format: 
+[1] [ERR] [VID] [Jul 08 17:35:00] v4l2_set_pix_format: Unable to find a compatible palette format.
+[1] [NTC] [VID] [Jul 08 17:35:00] vid_v4lx_start: Using V4L1
+[1] [ERR] [ALL] [Jul 08 17:35:00] motion_loop: Video device fatal error - Closing video device
+[1] [NTC] [VID] [Jul 08 17:35:00] vid_close: Closing video device /dev/video0
+[1] [WRN] [ALL] [Jul 08 17:35:00] motion_loop: Retrying until successful connection with camera
+[1] [NTC] [VID] [Jul 08 17:35:00] vid_v4lx_start: Using videodevice /dev/video0 and input -1
+[1] [NTC] [VID] [Jul 08 17:35:00] v4l2_get_capability: 
+------------------------
+cap.driver: "uvcvideo"
+cap.card: "UVC Camera (046d:08c9)"
+cap.bus_info: "usb-3f980000.usb-1.5"
+cap.capabilities=0x84200001
+------------------------
+[1] [NTC] [VID] [Jul 08 17:35:00] v4l2_get_capability: - VIDEO_CAPTURE
+[1] [NTC] [VID] [Jul 08 17:35:00] v4l2_get_capability: - STREAMING
+[1] [NTC] [VID] [Jul 08 17:35:00] v4l2_select_input: name = "Camera 1", type 0x00000002, status 00000000
+[1] [NTC] [VID] [Jul 08 17:35:00] v4l2_select_input: - CAMERA
+[1] [WRN] [VID] [Jul 08 17:35:00] v4l2_select_input: Device doesn't support VIDIOC_G_STD
+[1] [NTC] [VID] [Jul 08 17:35:05] v4l2_set_pix_format: Config palette index 17 (YU12) doesn't work.
+[1] [NTC] [VID] [Jul 08 17:35:05] v4l2_set_pix_format: Supported palettes:
+[1] [NTC] [VID] [Jul 08 17:35:05] v4l2_set_pix_format: (0) MJPG (Motion-JPEG)
+[1] [NTC] [VID] [Jul 08 17:35:05] v4l2_set_pix_format: 0 - Motion-JPEG (compressed : 1) (0x47504a4d)
+[1] [NTC] [VID] [Jul 08 17:35:05] v4l2_set_pix_format: (1) YUYV (YUYV 4:2:2)
+[1] [NTC] [VID] [Jul 08 17:35:05] v4l2_set_pix_format: 1 - YUYV 4:2:2 (compressed : 0) (0x56595559)
+[1] [NTC] [VID] [Jul 08 17:35:05] v4l2_set_pix_format Selected palette YUYV
+[1] [ERR] [VID] [Jul 08 17:35:10] VIDIOC_TRY_FMT failed for format v4l2_set_pix_format: 
+[1] [ERR] [VID] [Jul 08 17:35:10] v4l2_set_pix_format: Unable to find a compatible palette format.
+[1] [NTC] [VID] [Jul 08 17:35:10] vid_v4lx_start: Using V4L1
+[1] [ERR] [ALL] [Jul 08 17:35:10] motion_loop: Video device fatal error - Closing video device
+[1] [NTC] [VID] [Jul 08 17:35:10] vid_close: Closing video device /dev/video0
+[1] [WRN] [ALL] [Jul 08 17:35:10] motion_loop: Retrying until successful connection with camera
+[1] [NTC] [VID] [Jul 08 17:35:10] vid_v4lx_start: Using videodevice /dev/video0 and input -1
+[1] [NTC] [VID] [Jul 08 17:35:10] v4l2_get_capability: 
+------------------------
+cap.driver: "uvcvideo"
+cap.card: "UVC Camera (046d:08c9)"
+cap.bus_info: "usb-3f980000.usb-1.5"
+cap.capabilities=0x84200001
+------------------------
+[1] [NTC] [VID] [Jul 08 17:35:10] v4l2_get_capability: - VIDEO_CAPTURE
+[1] [NTC] [VID] [Jul 08 17:35:10] v4l2_get_capability: - STREAMING
+[1] [NTC] [VID] [Jul 08 17:35:10] v4l2_select_input: name = "Camera 1", type 0x00000002, status 00000000
+[1] [NTC] [VID] [Jul 08 17:35:10] v4l2_select_input: - CAMERA
+[1] [WRN] [VID] [Jul 08 17:35:10] v4l2_select_input: Device doesn't support VIDIOC_G_STD
+[1] [NTC] [VID] [Jul 08 17:35:15] v4l2_set_pix_format: Config palette index 17 (YU12) doesn't work.
+[1] [NTC] [VID] [Jul 08 17:35:15] v4l2_set_pix_format: Supported palettes:
+[1] [NTC] [VID] [Jul 08 17:35:15] v4l2_set_pix_format: (0) MJPG (Motion-JPEG)
+[1] [NTC] [VID] [Jul 08 17:35:15] v4l2_set_pix_format: 0 - Motion-JPEG (compressed : 1) (0x47504a4d)
+[1] [NTC] [VID] [Jul 08 17:35:15] v4l2_set_pix_format: (1) YUYV (YUYV 4:2:2)
+[1] [NTC] [VID] [Jul 08 17:35:15] v4l2_set_pix_format: 1 - YUYV 4:2:2 (compressed : 0) (0x56595559)
+[1] [NTC] [VID] [Jul 08 17:35:15] v4l2_set_pix_format Selected palette YUYV
+[1] [ERR] [VID] [Jul 08 17:35:20] VIDIOC_TRY_FMT failed for format v4l2_set_pix_format: 
+[1] [ERR] [VID] [Jul 08 17:35:20] v4l2_set_pix_format: Unable to find a compatible palette format.
+[1] [NTC] [VID] [Jul 08 17:35:20] vid_v4lx_start: Using V4L1
+[1] [ERR] [ALL] [Jul 08 17:35:20] motion_loop: Video device fatal error - Closing video device
+[1] [NTC] [VID] [Jul 08 17:35:20] vid_close: Closing video device /dev/video0
+[1] [WRN] [ALL] [Jul 08 17:35:20] motion_loop: Retrying until successful connection with camera
+[1] [NTC] [VID] [Jul 08 17:35:20] vid_v4lx_start: Using videodevice /dev/video0 and input -1
+[1] [NTC] [VID] [Jul 08 17:35:20] v4l2_get_capability: 
+------------------------
+cap.driver: "uvcvideo"
+cap.card: "UVC Camera (046d:08c9)"
+cap.bus_info: "usb-3f980000.usb-1.5"
+cap.capabilities=0x84200001
+------------------------
+[1] [NTC] [VID] [Jul 08 17:35:20] v4l2_get_capability: - VIDEO_CAPTURE
+[1] [NTC] [VID] [Jul 08 17:35:20] v4l2_get_capability: - STREAMING
+[1] [NTC] [VID] [Jul 08 17:35:20] v4l2_select_input: name = "Camera 1", type 0x00000002, status 00000000
+[1] [NTC] [VID] [Jul 08 17:35:20] v4l2_select_input: - CAMERA
+[1] [WRN] [VID] [Jul 08 17:35:20] v4l2_select_input: Device doesn't support VIDIOC_G_STD
+[1] [NTC] [VID] [Jul 08 17:35:25] v4l2_set_pix_format: Config palette index 17 (YU12) doesn't work.
+[1] [NTC] [VID] [Jul 08 17:35:25] v4l2_set_pix_format: Supported palettes:
+[1] [NTC] [VID] [Jul 08 17:35:25] v4l2_set_pix_format: (0) MJPG (Motion-JPEG)
+[1] [NTC] [VID] [Jul 08 17:35:25] v4l2_set_pix_format: 0 - Motion-JPEG (compressed : 1) (0x47504a4d)
+[1] [NTC] [VID] [Jul 08 17:35:25] v4l2_set_pix_format: (1) YUYV (YUYV 4:2:2)
+[1] [NTC] [VID] [Jul 08 17:35:25] v4l2_set_pix_format: 1 - YUYV 4:2:2 (compressed : 0) (0x56595559)
+[1] [NTC] [VID] [Jul 08 17:35:25] v4l2_set_pix_format Selected palette YUYV
+[1] [ERR] [VID] [Jul 08 17:35:30] VIDIOC_TRY_FMT failed for format v4l2_set_pix_format: 
+[1] [ERR] [VID] [Jul 08 17:35:30] v4l2_set_pix_format: Unable to find a compatible palette format.
+[1] [NTC] [VID] [Jul 08 17:35:30] vid_v4lx_start: Using V4L1
+[1] [ERR] [ALL] [Jul 08 17:35:30] motion_loop: Video device fatal error - Closing video device
+[1] [NTC] [VID] [Jul 08 17:35:30] vid_close: Closing video device /dev/video0
+[1] [WRN] [ALL] [Jul 08 17:35:30] motion_loop: Retrying until successful connection with camera
+[1] [NTC] [VID] [Jul 08 17:35:30] vid_v4lx_start: Using videodevice /dev/video0 and input -1
+[1] [NTC] [VID] [Jul 08 17:35:30] v4l2_get_capability: 
+------------------------
+cap.driver: "uvcvideo"
+cap.card: "UVC Camera (046d:08c9)"
+cap.bus_info: "usb-3f980000.usb-1.5"
+cap.capabilities=0x84200001
+------------------------
+[1] [NTC] [VID] [Jul 08 17:35:30] v4l2_get_capability: - VIDEO_CAPTURE
+[1] [NTC] [VID] [Jul 08 17:35:30] v4l2_get_capability: - STREAMING
+[1] [NTC] [VID] [Jul 08 17:35:30] v4l2_select_input: name = "Camera 1", type 0x00000002, status 00000000
+[1] [NTC] [VID] [Jul 08 17:35:30] v4l2_select_input: - CAMERA
+[1] [WRN] [VID] [Jul 08 17:35:30] v4l2_select_input: Device doesn't support VIDIOC_G_STD
+[1] [NTC] [VID] [Jul 08 17:35:35] v4l2_set_pix_format: Config palette index 17 (YU12) doesn't work.
+[1] [NTC] [VID] [Jul 08 17:35:35] v4l2_set_pix_format: Supported palettes:
+[1] [NTC] [VID] [Jul 08 17:35:35] v4l2_set_pix_format: (0) MJPG (Motion-JPEG)
+[1] [NTC] [VID] [Jul 08 17:35:35] v4l2_set_pix_format: 0 - Motion-JPEG (compressed : 1) (0x47504a4d)
+[1] [NTC] [VID] [Jul 08 17:35:35] v4l2_set_pix_format: (1) YUYV (YUYV 4:2:2)
+[1] [NTC] [VID] [Jul 08 17:35:35] v4l2_set_pix_format: 1 - YUYV 4:2:2 (compressed : 0) (0x56595559)
+[1] [NTC] [VID] [Jul 08 17:35:35] v4l2_set_pix_format Selected palette YUYV
+[1] [ERR] [VID] [Jul 08 17:35:41] VIDIOC_TRY_FMT failed for format v4l2_set_pix_format: 
+[1] [ERR] [VID] [Jul 08 17:35:41] v4l2_set_pix_format: Unable to find a compatible palette format.
+[1] [NTC] [VID] [Jul 08 17:35:41] vid_v4lx_start: Using V4L1
+[1] [ERR] [ALL] [Jul 08 17:35:41] motion_loop: Video device fatal error - Closing video device
+[1] [NTC] [VID] [Jul 08 17:35:41] vid_close: Closing video device /dev/video0
+[1] [WRN] [ALL] [Jul 08 17:35:50] motion_loop: Retrying until successful connection with camera
+[1] [NTC] [VID] [Jul 08 17:35:50] vid_v4lx_start: Using videodevice /dev/video0 and input -1
+[1] [NTC] [VID] [Jul 08 17:35:50] v4l2_get_capability: 
+------------------------
+cap.driver: "uvcvideo"
+cap.card: "UVC Camera (046d:08c9)"
+cap.bus_info: "usb-3f980000.usb-1.5"
+cap.capabilities=0x84200001
+------------------------
+[1] [NTC] [VID] [Jul 08 17:35:50] v4l2_get_capability: - VIDEO_CAPTURE
+[1] [NTC] [VID] [Jul 08 17:35:50] v4l2_get_capability: - STREAMING
+[1] [NTC] [VID] [Jul 08 17:35:50] v4l2_select_input: name = "Camera 1", type 0x00000002, status 00000000
+[1] [NTC] [VID] [Jul 08 17:35:50] v4l2_select_input: - CAMERA
+[1] [WRN] [VID] [Jul 08 17:35:50] v4l2_select_input: Device doesn't support VIDIOC_G_STD
+[1] [NTC] [VID] [Jul 08 17:35:55] v4l2_set_pix_format: Config palette index 17 (YU12) doesn't work.
+[1] [NTC] [VID] [Jul 08 17:35:55] v4l2_set_pix_format: Supported palettes:
+[1] [NTC] [VID] [Jul 08 17:35:55] v4l2_set_pix_format: (0) MJPG (Motion-JPEG)
+[1] [NTC] [VID] [Jul 08 17:35:55] v4l2_set_pix_format: 0 - Motion-JPEG (compressed : 1) (0x47504a4d)
+[1] [NTC] [VID] [Jul 08 17:35:55] v4l2_set_pix_format: (1) YUYV (YUYV 4:2:2)
+[1] [NTC] [VID] [Jul 08 17:35:55] v4l2_set_pix_format: 1 - YUYV 4:2:2 (compressed : 0) (0x56595559)
+[1] [NTC] [VID] [Jul 08 17:35:55] v4l2_set_pix_format Selected palette YUYV
+[1] [ERR] [VID] [Jul 08 17:36:00] VIDIOC_TRY_FMT failed for format v4l2_set_pix_format: 
+[1] [ERR] [VID] [Jul 08 17:36:00] v4l2_set_pix_format: Unable to find a compatible palette format.
+[1] [NTC] [VID] [Jul 08 17:36:00] vid_v4lx_start: Using V4L1
+[1] [ERR] [ALL] [Jul 08 17:36:00] motion_loop: Video device fatal error - Closing video device
+[1] [NTC] [VID] [Jul 08 17:36:00] vid_close: Closing video device /dev/video0
+[1] [WRN] [ALL] [Jul 08 17:36:00] motion_loop: Retrying until successful connection with camera
+[1] [NTC] [VID] [Jul 08 17:36:00] vid_v4lx_start: Using videodevice /dev/video0 and input -1
+[1] [NTC] [VID] [Jul 08 17:36:00] v4l2_get_capability: 
+------------------------
+cap.driver: "uvcvideo"
+cap.card: "UVC Camera (046d:08c9)"
+cap.bus_info: "usb-3f980000.usb-1.5"
+cap.capabilities=0x84200001
+------------------------
+[1] [NTC] [VID] [Jul 08 17:36:00] v4l2_get_capability: - VIDEO_CAPTURE
+[1] [NTC] [VID] [Jul 08 17:36:00] v4l2_get_capability: - STREAMING
+[1] [NTC] [VID] [Jul 08 17:36:00] v4l2_select_input: name = "Camera 1", type 0x00000002, status 00000000
+[1] [NTC] [VID] [Jul 08 17:36:00] v4l2_select_input: - CAMERA
+[1] [WRN] [VID] [Jul 08 17:36:00] v4l2_select_input: Device doesn't support VIDIOC_G_STD
+[1] [NTC] [VID] [Jul 08 17:36:05] v4l2_set_pix_format: Config palette index 17 (YU12) doesn't work.
+[1] [NTC] [VID] [Jul 08 17:36:05] v4l2_set_pix_format: Supported palettes:
+[1] [NTC] [VID] [Jul 08 17:36:05] v4l2_set_pix_format: (0) MJPG (Motion-JPEG)
+[1] [NTC] [VID] [Jul 08 17:36:05] v4l2_set_pix_format: 0 - Motion-JPEG (compressed : 1) (0x47504a4d)
+[1] [NTC] [VID] [Jul 08 17:36:05] v4l2_set_pix_format: (1) YUYV (YUYV 4:2:2)
+[1] [NTC] [VID] [Jul 08 17:36:05] v4l2_set_pix_format: 1 - YUYV 4:2:2 (compressed : 0) (0x56595559)
+[1] [NTC] [VID] [Jul 08 17:36:05] v4l2_set_pix_format Selected palette YUYV
+[1] [ERR] [VID] [Jul 08 17:36:10] VIDIOC_TRY_FMT failed for format v4l2_set_pix_format: 
+[1] [ERR] [VID] [Jul 08 17:36:10] v4l2_set_pix_format: Unable to find a compatible palette format.
+[1] [NTC] [VID] [Jul 08 17:36:10] vid_v4lx_start: Using V4L1
+[1] [ERR] [ALL] [Jul 08 17:36:10] motion_loop: Video device fatal error - Closing video device
+[1] [NTC] [VID] [Jul 08 17:36:10] vid_close: Closing video device /dev/video0
+[1] [WRN] [ALL] [Jul 08 17:36:10] motion_loop: Retrying until successful connection with camera
+[1] [NTC] [VID] [Jul 08 17:36:10] vid_v4lx_start: Using videodevice /dev/video0 and input -1
+[1] [NTC] [VID] [Jul 08 17:36:10] v4l2_get_capability: 
+------------------------
+cap.driver: "uvcvideo"
+cap.card: "UVC Camera (046d:08c9)"
+cap.bus_info: "usb-3f980000.usb-1.5"
+cap.capabilities=0x84200001
+------------------------
+[1] [NTC] [VID] [Jul 08 17:36:10] v4l2_get_capability: - VIDEO_CAPTURE
+[1] [NTC] [VID] [Jul 08 17:36:10] v4l2_get_capability: - STREAMING
+[1] [NTC] [VID] [Jul 08 17:36:10] v4l2_select_input: name = "Camera 1", type 0x00000002, status 00000000
+[1] [NTC] [VID] [Jul 08 17:36:10] v4l2_select_input: - CAMERA
+[1] [WRN] [VID] [Jul 08 17:36:10] v4l2_select_input: Device doesn't support VIDIOC_G_STD
+[1] [NTC] [VID] [Jul 08 17:36:15] v4l2_set_pix_format: Config palette index 17 (YU12) doesn't work.
+[1] [NTC] [VID] [Jul 08 17:36:15] v4l2_set_pix_format: Supported palettes:
+[1] [NTC] [VID] [Jul 08 17:36:15] v4l2_set_pix_format: (0) MJPG (Motion-JPEG)
+[1] [NTC] [VID] [Jul 08 17:36:15] v4l2_set_pix_format: 0 - Motion-JPEG (compressed : 1) (0x47504a4d)
+[1] [NTC] [VID] [Jul 08 17:36:15] v4l2_set_pix_format: (1) YUYV (YUYV 4:2:2)
+[1] [NTC] [VID] [Jul 08 17:36:15] v4l2_set_pix_format: 1 - YUYV 4:2:2 (compressed : 0) (0x56595559)
+[1] [NTC] [VID] [Jul 08 17:36:15] v4l2_set_pix_format Selected palette YUYV
+[1] [ERR] [VID] [Jul 08 17:36:20] VIDIOC_TRY_FMT failed for format v4l2_set_pix_format: 
+[1] [ERR] [VID] [Jul 08 17:36:20] v4l2_set_pix_format: Unable to find a compatible palette format.
+[1] [NTC] [VID] [Jul 08 17:36:20] vid_v4lx_start: Using V4L1
+[1] [ERR] [ALL] [Jul 08 17:36:20] motion_loop: Video device fatal error - Closing video device
+[1] [NTC] [VID] [Jul 08 17:36:20] vid_close: Closing video device /dev/video0
+[1] [WRN] [ALL] [Jul 08 17:36:20] motion_loop: Retrying until successful connection with camera
+[1] [NTC] [VID] [Jul 08 17:36:20] vid_v4lx_start: Using videodevice /dev/video0 and input -1
+[1] [NTC] [VID] [Jul 08 17:36:20] v4l2_get_capability: 
+------------------------
+cap.driver: "uvcvideo"
+cap.card: "UVC Camera (046d:08c9)"
+cap.bus_info: "usb-3f980000.usb-1.5"
+cap.capabilities=0x84200001
+------------------------
+[1] [NTC] [VID] [Jul 08 17:36:20] v4l2_get_capability: - VIDEO_CAPTURE
+[1] [NTC] [VID] [Jul 08 17:36:20] v4l2_get_capability: - STREAMING
+[1] [NTC] [VID] [Jul 08 17:36:20] v4l2_select_input: name = "Camera 1", type 0x00000002, status 00000000
+[1] [NTC] [VID] [Jul 08 17:36:20] v4l2_select_input: - CAMERA
+[1] [WRN] [VID] [Jul 08 17:36:20] v4l2_select_input: Device doesn't support VIDIOC_G_STD
+[1] [NTC] [VID] [Jul 08 17:36:25] v4l2_set_pix_format: Config palette index 17 (YU12) doesn't work.
+[1] [NTC] [VID] [Jul 08 17:36:25] v4l2_set_pix_format: Supported palettes:
+[1] [NTC] [VID] [Jul 08 17:36:25] v4l2_set_pix_format: (0) MJPG (Motion-JPEG)
+[1] [NTC] [VID] [Jul 08 17:36:25] v4l2_set_pix_format: 0 - Motion-JPEG (compressed : 1) (0x47504a4d)
+[1] [NTC] [VID] [Jul 08 17:36:25] v4l2_set_pix_format: (1) YUYV (YUYV 4:2:2)
+[1] [NTC] [VID] [Jul 08 17:36:25] v4l2_set_pix_format: 1 - YUYV 4:2:2 (compressed : 0) (0x56595559)
+[1] [NTC] [VID] [Jul 08 17:36:25] v4l2_set_pix_format Selected palette YUYV
+[1] [ERR] [VID] [Jul 08 17:36:30] VIDIOC_TRY_FMT failed for format v4l2_set_pix_format: 
+[1] [ERR] [VID] [Jul 08 17:36:30] v4l2_set_pix_format: Unable to find a compatible palette format.
+[1] [NTC] [VID] [Jul 08 17:36:30] vid_v4lx_start: Using V4L1
+[1] [ERR] [ALL] [Jul 08 17:36:30] motion_loop: Video device fatal error - Closing video device
+[1] [NTC] [VID] [Jul 08 17:36:30] vid_close: Closing video device /dev/video0
+[1] [WRN] [ALL] [Jul 08 17:36:30] motion_loop: Retrying until successful connection with camera
+[1] [NTC] [VID] [Jul 08 17:36:30] vid_v4lx_start: Using videodevice /dev/video0 and input -1
+[1] [NTC] [VID] [Jul 08 17:36:30] v4l2_get_capability: 
+------------------------
+cap.driver: "uvcvideo"
+cap.card: "UVC Camera (046d:08c9)"
+cap.bus_info: "usb-3f980000.usb-1.5"
+cap.capabilities=0x84200001
+------------------------
+[1] [NTC] [VID] [Jul 08 17:36:30] v4l2_get_capability: - VIDEO_CAPTURE
+[1] [NTC] [VID] [Jul 08 17:36:30] v4l2_get_capability: - STREAMING
+[1] [NTC] [VID] [Jul 08 17:36:30] v4l2_select_input: name = "Camera 1", type 0x00000002, status 00000000
+[1] [NTC] [VID] [Jul 08 17:36:30] v4l2_select_input: - CAMERA
+[1] [WRN] [VID] [Jul 08 17:36:30] v4l2_select_input: Device doesn't support VIDIOC_G_STD
+[1] [NTC] [VID] [Jul 08 17:36:35] v4l2_set_pix_format: Config palette index 17 (YU12) doesn't work.
+[1] [NTC] [VID] [Jul 08 17:36:35] v4l2_set_pix_format: Supported palettes:
+[1] [NTC] [VID] [Jul 08 17:36:35] v4l2_set_pix_format: (0) MJPG (Motion-JPEG)
+[1] [NTC] [VID] [Jul 08 17:36:35] v4l2_set_pix_format: 0 - Motion-JPEG (compressed : 1) (0x47504a4d)
+[1] [NTC] [VID] [Jul 08 17:36:35] v4l2_set_pix_format: (1) YUYV (YUYV 4:2:2)
+[1] [NTC] [VID] [Jul 08 17:36:35] v4l2_set_pix_format: 1 - YUYV 4:2:2 (compressed : 0) (0x56595559)
+[1] [NTC] [VID] [Jul 08 17:36:35] v4l2_set_pix_format Selected palette YUYV
+[1] [ERR] [VID] [Jul 08 17:36:40] VIDIOC_TRY_FMT failed for format v4l2_set_pix_format: 
+[1] [ERR] [VID] [Jul 08 17:36:40] v4l2_set_pix_format: Unable to find a compatible palette format.
+[1] [NTC] [VID] [Jul 08 17:36:40] vid_v4lx_start: Using V4L1
+[1] [ERR] [ALL] [Jul 08 17:36:40] motion_loop: Video device fatal error - Closing video device
+[1] [NTC] [VID] [Jul 08 17:36:40] vid_close: Closing video device /dev/video0
+[1] [WRN] [ALL] [Jul 08 17:36:40] motion_loop: Retrying until successful connection with camera
+[1] [NTC] [VID] [Jul 08 17:36:40] vid_v4lx_start: Using videodevice /dev/video0 and input -1
+[1] [NTC] [VID] [Jul 08 17:36:40] v4l2_get_capability: 
+------------------------
+cap.driver: "uvcvideo"
+cap.card: "UVC Camera (046d:08c9)"
+cap.bus_info: "usb-3f980000.usb-1.5"
+cap.capabilities=0x84200001
+------------------------
+[1] [NTC] [VID] [Jul 08 17:36:40] v4l2_get_capability: - VIDEO_CAPTURE
+[1] [NTC] [VID] [Jul 08 17:36:40] v4l2_get_capability: - STREAMING
+[1] [NTC] [VID] [Jul 08 17:36:40] v4l2_select_input: name = "Camera 1", type 0x00000002, status 00000000
+[1] [NTC] [VID] [Jul 08 17:36:40] v4l2_select_input: - CAMERA
+[1] [WRN] [VID] [Jul 08 17:36:40] v4l2_select_input: Device doesn't support VIDIOC_G_STD
+[1] [NTC] [VID] [Jul 08 17:36:45] v4l2_set_pix_format: Config palette index 17 (YU12) doesn't work.
+[1] [NTC] [VID] [Jul 08 17:36:45] v4l2_set_pix_format: Supported palettes:
+[1] [NTC] [VID] [Jul 08 17:36:45] v4l2_set_pix_format: (0) MJPG (Motion-JPEG)
+[1] [NTC] [VID] [Jul 08 17:36:45] v4l2_set_pix_format: 0 - Motion-JPEG (compressed : 1) (0x47504a4d)
+[1] [NTC] [VID] [Jul 08 17:36:45] v4l2_set_pix_format: (1) YUYV (YUYV 4:2:2)
+[1] [NTC] [VID] [Jul 08 17:36:45] v4l2_set_pix_format: 1 - YUYV 4:2:2 (compressed : 0) (0x56595559)
+[1] [NTC] [VID] [Jul 08 17:36:45] v4l2_set_pix_format Selected palette YUYV
+[1] [ERR] [VID] [Jul 08 17:36:50] VIDIOC_TRY_FMT failed for format v4l2_set_pix_format: 
+[1] [ERR] [VID] [Jul 08 17:36:50] v4l2_set_pix_format: Unable to find a compatible palette format.
+[1] [NTC] [VID] [Jul 08 17:36:50] vid_v4lx_start: Using V4L1
+[1] [ERR] [ALL] [Jul 08 17:36:50] motion_loop: Video device fatal error - Closing video device
+[1] [NTC] [VID] [Jul 08 17:36:50] vid_close: Closing video device /dev/video0
+[1] [WRN] [ALL] [Jul 08 17:36:50] motion_loop: Retrying until successful connection with camera
+[1] [NTC] [VID] [Jul 08 17:36:50] vid_v4lx_start: Using videodevice /dev/video0 and input -1
+[1] [NTC] [VID] [Jul 08 17:36:50] v4l2_get_capability: 
+------------------------
+cap.driver: "uvcvideo"
+cap.card: "UVC Camera (046d:08c9)"
+cap.bus_info: "usb-3f980000.usb-1.5"
+cap.capabilities=0x84200001
+------------------------
+[1] [NTC] [VID] [Jul 08 17:36:50] v4l2_get_capability: - VIDEO_CAPTURE
+[1] [NTC] [VID] [Jul 08 17:36:50] v4l2_get_capability: - STREAMING
+[1] [NTC] [VID] [Jul 08 17:36:50] v4l2_select_input: name = "Camera 1", type 0x00000002, status 00000000
+[1] [NTC] [VID] [Jul 08 17:36:50] v4l2_select_input: - CAMERA
+[1] [WRN] [VID] [Jul 08 17:36:50] v4l2_select_input: Device doesn't support VIDIOC_G_STD
+[1] [NTC] [VID] [Jul 08 17:36:55] v4l2_set_pix_format: Config palette index 17 (YU12) doesn't work.
+[1] [NTC] [VID] [Jul 08 17:36:55] v4l2_set_pix_format: Supported palettes:
+[1] [NTC] [VID] [Jul 08 17:36:55] v4l2_set_pix_format: (0) MJPG (Motion-JPEG)
+[1] [NTC] [VID] [Jul 08 17:36:55] v4l2_set_pix_format: 0 - Motion-JPEG (compressed : 1) (0x47504a4d)
+[1] [NTC] [VID] [Jul 08 17:36:55] v4l2_set_pix_format: (1) YUYV (YUYV 4:2:2)
+[1] [NTC] [VID] [Jul 08 17:36:55] v4l2_set_pix_format: 1 - YUYV 4:2:2 (compressed : 0) (0x56595559)
+[1] [NTC] [VID] [Jul 08 17:36:55] v4l2_set_pix_format Selected palette YUYV
+[1] [ERR] [VID] [Jul 08 17:37:01] VIDIOC_TRY_FMT failed for format v4l2_set_pix_format: 
+[1] [ERR] [VID] [Jul 08 17:37:01] v4l2_set_pix_format: Unable to find a compatible palette format.
+[1] [NTC] [VID] [Jul 08 17:37:01] vid_v4lx_start: Using V4L1
+[1] [ERR] [ALL] [Jul 08 17:37:01] motion_loop: Video device fatal error - Closing video device
+[1] [NTC] [VID] [Jul 08 17:37:01] vid_close: Closing video device /dev/video0
+[1] [WRN] [ALL] [Jul 08 17:37:10] motion_loop: Retrying until successful connection with camera
+[1] [NTC] [VID] [Jul 08 17:37:10] vid_v4lx_start: Using videodevice /dev/video0 and input -1
+[1] [NTC] [VID] [Jul 08 17:37:10] v4l2_get_capability: 
+------------------------
+cap.driver: "uvcvideo"
+cap.card: "UVC Camera (046d:08c9)"
+cap.bus_info: "usb-3f980000.usb-1.5"
+cap.capabilities=0x84200001
+------------------------
+[1] [NTC] [VID] [Jul 08 17:37:10] v4l2_get_capability: - VIDEO_CAPTURE
+[1] [NTC] [VID] [Jul 08 17:37:10] v4l2_get_capability: - STREAMING
+[1] [NTC] [VID] [Jul 08 17:37:10] v4l2_select_input: name = "Camera 1", type 0x00000002, status 00000000
+[1] [NTC] [VID] [Jul 08 17:37:10] v4l2_select_input: - CAMERA
+[1] [WRN] [VID] [Jul 08 17:37:10] v4l2_select_input: Device doesn't support VIDIOC_G_STD
+[1] [NTC] [VID] [Jul 08 17:37:15] v4l2_set_pix_format: Config palette index 17 (YU12) doesn't work.
+[1] [NTC] [VID] [Jul 08 17:37:15] v4l2_set_pix_format: Supported palettes:
+[1] [NTC] [VID] [Jul 08 17:37:15] v4l2_set_pix_format: (0) MJPG (Motion-JPEG)
+[1] [NTC] [VID] [Jul 08 17:37:15] v4l2_set_pix_format: 0 - Motion-JPEG (compressed : 1) (0x47504a4d)
+[1] [NTC] [VID] [Jul 08 17:37:15] v4l2_set_pix_format: (1) YUYV (YUYV 4:2:2)
+[1] [NTC] [VID] [Jul 08 17:37:15] v4l2_set_pix_format: 1 - YUYV 4:2:2 (compressed : 0) (0x56595559)
+[1] [NTC] [VID] [Jul 08 17:37:15] v4l2_set_pix_format Selected palette YUYV
+[1] [ERR] [VID] [Jul 08 17:37:20] VIDIOC_TRY_FMT failed for format v4l2_set_pix_format: 
+[1] [ERR] [VID] [Jul 08 17:37:20] v4l2_set_pix_format: Unable to find a compatible palette format.
+[1] [NTC] [VID] [Jul 08 17:37:20] vid_v4lx_start: Using V4L1
+[1] [ERR] [ALL] [Jul 08 17:37:20] motion_loop: Video device fatal error - Closing video device
+[1] [NTC] [VID] [Jul 08 17:37:20] vid_close: Closing video device /dev/video0
+[1] [WRN] [ALL] [Jul 08 17:37:20] motion_loop: Retrying until successful connection with camera
+[1] [NTC] [VID] [Jul 08 17:37:20] vid_v4lx_start: Using videodevice /dev/video0 and input -1
+[1] [NTC] [VID] [Jul 08 17:37:20] v4l2_get_capability: 
+------------------------
+cap.driver: "uvcvideo"
+cap.card: "UVC Camera (046d:08c9)"
+cap.bus_info: "usb-3f980000.usb-1.5"
+cap.capabilities=0x84200001
+------------------------
+[1] [NTC] [VID] [Jul 08 17:37:20] v4l2_get_capability: - VIDEO_CAPTURE
+[1] [NTC] [VID] [Jul 08 17:37:20] v4l2_get_capability: - STREAMING
+[1] [NTC] [VID] [Jul 08 17:37:20] v4l2_select_input: name = "Camera 1", type 0x00000002, status 00000000
+[1] [NTC] [VID] [Jul 08 17:37:20] v4l2_select_input: - CAMERA
+[1] [WRN] [VID] [Jul 08 17:37:20] v4l2_select_input: Device doesn't support VIDIOC_G_STD
+[1] [NTC] [VID] [Jul 08 17:37:25] v4l2_set_pix_format: Config palette index 17 (YU12) doesn't work.
+[1] [NTC] [VID] [Jul 08 17:37:25] v4l2_set_pix_format: Supported palettes:
+[1] [NTC] [VID] [Jul 08 17:37:25] v4l2_set_pix_format: (0) MJPG (Motion-JPEG)
+[1] [NTC] [VID] [Jul 08 17:37:25] v4l2_set_pix_format: 0 - Motion-JPEG (compressed : 1) (0x47504a4d)
+[1] [NTC] [VID] [Jul 08 17:37:25] v4l2_set_pix_format: (1) YUYV (YUYV 4:2:2)
+[1] [NTC] [VID] [Jul 08 17:37:25] v4l2_set_pix_format: 1 - YUYV 4:2:2 (compressed : 0) (0x56595559)
+[1] [NTC] [VID] [Jul 08 17:37:25] v4l2_set_pix_format Selected palette YUYV
+[1] [ERR] [VID] [Jul 08 17:37:30] VIDIOC_TRY_FMT failed for format v4l2_set_pix_format: 
+[1] [ERR] [VID] [Jul 08 17:37:30] v4l2_set_pix_format: Unable to find a compatible palette format.
+[1] [NTC] [VID] [Jul 08 17:37:30] vid_v4lx_start: Using V4L1
+[1] [ERR] [ALL] [Jul 08 17:37:30] motion_loop: Video device fatal error - Closing video device
+[1] [NTC] [VID] [Jul 08 17:37:30] vid_close: Closing video device /dev/video0
+[1] [WRN] [ALL] [Jul 08 17:37:30] motion_loop: Retrying until successful connection with camera
+[1] [NTC] [VID] [Jul 08 17:37:30] vid_v4lx_start: Using videodevice /dev/video0 and input -1
+[1] [NTC] [VID] [Jul 08 17:37:30] v4l2_get_capability: 
+------------------------
+cap.driver: "uvcvideo"
+cap.card: "UVC Camera (046d:08c9)"
+cap.bus_info: "usb-3f980000.usb-1.5"
+cap.capabilities=0x84200001
+------------------------
+[1] [NTC] [VID] [Jul 08 17:37:30] v4l2_get_capability: - VIDEO_CAPTURE
+[1] [NTC] [VID] [Jul 08 17:37:30] v4l2_get_capability: - STREAMING
+[1] [NTC] [VID] [Jul 08 17:37:30] v4l2_select_input: name = "Camera 1", type 0x00000002, status 00000000
+[1] [NTC] [VID] [Jul 08 17:37:30] v4l2_select_input: - CAMERA
+[1] [WRN] [VID] [Jul 08 17:37:30] v4l2_select_input: Device doesn't support VIDIOC_G_STD
+[1] [NTC] [VID] [Jul 08 17:37:35] v4l2_set_pix_format: Config palette index 17 (YU12) doesn't work.
+[1] [NTC] [VID] [Jul 08 17:37:35] v4l2_set_pix_format: Supported palettes:
+[1] [NTC] [VID] [Jul 08 17:37:35] v4l2_set_pix_format: (0) MJPG (Motion-JPEG)
+[1] [NTC] [VID] [Jul 08 17:37:35] v4l2_set_pix_format: 0 - Motion-JPEG (compressed : 1) (0x47504a4d)
+[1] [NTC] [VID] [Jul 08 17:37:35] v4l2_set_pix_format: (1) YUYV (YUYV 4:2:2)
+[1] [NTC] [VID] [Jul 08 17:37:35] v4l2_set_pix_format: 1 - YUYV 4:2:2 (compressed : 0) (0x56595559)
+[1] [NTC] [VID] [Jul 08 17:37:35] v4l2_set_pix_format Selected palette YUYV
+[1] [ERR] [VID] [Jul 08 17:37:40] VIDIOC_TRY_FMT failed for format v4l2_set_pix_format: 
+[1] [ERR] [VID] [Jul 08 17:37:40] v4l2_set_pix_format: Unable to find a compatible palette format.
+[1] [NTC] [VID] [Jul 08 17:37:40] vid_v4lx_start: Using V4L1
+[1] [ERR] [ALL] [Jul 08 17:37:40] motion_loop: Video device fatal error - Closing video device
+[1] [NTC] [VID] [Jul 08 17:37:40] vid_close: Closing video device /dev/video0
+[1] [WRN] [ALL] [Jul 08 17:37:40] motion_loop: Retrying until successful connection with camera
+[1] [NTC] [VID] [Jul 08 17:37:40] vid_v4lx_start: Using videodevice /dev/video0 and input -1
+[1] [NTC] [VID] [Jul 08 17:37:40] v4l2_get_capability: 
+------------------------
+cap.driver: "uvcvideo"
+cap.card: "UVC Camera (046d:08c9)"
+cap.bus_info: "usb-3f980000.usb-1.5"
+cap.capabilities=0x84200001
+------------------------
+[1] [NTC] [VID] [Jul 08 17:37:40] v4l2_get_capability: - VIDEO_CAPTURE
+[1] [NTC] [VID] [Jul 08 17:37:40] v4l2_get_capability: - STREAMING
+[1] [NTC] [VID] [Jul 08 17:37:40] v4l2_select_input: name = "Camera 1", type 0x00000002, status 00000000
+[1] [NTC] [VID] [Jul 08 17:37:40] v4l2_select_input: - CAMERA
+[1] [WRN] [VID] [Jul 08 17:37:40] v4l2_select_input: Device doesn't support VIDIOC_G_STD
+[1] [NTC] [VID] [Jul 08 17:37:45] v4l2_set_pix_format: Config palette index 17 (YU12) doesn't work.
+[1] [NTC] [VID] [Jul 08 17:37:45] v4l2_set_pix_format: Supported palettes:
+[1] [NTC] [VID] [Jul 08 17:37:45] v4l2_set_pix_format: (0) MJPG (Motion-JPEG)
+[1] [NTC] [VID] [Jul 08 17:37:45] v4l2_set_pix_format: 0 - Motion-JPEG (compressed : 1) (0x47504a4d)
+[1] [NTC] [VID] [Jul 08 17:37:45] v4l2_set_pix_format: (1) YUYV (YUYV 4:2:2)
+[1] [NTC] [VID] [Jul 08 17:37:45] v4l2_set_pix_format: 1 - YUYV 4:2:2 (compressed : 0) (0x56595559)
+[1] [NTC] [VID] [Jul 08 17:37:45] v4l2_set_pix_format Selected palette YUYV
+[1] [ERR] [VID] [Jul 08 17:37:50] VIDIOC_TRY_FMT failed for format v4l2_set_pix_format: 
+[1] [ERR] [VID] [Jul 08 17:37:50] v4l2_set_pix_format: Unable to find a compatible palette format.
+[1] [NTC] [VID] [Jul 08 17:37:50] vid_v4lx_start: Using V4L1
+[1] [ERR] [ALL] [Jul 08 17:37:50] motion_loop: Video device fatal error - Closing video device
+[1] [NTC] [VID] [Jul 08 17:37:50] vid_close: Closing video device /dev/video0
+[1] [WRN] [ALL] [Jul 08 17:37:50] motion_loop: Retrying until successful connection with camera
+[1] [NTC] [VID] [Jul 08 17:37:50] vid_v4lx_start: Using videodevice /dev/video0 and input -1
+[1] [NTC] [VID] [Jul 08 17:37:50] v4l2_get_capability: 
+------------------------
+cap.driver: "uvcvideo"
+cap.card: "UVC Camera (046d:08c9)"
+cap.bus_info: "usb-3f980000.usb-1.5"
+cap.capabilities=0x84200001
+------------------------
+[1] [NTC] [VID] [Jul 08 17:37:50] v4l2_get_capability: - VIDEO_CAPTURE
+[1] [NTC] [VID] [Jul 08 17:37:50] v4l2_get_capability: - STREAMING
+[1] [NTC] [VID] [Jul 08 17:37:50] v4l2_select_input: name = "Camera 1", type 0x00000002, status 00000000
+[1] [NTC] [VID] [Jul 08 17:37:50] v4l2_select_input: - CAMERA
+[1] [WRN] [VID] [Jul 08 17:37:50] v4l2_select_input: Device doesn't support VIDIOC_G_STD
+[1] [NTC] [VID] [Jul 08 17:37:55] v4l2_set_pix_format: Config palette index 17 (YU12) doesn't work.
+[1] [NTC] [VID] [Jul 08 17:37:55] v4l2_set_pix_format: Supported palettes:
+[1] [NTC] [VID] [Jul 08 17:37:55] v4l2_set_pix_format: (0) MJPG (Motion-JPEG)
+[1] [NTC] [VID] [Jul 08 17:37:55] v4l2_set_pix_format: 0 - Motion-JPEG (compressed : 1) (0x47504a4d)
+[1] [NTC] [VID] [Jul 08 17:37:55] v4l2_set_pix_format: (1) YUYV (YUYV 4:2:2)
+[1] [NTC] [VID] [Jul 08 17:37:55] v4l2_set_pix_format: 1 - YUYV 4:2:2 (compressed : 0) (0x56595559)
+[1] [NTC] [VID] [Jul 08 17:37:55] v4l2_set_pix_format Selected palette YUYV
+[1] [ERR] [VID] [Jul 08 17:38:00] VIDIOC_TRY_FMT failed for format v4l2_set_pix_format: 
+[1] [ERR] [VID] [Jul 08 17:38:00] v4l2_set_pix_format: Unable to find a compatible palette format.
+[1] [NTC] [VID] [Jul 08 17:38:00] vid_v4lx_start: Using V4L1
+[1] [ERR] [ALL] [Jul 08 17:38:00] motion_loop: Video device fatal error - Closing video device
+[1] [NTC] [VID] [Jul 08 17:38:00] vid_close: Closing video device /dev/video0
+[1] [WRN] [ALL] [Jul 08 17:38:00] motion_loop: Retrying until successful connection with camera
+[1] [NTC] [VID] [Jul 08 17:38:00] vid_v4lx_start: Using videodevice /dev/video0 and input -1
+[1] [NTC] [VID] [Jul 08 17:38:00] v4l2_get_capability: 
+------------------------
+cap.driver: "uvcvideo"
+cap.card: "UVC Camera (046d:08c9)"
+cap.bus_info: "usb-3f980000.usb-1.5"
+cap.capabilities=0x84200001
+------------------------
+[1] [NTC] [VID] [Jul 08 17:38:00] v4l2_get_capability: - VIDEO_CAPTURE
+[1] [NTC] [VID] [Jul 08 17:38:00] v4l2_get_capability: - STREAMING
+[1] [NTC] [VID] [Jul 08 17:38:00] v4l2_select_input: name = "Camera 1", type 0x00000002, status 00000000
+[1] [NTC] [VID] [Jul 08 17:38:00] v4l2_select_input: - CAMERA
+[1] [WRN] [VID] [Jul 08 17:38:00] v4l2_select_input: Device doesn't support VIDIOC_G_STD
+[1] [NTC] [VID] [Jul 08 17:38:05] v4l2_set_pix_format: Config palette index 17 (YU12) doesn't work.
+[1] [NTC] [VID] [Jul 08 17:38:05] v4l2_set_pix_format: Supported palettes:
+[1] [NTC] [VID] [Jul 08 17:38:05] v4l2_set_pix_format: (0) MJPG (Motion-JPEG)
+[1] [NTC] [VID] [Jul 08 17:38:05] v4l2_set_pix_format: 0 - Motion-JPEG (compressed : 1) (0x47504a4d)
+[1] [NTC] [VID] [Jul 08 17:38:05] v4l2_set_pix_format: (1) YUYV (YUYV 4:2:2)
+[1] [NTC] [VID] [Jul 08 17:38:05] v4l2_set_pix_format: 1 - YUYV 4:2:2 (compressed : 0) (0x56595559)
+[1] [NTC] [VID] [Jul 08 17:38:05] v4l2_set_pix_format Selected palette YUYV
+[1] [ERR] [VID] [Jul 08 17:38:11] VIDIOC_TRY_FMT failed for format v4l2_set_pix_format: 
+[1] [ERR] [VID] [Jul 08 17:38:11] v4l2_set_pix_format: Unable to find a compatible palette format.
+[1] [NTC] [VID] [Jul 08 17:38:11] vid_v4lx_start: Using V4L1
+[1] [ERR] [ALL] [Jul 08 17:38:11] motion_loop: Video device fatal error - Closing video device
+[1] [NTC] [VID] [Jul 08 17:38:11] vid_close: Closing video device /dev/video0
+[1] [WRN] [ALL] [Jul 08 17:38:20] motion_loop: Retrying until successful connection with camera
+[1] [NTC] [VID] [Jul 08 17:38:20] vid_v4lx_start: Using videodevice /dev/video0 and input -1
+[1] [NTC] [VID] [Jul 08 17:38:20] v4l2_get_capability: 
+------------------------
+cap.driver: "uvcvideo"
+cap.card: "UVC Camera (046d:08c9)"
+cap.bus_info: "usb-3f980000.usb-1.5"
+cap.capabilities=0x84200001
+------------------------
+[1] [NTC] [VID] [Jul 08 17:38:20] v4l2_get_capability: - VIDEO_CAPTURE
+[1] [NTC] [VID] [Jul 08 17:38:20] v4l2_get_capability: - STREAMING
+[1] [NTC] [VID] [Jul 08 17:38:20] v4l2_select_input: name = "Camera 1", type 0x00000002, status 00000000
+[1] [NTC] [VID] [Jul 08 17:38:20] v4l2_select_input: - CAMERA
+[1] [WRN] [VID] [Jul 08 17:38:20] v4l2_select_input: Device doesn't support VIDIOC_G_STD
+[1] [NTC] [VID] [Jul 08 17:38:25] v4l2_set_pix_format: Config palette index 17 (YU12) doesn't work.
+[1] [NTC] [VID] [Jul 08 17:38:25] v4l2_set_pix_format: Supported palettes:
+[1] [NTC] [VID] [Jul 08 17:38:25] v4l2_set_pix_format: (0) MJPG (Motion-JPEG)
+[1] [NTC] [VID] [Jul 08 17:38:25] v4l2_set_pix_format: 0 - Motion-JPEG (compressed : 1) (0x47504a4d)
+[1] [NTC] [VID] [Jul 08 17:38:25] v4l2_set_pix_format: (1) YUYV (YUYV 4:2:2)
+[1] [NTC] [VID] [Jul 08 17:38:25] v4l2_set_pix_format: 1 - YUYV 4:2:2 (compressed : 0) (0x56595559)
+[1] [NTC] [VID] [Jul 08 17:38:25] v4l2_set_pix_format Selected palette YUYV
+[1] [ERR] [VID] [Jul 08 17:38:30] VIDIOC_TRY_FMT failed for format v4l2_set_pix_format: 
+[1] [ERR] [VID] [Jul 08 17:38:30] v4l2_set_pix_format: Unable to find a compatible palette format.
+[1] [NTC] [VID] [Jul 08 17:38:30] vid_v4lx_start: Using V4L1
+[1] [ERR] [ALL] [Jul 08 17:38:30] motion_loop: Video device fatal error - Closing video device
+[1] [NTC] [VID] [Jul 08 17:38:30] vid_close: Closing video device /dev/video0
+[1] [WRN] [ALL] [Jul 08 17:38:30] motion_loop: Retrying until successful connection with camera
+[1] [NTC] [VID] [Jul 08 17:38:30] vid_v4lx_start: Using videodevice /dev/video0 and input -1
+[1] [NTC] [VID] [Jul 08 17:38:30] v4l2_get_capability: 
+------------------------
+cap.driver: "uvcvideo"
+cap.card: "UVC Camera (046d:08c9)"
+cap.bus_info: "usb-3f980000.usb-1.5"
+cap.capabilities=0x84200001
+------------------------
+[1] [NTC] [VID] [Jul 08 17:38:30] v4l2_get_capability: - VIDEO_CAPTURE
+[1] [NTC] [VID] [Jul 08 17:38:30] v4l2_get_capability: - STREAMING
+[1] [NTC] [VID] [Jul 08 17:38:30] v4l2_select_input: name = "Camera 1", type 0x00000002, status 00000000
+[1] [NTC] [VID] [Jul 08 17:38:30] v4l2_select_input: - CAMERA
+[1] [WRN] [VID] [Jul 08 17:38:30] v4l2_select_input: Device doesn't support VIDIOC_G_STD
+[1] [NTC] [VID] [Jul 08 17:38:35] v4l2_set_pix_format: Config palette index 17 (YU12) doesn't work.
+[1] [NTC] [VID] [Jul 08 17:38:35] v4l2_set_pix_format: Supported palettes:
+[1] [NTC] [VID] [Jul 08 17:38:35] v4l2_set_pix_format: (0) MJPG (Motion-JPEG)
+[1] [NTC] [VID] [Jul 08 17:38:35] v4l2_set_pix_format: 0 - Motion-JPEG (compressed : 1) (0x47504a4d)
+[1] [NTC] [VID] [Jul 08 17:38:35] v4l2_set_pix_format: (1) YUYV (YUYV 4:2:2)
+[1] [NTC] [VID] [Jul 08 17:38:35] v4l2_set_pix_format: 1 - YUYV 4:2:2 (compressed : 0) (0x56595559)
+[1] [NTC] [VID] [Jul 08 17:38:35] v4l2_set_pix_format Selected palette YUYV
+[1] [ERR] [VID] [Jul 08 17:38:40] VIDIOC_TRY_FMT failed for format v4l2_set_pix_format: 
+[1] [ERR] [VID] [Jul 08 17:38:40] v4l2_set_pix_format: Unable to find a compatible palette format.
+[1] [NTC] [VID] [Jul 08 17:38:40] vid_v4lx_start: Using V4L1
+[1] [ERR] [ALL] [Jul 08 17:38:40] motion_loop: Video device fatal error - Closing video device
+[1] [NTC] [VID] [Jul 08 17:38:40] vid_close: Closing video device /dev/video0
+[1] [WRN] [ALL] [Jul 08 17:38:40] motion_loop: Retrying until successful connection with camera
+[1] [NTC] [VID] [Jul 08 17:38:40] vid_v4lx_start: Using videodevice /dev/video0 and input -1
+[1] [NTC] [VID] [Jul 08 17:38:40] v4l2_get_capability: 
+------------------------
+cap.driver: "uvcvideo"
+cap.card: "UVC Camera (046d:08c9)"
+cap.bus_info: "usb-3f980000.usb-1.5"
+cap.capabilities=0x84200001
+------------------------
+[1] [NTC] [VID] [Jul 08 17:38:40] v4l2_get_capability: - VIDEO_CAPTURE
+[1] [NTC] [VID] [Jul 08 17:38:40] v4l2_get_capability: - STREAMING
+[1] [NTC] [VID] [Jul 08 17:38:40] v4l2_select_input: name = "Camera 1", type 0x00000002, status 00000000
+[1] [NTC] [VID] [Jul 08 17:38:40] v4l2_select_input: - CAMERA
+[1] [WRN] [VID] [Jul 08 17:38:40] v4l2_select_input: Device doesn't support VIDIOC_G_STD
+[1] [NTC] [VID] [Jul 08 17:38:45] v4l2_set_pix_format: Config palette index 17 (YU12) doesn't work.
+[1] [NTC] [VID] [Jul 08 17:38:45] v4l2_set_pix_format: Supported palettes:
+[1] [NTC] [VID] [Jul 08 17:38:45] v4l2_set_pix_format: (0) MJPG (Motion-JPEG)
+[1] [NTC] [VID] [Jul 08 17:38:45] v4l2_set_pix_format: 0 - Motion-JPEG (compressed : 1) (0x47504a4d)
+[1] [NTC] [VID] [Jul 08 17:38:45] v4l2_set_pix_format: (1) YUYV (YUYV 4:2:2)
+[1] [NTC] [VID] [Jul 08 17:38:45] v4l2_set_pix_format: 1 - YUYV 4:2:2 (compressed : 0) (0x56595559)
+[1] [NTC] [VID] [Jul 08 17:38:45] v4l2_set_pix_format Selected palette YUYV
+[1] [ERR] [VID] [Jul 08 17:38:50] VIDIOC_TRY_FMT failed for format v4l2_set_pix_format: 
+[1] [ERR] [VID] [Jul 08 17:38:50] v4l2_set_pix_format: Unable to find a compatible palette format.
+[1] [NTC] [VID] [Jul 08 17:38:50] vid_v4lx_start: Using V4L1
+[1] [ERR] [ALL] [Jul 08 17:38:50] motion_loop: Video device fatal error - Closing video device
+[1] [NTC] [VID] [Jul 08 17:38:50] vid_close: Closing video device /dev/video0
+[1] [WRN] [ALL] [Jul 08 17:38:50] motion_loop: Retrying until successful connection with camera
+[1] [NTC] [VID] [Jul 08 17:38:50] vid_v4lx_start: Using videodevice /dev/video0 and input -1
+[1] [NTC] [VID] [Jul 08 17:38:50] v4l2_get_capability: 
+------------------------
+cap.driver: "uvcvideo"
+cap.card: "UVC Camera (046d:08c9)"
+cap.bus_info: "usb-3f980000.usb-1.5"
+cap.capabilities=0x84200001
+------------------------
+[1] [NTC] [VID] [Jul 08 17:38:50] v4l2_get_capability: - VIDEO_CAPTURE
+[1] [NTC] [VID] [Jul 08 17:38:50] v4l2_get_capability: - STREAMING
+[1] [NTC] [VID] [Jul 08 17:38:50] v4l2_select_input: name = "Camera 1", type 0x00000002, status 00000000
+[1] [NTC] [VID] [Jul 08 17:38:50] v4l2_select_input: - CAMERA
+[1] [WRN] [VID] [Jul 08 17:38:50] v4l2_select_input: Device doesn't support VIDIOC_G_STD
+[1] [NTC] [VID] [Jul 08 17:38:55] v4l2_set_pix_format: Config palette index 17 (YU12) doesn't work.
+[1] [NTC] [VID] [Jul 08 17:38:55] v4l2_set_pix_format: Supported palettes:
+[1] [NTC] [VID] [Jul 08 17:38:55] v4l2_set_pix_format: (0) MJPG (Motion-JPEG)
+[1] [NTC] [VID] [Jul 08 17:38:55] v4l2_set_pix_format: 0 - Motion-JPEG (compressed : 1) (0x47504a4d)
+[1] [NTC] [VID] [Jul 08 17:38:55] v4l2_set_pix_format: (1) YUYV (YUYV 4:2:2)
+[1] [NTC] [VID] [Jul 08 17:38:55] v4l2_set_pix_format: 1 - YUYV 4:2:2 (compressed : 0) (0x56595559)
+[1] [NTC] [VID] [Jul 08 17:38:55] v4l2_set_pix_format Selected palette YUYV
+[1] [ERR] [VID] [Jul 08 17:39:00] VIDIOC_TRY_FMT failed for format v4l2_set_pix_format: 
+[1] [ERR] [VID] [Jul 08 17:39:00] v4l2_set_pix_format: Unable to find a compatible palette format.
+[1] [NTC] [VID] [Jul 08 17:39:00] vid_v4lx_start: Using V4L1
+[1] [ERR] [ALL] [Jul 08 17:39:00] motion_loop: Video device fatal error - Closing video device
+[1] [NTC] [VID] [Jul 08 17:39:00] vid_close: Closing video device /dev/video0
+[1] [WRN] [ALL] [Jul 08 17:39:00] motion_loop: Retrying until successful connection with camera
+[1] [NTC] [VID] [Jul 08 17:39:00] vid_v4lx_start: Using videodevice /dev/video0 and input -1
+[1] [NTC] [VID] [Jul 08 17:39:00] v4l2_get_capability: 
+------------------------
+cap.driver: "uvcvideo"
+cap.card: "UVC Camera (046d:08c9)"
+cap.bus_info: "usb-3f980000.usb-1.5"
+cap.capabilities=0x84200001
+------------------------
+[1] [NTC] [VID] [Jul 08 17:39:00] v4l2_get_capability: - VIDEO_CAPTURE
+[1] [NTC] [VID] [Jul 08 17:39:00] v4l2_get_capability: - STREAMING
+[1] [NTC] [VID] [Jul 08 17:39:00] v4l2_select_input: name = "Camera 1", type 0x00000002, status 00000000
+[1] [NTC] [VID] [Jul 08 17:39:00] v4l2_select_input: - CAMERA
+[1] [WRN] [VID] [Jul 08 17:39:00] v4l2_select_input: Device doesn't support VIDIOC_G_STD
+[1] [NTC] [VID] [Jul 08 17:39:05] v4l2_set_pix_format: Config palette index 17 (YU12) doesn't work.
+[1] [NTC] [VID] [Jul 08 17:39:05] v4l2_set_pix_format: Supported palettes:
+[1] [NTC] [VID] [Jul 08 17:39:05] v4l2_set_pix_format: (0) MJPG (Motion-JPEG)
+[1] [NTC] [VID] [Jul 08 17:39:05] v4l2_set_pix_format: 0 - Motion-JPEG (compressed : 1) (0x47504a4d)
+[1] [NTC] [VID] [Jul 08 17:39:05] v4l2_set_pix_format: (1) YUYV (YUYV 4:2:2)
+[1] [NTC] [VID] [Jul 08 17:39:05] v4l2_set_pix_format: 1 - YUYV 4:2:2 (compressed : 0) (0x56595559)
+[1] [NTC] [VID] [Jul 08 17:39:05] v4l2_set_pix_format Selected palette YUYV
+[1] [ERR] [VID] [Jul 08 17:39:10] VIDIOC_TRY_FMT failed for format v4l2_set_pix_format: 
+[1] [ERR] [VID] [Jul 08 17:39:10] v4l2_set_pix_format: Unable to find a compatible palette format.
+[1] [NTC] [VID] [Jul 08 17:39:10] vid_v4lx_start: Using V4L1
+[1] [ERR] [ALL] [Jul 08 17:39:10] motion_loop: Video device fatal error - Closing video device
+[1] [NTC] [VID] [Jul 08 17:39:10] vid_close: Closing video device /dev/video0
+[1] [WRN] [ALL] [Jul 08 17:39:10] motion_loop: Retrying until successful connection with camera
+[1] [NTC] [VID] [Jul 08 17:39:10] vid_v4lx_start: Using videodevice /dev/video0 and input -1
+[1] [NTC] [VID] [Jul 08 17:39:10] v4l2_get_capability: 
+------------------------
+cap.driver: "uvcvideo"
+cap.card: "UVC Camera (046d:08c9)"
+cap.bus_info: "usb-3f980000.usb-1.5"
+cap.capabilities=0x84200001
+------------------------
+[1] [NTC] [VID] [Jul 08 17:39:10] v4l2_get_capability: - VIDEO_CAPTURE
+[1] [NTC] [VID] [Jul 08 17:39:10] v4l2_get_capability: - STREAMING
+[1] [NTC] [VID] [Jul 08 17:39:10] v4l2_select_input: name = "Camera 1", type 0x00000002, status 00000000
+[1] [NTC] [VID] [Jul 08 17:39:10] v4l2_select_input: - CAMERA
+[1] [WRN] [VID] [Jul 08 17:39:10] v4l2_select_input: Device doesn't support VIDIOC_G_STD
+[1] [NTC] [VID] [Jul 08 17:39:15] v4l2_set_pix_format: Config palette index 17 (YU12) doesn't work.
+[1] [NTC] [VID] [Jul 08 17:39:15] v4l2_set_pix_format: Supported palettes:
+[1] [NTC] [VID] [Jul 08 17:39:15] v4l2_set_pix_format: (0) MJPG (Motion-JPEG)
+[1] [NTC] [VID] [Jul 08 17:39:15] v4l2_set_pix_format: 0 - Motion-JPEG (compressed : 1) (0x47504a4d)
+[1] [NTC] [VID] [Jul 08 17:39:15] v4l2_set_pix_format: (1) YUYV (YUYV 4:2:2)
+[1] [NTC] [VID] [Jul 08 17:39:15] v4l2_set_pix_format: 1 - YUYV 4:2:2 (compressed : 0) (0x56595559)
+[1] [NTC] [VID] [Jul 08 17:39:15] v4l2_set_pix_format Selected palette YUYV
+[1] [ERR] [VID] [Jul 08 17:39:20] VIDIOC_TRY_FMT failed for format v4l2_set_pix_format: 
+[1] [ERR] [VID] [Jul 08 17:39:20] v4l2_set_pix_format: Unable to find a compatible palette format.
+[1] [NTC] [VID] [Jul 08 17:39:20] vid_v4lx_start: Using V4L1
+[1] [ERR] [ALL] [Jul 08 17:39:20] motion_loop: Video device fatal error - Closing video device
+[1] [NTC] [VID] [Jul 08 17:39:20] vid_close: Closing video device /dev/video0
+[1] [WRN] [ALL] [Jul 08 17:39:20] motion_loop: Retrying until successful connection with camera
+[1] [NTC] [VID] [Jul 08 17:39:20] vid_v4lx_start: Using videodevice /dev/video0 and input -1
+[1] [NTC] [VID] [Jul 08 17:39:20] v4l2_get_capability: 
+------------------------
+cap.driver: "uvcvideo"
+cap.card: "UVC Camera (046d:08c9)"
+cap.bus_info: "usb-3f980000.usb-1.5"
+cap.capabilities=0x84200001
+------------------------
+[1] [NTC] [VID] [Jul 08 17:39:20] v4l2_get_capability: - VIDEO_CAPTURE
+[1] [NTC] [VID] [Jul 08 17:39:20] v4l2_get_capability: - STREAMING
+[1] [NTC] [VID] [Jul 08 17:39:20] v4l2_select_input: name = "Camera 1", type 0x00000002, status 00000000
+[1] [NTC] [VID] [Jul 08 17:39:20] v4l2_select_input: - CAMERA
+[1] [WRN] [VID] [Jul 08 17:39:20] v4l2_select_input: Device doesn't support VIDIOC_G_STD
+[1] [NTC] [VID] [Jul 08 17:39:26] v4l2_set_pix_format: Config palette index 17 (YU12) doesn't work.
+[1] [NTC] [VID] [Jul 08 17:39:26] v4l2_set_pix_format: Supported palettes:
+[1] [NTC] [VID] [Jul 08 17:39:26] v4l2_set_pix_format: (0) MJPG (Motion-JPEG)
+[1] [NTC] [VID] [Jul 08 17:39:26] v4l2_set_pix_format: 0 - Motion-JPEG (compressed : 1) (0x47504a4d)
+[1] [NTC] [VID] [Jul 08 17:39:26] v4l2_set_pix_format: (1) YUYV (YUYV 4:2:2)
+[1] [NTC] [VID] [Jul 08 17:39:26] v4l2_set_pix_format: 1 - YUYV 4:2:2 (compressed : 0) (0x56595559)
+[1] [NTC] [VID] [Jul 08 17:39:26] v4l2_set_pix_format Selected palette YUYV
+[1] [ERR] [VID] [Jul 08 17:39:31] VIDIOC_TRY_FMT failed for format v4l2_set_pix_format: 
+[1] [ERR] [VID] [Jul 08 17:39:31] v4l2_set_pix_format: Unable to find a compatible palette format.
+[1] [NTC] [VID] [Jul 08 17:39:31] vid_v4lx_start: Using V4L1
+[1] [ERR] [ALL] [Jul 08 17:39:31] motion_loop: Video device fatal error - Closing video device
+[1] [NTC] [VID] [Jul 08 17:39:31] vid_close: Closing video device /dev/video0
+[1] [WRN] [ALL] [Jul 08 17:39:40] motion_loop: Retrying until successful connection with camera
+[1] [NTC] [VID] [Jul 08 17:39:40] vid_v4lx_start: Using videodevice /dev/video0 and input -1
+[1] [NTC] [VID] [Jul 08 17:39:40] v4l2_get_capability: 
+------------------------
+cap.driver: "uvcvideo"
+cap.card: "UVC Camera (046d:08c9)"
+cap.bus_info: "usb-3f980000.usb-1.5"
+cap.capabilities=0x84200001
+------------------------
+[1] [NTC] [VID] [Jul 08 17:39:40] v4l2_get_capability: - VIDEO_CAPTURE
+[1] [NTC] [VID] [Jul 08 17:39:40] v4l2_get_capability: - STREAMING
+[1] [NTC] [VID] [Jul 08 17:39:40] v4l2_select_input: name = "Camera 1", type 0x00000002, status 00000000
+[1] [NTC] [VID] [Jul 08 17:39:40] v4l2_select_input: - CAMERA
+[1] [WRN] [VID] [Jul 08 17:39:40] v4l2_select_input: Device doesn't support VIDIOC_G_STD
+[1] [NTC] [VID] [Jul 08 17:39:45] v4l2_set_pix_format: Config palette index 17 (YU12) doesn't work.
+[1] [NTC] [VID] [Jul 08 17:39:45] v4l2_set_pix_format: Supported palettes:
+[1] [NTC] [VID] [Jul 08 17:39:45] v4l2_set_pix_format: (0) MJPG (Motion-JPEG)
+[1] [NTC] [VID] [Jul 08 17:39:45] v4l2_set_pix_format: 0 - Motion-JPEG (compressed : 1) (0x47504a4d)
+[1] [NTC] [VID] [Jul 08 17:39:45] v4l2_set_pix_format: (1) YUYV (YUYV 4:2:2)
+[1] [NTC] [VID] [Jul 08 17:39:45] v4l2_set_pix_format: 1 - YUYV 4:2:2 (compressed : 0) (0x56595559)
+[1] [NTC] [VID] [Jul 08 17:39:45] v4l2_set_pix_format Selected palette YUYV
+[1] [ERR] [VID] [Jul 08 17:39:50] VIDIOC_TRY_FMT failed for format v4l2_set_pix_format: 
+[1] [ERR] [VID] [Jul 08 17:39:50] v4l2_set_pix_format: Unable to find a compatible palette format.
+[1] [NTC] [VID] [Jul 08 17:39:50] vid_v4lx_start: Using V4L1
+[1] [ERR] [ALL] [Jul 08 17:39:50] motion_loop: Video device fatal error - Closing video device
+[1] [NTC] [VID] [Jul 08 17:39:50] vid_close: Closing video device /dev/video0
+[1] [WRN] [ALL] [Jul 08 17:39:50] motion_loop: Retrying until successful connection with camera
+[1] [NTC] [VID] [Jul 08 17:39:50] vid_v4lx_start: Using videodevice /dev/video0 and input -1
+[1] [NTC] [VID] [Jul 08 17:39:50] v4l2_get_capability: 
+------------------------
+cap.driver: "uvcvideo"
+cap.card: "UVC Camera (046d:08c9)"
+cap.bus_info: "usb-3f980000.usb-1.5"
+cap.capabilities=0x84200001
+------------------------
+[1] [NTC] [VID] [Jul 08 17:39:50] v4l2_get_capability: - VIDEO_CAPTURE
+[1] [NTC] [VID] [Jul 08 17:39:50] v4l2_get_capability: - STREAMING
+[1] [NTC] [VID] [Jul 08 17:39:50] v4l2_select_input: name = "Camera 1", type 0x00000002, status 00000000
+[1] [NTC] [VID] [Jul 08 17:39:50] v4l2_select_input: - CAMERA
+[1] [WRN] [VID] [Jul 08 17:39:50] v4l2_select_input: Device doesn't support VIDIOC_G_STD
+[1] [NTC] [VID] [Jul 08 17:39:55] v4l2_set_pix_format: Config palette index 17 (YU12) doesn't work.
+[1] [NTC] [VID] [Jul 08 17:39:55] v4l2_set_pix_format: Supported palettes:
+[1] [NTC] [VID] [Jul 08 17:39:55] v4l2_set_pix_format: (0) MJPG (Motion-JPEG)
+[1] [NTC] [VID] [Jul 08 17:39:55] v4l2_set_pix_format: 0 - Motion-JPEG (compressed : 1) (0x47504a4d)
+[1] [NTC] [VID] [Jul 08 17:39:55] v4l2_set_pix_format: (1) YUYV (YUYV 4:2:2)
+[1] [NTC] [VID] [Jul 08 17:39:55] v4l2_set_pix_format: 1 - YUYV 4:2:2 (compressed : 0) (0x56595559)
+[1] [NTC] [VID] [Jul 08 17:39:55] v4l2_set_pix_format Selected palette YUYV
+[1] [ERR] [VID] [Jul 08 17:40:00] VIDIOC_TRY_FMT failed for format v4l2_set_pix_format: 
+[1] [ERR] [VID] [Jul 08 17:40:00] v4l2_set_pix_format: Unable to find a compatible palette format.
+[1] [NTC] [VID] [Jul 08 17:40:00] vid_v4lx_start: Using V4L1
+[1] [ERR] [ALL] [Jul 08 17:40:00] motion_loop: Video device fatal error - Closing video device
+[1] [NTC] [VID] [Jul 08 17:40:00] vid_close: Closing video device /dev/video0
+[1] [WRN] [ALL] [Jul 08 17:40:00] motion_loop: Retrying until successful connection with camera
+[1] [NTC] [VID] [Jul 08 17:40:00] vid_v4lx_start: Using videodevice /dev/video0 and input -1
+[1] [NTC] [VID] [Jul 08 17:40:00] v4l2_get_capability: 
+------------------------
+cap.driver: "uvcvideo"
+cap.card: "UVC Camera (046d:08c9)"
+cap.bus_info: "usb-3f980000.usb-1.5"
+cap.capabilities=0x84200001
+------------------------
+[1] [NTC] [VID] [Jul 08 17:40:00] v4l2_get_capability: - VIDEO_CAPTURE
+[1] [NTC] [VID] [Jul 08 17:40:00] v4l2_get_capability: - STREAMING
+[1] [NTC] [VID] [Jul 08 17:40:00] v4l2_select_input: name = "Camera 1", type 0x00000002, status 00000000
+[1] [NTC] [VID] [Jul 08 17:40:00] v4l2_select_input: - CAMERA
+[1] [WRN] [VID] [Jul 08 17:40:00] v4l2_select_input: Device doesn't support VIDIOC_G_STD
+[1] [NTC] [VID] [Jul 08 17:40:05] v4l2_set_pix_format: Config palette index 17 (YU12) doesn't work.
+[1] [NTC] [VID] [Jul 08 17:40:05] v4l2_set_pix_format: Supported palettes:
+[1] [NTC] [VID] [Jul 08 17:40:05] v4l2_set_pix_format: (0) MJPG (Motion-JPEG)
+[1] [NTC] [VID] [Jul 08 17:40:05] v4l2_set_pix_format: 0 - Motion-JPEG (compressed : 1) (0x47504a4d)
+[1] [NTC] [VID] [Jul 08 17:40:05] v4l2_set_pix_format: (1) YUYV (YUYV 4:2:2)
+[1] [NTC] [VID] [Jul 08 17:40:05] v4l2_set_pix_format: 1 - YUYV 4:2:2 (compressed : 0) (0x56595559)
+[1] [NTC] [VID] [Jul 08 17:40:05] v4l2_set_pix_format Selected palette YUYV
+[1] [ERR] [VID] [Jul 08 17:40:10] VIDIOC_TRY_FMT failed for format v4l2_set_pix_format: 
+[1] [ERR] [VID] [Jul 08 17:40:10] v4l2_set_pix_format: Unable to find a compatible palette format.
+[1] [NTC] [VID] [Jul 08 17:40:10] vid_v4lx_start: Using V4L1
+[1] [ERR] [ALL] [Jul 08 17:40:10] motion_loop: Video device fatal error - Closing video device
+[1] [NTC] [VID] [Jul 08 17:40:10] vid_close: Closing video device /dev/video0
+[1] [WRN] [ALL] [Jul 08 17:40:10] motion_loop: Retrying until successful connection with camera
+[1] [NTC] [VID] [Jul 08 17:40:10] vid_v4lx_start: Using videodevice /dev/video0 and input -1
+[1] [NTC] [VID] [Jul 08 17:40:10] v4l2_get_capability: 
+------------------------
+cap.driver: "uvcvideo"
+cap.card: "UVC Camera (046d:08c9)"
+cap.bus_info: "usb-3f980000.usb-1.5"
+cap.capabilities=0x84200001
+------------------------
+[1] [NTC] [VID] [Jul 08 17:40:10] v4l2_get_capability: - VIDEO_CAPTURE
+[1] [NTC] [VID] [Jul 08 17:40:10] v4l2_get_capability: - STREAMING
+[1] [NTC] [VID] [Jul 08 17:40:10] v4l2_select_input: name = "Camera 1", type 0x00000002, status 00000000
+[1] [NTC] [VID] [Jul 08 17:40:10] v4l2_select_input: - CAMERA
+[1] [WRN] [VID] [Jul 08 17:40:10] v4l2_select_input: Device doesn't support VIDIOC_G_STD
+[1] [NTC] [VID] [Jul 08 17:40:15] v4l2_set_pix_format: Config palette index 17 (YU12) doesn't work.
+[1] [NTC] [VID] [Jul 08 17:40:15] v4l2_set_pix_format: Supported palettes:
+[1] [NTC] [VID] [Jul 08 17:40:15] v4l2_set_pix_format: (0) MJPG (Motion-JPEG)
+[1] [NTC] [VID] [Jul 08 17:40:15] v4l2_set_pix_format: 0 - Motion-JPEG (compressed : 1) (0x47504a4d)
+[1] [NTC] [VID] [Jul 08 17:40:15] v4l2_set_pix_format: (1) YUYV (YUYV 4:2:2)
+[1] [NTC] [VID] [Jul 08 17:40:15] v4l2_set_pix_format: 1 - YUYV 4:2:2 (compressed : 0) (0x56595559)
+[1] [NTC] [VID] [Jul 08 17:40:15] v4l2_set_pix_format Selected palette YUYV
+[1] [ERR] [VID] [Jul 08 17:40:20] VIDIOC_TRY_FMT failed for format v4l2_set_pix_format: 
+[1] [ERR] [VID] [Jul 08 17:40:20] v4l2_set_pix_format: Unable to find a compatible palette format.
+[1] [NTC] [VID] [Jul 08 17:40:20] vid_v4lx_start: Using V4L1
+[1] [ERR] [ALL] [Jul 08 17:40:20] motion_loop: Video device fatal error - Closing video device
+[1] [NTC] [VID] [Jul 08 17:40:20] vid_close: Closing video device /dev/video0
+[1] [WRN] [ALL] [Jul 08 17:40:20] motion_loop: Retrying until successful connection with camera
+[1] [NTC] [VID] [Jul 08 17:40:20] vid_v4lx_start: Using videodevice /dev/video0 and input -1
+[1] [NTC] [VID] [Jul 08 17:40:20] v4l2_get_capability: 
+------------------------
+cap.driver: "uvcvideo"
+cap.card: "UVC Camera (046d:08c9)"
+cap.bus_info: "usb-3f980000.usb-1.5"
+cap.capabilities=0x84200001
+------------------------
+[1] [NTC] [VID] [Jul 08 17:40:20] v4l2_get_capability: - VIDEO_CAPTURE
+[1] [NTC] [VID] [Jul 08 17:40:20] v4l2_get_capability: - STREAMING
+[1] [NTC] [VID] [Jul 08 17:40:20] v4l2_select_input: name = "Camera 1", type 0x00000002, status 00000000
+[1] [NTC] [VID] [Jul 08 17:40:20] v4l2_select_input: - CAMERA
+[1] [WRN] [VID] [Jul 08 17:40:20] v4l2_select_input: Device doesn't support VIDIOC_G_STD
+[1] [NTC] [VID] [Jul 08 17:40:25] v4l2_set_pix_format: Config palette index 17 (YU12) doesn't work.
+[1] [NTC] [VID] [Jul 08 17:40:25] v4l2_set_pix_format: Supported palettes:
+[1] [NTC] [VID] [Jul 08 17:40:25] v4l2_set_pix_format: (0) MJPG (Motion-JPEG)
+[1] [NTC] [VID] [Jul 08 17:40:25] v4l2_set_pix_format: 0 - Motion-JPEG (compressed : 1) (0x47504a4d)
+[1] [NTC] [VID] [Jul 08 17:40:25] v4l2_set_pix_format: (1) YUYV (YUYV 4:2:2)
+[1] [NTC] [VID] [Jul 08 17:40:25] v4l2_set_pix_format: 1 - YUYV 4:2:2 (compressed : 0) (0x56595559)
+[1] [NTC] [VID] [Jul 08 17:40:25] v4l2_set_pix_format Selected palette YUYV
+[1] [ERR] [VID] [Jul 08 17:40:30] VIDIOC_TRY_FMT failed for format v4l2_set_pix_format: 
+[1] [ERR] [VID] [Jul 08 17:40:30] v4l2_set_pix_format: Unable to find a compatible palette format.
+[1] [NTC] [VID] [Jul 08 17:40:30] vid_v4lx_start: Using V4L1
+[1] [ERR] [ALL] [Jul 08 17:40:30] motion_loop: Video device fatal error - Closing video device
+[1] [NTC] [VID] [Jul 08 17:40:30] vid_close: Closing video device /dev/video0
+[1] [WRN] [ALL] [Jul 08 17:40:30] motion_loop: Retrying until successful connection with camera
+[1] [NTC] [VID] [Jul 08 17:40:30] vid_v4lx_start: Using videodevice /dev/video0 and input -1
+[1] [NTC] [VID] [Jul 08 17:40:30] v4l2_get_capability: 
+------------------------
+cap.driver: "uvcvideo"
+cap.card: "UVC Camera (046d:08c9)"
+cap.bus_info: "usb-3f980000.usb-1.5"
+cap.capabilities=0x84200001
+------------------------
+[1] [NTC] [VID] [Jul 08 17:40:30] v4l2_get_capability: - VIDEO_CAPTURE
+[1] [NTC] [VID] [Jul 08 17:40:30] v4l2_get_capability: - STREAMING
+[1] [NTC] [VID] [Jul 08 17:40:30] v4l2_select_input: name = "Camera 1", type 0x00000002, status 00000000
+[1] [NTC] [VID] [Jul 08 17:40:30] v4l2_select_input: - CAMERA
+[1] [WRN] [VID] [Jul 08 17:40:30] v4l2_select_input: Device doesn't support VIDIOC_G_STD
+[1] [NTC] [VID] [Jul 08 17:40:35] v4l2_set_pix_format: Config palette index 17 (YU12) doesn't work.
+[1] [NTC] [VID] [Jul 08 17:40:35] v4l2_set_pix_format: Supported palettes:
+[1] [NTC] [VID] [Jul 08 17:40:35] v4l2_set_pix_format: (0) MJPG (Motion-JPEG)
+[1] [NTC] [VID] [Jul 08 17:40:35] v4l2_set_pix_format: 0 - Motion-JPEG (compressed : 1) (0x47504a4d)
+[1] [NTC] [VID] [Jul 08 17:40:35] v4l2_set_pix_format: (1) YUYV (YUYV 4:2:2)
+[1] [NTC] [VID] [Jul 08 17:40:35] v4l2_set_pix_format: 1 - YUYV 4:2:2 (compressed : 0) (0x56595559)
+[1] [NTC] [VID] [Jul 08 17:40:35] v4l2_set_pix_format Selected palette YUYV
+[1] [ERR] [VID] [Jul 08 17:40:40] VIDIOC_TRY_FMT failed for format v4l2_set_pix_format: 
+[1] [ERR] [VID] [Jul 08 17:40:40] v4l2_set_pix_format: Unable to find a compatible palette format.
+[1] [NTC] [VID] [Jul 08 17:40:40] vid_v4lx_start: Using V4L1
+[1] [ERR] [ALL] [Jul 08 17:40:40] motion_loop: Video device fatal error - Closing video device
+[1] [NTC] [VID] [Jul 08 17:40:40] vid_close: Closing video device /dev/video0
+[1] [WRN] [ALL] [Jul 08 17:40:40] motion_loop: Retrying until successful connection with camera
+[1] [NTC] [VID] [Jul 08 17:40:40] vid_v4lx_start: Using videodevice /dev/video0 and input -1
+[1] [NTC] [VID] [Jul 08 17:40:40] v4l2_get_capability: 
+------------------------
+cap.driver: "uvcvideo"
+cap.card: "UVC Camera (046d:08c9)"
+cap.bus_info: "usb-3f980000.usb-1.5"
+cap.capabilities=0x84200001
+------------------------
+[1] [NTC] [VID] [Jul 08 17:40:40] v4l2_get_capability: - VIDEO_CAPTURE
+[1] [NTC] [VID] [Jul 08 17:40:40] v4l2_get_capability: - STREAMING
+[1] [NTC] [VID] [Jul 08 17:40:40] v4l2_select_input: name = "Camera 1", type 0x00000002, status 00000000
+[1] [NTC] [VID] [Jul 08 17:40:40] v4l2_select_input: - CAMERA
+[1] [WRN] [VID] [Jul 08 17:40:40] v4l2_select_input: Device doesn't support VIDIOC_G_STD
+[1] [NTC] [VID] [Jul 08 17:40:46] v4l2_set_pix_format: Config palette index 17 (YU12) doesn't work.
+[1] [NTC] [VID] [Jul 08 17:40:46] v4l2_set_pix_format: Supported palettes:
+[1] [NTC] [VID] [Jul 08 17:40:46] v4l2_set_pix_format: (0) MJPG (Motion-JPEG)
+[1] [NTC] [VID] [Jul 08 17:40:46] v4l2_set_pix_format: 0 - Motion-JPEG (compressed : 1) (0x47504a4d)
+[1] [NTC] [VID] [Jul 08 17:40:46] v4l2_set_pix_format: (1) YUYV (YUYV 4:2:2)
+[1] [NTC] [VID] [Jul 08 17:40:46] v4l2_set_pix_format: 1 - YUYV 4:2:2 (compressed : 0) (0x56595559)
+[1] [NTC] [VID] [Jul 08 17:40:46] v4l2_set_pix_format Selected palette YUYV
+[1] [ERR] [VID] [Jul 08 17:40:51] VIDIOC_TRY_FMT failed for format v4l2_set_pix_format: 
+[1] [ERR] [VID] [Jul 08 17:40:51] v4l2_set_pix_format: Unable to find a compatible palette format.
+[1] [NTC] [VID] [Jul 08 17:40:51] vid_v4lx_start: Using V4L1
+[1] [ERR] [ALL] [Jul 08 17:40:51] motion_loop: Video device fatal error - Closing video device
+[1] [NTC] [VID] [Jul 08 17:40:51] vid_close: Closing video device /dev/video0
+[1] [WRN] [ALL] [Jul 08 17:41:00] motion_loop: Retrying until successful connection with camera
+[1] [NTC] [VID] [Jul 08 17:41:00] vid_v4lx_start: Using videodevice /dev/video0 and input -1
+[1] [NTC] [VID] [Jul 08 17:41:00] v4l2_get_capability: 
+------------------------
+cap.driver: "uvcvideo"
+cap.card: "UVC Camera (046d:08c9)"
+cap.bus_info: "usb-3f980000.usb-1.5"
+cap.capabilities=0x84200001
+------------------------
+[1] [NTC] [VID] [Jul 08 17:41:00] v4l2_get_capability: - VIDEO_CAPTURE
+[1] [NTC] [VID] [Jul 08 17:41:00] v4l2_get_capability: - STREAMING
+[1] [NTC] [VID] [Jul 08 17:41:00] v4l2_select_input: name = "Camera 1", type 0x00000002, status 00000000
+[1] [NTC] [VID] [Jul 08 17:41:00] v4l2_select_input: - CAMERA
+[1] [WRN] [VID] [Jul 08 17:41:00] v4l2_select_input: Device doesn't support VIDIOC_G_STD
+[1] [NTC] [VID] [Jul 08 17:41:05] v4l2_set_pix_format: Config palette index 17 (YU12) doesn't work.
+[1] [NTC] [VID] [Jul 08 17:41:05] v4l2_set_pix_format: Supported palettes:
+[1] [NTC] [VID] [Jul 08 17:41:05] v4l2_set_pix_format: (0) MJPG (Motion-JPEG)
+[1] [NTC] [VID] [Jul 08 17:41:05] v4l2_set_pix_format: 0 - Motion-JPEG (compressed : 1) (0x47504a4d)
+[1] [NTC] [VID] [Jul 08 17:41:05] v4l2_set_pix_format: (1) YUYV (YUYV 4:2:2)
+[1] [NTC] [VID] [Jul 08 17:41:05] v4l2_set_pix_format: 1 - YUYV 4:2:2 (compressed : 0) (0x56595559)
+[1] [NTC] [VID] [Jul 08 17:41:05] v4l2_set_pix_format Selected palette YUYV
+[1] [ERR] [VID] [Jul 08 17:41:10] VIDIOC_TRY_FMT failed for format v4l2_set_pix_format: 
+[1] [ERR] [VID] [Jul 08 17:41:10] v4l2_set_pix_format: Unable to find a compatible palette format.
+[1] [NTC] [VID] [Jul 08 17:41:10] vid_v4lx_start: Using V4L1
+[1] [ERR] [ALL] [Jul 08 17:41:10] motion_loop: Video device fatal error - Closing video device
+[1] [NTC] [VID] [Jul 08 17:41:10] vid_close: Closing video device /dev/video0
+[1] [WRN] [ALL] [Jul 08 17:41:10] motion_loop: Retrying until successful connection with camera
+[1] [NTC] [VID] [Jul 08 17:41:10] vid_v4lx_start: Using videodevice /dev/video0 and input -1
+[1] [NTC] [VID] [Jul 08 17:41:10] v4l2_get_capability: 
+------------------------
+cap.driver: "uvcvideo"
+cap.card: "UVC Camera (046d:08c9)"
+cap.bus_info: "usb-3f980000.usb-1.5"
+cap.capabilities=0x84200001
+------------------------
+[1] [NTC] [VID] [Jul 08 17:41:10] v4l2_get_capability: - VIDEO_CAPTURE
+[1] [NTC] [VID] [Jul 08 17:41:10] v4l2_get_capability: - STREAMING
+[1] [NTC] [VID] [Jul 08 17:41:10] v4l2_select_input: name = "Camera 1", type 0x00000002, status 00000000
+[1] [NTC] [VID] [Jul 08 17:41:10] v4l2_select_input: - CAMERA
+[1] [WRN] [VID] [Jul 08 17:41:10] v4l2_select_input: Device doesn't support VIDIOC_G_STD
+[1] [NTC] [VID] [Jul 08 17:41:15] v4l2_set_pix_format: Config palette index 17 (YU12) doesn't work.
+[1] [NTC] [VID] [Jul 08 17:41:15] v4l2_set_pix_format: Supported palettes:
+[1] [NTC] [VID] [Jul 08 17:41:15] v4l2_set_pix_format: (0) MJPG (Motion-JPEG)
+[1] [NTC] [VID] [Jul 08 17:41:15] v4l2_set_pix_format: 0 - Motion-JPEG (compressed : 1) (0x47504a4d)
+[1] [NTC] [VID] [Jul 08 17:41:15] v4l2_set_pix_format: (1) YUYV (YUYV 4:2:2)
+[1] [NTC] [VID] [Jul 08 17:41:15] v4l2_set_pix_format: 1 - YUYV 4:2:2 (compressed : 0) (0x56595559)
+[1] [NTC] [VID] [Jul 08 17:41:15] v4l2_set_pix_format Selected palette YUYV
+[1] [ERR] [VID] [Jul 08 17:41:20] VIDIOC_TRY_FMT failed for format v4l2_set_pix_format: 
+[1] [ERR] [VID] [Jul 08 17:41:20] v4l2_set_pix_format: Unable to find a compatible palette format.
+[1] [NTC] [VID] [Jul 08 17:41:20] vid_v4lx_start: Using V4L1
+[1] [ERR] [ALL] [Jul 08 17:41:20] motion_loop: Video device fatal error - Closing video device
+[1] [NTC] [VID] [Jul 08 17:41:20] vid_close: Closing video device /dev/video0
+[1] [WRN] [ALL] [Jul 08 17:41:20] motion_loop: Retrying until successful connection with camera
+[1] [NTC] [VID] [Jul 08 17:41:20] vid_v4lx_start: Using videodevice /dev/video0 and input -1
+[1] [NTC] [VID] [Jul 08 17:41:20] v4l2_get_capability: 
+------------------------
+cap.driver: "uvcvideo"
+cap.card: "UVC Camera (046d:08c9)"
+cap.bus_info: "usb-3f980000.usb-1.5"
+cap.capabilities=0x84200001
+------------------------
+[1] [NTC] [VID] [Jul 08 17:41:20] v4l2_get_capability: - VIDEO_CAPTURE
+[1] [NTC] [VID] [Jul 08 17:41:20] v4l2_get_capability: - STREAMING
+[1] [NTC] [VID] [Jul 08 17:41:20] v4l2_select_input: name = "Camera 1", type 0x00000002, status 00000000
+[1] [NTC] [VID] [Jul 08 17:41:20] v4l2_select_input: - CAMERA
+[1] [WRN] [VID] [Jul 08 17:41:20] v4l2_select_input: Device doesn't support VIDIOC_G_STD
+[1] [NTC] [VID] [Jul 08 17:41:25] v4l2_set_pix_format: Config palette index 17 (YU12) doesn't work.
+[1] [NTC] [VID] [Jul 08 17:41:25] v4l2_set_pix_format: Supported palettes:
+[1] [NTC] [VID] [Jul 08 17:41:25] v4l2_set_pix_format: (0) MJPG (Motion-JPEG)
+[1] [NTC] [VID] [Jul 08 17:41:25] v4l2_set_pix_format: 0 - Motion-JPEG (compressed : 1) (0x47504a4d)
+[1] [NTC] [VID] [Jul 08 17:41:25] v4l2_set_pix_format: (1) YUYV (YUYV 4:2:2)
+[1] [NTC] [VID] [Jul 08 17:41:25] v4l2_set_pix_format: 1 - YUYV 4:2:2 (compressed : 0) (0x56595559)
+[1] [NTC] [VID] [Jul 08 17:41:25] v4l2_set_pix_format Selected palette YUYV
+[1] [ERR] [VID] [Jul 08 17:41:30] VIDIOC_TRY_FMT failed for format v4l2_set_pix_format: 
+[1] [ERR] [VID] [Jul 08 17:41:30] v4l2_set_pix_format: Unable to find a compatible palette format.
+[1] [NTC] [VID] [Jul 08 17:41:30] vid_v4lx_start: Using V4L1
+[1] [ERR] [ALL] [Jul 08 17:41:30] motion_loop: Video device fatal error - Closing video device
+[1] [NTC] [VID] [Jul 08 17:41:30] vid_close: Closing video device /dev/video0
+[1] [WRN] [ALL] [Jul 08 17:41:30] motion_loop: Retrying until successful connection with camera
+[1] [NTC] [VID] [Jul 08 17:41:30] vid_v4lx_start: Using videodevice /dev/video0 and input -1
+[1] [NTC] [VID] [Jul 08 17:41:30] v4l2_get_capability: 
+------------------------
+cap.driver: "uvcvideo"
+cap.card: "UVC Camera (046d:08c9)"
+cap.bus_info: "usb-3f980000.usb-1.5"
+cap.capabilities=0x84200001
+------------------------
+[1] [NTC] [VID] [Jul 08 17:41:30] v4l2_get_capability: - VIDEO_CAPTURE
+[1] [NTC] [VID] [Jul 08 17:41:30] v4l2_get_capability: - STREAMING
+[1] [NTC] [VID] [Jul 08 17:41:30] v4l2_select_input: name = "Camera 1", type 0x00000002, status 00000000
+[1] [NTC] [VID] [Jul 08 17:41:30] v4l2_select_input: - CAMERA
+[1] [WRN] [VID] [Jul 08 17:41:30] v4l2_select_input: Device doesn't support VIDIOC_G_STD
+[1] [NTC] [VID] [Jul 08 17:41:35] v4l2_set_pix_format: Config palette index 17 (YU12) doesn't work.
+[1] [NTC] [VID] [Jul 08 17:41:35] v4l2_set_pix_format: Supported palettes:
+[1] [NTC] [VID] [Jul 08 17:41:35] v4l2_set_pix_format: (0) MJPG (Motion-JPEG)
+[1] [NTC] [VID] [Jul 08 17:41:35] v4l2_set_pix_format: 0 - Motion-JPEG (compressed : 1) (0x47504a4d)
+[1] [NTC] [VID] [Jul 08 17:41:35] v4l2_set_pix_format: (1) YUYV (YUYV 4:2:2)
+[1] [NTC] [VID] [Jul 08 17:41:35] v4l2_set_pix_format: 1 - YUYV 4:2:2 (compressed : 0) (0x56595559)
+[1] [NTC] [VID] [Jul 08 17:41:35] v4l2_set_pix_format Selected palette YUYV
+[1] [ERR] [VID] [Jul 08 17:41:40] VIDIOC_TRY_FMT failed for format v4l2_set_pix_format: 
+[1] [ERR] [VID] [Jul 08 17:41:40] v4l2_set_pix_format: Unable to find a compatible palette format.
+[1] [NTC] [VID] [Jul 08 17:41:40] vid_v4lx_start: Using V4L1
+[1] [ERR] [ALL] [Jul 08 17:41:40] motion_loop: Video device fatal error - Closing video device
+[1] [NTC] [VID] [Jul 08 17:41:40] vid_close: Closing video device /dev/video0
+[1] [WRN] [ALL] [Jul 08 17:41:40] motion_loop: Retrying until successful connection with camera
+[1] [NTC] [VID] [Jul 08 17:41:40] vid_v4lx_start: Using videodevice /dev/video0 and input -1
+[1] [NTC] [VID] [Jul 08 17:41:40] v4l2_get_capability: 
+------------------------
+cap.driver: "uvcvideo"
+cap.card: "UVC Camera (046d:08c9)"
+cap.bus_info: "usb-3f980000.usb-1.5"
+cap.capabilities=0x84200001
+------------------------
+[1] [NTC] [VID] [Jul 08 17:41:40] v4l2_get_capability: - VIDEO_CAPTURE
+[1] [NTC] [VID] [Jul 08 17:41:40] v4l2_get_capability: - STREAMING
+[1] [NTC] [VID] [Jul 08 17:41:40] v4l2_select_input: name = "Camera 1", type 0x00000002, status 00000000
+[1] [NTC] [VID] [Jul 08 17:41:40] v4l2_select_input: - CAMERA
+[1] [WRN] [VID] [Jul 08 17:41:40] v4l2_select_input: Device doesn't support VIDIOC_G_STD
+[1] [NTC] [VID] [Jul 08 17:41:45] v4l2_set_pix_format: Config palette index 17 (YU12) doesn't work.
+[1] [NTC] [VID] [Jul 08 17:41:45] v4l2_set_pix_format: Supported palettes:
+[1] [NTC] [VID] [Jul 08 17:41:45] v4l2_set_pix_format: (0) MJPG (Motion-JPEG)
+[1] [NTC] [VID] [Jul 08 17:41:45] v4l2_set_pix_format: 0 - Motion-JPEG (compressed : 1) (0x47504a4d)
+[1] [NTC] [VID] [Jul 08 17:41:45] v4l2_set_pix_format: (1) YUYV (YUYV 4:2:2)
+[1] [NTC] [VID] [Jul 08 17:41:45] v4l2_set_pix_format: 1 - YUYV 4:2:2 (compressed : 0) (0x56595559)
+[1] [NTC] [VID] [Jul 08 17:41:45] v4l2_set_pix_format Selected palette YUYV
+[1] [ERR] [VID] [Jul 08 17:41:50] VIDIOC_TRY_FMT failed for format v4l2_set_pix_format: 
+[1] [ERR] [VID] [Jul 08 17:41:50] v4l2_set_pix_format: Unable to find a compatible palette format.
+[1] [NTC] [VID] [Jul 08 17:41:50] vid_v4lx_start: Using V4L1
+[1] [ERR] [ALL] [Jul 08 17:41:50] motion_loop: Video device fatal error - Closing video device
+[1] [NTC] [VID] [Jul 08 17:41:50] vid_close: Closing video device /dev/video0
+[1] [WRN] [ALL] [Jul 08 17:41:50] motion_loop: Retrying until successful connection with camera
+[1] [NTC] [VID] [Jul 08 17:41:50] vid_v4lx_start: Using videodevice /dev/video0 and input -1
+[1] [NTC] [VID] [Jul 08 17:41:50] v4l2_get_capability: 
+------------------------
+cap.driver: "uvcvideo"
+cap.card: "UVC Camera (046d:08c9)"
+cap.bus_info: "usb-3f980000.usb-1.5"
+cap.capabilities=0x84200001
+------------------------
+[1] [NTC] [VID] [Jul 08 17:41:50] v4l2_get_capability: - VIDEO_CAPTURE
+[1] [NTC] [VID] [Jul 08 17:41:50] v4l2_get_capability: - STREAMING
+[1] [NTC] [VID] [Jul 08 17:41:50] v4l2_select_input: name = "Camera 1", type 0x00000002, status 00000000
+[1] [NTC] [VID] [Jul 08 17:41:50] v4l2_select_input: - CAMERA
+[1] [WRN] [VID] [Jul 08 17:41:50] v4l2_select_input: Device doesn't support VIDIOC_G_STD
+[1] [NTC] [VID] [Jul 08 17:41:55] v4l2_set_pix_format: Config palette index 17 (YU12) doesn't work.
+[1] [NTC] [VID] [Jul 08 17:41:55] v4l2_set_pix_format: Supported palettes:
+[1] [NTC] [VID] [Jul 08 17:41:55] v4l2_set_pix_format: (0) MJPG (Motion-JPEG)
+[1] [NTC] [VID] [Jul 08 17:41:55] v4l2_set_pix_format: 0 - Motion-JPEG (compressed : 1) (0x47504a4d)
+[1] [NTC] [VID] [Jul 08 17:41:55] v4l2_set_pix_format: (1) YUYV (YUYV 4:2:2)
+[1] [NTC] [VID] [Jul 08 17:41:55] v4l2_set_pix_format: 1 - YUYV 4:2:2 (compressed : 0) (0x56595559)
+[1] [NTC] [VID] [Jul 08 17:41:55] v4l2_set_pix_format Selected palette YUYV
+[1] [ERR] [VID] [Jul 08 17:42:01] VIDIOC_TRY_FMT failed for format v4l2_set_pix_format: 
+[1] [ERR] [VID] [Jul 08 17:42:01] v4l2_set_pix_format: Unable to find a compatible palette format.
+[1] [NTC] [VID] [Jul 08 17:42:01] vid_v4lx_start: Using V4L1
+[1] [ERR] [ALL] [Jul 08 17:42:01] motion_loop: Video device fatal error - Closing video device
+[1] [NTC] [VID] [Jul 08 17:42:01] vid_close: Closing video device /dev/video0
+[1] [WRN] [ALL] [Jul 08 17:42:10] motion_loop: Retrying until successful connection with camera
+[1] [NTC] [VID] [Jul 08 17:42:10] vid_v4lx_start: Using videodevice /dev/video0 and input -1
+[1] [NTC] [VID] [Jul 08 17:42:10] v4l2_get_capability: 
+------------------------
+cap.driver: "uvcvideo"
+cap.card: "UVC Camera (046d:08c9)"
+cap.bus_info: "usb-3f980000.usb-1.5"
+cap.capabilities=0x84200001
+------------------------
+[1] [NTC] [VID] [Jul 08 17:42:10] v4l2_get_capability: - VIDEO_CAPTURE
+[1] [NTC] [VID] [Jul 08 17:42:10] v4l2_get_capability: - STREAMING
+[1] [NTC] [VID] [Jul 08 17:42:10] v4l2_select_input: name = "Camera 1", type 0x00000002, status 00000000
+[1] [NTC] [VID] [Jul 08 17:42:10] v4l2_select_input: - CAMERA
+[1] [WRN] [VID] [Jul 08 17:42:10] v4l2_select_input: Device doesn't support VIDIOC_G_STD
+[1] [NTC] [VID] [Jul 08 17:42:15] v4l2_set_pix_format: Config palette index 17 (YU12) doesn't work.
+[1] [NTC] [VID] [Jul 08 17:42:15] v4l2_set_pix_format: Supported palettes:
+[1] [NTC] [VID] [Jul 08 17:42:15] v4l2_set_pix_format: (0) MJPG (Motion-JPEG)
+[1] [NTC] [VID] [Jul 08 17:42:15] v4l2_set_pix_format: 0 - Motion-JPEG (compressed : 1) (0x47504a4d)
+[1] [NTC] [VID] [Jul 08 17:42:15] v4l2_set_pix_format: (1) YUYV (YUYV 4:2:2)
+[1] [NTC] [VID] [Jul 08 17:42:15] v4l2_set_pix_format: 1 - YUYV 4:2:2 (compressed : 0) (0x56595559)
+[1] [NTC] [VID] [Jul 08 17:42:15] v4l2_set_pix_format Selected palette YUYV
+[1] [ERR] [VID] [Jul 08 17:42:20] VIDIOC_TRY_FMT failed for format v4l2_set_pix_format: 
+[1] [ERR] [VID] [Jul 08 17:42:20] v4l2_set_pix_format: Unable to find a compatible palette format.
+[1] [NTC] [VID] [Jul 08 17:42:20] vid_v4lx_start: Using V4L1
+[1] [ERR] [ALL] [Jul 08 17:42:20] motion_loop: Video device fatal error - Closing video device
+[1] [NTC] [VID] [Jul 08 17:42:20] vid_close: Closing video device /dev/video0
+[1] [WRN] [ALL] [Jul 08 17:42:20] motion_loop: Retrying until successful connection with camera
+[1] [NTC] [VID] [Jul 08 17:42:20] vid_v4lx_start: Using videodevice /dev/video0 and input -1
+[1] [NTC] [VID] [Jul 08 17:42:20] v4l2_get_capability: 
+------------------------
+cap.driver: "uvcvideo"
+cap.card: "UVC Camera (046d:08c9)"
+cap.bus_info: "usb-3f980000.usb-1.5"
+cap.capabilities=0x84200001
+------------------------
+[1] [NTC] [VID] [Jul 08 17:42:20] v4l2_get_capability: - VIDEO_CAPTURE
+[1] [NTC] [VID] [Jul 08 17:42:20] v4l2_get_capability: - STREAMING
+[1] [NTC] [VID] [Jul 08 17:42:20] v4l2_select_input: name = "Camera 1", type 0x00000002, status 00000000
+[1] [NTC] [VID] [Jul 08 17:42:20] v4l2_select_input: - CAMERA
+[1] [WRN] [VID] [Jul 08 17:42:20] v4l2_select_input: Device doesn't support VIDIOC_G_STD
+[1] [NTC] [VID] [Jul 08 17:42:25] v4l2_set_pix_format: Config palette index 17 (YU12) doesn't work.
+[1] [NTC] [VID] [Jul 08 17:42:25] v4l2_set_pix_format: Supported palettes:
+[1] [NTC] [VID] [Jul 08 17:42:25] v4l2_set_pix_format: (0) MJPG (Motion-JPEG)
+[1] [NTC] [VID] [Jul 08 17:42:25] v4l2_set_pix_format: 0 - Motion-JPEG (compressed : 1) (0x47504a4d)
+[1] [NTC] [VID] [Jul 08 17:42:25] v4l2_set_pix_format: (1) YUYV (YUYV 4:2:2)
+[1] [NTC] [VID] [Jul 08 17:42:25] v4l2_set_pix_format: 1 - YUYV 4:2:2 (compressed : 0) (0x56595559)
+[1] [NTC] [VID] [Jul 08 17:42:25] v4l2_set_pix_format Selected palette YUYV
+[1] [ERR] [VID] [Jul 08 17:42:30] VIDIOC_TRY_FMT failed for format v4l2_set_pix_format: 
+[1] [ERR] [VID] [Jul 08 17:42:30] v4l2_set_pix_format: Unable to find a compatible palette format.
+[1] [NTC] [VID] [Jul 08 17:42:30] vid_v4lx_start: Using V4L1
+[1] [ERR] [ALL] [Jul 08 17:42:30] motion_loop: Video device fatal error - Closing video device
+[1] [NTC] [VID] [Jul 08 17:42:30] vid_close: Closing video device /dev/video0
+[1] [WRN] [ALL] [Jul 08 17:42:30] motion_loop: Retrying until successful connection with camera
+[1] [NTC] [VID] [Jul 08 17:42:30] vid_v4lx_start: Using videodevice /dev/video0 and input -1
+[1] [NTC] [VID] [Jul 08 17:42:30] v4l2_get_capability: 
+------------------------
+cap.driver: "uvcvideo"
+cap.card: "UVC Camera (046d:08c9)"
+cap.bus_info: "usb-3f980000.usb-1.5"
+cap.capabilities=0x84200001
+------------------------
+[1] [NTC] [VID] [Jul 08 17:42:30] v4l2_get_capability: - VIDEO_CAPTURE
+[1] [NTC] [VID] [Jul 08 17:42:30] v4l2_get_capability: - STREAMING
+[1] [NTC] [VID] [Jul 08 17:42:30] v4l2_select_input: name = "Camera 1", type 0x00000002, status 00000000
+[1] [NTC] [VID] [Jul 08 17:42:30] v4l2_select_input: - CAMERA
+[1] [WRN] [VID] [Jul 08 17:42:30] v4l2_select_input: Device doesn't support VIDIOC_G_STD
+[1] [NTC] [VID] [Jul 08 17:42:35] v4l2_set_pix_format: Config palette index 17 (YU12) doesn't work.
+[1] [NTC] [VID] [Jul 08 17:42:35] v4l2_set_pix_format: Supported palettes:
+[1] [NTC] [VID] [Jul 08 17:42:35] v4l2_set_pix_format: (0) MJPG (Motion-JPEG)
+[1] [NTC] [VID] [Jul 08 17:42:35] v4l2_set_pix_format: 0 - Motion-JPEG (compressed : 1) (0x47504a4d)
+[1] [NTC] [VID] [Jul 08 17:42:35] v4l2_set_pix_format: (1) YUYV (YUYV 4:2:2)
+[1] [NTC] [VID] [Jul 08 17:42:35] v4l2_set_pix_format: 1 - YUYV 4:2:2 (compressed : 0) (0x56595559)
+[1] [NTC] [VID] [Jul 08 17:42:35] v4l2_set_pix_format Selected palette YUYV
+[1] [ERR] [VID] [Jul 08 17:42:40] VIDIOC_TRY_FMT failed for format v4l2_set_pix_format: 
+[1] [ERR] [VID] [Jul 08 17:42:40] v4l2_set_pix_format: Unable to find a compatible palette format.
+[1] [NTC] [VID] [Jul 08 17:42:40] vid_v4lx_start: Using V4L1
+[1] [ERR] [ALL] [Jul 08 17:42:40] motion_loop: Video device fatal error - Closing video device
+[1] [NTC] [VID] [Jul 08 17:42:40] vid_close: Closing video device /dev/video0
+[1] [WRN] [ALL] [Jul 08 17:42:40] motion_loop: Retrying until successful connection with camera
+[1] [NTC] [VID] [Jul 08 17:42:40] vid_v4lx_start: Using videodevice /dev/video0 and input -1
+[1] [NTC] [VID] [Jul 08 17:42:40] v4l2_get_capability: 
+------------------------
+cap.driver: "uvcvideo"
+cap.card: "UVC Camera (046d:08c9)"
+cap.bus_info: "usb-3f980000.usb-1.5"
+cap.capabilities=0x84200001
+------------------------
+[1] [NTC] [VID] [Jul 08 17:42:40] v4l2_get_capability: - VIDEO_CAPTURE
+[1] [NTC] [VID] [Jul 08 17:42:40] v4l2_get_capability: - STREAMING
+[1] [NTC] [VID] [Jul 08 17:42:40] v4l2_select_input: name = "Camera 1", type 0x00000002, status 00000000
+[1] [NTC] [VID] [Jul 08 17:42:40] v4l2_select_input: - CAMERA
+[1] [WRN] [VID] [Jul 08 17:42:40] v4l2_select_input: Device doesn't support VIDIOC_G_STD
+[1] [NTC] [VID] [Jul 08 17:42:45] v4l2_set_pix_format: Config palette index 17 (YU12) doesn't work.
+[1] [NTC] [VID] [Jul 08 17:42:45] v4l2_set_pix_format: Supported palettes:
+[1] [NTC] [VID] [Jul 08 17:42:45] v4l2_set_pix_format: (0) MJPG (Motion-JPEG)
+[1] [NTC] [VID] [Jul 08 17:42:45] v4l2_set_pix_format: 0 - Motion-JPEG (compressed : 1) (0x47504a4d)
+[1] [NTC] [VID] [Jul 08 17:42:45] v4l2_set_pix_format: (1) YUYV (YUYV 4:2:2)
+[1] [NTC] [VID] [Jul 08 17:42:45] v4l2_set_pix_format: 1 - YUYV 4:2:2 (compressed : 0) (0x56595559)
+[1] [NTC] [VID] [Jul 08 17:42:45] v4l2_set_pix_format Selected palette YUYV
+[1] [ERR] [VID] [Jul 08 17:42:50] VIDIOC_TRY_FMT failed for format v4l2_set_pix_format: 
+[1] [ERR] [VID] [Jul 08 17:42:50] v4l2_set_pix_format: Unable to find a compatible palette format.
+[1] [NTC] [VID] [Jul 08 17:42:50] vid_v4lx_start: Using V4L1
+[1] [ERR] [ALL] [Jul 08 17:42:50] motion_loop: Video device fatal error - Closing video device
+[1] [NTC] [VID] [Jul 08 17:42:50] vid_close: Closing video device /dev/video0
+[1] [WRN] [ALL] [Jul 08 17:42:50] motion_loop: Retrying until successful connection with camera
+[1] [NTC] [VID] [Jul 08 17:42:50] vid_v4lx_start: Using videodevice /dev/video0 and input -1
+[1] [NTC] [VID] [Jul 08 17:42:50] v4l2_get_capability: 
+------------------------
+cap.driver: "uvcvideo"
+cap.card: "UVC Camera (046d:08c9)"
+cap.bus_info: "usb-3f980000.usb-1.5"
+cap.capabilities=0x84200001
+------------------------
+[1] [NTC] [VID] [Jul 08 17:42:50] v4l2_get_capability: - VIDEO_CAPTURE
+[1] [NTC] [VID] [Jul 08 17:42:50] v4l2_get_capability: - STREAMING
+[1] [NTC] [VID] [Jul 08 17:42:50] v4l2_select_input: name = "Camera 1", type 0x00000002, status 00000000
+[1] [NTC] [VID] [Jul 08 17:42:50] v4l2_select_input: - CAMERA
+[1] [WRN] [VID] [Jul 08 17:42:50] v4l2_select_input: Device doesn't support VIDIOC_G_STD
+[1] [NTC] [VID] [Jul 08 17:42:55] v4l2_set_pix_format: Config palette index 17 (YU12) doesn't work.
+[1] [NTC] [VID] [Jul 08 17:42:55] v4l2_set_pix_format: Supported palettes:
+[1] [NTC] [VID] [Jul 08 17:42:55] v4l2_set_pix_format: (0) MJPG (Motion-JPEG)
+[1] [NTC] [VID] [Jul 08 17:42:55] v4l2_set_pix_format: 0 - Motion-JPEG (compressed : 1) (0x47504a4d)
+[1] [NTC] [VID] [Jul 08 17:42:55] v4l2_set_pix_format: (1) YUYV (YUYV 4:2:2)
+[1] [NTC] [VID] [Jul 08 17:42:55] v4l2_set_pix_format: 1 - YUYV 4:2:2 (compressed : 0) (0x56595559)
+[1] [NTC] [VID] [Jul 08 17:42:55] v4l2_set_pix_format Selected palette YUYV
+[1] [ERR] [VID] [Jul 08 17:43:00] VIDIOC_TRY_FMT failed for format v4l2_set_pix_format: 
+[1] [ERR] [VID] [Jul 08 17:43:00] v4l2_set_pix_format: Unable to find a compatible palette format.
+[1] [NTC] [VID] [Jul 08 17:43:00] vid_v4lx_start: Using V4L1
+[1] [ERR] [ALL] [Jul 08 17:43:00] motion_loop: Video device fatal error - Closing video device
+[1] [NTC] [VID] [Jul 08 17:43:00] vid_close: Closing video device /dev/video0
+[1] [WRN] [ALL] [Jul 08 17:43:00] motion_loop: Retrying until successful connection with camera
+[1] [NTC] [VID] [Jul 08 17:43:00] vid_v4lx_start: Using videodevice /dev/video0 and input -1
+[1] [NTC] [VID] [Jul 08 17:43:00] v4l2_get_capability: 
+------------------------
+cap.driver: "uvcvideo"
+cap.card: "UVC Camera (046d:08c9)"
+cap.bus_info: "usb-3f980000.usb-1.5"
+cap.capabilities=0x84200001
+------------------------
+[1] [NTC] [VID] [Jul 08 17:43:00] v4l2_get_capability: - VIDEO_CAPTURE
+[1] [NTC] [VID] [Jul 08 17:43:00] v4l2_get_capability: - STREAMING
+[1] [NTC] [VID] [Jul 08 17:43:00] v4l2_select_input: name = "Camera 1", type 0x00000002, status 00000000
+[1] [NTC] [VID] [Jul 08 17:43:00] v4l2_select_input: - CAMERA
+[1] [WRN] [VID] [Jul 08 17:43:00] v4l2_select_input: Device doesn't support VIDIOC_G_STD
+[1] [NTC] [VID] [Jul 08 17:43:05] v4l2_set_pix_format: Config palette index 17 (YU12) doesn't work.
+[1] [NTC] [VID] [Jul 08 17:43:05] v4l2_set_pix_format: Supported palettes:
+[1] [NTC] [VID] [Jul 08 17:43:05] v4l2_set_pix_format: (0) MJPG (Motion-JPEG)
+[1] [NTC] [VID] [Jul 08 17:43:05] v4l2_set_pix_format: 0 - Motion-JPEG (compressed : 1) (0x47504a4d)
+[1] [NTC] [VID] [Jul 08 17:43:05] v4l2_set_pix_format: (1) YUYV (YUYV 4:2:2)
+[1] [NTC] [VID] [Jul 08 17:43:05] v4l2_set_pix_format: 1 - YUYV 4:2:2 (compressed : 0) (0x56595559)
+[1] [NTC] [VID] [Jul 08 17:43:05] v4l2_set_pix_format Selected palette YUYV
+[1] [ERR] [VID] [Jul 08 17:43:11] VIDIOC_TRY_FMT failed for format v4l2_set_pix_format: 
+[1] [ERR] [VID] [Jul 08 17:43:11] v4l2_set_pix_format: Unable to find a compatible palette format.
+[1] [NTC] [VID] [Jul 08 17:43:11] vid_v4lx_start: Using V4L1
+[1] [ERR] [ALL] [Jul 08 17:43:11] motion_loop: Video device fatal error - Closing video device
+[1] [NTC] [VID] [Jul 08 17:43:11] vid_close: Closing video device /dev/video0
+[1] [WRN] [ALL] [Jul 08 17:43:20] motion_loop: Retrying until successful connection with camera
+[1] [NTC] [VID] [Jul 08 17:43:20] vid_v4lx_start: Using videodevice /dev/video0 and input -1
+[1] [NTC] [VID] [Jul 08 17:43:20] v4l2_get_capability: 
+------------------------
+cap.driver: "uvcvideo"
+cap.card: "UVC Camera (046d:08c9)"
+cap.bus_info: "usb-3f980000.usb-1.5"
+cap.capabilities=0x84200001
+------------------------
+[1] [NTC] [VID] [Jul 08 17:43:20] v4l2_get_capability: - VIDEO_CAPTURE
+[1] [NTC] [VID] [Jul 08 17:43:20] v4l2_get_capability: - STREAMING
+[1] [NTC] [VID] [Jul 08 17:43:20] v4l2_select_input: name = "Camera 1", type 0x00000002, status 00000000
+[1] [NTC] [VID] [Jul 08 17:43:20] v4l2_select_input: - CAMERA
+[1] [WRN] [VID] [Jul 08 17:43:20] v4l2_select_input: Device doesn't support VIDIOC_G_STD
+[1] [NTC] [VID] [Jul 08 17:43:25] v4l2_set_pix_format: Config palette index 17 (YU12) doesn't work.
+[1] [NTC] [VID] [Jul 08 17:43:25] v4l2_set_pix_format: Supported palettes:
+[1] [NTC] [VID] [Jul 08 17:43:25] v4l2_set_pix_format: (0) MJPG (Motion-JPEG)
+[1] [NTC] [VID] [Jul 08 17:43:25] v4l2_set_pix_format: 0 - Motion-JPEG (compressed : 1) (0x47504a4d)
+[1] [NTC] [VID] [Jul 08 17:43:25] v4l2_set_pix_format: (1) YUYV (YUYV 4:2:2)
+[1] [NTC] [VID] [Jul 08 17:43:25] v4l2_set_pix_format: 1 - YUYV 4:2:2 (compressed : 0) (0x56595559)
+[1] [NTC] [VID] [Jul 08 17:43:25] v4l2_set_pix_format Selected palette YUYV
+[1] [ERR] [VID] [Jul 08 17:43:30] VIDIOC_TRY_FMT failed for format v4l2_set_pix_format: 
+[1] [ERR] [VID] [Jul 08 17:43:30] v4l2_set_pix_format: Unable to find a compatible palette format.
+[1] [NTC] [VID] [Jul 08 17:43:30] vid_v4lx_start: Using V4L1
+[1] [ERR] [ALL] [Jul 08 17:43:30] motion_loop: Video device fatal error - Closing video device
+[1] [NTC] [VID] [Jul 08 17:43:30] vid_close: Closing video device /dev/video0
+[1] [WRN] [ALL] [Jul 08 17:43:30] motion_loop: Retrying until successful connection with camera
+[1] [NTC] [VID] [Jul 08 17:43:30] vid_v4lx_start: Using videodevice /dev/video0 and input -1
+[1] [NTC] [VID] [Jul 08 17:43:30] v4l2_get_capability: 
+------------------------
+cap.driver: "uvcvideo"
+cap.card: "UVC Camera (046d:08c9)"
+cap.bus_info: "usb-3f980000.usb-1.5"
+cap.capabilities=0x84200001
+------------------------
+[1] [NTC] [VID] [Jul 08 17:43:30] v4l2_get_capability: - VIDEO_CAPTURE
+[1] [NTC] [VID] [Jul 08 17:43:30] v4l2_get_capability: - STREAMING
+[1] [NTC] [VID] [Jul 08 17:43:30] v4l2_select_input: name = "Camera 1", type 0x00000002, status 00000000
+[1] [NTC] [VID] [Jul 08 17:43:30] v4l2_select_input: - CAMERA
+[1] [WRN] [VID] [Jul 08 17:43:30] v4l2_select_input: Device doesn't support VIDIOC_G_STD
+[1] [NTC] [VID] [Jul 08 17:43:35] v4l2_set_pix_format: Config palette index 17 (YU12) doesn't work.
+[1] [NTC] [VID] [Jul 08 17:43:35] v4l2_set_pix_format: Supported palettes:
+[1] [NTC] [VID] [Jul 08 17:43:35] v4l2_set_pix_format: (0) MJPG (Motion-JPEG)
+[1] [NTC] [VID] [Jul 08 17:43:35] v4l2_set_pix_format: 0 - Motion-JPEG (compressed : 1) (0x47504a4d)
+[1] [NTC] [VID] [Jul 08 17:43:35] v4l2_set_pix_format: (1) YUYV (YUYV 4:2:2)
+[1] [NTC] [VID] [Jul 08 17:43:35] v4l2_set_pix_format: 1 - YUYV 4:2:2 (compressed : 0) (0x56595559)
+[1] [NTC] [VID] [Jul 08 17:43:35] v4l2_set_pix_format Selected palette YUYV
+[1] [ERR] [VID] [Jul 08 17:43:40] VIDIOC_TRY_FMT failed for format v4l2_set_pix_format: 
+[1] [ERR] [VID] [Jul 08 17:43:40] v4l2_set_pix_format: Unable to find a compatible palette format.
+[1] [NTC] [VID] [Jul 08 17:43:40] vid_v4lx_start: Using V4L1
+[1] [ERR] [ALL] [Jul 08 17:43:40] motion_loop: Video device fatal error - Closing video device
+[1] [NTC] [VID] [Jul 08 17:43:40] vid_close: Closing video device /dev/video0
+[1] [WRN] [ALL] [Jul 08 17:43:40] motion_loop: Retrying until successful connection with camera
+[1] [NTC] [VID] [Jul 08 17:43:40] vid_v4lx_start: Using videodevice /dev/video0 and input -1
+[1] [NTC] [VID] [Jul 08 17:43:40] v4l2_get_capability: 
+------------------------
+cap.driver: "uvcvideo"
+cap.card: "UVC Camera (046d:08c9)"
+cap.bus_info: "usb-3f980000.usb-1.5"
+cap.capabilities=0x84200001
+------------------------
+[1] [NTC] [VID] [Jul 08 17:43:40] v4l2_get_capability: - VIDEO_CAPTURE
+[1] [NTC] [VID] [Jul 08 17:43:40] v4l2_get_capability: - STREAMING
+[1] [NTC] [VID] [Jul 08 17:43:40] v4l2_select_input: name = "Camera 1", type 0x00000002, status 00000000
+[1] [NTC] [VID] [Jul 08 17:43:40] v4l2_select_input: - CAMERA
+[1] [WRN] [VID] [Jul 08 17:43:40] v4l2_select_input: Device doesn't support VIDIOC_G_STD
+[1] [NTC] [VID] [Jul 08 17:43:45] v4l2_set_pix_format: Config palette index 17 (YU12) doesn't work.
+[1] [NTC] [VID] [Jul 08 17:43:45] v4l2_set_pix_format: Supported palettes:
+[1] [NTC] [VID] [Jul 08 17:43:45] v4l2_set_pix_format: (0) MJPG (Motion-JPEG)
+[1] [NTC] [VID] [Jul 08 17:43:45] v4l2_set_pix_format: 0 - Motion-JPEG (compressed : 1) (0x47504a4d)
+[1] [NTC] [VID] [Jul 08 17:43:45] v4l2_set_pix_format: (1) YUYV (YUYV 4:2:2)
+[1] [NTC] [VID] [Jul 08 17:43:45] v4l2_set_pix_format: 1 - YUYV 4:2:2 (compressed : 0) (0x56595559)
+[1] [NTC] [VID] [Jul 08 17:43:45] v4l2_set_pix_format Selected palette YUYV
+[1] [ERR] [VID] [Jul 08 17:43:50] VIDIOC_TRY_FMT failed for format v4l2_set_pix_format: 
+[1] [ERR] [VID] [Jul 08 17:43:50] v4l2_set_pix_format: Unable to find a compatible palette format.
+[1] [NTC] [VID] [Jul 08 17:43:50] vid_v4lx_start: Using V4L1
+[1] [ERR] [ALL] [Jul 08 17:43:50] motion_loop: Video device fatal error - Closing video device
+[1] [NTC] [VID] [Jul 08 17:43:50] vid_close: Closing video device /dev/video0
+[1] [WRN] [ALL] [Jul 08 17:43:50] motion_loop: Retrying until successful connection with camera
+[1] [NTC] [VID] [Jul 08 17:43:50] vid_v4lx_start: Using videodevice /dev/video0 and input -1
+[1] [NTC] [VID] [Jul 08 17:43:50] v4l2_get_capability: 
+------------------------
+cap.driver: "uvcvideo"
+cap.card: "UVC Camera (046d:08c9)"
+cap.bus_info: "usb-3f980000.usb-1.5"
+cap.capabilities=0x84200001
+------------------------
+[1] [NTC] [VID] [Jul 08 17:43:50] v4l2_get_capability: - VIDEO_CAPTURE
+[1] [NTC] [VID] [Jul 08 17:43:50] v4l2_get_capability: - STREAMING
+[1] [NTC] [VID] [Jul 08 17:43:50] v4l2_select_input: name = "Camera 1", type 0x00000002, status 00000000
+[1] [NTC] [VID] [Jul 08 17:43:50] v4l2_select_input: - CAMERA
+[1] [WRN] [VID] [Jul 08 17:43:50] v4l2_select_input: Device doesn't support VIDIOC_G_STD
+[1] [NTC] [VID] [Jul 08 17:43:55] v4l2_set_pix_format: Config palette index 17 (YU12) doesn't work.
+[1] [NTC] [VID] [Jul 08 17:43:55] v4l2_set_pix_format: Supported palettes:
+[1] [NTC] [VID] [Jul 08 17:43:55] v4l2_set_pix_format: (0) MJPG (Motion-JPEG)
+[1] [NTC] [VID] [Jul 08 17:43:55] v4l2_set_pix_format: 0 - Motion-JPEG (compressed : 1) (0x47504a4d)
+[1] [NTC] [VID] [Jul 08 17:43:55] v4l2_set_pix_format: (1) YUYV (YUYV 4:2:2)
+[1] [NTC] [VID] [Jul 08 17:43:55] v4l2_set_pix_format: 1 - YUYV 4:2:2 (compressed : 0) (0x56595559)
+[1] [NTC] [VID] [Jul 08 17:43:55] v4l2_set_pix_format Selected palette YUYV
+[1] [ERR] [VID] [Jul 08 17:44:00] VIDIOC_TRY_FMT failed for format v4l2_set_pix_format: 
+[1] [ERR] [VID] [Jul 08 17:44:00] v4l2_set_pix_format: Unable to find a compatible palette format.
+[1] [NTC] [VID] [Jul 08 17:44:00] vid_v4lx_start: Using V4L1
+[1] [ERR] [ALL] [Jul 08 17:44:00] motion_loop: Video device fatal error - Closing video device
+[1] [NTC] [VID] [Jul 08 17:44:00] vid_close: Closing video device /dev/video0
+[1] [WRN] [ALL] [Jul 08 17:44:00] motion_loop: Retrying until successful connection with camera
+[1] [NTC] [VID] [Jul 08 17:44:00] vid_v4lx_start: Using videodevice /dev/video0 and input -1
+[1] [NTC] [VID] [Jul 08 17:44:00] v4l2_get_capability: 
+------------------------
+cap.driver: "uvcvideo"
+cap.card: "UVC Camera (046d:08c9)"
+cap.bus_info: "usb-3f980000.usb-1.5"
+cap.capabilities=0x84200001
+------------------------
+[1] [NTC] [VID] [Jul 08 17:44:00] v4l2_get_capability: - VIDEO_CAPTURE
+[1] [NTC] [VID] [Jul 08 17:44:00] v4l2_get_capability: - STREAMING
+[1] [NTC] [VID] [Jul 08 17:44:00] v4l2_select_input: name = "Camera 1", type 0x00000002, status 00000000
+[1] [NTC] [VID] [Jul 08 17:44:00] v4l2_select_input: - CAMERA
+[1] [WRN] [VID] [Jul 08 17:44:00] v4l2_select_input: Device doesn't support VIDIOC_G_STD
+[1] [NTC] [VID] [Jul 08 17:44:05] v4l2_set_pix_format: Config palette index 17 (YU12) doesn't work.
+[1] [NTC] [VID] [Jul 08 17:44:05] v4l2_set_pix_format: Supported palettes:
+[1] [NTC] [VID] [Jul 08 17:44:05] v4l2_set_pix_format: (0) MJPG (Motion-JPEG)
+[1] [NTC] [VID] [Jul 08 17:44:05] v4l2_set_pix_format: 0 - Motion-JPEG (compressed : 1) (0x47504a4d)
+[1] [NTC] [VID] [Jul 08 17:44:05] v4l2_set_pix_format: (1) YUYV (YUYV 4:2:2)
+[1] [NTC] [VID] [Jul 08 17:44:05] v4l2_set_pix_format: 1 - YUYV 4:2:2 (compressed : 0) (0x56595559)
+[1] [NTC] [VID] [Jul 08 17:44:05] v4l2_set_pix_format Selected palette YUYV
+[1] [ERR] [VID] [Jul 08 17:44:10] VIDIOC_TRY_FMT failed for format v4l2_set_pix_format: 
+[1] [ERR] [VID] [Jul 08 17:44:10] v4l2_set_pix_format: Unable to find a compatible palette format.
+[1] [NTC] [VID] [Jul 08 17:44:10] vid_v4lx_start: Using V4L1
+[1] [ERR] [ALL] [Jul 08 17:44:10] motion_loop: Video device fatal error - Closing video device
+[1] [NTC] [VID] [Jul 08 17:44:10] vid_close: Closing video device /dev/video0
+[1] [WRN] [ALL] [Jul 08 17:44:10] motion_loop: Retrying until successful connection with camera
+[1] [NTC] [VID] [Jul 08 17:44:10] vid_v4lx_start: Using videodevice /dev/video0 and input -1
+[1] [NTC] [VID] [Jul 08 17:44:10] v4l2_get_capability: 
+------------------------
+cap.driver: "uvcvideo"
+cap.card: "UVC Camera (046d:08c9)"
+cap.bus_info: "usb-3f980000.usb-1.5"
+cap.capabilities=0x84200001
+------------------------
+[1] [NTC] [VID] [Jul 08 17:44:10] v4l2_get_capability: - VIDEO_CAPTURE
+[1] [NTC] [VID] [Jul 08 17:44:10] v4l2_get_capability: - STREAMING
+[1] [NTC] [VID] [Jul 08 17:44:10] v4l2_select_input: name = "Camera 1", type 0x00000002, status 00000000
+[1] [NTC] [VID] [Jul 08 17:44:10] v4l2_select_input: - CAMERA
+[1] [WRN] [VID] [Jul 08 17:44:10] v4l2_select_input: Device doesn't support VIDIOC_G_STD
+[1] [NTC] [VID] [Jul 08 17:44:15] v4l2_set_pix_format: Config palette index 17 (YU12) doesn't work.
+[1] [NTC] [VID] [Jul 08 17:44:15] v4l2_set_pix_format: Supported palettes:
+[1] [NTC] [VID] [Jul 08 17:44:15] v4l2_set_pix_format: (0) MJPG (Motion-JPEG)
+[1] [NTC] [VID] [Jul 08 17:44:15] v4l2_set_pix_format: 0 - Motion-JPEG (compressed : 1) (0x47504a4d)
+[1] [NTC] [VID] [Jul 08 17:44:15] v4l2_set_pix_format: (1) YUYV (YUYV 4:2:2)
+[1] [NTC] [VID] [Jul 08 17:44:15] v4l2_set_pix_format: 1 - YUYV 4:2:2 (compressed : 0) (0x56595559)
+[1] [NTC] [VID] [Jul 08 17:44:15] v4l2_set_pix_format Selected palette YUYV
+[1] [ERR] [VID] [Jul 08 17:44:20] VIDIOC_TRY_FMT failed for format v4l2_set_pix_format: 
+[1] [ERR] [VID] [Jul 08 17:44:20] v4l2_set_pix_format: Unable to find a compatible palette format.
+[1] [NTC] [VID] [Jul 08 17:44:20] vid_v4lx_start: Using V4L1
+[1] [ERR] [ALL] [Jul 08 17:44:20] motion_loop: Video device fatal error - Closing video device
+[1] [NTC] [VID] [Jul 08 17:44:20] vid_close: Closing video device /dev/video0
+[1] [WRN] [ALL] [Jul 08 17:44:20] motion_loop: Retrying until successful connection with camera
+[1] [NTC] [VID] [Jul 08 17:44:20] vid_v4lx_start: Using videodevice /dev/video0 and input -1
+[1] [NTC] [VID] [Jul 08 17:44:20] v4l2_get_capability: 
+------------------------
+cap.driver: "uvcvideo"
+cap.card: "UVC Camera (046d:08c9)"
+cap.bus_info: "usb-3f980000.usb-1.5"
+cap.capabilities=0x84200001
+------------------------
+[1] [NTC] [VID] [Jul 08 17:44:20] v4l2_get_capability: - VIDEO_CAPTURE
+[1] [NTC] [VID] [Jul 08 17:44:20] v4l2_get_capability: - STREAMING
+[1] [NTC] [VID] [Jul 08 17:44:20] v4l2_select_input: name = "Camera 1", type 0x00000002, status 00000000
+[1] [NTC] [VID] [Jul 08 17:44:20] v4l2_select_input: - CAMERA
+[1] [WRN] [VID] [Jul 08 17:44:20] v4l2_select_input: Device doesn't support VIDIOC_G_STD
+[1] [NTC] [VID] [Jul 08 17:44:26] v4l2_set_pix_format: Config palette index 17 (YU12) doesn't work.
+[1] [NTC] [VID] [Jul 08 17:44:26] v4l2_set_pix_format: Supported palettes:
+[1] [NTC] [VID] [Jul 08 17:44:26] v4l2_set_pix_format: (0) MJPG (Motion-JPEG)
+[1] [NTC] [VID] [Jul 08 17:44:26] v4l2_set_pix_format: 0 - Motion-JPEG (compressed : 1) (0x47504a4d)
+[1] [NTC] [VID] [Jul 08 17:44:26] v4l2_set_pix_format: (1) YUYV (YUYV 4:2:2)
+[1] [NTC] [VID] [Jul 08 17:44:26] v4l2_set_pix_format: 1 - YUYV 4:2:2 (compressed : 0) (0x56595559)
+[1] [NTC] [VID] [Jul 08 17:44:26] v4l2_set_pix_format Selected palette YUYV
+[1] [ERR] [VID] [Jul 08 17:44:31] VIDIOC_TRY_FMT failed for format v4l2_set_pix_format: 
+[1] [ERR] [VID] [Jul 08 17:44:31] v4l2_set_pix_format: Unable to find a compatible palette format.
+[1] [NTC] [VID] [Jul 08 17:44:31] vid_v4lx_start: Using V4L1
+[1] [ERR] [ALL] [Jul 08 17:44:31] motion_loop: Video device fatal error - Closing video device
+[1] [NTC] [VID] [Jul 08 17:44:31] vid_close: Closing video device /dev/video0
+[1] [WRN] [ALL] [Jul 08 17:44:40] motion_loop: Retrying until successful connection with camera
+[1] [NTC] [VID] [Jul 08 17:44:40] vid_v4lx_start: Using videodevice /dev/video0 and input -1
+[1] [NTC] [VID] [Jul 08 17:44:40] v4l2_get_capability: 
+------------------------
+cap.driver: "uvcvideo"
+cap.card: "UVC Camera (046d:08c9)"
+cap.bus_info: "usb-3f980000.usb-1.5"
+cap.capabilities=0x84200001
+------------------------
+[1] [NTC] [VID] [Jul 08 17:44:40] v4l2_get_capability: - VIDEO_CAPTURE
+[1] [NTC] [VID] [Jul 08 17:44:40] v4l2_get_capability: - STREAMING
+[1] [NTC] [VID] [Jul 08 17:44:40] v4l2_select_input: name = "Camera 1", type 0x00000002, status 00000000
+[1] [NTC] [VID] [Jul 08 17:44:40] v4l2_select_input: - CAMERA
+[1] [WRN] [VID] [Jul 08 17:44:40] v4l2_select_input: Device doesn't support VIDIOC_G_STD
+[1] [NTC] [VID] [Jul 08 17:44:45] v4l2_set_pix_format: Config palette index 17 (YU12) doesn't work.
+[1] [NTC] [VID] [Jul 08 17:44:45] v4l2_set_pix_format: Supported palettes:
+[1] [NTC] [VID] [Jul 08 17:44:45] v4l2_set_pix_format: (0) MJPG (Motion-JPEG)
+[1] [NTC] [VID] [Jul 08 17:44:45] v4l2_set_pix_format: 0 - Motion-JPEG (compressed : 1) (0x47504a4d)
+[1] [NTC] [VID] [Jul 08 17:44:45] v4l2_set_pix_format: (1) YUYV (YUYV 4:2:2)
+[1] [NTC] [VID] [Jul 08 17:44:45] v4l2_set_pix_format: 1 - YUYV 4:2:2 (compressed : 0) (0x56595559)
+[1] [NTC] [VID] [Jul 08 17:44:45] v4l2_set_pix_format Selected palette YUYV
+[1] [ERR] [VID] [Jul 08 17:44:50] VIDIOC_TRY_FMT failed for format v4l2_set_pix_format: 
+[1] [ERR] [VID] [Jul 08 17:44:50] v4l2_set_pix_format: Unable to find a compatible palette format.
+[1] [NTC] [VID] [Jul 08 17:44:50] vid_v4lx_start: Using V4L1
+[1] [ERR] [ALL] [Jul 08 17:44:50] motion_loop: Video device fatal error - Closing video device
+[1] [NTC] [VID] [Jul 08 17:44:50] vid_close: Closing video device /dev/video0
+[1] [WRN] [ALL] [Jul 08 17:44:50] motion_loop: Retrying until successful connection with camera
+[1] [NTC] [VID] [Jul 08 17:44:50] vid_v4lx_start: Using videodevice /dev/video0 and input -1
+[1] [NTC] [VID] [Jul 08 17:44:50] v4l2_get_capability: 
+------------------------
+cap.driver: "uvcvideo"
+cap.card: "UVC Camera (046d:08c9)"
+cap.bus_info: "usb-3f980000.usb-1.5"
+cap.capabilities=0x84200001
+------------------------
+[1] [NTC] [VID] [Jul 08 17:44:50] v4l2_get_capability: - VIDEO_CAPTURE
+[1] [NTC] [VID] [Jul 08 17:44:50] v4l2_get_capability: - STREAMING
+[1] [NTC] [VID] [Jul 08 17:44:50] v4l2_select_input: name = "Camera 1", type 0x00000002, status 00000000
+[1] [NTC] [VID] [Jul 08 17:44:50] v4l2_select_input: - CAMERA
+[1] [WRN] [VID] [Jul 08 17:44:50] v4l2_select_input: Device doesn't support VIDIOC_G_STD
+[1] [NTC] [VID] [Jul 08 17:44:55] v4l2_set_pix_format: Config palette index 17 (YU12) doesn't work.
+[1] [NTC] [VID] [Jul 08 17:44:55] v4l2_set_pix_format: Supported palettes:
+[1] [NTC] [VID] [Jul 08 17:44:55] v4l2_set_pix_format: (0) MJPG (Motion-JPEG)
+[1] [NTC] [VID] [Jul 08 17:44:55] v4l2_set_pix_format: 0 - Motion-JPEG (compressed : 1) (0x47504a4d)
+[1] [NTC] [VID] [Jul 08 17:44:55] v4l2_set_pix_format: (1) YUYV (YUYV 4:2:2)
+[1] [NTC] [VID] [Jul 08 17:44:55] v4l2_set_pix_format: 1 - YUYV 4:2:2 (compressed : 0) (0x56595559)
+[1] [NTC] [VID] [Jul 08 17:44:55] v4l2_set_pix_format Selected palette YUYV
+[1] [ERR] [VID] [Jul 08 17:45:00] VIDIOC_TRY_FMT failed for format v4l2_set_pix_format: 
+[1] [ERR] [VID] [Jul 08 17:45:00] v4l2_set_pix_format: Unable to find a compatible palette format.
+[1] [NTC] [VID] [Jul 08 17:45:00] vid_v4lx_start: Using V4L1
+[1] [ERR] [ALL] [Jul 08 17:45:00] motion_loop: Video device fatal error - Closing video device
+[1] [NTC] [VID] [Jul 08 17:45:00] vid_close: Closing video device /dev/video0
+[1] [WRN] [ALL] [Jul 08 17:45:00] motion_loop: Retrying until successful connection with camera
+[1] [NTC] [VID] [Jul 08 17:45:00] vid_v4lx_start: Using videodevice /dev/video0 and input -1
+[1] [NTC] [VID] [Jul 08 17:45:00] v4l2_get_capability: 
+------------------------
+cap.driver: "uvcvideo"
+cap.card: "UVC Camera (046d:08c9)"
+cap.bus_info: "usb-3f980000.usb-1.5"
+cap.capabilities=0x84200001
+------------------------
+[1] [NTC] [VID] [Jul 08 17:45:00] v4l2_get_capability: - VIDEO_CAPTURE
+[1] [NTC] [VID] [Jul 08 17:45:00] v4l2_get_capability: - STREAMING
+[1] [NTC] [VID] [Jul 08 17:45:00] v4l2_select_input: name = "Camera 1", type 0x00000002, status 00000000
+[1] [NTC] [VID] [Jul 08 17:45:00] v4l2_select_input: - CAMERA
+[1] [WRN] [VID] [Jul 08 17:45:00] v4l2_select_input: Device doesn't support VIDIOC_G_STD
+[1] [NTC] [VID] [Jul 08 17:45:05] v4l2_set_pix_format: Config palette index 17 (YU12) doesn't work.
+[1] [NTC] [VID] [Jul 08 17:45:05] v4l2_set_pix_format: Supported palettes:
+[1] [NTC] [VID] [Jul 08 17:45:05] v4l2_set_pix_format: (0) MJPG (Motion-JPEG)
+[1] [NTC] [VID] [Jul 08 17:45:05] v4l2_set_pix_format: 0 - Motion-JPEG (compressed : 1) (0x47504a4d)
+[1] [NTC] [VID] [Jul 08 17:45:05] v4l2_set_pix_format: (1) YUYV (YUYV 4:2:2)
+[1] [NTC] [VID] [Jul 08 17:45:05] v4l2_set_pix_format: 1 - YUYV 4:2:2 (compressed : 0) (0x56595559)
+[1] [NTC] [VID] [Jul 08 17:45:05] v4l2_set_pix_format Selected palette YUYV
+[1] [ERR] [VID] [Jul 08 17:45:10] VIDIOC_TRY_FMT failed for format v4l2_set_pix_format: 
+[1] [ERR] [VID] [Jul 08 17:45:10] v4l2_set_pix_format: Unable to find a compatible palette format.
+[1] [NTC] [VID] [Jul 08 17:45:10] vid_v4lx_start: Using V4L1
+[1] [ERR] [ALL] [Jul 08 17:45:10] motion_loop: Video device fatal error - Closing video device
+[1] [NTC] [VID] [Jul 08 17:45:10] vid_close: Closing video device /dev/video0
+[1] [WRN] [ALL] [Jul 08 17:45:10] motion_loop: Retrying until successful connection with camera
+[1] [NTC] [VID] [Jul 08 17:45:10] vid_v4lx_start: Using videodevice /dev/video0 and input -1
+[1] [NTC] [VID] [Jul 08 17:45:10] v4l2_get_capability: 
+------------------------
+cap.driver: "uvcvideo"
+cap.card: "UVC Camera (046d:08c9)"
+cap.bus_info: "usb-3f980000.usb-1.5"
+cap.capabilities=0x84200001
+------------------------
+[1] [NTC] [VID] [Jul 08 17:45:10] v4l2_get_capability: - VIDEO_CAPTURE
+[1] [NTC] [VID] [Jul 08 17:45:10] v4l2_get_capability: - STREAMING
+[1] [NTC] [VID] [Jul 08 17:45:10] v4l2_select_input: name = "Camera 1", type 0x00000002, status 00000000
+[1] [NTC] [VID] [Jul 08 17:45:10] v4l2_select_input: - CAMERA
+[1] [WRN] [VID] [Jul 08 17:45:10] v4l2_select_input: Device doesn't support VIDIOC_G_STD
+[1] [NTC] [VID] [Jul 08 17:45:15] v4l2_set_pix_format: Config palette index 17 (YU12) doesn't work.
+[1] [NTC] [VID] [Jul 08 17:45:15] v4l2_set_pix_format: Supported palettes:
+[1] [NTC] [VID] [Jul 08 17:45:15] v4l2_set_pix_format: (0) MJPG (Motion-JPEG)
+[1] [NTC] [VID] [Jul 08 17:45:15] v4l2_set_pix_format: 0 - Motion-JPEG (compressed : 1) (0x47504a4d)
+[1] [NTC] [VID] [Jul 08 17:45:15] v4l2_set_pix_format: (1) YUYV (YUYV 4:2:2)
+[1] [NTC] [VID] [Jul 08 17:45:15] v4l2_set_pix_format: 1 - YUYV 4:2:2 (compressed : 0) (0x56595559)
+[1] [NTC] [VID] [Jul 08 17:45:15] v4l2_set_pix_format Selected palette YUYV
+[1] [ERR] [VID] [Jul 08 17:45:20] VIDIOC_TRY_FMT failed for format v4l2_set_pix_format: 
+[1] [ERR] [VID] [Jul 08 17:45:20] v4l2_set_pix_format: Unable to find a compatible palette format.
+[1] [NTC] [VID] [Jul 08 17:45:20] vid_v4lx_start: Using V4L1
+[1] [ERR] [ALL] [Jul 08 17:45:20] motion_loop: Video device fatal error - Closing video device
+[1] [NTC] [VID] [Jul 08 17:45:20] vid_close: Closing video device /dev/video0
+[1] [WRN] [ALL] [Jul 08 17:45:20] motion_loop: Retrying until successful connection with camera
+[1] [NTC] [VID] [Jul 08 17:45:20] vid_v4lx_start: Using videodevice /dev/video0 and input -1
+[1] [NTC] [VID] [Jul 08 17:45:20] v4l2_get_capability: 
+------------------------
+cap.driver: "uvcvideo"
+cap.card: "UVC Camera (046d:08c9)"
+cap.bus_info: "usb-3f980000.usb-1.5"
+cap.capabilities=0x84200001
+------------------------
+[1] [NTC] [VID] [Jul 08 17:45:20] v4l2_get_capability: - VIDEO_CAPTURE
+[1] [NTC] [VID] [Jul 08 17:45:20] v4l2_get_capability: - STREAMING
+[1] [NTC] [VID] [Jul 08 17:45:20] v4l2_select_input: name = "Camera 1", type 0x00000002, status 00000000
+[1] [NTC] [VID] [Jul 08 17:45:20] v4l2_select_input: - CAMERA
+[1] [WRN] [VID] [Jul 08 17:45:20] v4l2_select_input: Device doesn't support VIDIOC_G_STD
+[1] [NTC] [VID] [Jul 08 17:45:25] v4l2_set_pix_format: Config palette index 17 (YU12) doesn't work.
+[1] [NTC] [VID] [Jul 08 17:45:25] v4l2_set_pix_format: Supported palettes:
+[1] [NTC] [VID] [Jul 08 17:45:25] v4l2_set_pix_format: (0) MJPG (Motion-JPEG)
+[1] [NTC] [VID] [Jul 08 17:45:25] v4l2_set_pix_format: 0 - Motion-JPEG (compressed : 1) (0x47504a4d)
+[1] [NTC] [VID] [Jul 08 17:45:25] v4l2_set_pix_format: (1) YUYV (YUYV 4:2:2)
+[1] [NTC] [VID] [Jul 08 17:45:25] v4l2_set_pix_format: 1 - YUYV 4:2:2 (compressed : 0) (0x56595559)
+[1] [NTC] [VID] [Jul 08 17:45:25] v4l2_set_pix_format Selected palette YUYV
+[1] [ERR] [VID] [Jul 08 17:45:30] VIDIOC_TRY_FMT failed for format v4l2_set_pix_format: 
+[1] [ERR] [VID] [Jul 08 17:45:30] v4l2_set_pix_format: Unable to find a compatible palette format.
+[1] [NTC] [VID] [Jul 08 17:45:30] vid_v4lx_start: Using V4L1
+[1] [ERR] [ALL] [Jul 08 17:45:30] motion_loop: Video device fatal error - Closing video device
+[1] [NTC] [VID] [Jul 08 17:45:30] vid_close: Closing video device /dev/video0
+[1] [WRN] [ALL] [Jul 08 17:45:30] motion_loop: Retrying until successful connection with camera
+[1] [NTC] [VID] [Jul 08 17:45:30] vid_v4lx_start: Using videodevice /dev/video0 and input -1
+[1] [NTC] [VID] [Jul 08 17:45:30] v4l2_get_capability: 
+------------------------
+cap.driver: "uvcvideo"
+cap.card: "UVC Camera (046d:08c9)"
+cap.bus_info: "usb-3f980000.usb-1.5"
+cap.capabilities=0x84200001
+------------------------
+[1] [NTC] [VID] [Jul 08 17:45:30] v4l2_get_capability: - VIDEO_CAPTURE
+[1] [NTC] [VID] [Jul 08 17:45:30] v4l2_get_capability: - STREAMING
+[1] [NTC] [VID] [Jul 08 17:45:30] v4l2_select_input: name = "Camera 1", type 0x00000002, status 00000000
+[1] [NTC] [VID] [Jul 08 17:45:30] v4l2_select_input: - CAMERA
+[1] [WRN] [VID] [Jul 08 17:45:30] v4l2_select_input: Device doesn't support VIDIOC_G_STD
+[1] [NTC] [VID] [Jul 08 17:45:35] v4l2_set_pix_format: Config palette index 17 (YU12) doesn't work.
+[1] [NTC] [VID] [Jul 08 17:45:35] v4l2_set_pix_format: Supported palettes:
+[1] [NTC] [VID] [Jul 08 17:45:35] v4l2_set_pix_format: (0) MJPG (Motion-JPEG)
+[1] [NTC] [VID] [Jul 08 17:45:35] v4l2_set_pix_format: 0 - Motion-JPEG (compressed : 1) (0x47504a4d)
+[1] [NTC] [VID] [Jul 08 17:45:35] v4l2_set_pix_format: (1) YUYV (YUYV 4:2:2)
+[1] [NTC] [VID] [Jul 08 17:45:35] v4l2_set_pix_format: 1 - YUYV 4:2:2 (compressed : 0) (0x56595559)
+[1] [NTC] [VID] [Jul 08 17:45:35] v4l2_set_pix_format Selected palette YUYV
+[1] [ERR] [VID] [Jul 08 17:45:40] VIDIOC_TRY_FMT failed for format v4l2_set_pix_format: 
+[1] [ERR] [VID] [Jul 08 17:45:40] v4l2_set_pix_format: Unable to find a compatible palette format.
+[1] [NTC] [VID] [Jul 08 17:45:40] vid_v4lx_start: Using V4L1
+[1] [ERR] [ALL] [Jul 08 17:45:40] motion_loop: Video device fatal error - Closing video device
+[1] [NTC] [VID] [Jul 08 17:45:40] vid_close: Closing video device /dev/video0
+[1] [WRN] [ALL] [Jul 08 17:45:40] motion_loop: Retrying until successful connection with camera
+[1] [NTC] [VID] [Jul 08 17:45:40] vid_v4lx_start: Using videodevice /dev/video0 and input -1
+[1] [NTC] [VID] [Jul 08 17:45:40] v4l2_get_capability: 
+------------------------
+cap.driver: "uvcvideo"
+cap.card: "UVC Camera (046d:08c9)"
+cap.bus_info: "usb-3f980000.usb-1.5"
+cap.capabilities=0x84200001
+------------------------
+[1] [NTC] [VID] [Jul 08 17:45:40] v4l2_get_capability: - VIDEO_CAPTURE
+[1] [NTC] [VID] [Jul 08 17:45:40] v4l2_get_capability: - STREAMING
+[1] [NTC] [VID] [Jul 08 17:45:40] v4l2_select_input: name = "Camera 1", type 0x00000002, status 00000000
+[1] [NTC] [VID] [Jul 08 17:45:40] v4l2_select_input: - CAMERA
+[1] [WRN] [VID] [Jul 08 17:45:40] v4l2_select_input: Device doesn't support VIDIOC_G_STD
+[1] [NTC] [VID] [Jul 08 17:45:46] v4l2_set_pix_format: Config palette index 17 (YU12) doesn't work.
+[1] [NTC] [VID] [Jul 08 17:45:46] v4l2_set_pix_format: Supported palettes:
+[1] [NTC] [VID] [Jul 08 17:45:46] v4l2_set_pix_format: (0) MJPG (Motion-JPEG)
+[1] [NTC] [VID] [Jul 08 17:45:46] v4l2_set_pix_format: 0 - Motion-JPEG (compressed : 1) (0x47504a4d)
+[1] [NTC] [VID] [Jul 08 17:45:46] v4l2_set_pix_format: (1) YUYV (YUYV 4:2:2)
+[1] [NTC] [VID] [Jul 08 17:45:46] v4l2_set_pix_format: 1 - YUYV 4:2:2 (compressed : 0) (0x56595559)
+[1] [NTC] [VID] [Jul 08 17:45:46] v4l2_set_pix_format Selected palette YUYV
+[1] [ERR] [VID] [Jul 08 17:45:51] VIDIOC_TRY_FMT failed for format v4l2_set_pix_format: 
+[1] [ERR] [VID] [Jul 08 17:45:51] v4l2_set_pix_format: Unable to find a compatible palette format.
+[1] [NTC] [VID] [Jul 08 17:45:51] vid_v4lx_start: Using V4L1
+[1] [ERR] [ALL] [Jul 08 17:45:51] motion_loop: Video device fatal error - Closing video device
+[1] [NTC] [VID] [Jul 08 17:45:51] vid_close: Closing video device /dev/video0
+[1] [WRN] [ALL] [Jul 08 17:46:00] motion_loop: Retrying until successful connection with camera
+[1] [NTC] [VID] [Jul 08 17:46:00] vid_v4lx_start: Using videodevice /dev/video0 and input -1
+[1] [NTC] [VID] [Jul 08 17:46:00] v4l2_get_capability: 
+------------------------
+cap.driver: "uvcvideo"
+cap.card: "UVC Camera (046d:08c9)"
+cap.bus_info: "usb-3f980000.usb-1.5"
+cap.capabilities=0x84200001
+------------------------
+[1] [NTC] [VID] [Jul 08 17:46:00] v4l2_get_capability: - VIDEO_CAPTURE
+[1] [NTC] [VID] [Jul 08 17:46:00] v4l2_get_capability: - STREAMING
+[1] [NTC] [VID] [Jul 08 17:46:00] v4l2_select_input: name = "Camera 1", type 0x00000002, status 00000000
+[1] [NTC] [VID] [Jul 08 17:46:00] v4l2_select_input: - CAMERA
+[1] [WRN] [VID] [Jul 08 17:46:00] v4l2_select_input: Device doesn't support VIDIOC_G_STD
+[1] [NTC] [VID] [Jul 08 17:46:05] v4l2_set_pix_format: Config palette index 17 (YU12) doesn't work.
+[1] [NTC] [VID] [Jul 08 17:46:05] v4l2_set_pix_format: Supported palettes:
+[1] [NTC] [VID] [Jul 08 17:46:05] v4l2_set_pix_format: (0) MJPG (Motion-JPEG)
+[1] [NTC] [VID] [Jul 08 17:46:05] v4l2_set_pix_format: 0 - Motion-JPEG (compressed : 1) (0x47504a4d)
+[1] [NTC] [VID] [Jul 08 17:46:05] v4l2_set_pix_format: (1) YUYV (YUYV 4:2:2)
+[1] [NTC] [VID] [Jul 08 17:46:05] v4l2_set_pix_format: 1 - YUYV 4:2:2 (compressed : 0) (0x56595559)
+[1] [NTC] [VID] [Jul 08 17:46:05] v4l2_set_pix_format Selected palette YUYV
+[1] [ERR] [VID] [Jul 08 17:46:10] VIDIOC_TRY_FMT failed for format v4l2_set_pix_format: 
+[1] [ERR] [VID] [Jul 08 17:46:10] v4l2_set_pix_format: Unable to find a compatible palette format.
+[1] [NTC] [VID] [Jul 08 17:46:10] vid_v4lx_start: Using V4L1
+[1] [ERR] [ALL] [Jul 08 17:46:10] motion_loop: Video device fatal error - Closing video device
+[1] [NTC] [VID] [Jul 08 17:46:10] vid_close: Closing video device /dev/video0
+[1] [WRN] [ALL] [Jul 08 17:46:10] motion_loop: Retrying until successful connection with camera
+[1] [NTC] [VID] [Jul 08 17:46:10] vid_v4lx_start: Using videodevice /dev/video0 and input -1
+[1] [NTC] [VID] [Jul 08 17:46:10] v4l2_get_capability: 
+------------------------
+cap.driver: "uvcvideo"
+cap.card: "UVC Camera (046d:08c9)"
+cap.bus_info: "usb-3f980000.usb-1.5"
+cap.capabilities=0x84200001
+------------------------
+[1] [NTC] [VID] [Jul 08 17:46:10] v4l2_get_capability: - VIDEO_CAPTURE
+[1] [NTC] [VID] [Jul 08 17:46:10] v4l2_get_capability: - STREAMING
+[1] [NTC] [VID] [Jul 08 17:46:10] v4l2_select_input: name = "Camera 1", type 0x00000002, status 00000000
+[1] [NTC] [VID] [Jul 08 17:46:10] v4l2_select_input: - CAMERA
+[1] [WRN] [VID] [Jul 08 17:46:10] v4l2_select_input: Device doesn't support VIDIOC_G_STD
+[1] [NTC] [VID] [Jul 08 17:46:15] v4l2_set_pix_format: Config palette index 17 (YU12) doesn't work.
+[1] [NTC] [VID] [Jul 08 17:46:15] v4l2_set_pix_format: Supported palettes:
+[1] [NTC] [VID] [Jul 08 17:46:15] v4l2_set_pix_format: (0) MJPG (Motion-JPEG)
+[1] [NTC] [VID] [Jul 08 17:46:15] v4l2_set_pix_format: 0 - Motion-JPEG (compressed : 1) (0x47504a4d)
+[1] [NTC] [VID] [Jul 08 17:46:15] v4l2_set_pix_format: (1) YUYV (YUYV 4:2:2)
+[1] [NTC] [VID] [Jul 08 17:46:15] v4l2_set_pix_format: 1 - YUYV 4:2:2 (compressed : 0) (0x56595559)
+[1] [NTC] [VID] [Jul 08 17:46:15] v4l2_set_pix_format Selected palette YUYV
+[1] [ERR] [VID] [Jul 08 17:46:20] VIDIOC_TRY_FMT failed for format v4l2_set_pix_format: 
+[1] [ERR] [VID] [Jul 08 17:46:20] v4l2_set_pix_format: Unable to find a compatible palette format.
+[1] [NTC] [VID] [Jul 08 17:46:20] vid_v4lx_start: Using V4L1
+[1] [ERR] [ALL] [Jul 08 17:46:20] motion_loop: Video device fatal error - Closing video device
+[1] [NTC] [VID] [Jul 08 17:46:20] vid_close: Closing video device /dev/video0
+[1] [WRN] [ALL] [Jul 08 17:46:20] motion_loop: Retrying until successful connection with camera
+[1] [NTC] [VID] [Jul 08 17:46:20] vid_v4lx_start: Using videodevice /dev/video0 and input -1
+[1] [NTC] [VID] [Jul 08 17:46:20] v4l2_get_capability: 
+------------------------
+cap.driver: "uvcvideo"
+cap.card: "UVC Camera (046d:08c9)"
+cap.bus_info: "usb-3f980000.usb-1.5"
+cap.capabilities=0x84200001
+------------------------
+[1] [NTC] [VID] [Jul 08 17:46:20] v4l2_get_capability: - VIDEO_CAPTURE
+[1] [NTC] [VID] [Jul 08 17:46:20] v4l2_get_capability: - STREAMING
+[1] [NTC] [VID] [Jul 08 17:46:20] v4l2_select_input: name = "Camera 1", type 0x00000002, status 00000000
+[1] [NTC] [VID] [Jul 08 17:46:20] v4l2_select_input: - CAMERA
+[1] [WRN] [VID] [Jul 08 17:46:20] v4l2_select_input: Device doesn't support VIDIOC_G_STD
+[1] [NTC] [VID] [Jul 08 17:46:25] v4l2_set_pix_format: Config palette index 17 (YU12) doesn't work.
+[1] [NTC] [VID] [Jul 08 17:46:25] v4l2_set_pix_format: Supported palettes:
+[1] [NTC] [VID] [Jul 08 17:46:25] v4l2_set_pix_format: (0) MJPG (Motion-JPEG)
+[1] [NTC] [VID] [Jul 08 17:46:25] v4l2_set_pix_format: 0 - Motion-JPEG (compressed : 1) (0x47504a4d)
+[1] [NTC] [VID] [Jul 08 17:46:25] v4l2_set_pix_format: (1) YUYV (YUYV 4:2:2)
+[1] [NTC] [VID] [Jul 08 17:46:25] v4l2_set_pix_format: 1 - YUYV 4:2:2 (compressed : 0) (0x56595559)
+[1] [NTC] [VID] [Jul 08 17:46:25] v4l2_set_pix_format Selected palette YUYV
+[1] [ERR] [VID] [Jul 08 17:46:30] VIDIOC_TRY_FMT failed for format v4l2_set_pix_format: 
+[1] [ERR] [VID] [Jul 08 17:46:30] v4l2_set_pix_format: Unable to find a compatible palette format.
+[1] [NTC] [VID] [Jul 08 17:46:30] vid_v4lx_start: Using V4L1
+[1] [ERR] [ALL] [Jul 08 17:46:30] motion_loop: Video device fatal error - Closing video device
+[1] [NTC] [VID] [Jul 08 17:46:30] vid_close: Closing video device /dev/video0
+[1] [WRN] [ALL] [Jul 08 17:46:30] motion_loop: Retrying until successful connection with camera
+[1] [NTC] [VID] [Jul 08 17:46:30] vid_v4lx_start: Using videodevice /dev/video0 and input -1
+[1] [NTC] [VID] [Jul 08 17:46:30] v4l2_get_capability: 
+------------------------
+cap.driver: "uvcvideo"
+cap.card: "UVC Camera (046d:08c9)"
+cap.bus_info: "usb-3f980000.usb-1.5"
+cap.capabilities=0x84200001
+------------------------
+[1] [NTC] [VID] [Jul 08 17:46:30] v4l2_get_capability: - VIDEO_CAPTURE
+[1] [NTC] [VID] [Jul 08 17:46:30] v4l2_get_capability: - STREAMING
+[1] [NTC] [VID] [Jul 08 17:46:30] v4l2_select_input: name = "Camera 1", type 0x00000002, status 00000000
+[1] [NTC] [VID] [Jul 08 17:46:30] v4l2_select_input: - CAMERA
+[1] [WRN] [VID] [Jul 08 17:46:30] v4l2_select_input: Device doesn't support VIDIOC_G_STD
+[1] [NTC] [VID] [Jul 08 17:46:35] v4l2_set_pix_format: Config palette index 17 (YU12) doesn't work.
+[1] [NTC] [VID] [Jul 08 17:46:35] v4l2_set_pix_format: Supported palettes:
+[1] [NTC] [VID] [Jul 08 17:46:35] v4l2_set_pix_format: (0) MJPG (Motion-JPEG)
+[1] [NTC] [VID] [Jul 08 17:46:35] v4l2_set_pix_format: 0 - Motion-JPEG (compressed : 1) (0x47504a4d)
+[1] [NTC] [VID] [Jul 08 17:46:35] v4l2_set_pix_format: (1) YUYV (YUYV 4:2:2)
+[1] [NTC] [VID] [Jul 08 17:46:35] v4l2_set_pix_format: 1 - YUYV 4:2:2 (compressed : 0) (0x56595559)
+[1] [NTC] [VID] [Jul 08 17:46:35] v4l2_set_pix_format Selected palette YUYV
+[1] [ERR] [VID] [Jul 08 17:46:40] VIDIOC_TRY_FMT failed for format v4l2_set_pix_format: 
+[1] [ERR] [VID] [Jul 08 17:46:40] v4l2_set_pix_format: Unable to find a compatible palette format.
+[1] [NTC] [VID] [Jul 08 17:46:40] vid_v4lx_start: Using V4L1
+[1] [ERR] [ALL] [Jul 08 17:46:40] motion_loop: Video device fatal error - Closing video device
+[1] [NTC] [VID] [Jul 08 17:46:40] vid_close: Closing video device /dev/video0
+[1] [WRN] [ALL] [Jul 08 17:46:40] motion_loop: Retrying until successful connection with camera
+[1] [NTC] [VID] [Jul 08 17:46:40] vid_v4lx_start: Using videodevice /dev/video0 and input -1
+[1] [NTC] [VID] [Jul 08 17:46:40] v4l2_get_capability: 
+------------------------
+cap.driver: "uvcvideo"
+cap.card: "UVC Camera (046d:08c9)"
+cap.bus_info: "usb-3f980000.usb-1.5"
+cap.capabilities=0x84200001
+------------------------
+[1] [NTC] [VID] [Jul 08 17:46:40] v4l2_get_capability: - VIDEO_CAPTURE
+[1] [NTC] [VID] [Jul 08 17:46:40] v4l2_get_capability: - STREAMING
+[1] [NTC] [VID] [Jul 08 17:46:40] v4l2_select_input: name = "Camera 1", type 0x00000002, status 00000000
+[1] [NTC] [VID] [Jul 08 17:46:40] v4l2_select_input: - CAMERA
+[1] [WRN] [VID] [Jul 08 17:46:40] v4l2_select_input: Device doesn't support VIDIOC_G_STD
+[1] [NTC] [VID] [Jul 08 17:46:45] v4l2_set_pix_format: Config palette index 17 (YU12) doesn't work.
+[1] [NTC] [VID] [Jul 08 17:46:45] v4l2_set_pix_format: Supported palettes:
+[1] [NTC] [VID] [Jul 08 17:46:45] v4l2_set_pix_format: (0) MJPG (Motion-JPEG)
+[1] [NTC] [VID] [Jul 08 17:46:45] v4l2_set_pix_format: 0 - Motion-JPEG (compressed : 1) (0x47504a4d)
+[1] [NTC] [VID] [Jul 08 17:46:45] v4l2_set_pix_format: (1) YUYV (YUYV 4:2:2)
+[1] [NTC] [VID] [Jul 08 17:46:45] v4l2_set_pix_format: 1 - YUYV 4:2:2 (compressed : 0) (0x56595559)
+[1] [NTC] [VID] [Jul 08 17:46:45] v4l2_set_pix_format Selected palette YUYV
+[1] [ERR] [VID] [Jul 08 17:46:50] VIDIOC_TRY_FMT failed for format v4l2_set_pix_format: 
+[1] [ERR] [VID] [Jul 08 17:46:50] v4l2_set_pix_format: Unable to find a compatible palette format.
+[1] [NTC] [VID] [Jul 08 17:46:50] vid_v4lx_start: Using V4L1
+[1] [ERR] [ALL] [Jul 08 17:46:50] motion_loop: Video device fatal error - Closing video device
+[1] [NTC] [VID] [Jul 08 17:46:50] vid_close: Closing video device /dev/video0
+[1] [WRN] [ALL] [Jul 08 17:46:50] motion_loop: Retrying until successful connection with camera
+[1] [NTC] [VID] [Jul 08 17:46:50] vid_v4lx_start: Using videodevice /dev/video0 and input -1
+[1] [NTC] [VID] [Jul 08 17:46:50] v4l2_get_capability: 
+------------------------
+cap.driver: "uvcvideo"
+cap.card: "UVC Camera (046d:08c9)"
+cap.bus_info: "usb-3f980000.usb-1.5"
+cap.capabilities=0x84200001
+------------------------
+[1] [NTC] [VID] [Jul 08 17:46:50] v4l2_get_capability: - VIDEO_CAPTURE
+[1] [NTC] [VID] [Jul 08 17:46:50] v4l2_get_capability: - STREAMING
+[1] [NTC] [VID] [Jul 08 17:46:50] v4l2_select_input: name = "Camera 1", type 0x00000002, status 00000000
+[1] [NTC] [VID] [Jul 08 17:46:50] v4l2_select_input: - CAMERA
+[1] [WRN] [VID] [Jul 08 17:46:50] v4l2_select_input: Device doesn't support VIDIOC_G_STD
+[1] [NTC] [VID] [Jul 08 17:46:55] v4l2_set_pix_format: Config palette index 17 (YU12) doesn't work.
+[1] [NTC] [VID] [Jul 08 17:46:55] v4l2_set_pix_format: Supported palettes:
+[1] [NTC] [VID] [Jul 08 17:46:55] v4l2_set_pix_format: (0) MJPG (Motion-JPEG)
+[1] [NTC] [VID] [Jul 08 17:46:55] v4l2_set_pix_format: 0 - Motion-JPEG (compressed : 1) (0x47504a4d)
+[1] [NTC] [VID] [Jul 08 17:46:55] v4l2_set_pix_format: (1) YUYV (YUYV 4:2:2)
+[1] [NTC] [VID] [Jul 08 17:46:55] v4l2_set_pix_format: 1 - YUYV 4:2:2 (compressed : 0) (0x56595559)
+[1] [NTC] [VID] [Jul 08 17:46:55] v4l2_set_pix_format Selected palette YUYV
+[1] [ERR] [VID] [Jul 08 17:47:01] VIDIOC_TRY_FMT failed for format v4l2_set_pix_format: 
+[1] [ERR] [VID] [Jul 08 17:47:01] v4l2_set_pix_format: Unable to find a compatible palette format.
+[1] [NTC] [VID] [Jul 08 17:47:01] vid_v4lx_start: Using V4L1
+[1] [ERR] [ALL] [Jul 08 17:47:01] motion_loop: Video device fatal error - Closing video device
+[1] [NTC] [VID] [Jul 08 17:47:01] vid_close: Closing video device /dev/video0
+[1] [WRN] [ALL] [Jul 08 17:47:10] motion_loop: Retrying until successful connection with camera
+[1] [NTC] [VID] [Jul 08 17:47:10] vid_v4lx_start: Using videodevice /dev/video0 and input -1
+[1] [NTC] [VID] [Jul 08 17:47:10] v4l2_get_capability: 
+------------------------
+cap.driver: "uvcvideo"
+cap.card: "UVC Camera (046d:08c9)"
+cap.bus_info: "usb-3f980000.usb-1.5"
+cap.capabilities=0x84200001
+------------------------
+[1] [NTC] [VID] [Jul 08 17:47:10] v4l2_get_capability: - VIDEO_CAPTURE
+[1] [NTC] [VID] [Jul 08 17:47:10] v4l2_get_capability: - STREAMING
+[1] [NTC] [VID] [Jul 08 17:47:10] v4l2_select_input: name = "Camera 1", type 0x00000002, status 00000000
+[1] [NTC] [VID] [Jul 08 17:47:10] v4l2_select_input: - CAMERA
+[1] [WRN] [VID] [Jul 08 17:47:10] v4l2_select_input: Device doesn't support VIDIOC_G_STD
+[1] [NTC] [VID] [Jul 08 17:47:15] v4l2_set_pix_format: Config palette index 17 (YU12) doesn't work.
+[1] [NTC] [VID] [Jul 08 17:47:15] v4l2_set_pix_format: Supported palettes:
+[1] [NTC] [VID] [Jul 08 17:47:15] v4l2_set_pix_format: (0) MJPG (Motion-JPEG)
+[1] [NTC] [VID] [Jul 08 17:47:15] v4l2_set_pix_format: 0 - Motion-JPEG (compressed : 1) (0x47504a4d)
+[1] [NTC] [VID] [Jul 08 17:47:15] v4l2_set_pix_format: (1) YUYV (YUYV 4:2:2)
+[1] [NTC] [VID] [Jul 08 17:47:15] v4l2_set_pix_format: 1 - YUYV 4:2:2 (compressed : 0) (0x56595559)
+[1] [NTC] [VID] [Jul 08 17:47:15] v4l2_set_pix_format Selected palette YUYV
+[1] [ERR] [VID] [Jul 08 17:47:20] VIDIOC_TRY_FMT failed for format v4l2_set_pix_format: 
+[1] [ERR] [VID] [Jul 08 17:47:20] v4l2_set_pix_format: Unable to find a compatible palette format.
+[1] [NTC] [VID] [Jul 08 17:47:20] vid_v4lx_start: Using V4L1
+[1] [ERR] [ALL] [Jul 08 17:47:20] motion_loop: Video device fatal error - Closing video device
+[1] [NTC] [VID] [Jul 08 17:47:20] vid_close: Closing video device /dev/video0
+[1] [WRN] [ALL] [Jul 08 17:47:20] motion_loop: Retrying until successful connection with camera
+[1] [NTC] [VID] [Jul 08 17:47:20] vid_v4lx_start: Using videodevice /dev/video0 and input -1
+[1] [NTC] [VID] [Jul 08 17:47:20] v4l2_get_capability: 
+------------------------
+cap.driver: "uvcvideo"
+cap.card: "UVC Camera (046d:08c9)"
+cap.bus_info: "usb-3f980000.usb-1.5"
+cap.capabilities=0x84200001
+------------------------
+[1] [NTC] [VID] [Jul 08 17:47:20] v4l2_get_capability: - VIDEO_CAPTURE
+[1] [NTC] [VID] [Jul 08 17:47:20] v4l2_get_capability: - STREAMING
+[1] [NTC] [VID] [Jul 08 17:47:20] v4l2_select_input: name = "Camera 1", type 0x00000002, status 00000000
+[1] [NTC] [VID] [Jul 08 17:47:20] v4l2_select_input: - CAMERA
+[1] [WRN] [VID] [Jul 08 17:47:20] v4l2_select_input: Device doesn't support VIDIOC_G_STD
+[1] [NTC] [VID] [Jul 08 17:47:25] v4l2_set_pix_format: Config palette index 17 (YU12) doesn't work.
+[1] [NTC] [VID] [Jul 08 17:47:25] v4l2_set_pix_format: Supported palettes:
+[1] [NTC] [VID] [Jul 08 17:47:25] v4l2_set_pix_format: (0) MJPG (Motion-JPEG)
+[1] [NTC] [VID] [Jul 08 17:47:25] v4l2_set_pix_format: 0 - Motion-JPEG (compressed : 1) (0x47504a4d)
+[1] [NTC] [VID] [Jul 08 17:47:25] v4l2_set_pix_format: (1) YUYV (YUYV 4:2:2)
+[1] [NTC] [VID] [Jul 08 17:47:25] v4l2_set_pix_format: 1 - YUYV 4:2:2 (compressed : 0) (0x56595559)
+[1] [NTC] [VID] [Jul 08 17:47:25] v4l2_set_pix_format Selected palette YUYV
+[1] [ERR] [VID] [Jul 08 17:47:30] VIDIOC_TRY_FMT failed for format v4l2_set_pix_format: 
+[1] [ERR] [VID] [Jul 08 17:47:30] v4l2_set_pix_format: Unable to find a compatible palette format.
+[1] [NTC] [VID] [Jul 08 17:47:30] vid_v4lx_start: Using V4L1
+[1] [ERR] [ALL] [Jul 08 17:47:30] motion_loop: Video device fatal error - Closing video device
+[1] [NTC] [VID] [Jul 08 17:47:30] vid_close: Closing video device /dev/video0
+[1] [WRN] [ALL] [Jul 08 17:47:30] motion_loop: Retrying until successful connection with camera
+[1] [NTC] [VID] [Jul 08 17:47:30] vid_v4lx_start: Using videodevice /dev/video0 and input -1
+[1] [NTC] [VID] [Jul 08 17:47:30] v4l2_get_capability: 
+------------------------
+cap.driver: "uvcvideo"
+cap.card: "UVC Camera (046d:08c9)"
+cap.bus_info: "usb-3f980000.usb-1.5"
+cap.capabilities=0x84200001
+------------------------
+[1] [NTC] [VID] [Jul 08 17:47:30] v4l2_get_capability: - VIDEO_CAPTURE
+[1] [NTC] [VID] [Jul 08 17:47:30] v4l2_get_capability: - STREAMING
+[1] [NTC] [VID] [Jul 08 17:47:30] v4l2_select_input: name = "Camera 1", type 0x00000002, status 00000000
+[1] [NTC] [VID] [Jul 08 17:47:30] v4l2_select_input: - CAMERA
+[1] [WRN] [VID] [Jul 08 17:47:30] v4l2_select_input: Device doesn't support VIDIOC_G_STD
+[1] [NTC] [VID] [Jul 08 17:47:35] v4l2_set_pix_format: Config palette index 17 (YU12) doesn't work.
+[1] [NTC] [VID] [Jul 08 17:47:35] v4l2_set_pix_format: Supported palettes:
+[1] [NTC] [VID] [Jul 08 17:47:35] v4l2_set_pix_format: (0) MJPG (Motion-JPEG)
+[1] [NTC] [VID] [Jul 08 17:47:35] v4l2_set_pix_format: 0 - Motion-JPEG (compressed : 1) (0x47504a4d)
+[1] [NTC] [VID] [Jul 08 17:47:35] v4l2_set_pix_format: (1) YUYV (YUYV 4:2:2)
+[1] [NTC] [VID] [Jul 08 17:47:35] v4l2_set_pix_format: 1 - YUYV 4:2:2 (compressed : 0) (0x56595559)
+[1] [NTC] [VID] [Jul 08 17:47:35] v4l2_set_pix_format Selected palette YUYV
+[1] [ERR] [VID] [Jul 08 17:47:40] VIDIOC_TRY_FMT failed for format v4l2_set_pix_format: 
+[1] [ERR] [VID] [Jul 08 17:47:40] v4l2_set_pix_format: Unable to find a compatible palette format.
+[1] [NTC] [VID] [Jul 08 17:47:40] vid_v4lx_start: Using V4L1
+[1] [ERR] [ALL] [Jul 08 17:47:40] motion_loop: Video device fatal error - Closing video device
+[1] [NTC] [VID] [Jul 08 17:47:40] vid_close: Closing video device /dev/video0
+[1] [WRN] [ALL] [Jul 08 17:47:40] motion_loop: Retrying until successful connection with camera
+[1] [NTC] [VID] [Jul 08 17:47:40] vid_v4lx_start: Using videodevice /dev/video0 and input -1
+[1] [NTC] [VID] [Jul 08 17:47:40] v4l2_get_capability: 
+------------------------
+cap.driver: "uvcvideo"
+cap.card: "UVC Camera (046d:08c9)"
+cap.bus_info: "usb-3f980000.usb-1.5"
+cap.capabilities=0x84200001
+------------------------
+[1] [NTC] [VID] [Jul 08 17:47:40] v4l2_get_capability: - VIDEO_CAPTURE
+[1] [NTC] [VID] [Jul 08 17:47:40] v4l2_get_capability: - STREAMING
+[1] [NTC] [VID] [Jul 08 17:47:40] v4l2_select_input: name = "Camera 1", type 0x00000002, status 00000000
+[1] [NTC] [VID] [Jul 08 17:47:40] v4l2_select_input: - CAMERA
+[1] [WRN] [VID] [Jul 08 17:47:40] v4l2_select_input: Device doesn't support VIDIOC_G_STD
+[1] [NTC] [VID] [Jul 08 17:47:45] v4l2_set_pix_format: Config palette index 17 (YU12) doesn't work.
+[1] [NTC] [VID] [Jul 08 17:47:45] v4l2_set_pix_format: Supported palettes:
+[1] [NTC] [VID] [Jul 08 17:47:45] v4l2_set_pix_format: (0) MJPG (Motion-JPEG)
+[1] [NTC] [VID] [Jul 08 17:47:45] v4l2_set_pix_format: 0 - Motion-JPEG (compressed : 1) (0x47504a4d)
+[1] [NTC] [VID] [Jul 08 17:47:45] v4l2_set_pix_format: (1) YUYV (YUYV 4:2:2)
+[1] [NTC] [VID] [Jul 08 17:47:45] v4l2_set_pix_format: 1 - YUYV 4:2:2 (compressed : 0) (0x56595559)
+[1] [NTC] [VID] [Jul 08 17:47:45] v4l2_set_pix_format Selected palette YUYV
+[1] [ERR] [VID] [Jul 08 17:47:50] VIDIOC_TRY_FMT failed for format v4l2_set_pix_format: 
+[1] [ERR] [VID] [Jul 08 17:47:50] v4l2_set_pix_format: Unable to find a compatible palette format.
+[1] [NTC] [VID] [Jul 08 17:47:50] vid_v4lx_start: Using V4L1
+[1] [ERR] [ALL] [Jul 08 17:47:50] motion_loop: Video device fatal error - Closing video device
+[1] [NTC] [VID] [Jul 08 17:47:50] vid_close: Closing video device /dev/video0
+[1] [WRN] [ALL] [Jul 08 17:47:50] motion_loop: Retrying until successful connection with camera
+[1] [NTC] [VID] [Jul 08 17:47:50] vid_v4lx_start: Using videodevice /dev/video0 and input -1
+[1] [NTC] [VID] [Jul 08 17:47:50] v4l2_get_capability: 
+------------------------
+cap.driver: "uvcvideo"
+cap.card: "UVC Camera (046d:08c9)"
+cap.bus_info: "usb-3f980000.usb-1.5"
+cap.capabilities=0x84200001
+------------------------
+[1] [NTC] [VID] [Jul 08 17:47:50] v4l2_get_capability: - VIDEO_CAPTURE
+[1] [NTC] [VID] [Jul 08 17:47:50] v4l2_get_capability: - STREAMING
+[1] [NTC] [VID] [Jul 08 17:47:50] v4l2_select_input: name = "Camera 1", type 0x00000002, status 00000000
+[1] [NTC] [VID] [Jul 08 17:47:50] v4l2_select_input: - CAMERA
+[1] [WRN] [VID] [Jul 08 17:47:50] v4l2_select_input: Device doesn't support VIDIOC_G_STD
+[1] [NTC] [VID] [Jul 08 17:47:55] v4l2_set_pix_format: Config palette index 17 (YU12) doesn't work.
+[1] [NTC] [VID] [Jul 08 17:47:55] v4l2_set_pix_format: Supported palettes:
+[1] [NTC] [VID] [Jul 08 17:47:55] v4l2_set_pix_format: (0) MJPG (Motion-JPEG)
+[1] [NTC] [VID] [Jul 08 17:47:55] v4l2_set_pix_format: 0 - Motion-JPEG (compressed : 1) (0x47504a4d)
+[1] [NTC] [VID] [Jul 08 17:47:55] v4l2_set_pix_format: (1) YUYV (YUYV 4:2:2)
+[1] [NTC] [VID] [Jul 08 17:47:55] v4l2_set_pix_format: 1 - YUYV 4:2:2 (compressed : 0) (0x56595559)
+[1] [NTC] [VID] [Jul 08 17:47:55] v4l2_set_pix_format Selected palette YUYV
+[1] [ERR] [VID] [Jul 08 17:48:00] VIDIOC_TRY_FMT failed for format v4l2_set_pix_format: 
+[1] [ERR] [VID] [Jul 08 17:48:00] v4l2_set_pix_format: Unable to find a compatible palette format.
+[1] [NTC] [VID] [Jul 08 17:48:00] vid_v4lx_start: Using V4L1
+[1] [ERR] [ALL] [Jul 08 17:48:00] motion_loop: Video device fatal error - Closing video device
+[1] [NTC] [VID] [Jul 08 17:48:00] vid_close: Closing video device /dev/video0
+[1] [WRN] [ALL] [Jul 08 17:48:00] motion_loop: Retrying until successful connection with camera
+[1] [NTC] [VID] [Jul 08 17:48:00] vid_v4lx_start: Using videodevice /dev/video0 and input -1
+[1] [NTC] [VID] [Jul 08 17:48:00] v4l2_get_capability: 
+------------------------
+cap.driver: "uvcvideo"
+cap.card: "UVC Camera (046d:08c9)"
+cap.bus_info: "usb-3f980000.usb-1.5"
+cap.capabilities=0x84200001
+------------------------
+[1] [NTC] [VID] [Jul 08 17:48:00] v4l2_get_capability: - VIDEO_CAPTURE
+[1] [NTC] [VID] [Jul 08 17:48:00] v4l2_get_capability: - STREAMING
+[1] [NTC] [VID] [Jul 08 17:48:00] v4l2_select_input: name = "Camera 1", type 0x00000002, status 00000000
+[1] [NTC] [VID] [Jul 08 17:48:00] v4l2_select_input: - CAMERA
+[1] [WRN] [VID] [Jul 08 17:48:00] v4l2_select_input: Device doesn't support VIDIOC_G_STD
+[1] [NTC] [VID] [Jul 08 17:48:05] v4l2_set_pix_format: Config palette index 17 (YU12) doesn't work.
+[1] [NTC] [VID] [Jul 08 17:48:05] v4l2_set_pix_format: Supported palettes:
+[1] [NTC] [VID] [Jul 08 17:48:05] v4l2_set_pix_format: (0) MJPG (Motion-JPEG)
+[1] [NTC] [VID] [Jul 08 17:48:05] v4l2_set_pix_format: 0 - Motion-JPEG (compressed : 1) (0x47504a4d)
+[1] [NTC] [VID] [Jul 08 17:48:05] v4l2_set_pix_format: (1) YUYV (YUYV 4:2:2)
+[1] [NTC] [VID] [Jul 08 17:48:05] v4l2_set_pix_format: 1 - YUYV 4:2:2 (compressed : 0) (0x56595559)
+[1] [NTC] [VID] [Jul 08 17:48:05] v4l2_set_pix_format Selected palette YUYV
+[1] [ERR] [VID] [Jul 08 17:48:11] VIDIOC_TRY_FMT failed for format v4l2_set_pix_format: 
+[1] [ERR] [VID] [Jul 08 17:48:11] v4l2_set_pix_format: Unable to find a compatible palette format.
+[1] [NTC] [VID] [Jul 08 17:48:11] vid_v4lx_start: Using V4L1
+[1] [ERR] [ALL] [Jul 08 17:48:11] motion_loop: Video device fatal error - Closing video device
+[1] [NTC] [VID] [Jul 08 17:48:11] vid_close: Closing video device /dev/video0
+[1] [WRN] [ALL] [Jul 08 17:48:20] motion_loop: Retrying until successful connection with camera
+[1] [NTC] [VID] [Jul 08 17:48:20] vid_v4lx_start: Using videodevice /dev/video0 and input -1
+[1] [NTC] [VID] [Jul 08 17:48:20] v4l2_get_capability: 
+------------------------
+cap.driver: "uvcvideo"
+cap.card: "UVC Camera (046d:08c9)"
+cap.bus_info: "usb-3f980000.usb-1.5"
+cap.capabilities=0x84200001
+------------------------
+[1] [NTC] [VID] [Jul 08 17:48:20] v4l2_get_capability: - VIDEO_CAPTURE
+[1] [NTC] [VID] [Jul 08 17:48:20] v4l2_get_capability: - STREAMING
+[1] [NTC] [VID] [Jul 08 17:48:20] v4l2_select_input: name = "Camera 1", type 0x00000002, status 00000000
+[1] [NTC] [VID] [Jul 08 17:48:20] v4l2_select_input: - CAMERA
+[1] [WRN] [VID] [Jul 08 17:48:20] v4l2_select_input: Device doesn't support VIDIOC_G_STD
+[1] [NTC] [VID] [Jul 08 17:48:25] v4l2_set_pix_format: Config palette index 17 (YU12) doesn't work.
+[1] [NTC] [VID] [Jul 08 17:48:25] v4l2_set_pix_format: Supported palettes:
+[1] [NTC] [VID] [Jul 08 17:48:25] v4l2_set_pix_format: (0) MJPG (Motion-JPEG)
+[1] [NTC] [VID] [Jul 08 17:48:25] v4l2_set_pix_format: 0 - Motion-JPEG (compressed : 1) (0x47504a4d)
+[1] [NTC] [VID] [Jul 08 17:48:25] v4l2_set_pix_format: (1) YUYV (YUYV 4:2:2)
+[1] [NTC] [VID] [Jul 08 17:48:25] v4l2_set_pix_format: 1 - YUYV 4:2:2 (compressed : 0) (0x56595559)
+[1] [NTC] [VID] [Jul 08 17:48:25] v4l2_set_pix_format Selected palette YUYV
+[1] [ERR] [VID] [Jul 08 17:48:30] VIDIOC_TRY_FMT failed for format v4l2_set_pix_format: 
+[1] [ERR] [VID] [Jul 08 17:48:30] v4l2_set_pix_format: Unable to find a compatible palette format.
+[1] [NTC] [VID] [Jul 08 17:48:30] vid_v4lx_start: Using V4L1
+[1] [ERR] [ALL] [Jul 08 17:48:30] motion_loop: Video device fatal error - Closing video device
+[1] [NTC] [VID] [Jul 08 17:48:30] vid_close: Closing video device /dev/video0
+[1] [WRN] [ALL] [Jul 08 17:48:30] motion_loop: Retrying until successful connection with camera
+[1] [NTC] [VID] [Jul 08 17:48:30] vid_v4lx_start: Using videodevice /dev/video0 and input -1
+[1] [NTC] [VID] [Jul 08 17:48:30] v4l2_get_capability: 
+------------------------
+cap.driver: "uvcvideo"
+cap.card: "UVC Camera (046d:08c9)"
+cap.bus_info: "usb-3f980000.usb-1.5"
+cap.capabilities=0x84200001
+------------------------
+[1] [NTC] [VID] [Jul 08 17:48:30] v4l2_get_capability: - VIDEO_CAPTURE
+[1] [NTC] [VID] [Jul 08 17:48:30] v4l2_get_capability: - STREAMING
+[1] [NTC] [VID] [Jul 08 17:48:30] v4l2_select_input: name = "Camera 1", type 0x00000002, status 00000000
+[1] [NTC] [VID] [Jul 08 17:48:30] v4l2_select_input: - CAMERA
+[1] [WRN] [VID] [Jul 08 17:48:30] v4l2_select_input: Device doesn't support VIDIOC_G_STD
+[1] [NTC] [VID] [Jul 08 17:48:35] v4l2_set_pix_format: Config palette index 17 (YU12) doesn't work.
+[1] [NTC] [VID] [Jul 08 17:48:35] v4l2_set_pix_format: Supported palettes:
+[1] [NTC] [VID] [Jul 08 17:48:35] v4l2_set_pix_format: (0) MJPG (Motion-JPEG)
+[1] [NTC] [VID] [Jul 08 17:48:35] v4l2_set_pix_format: 0 - Motion-JPEG (compressed : 1) (0x47504a4d)
+[1] [NTC] [VID] [Jul 08 17:48:35] v4l2_set_pix_format: (1) YUYV (YUYV 4:2:2)
+[1] [NTC] [VID] [Jul 08 17:48:35] v4l2_set_pix_format: 1 - YUYV 4:2:2 (compressed : 0) (0x56595559)
+[1] [NTC] [VID] [Jul 08 17:48:35] v4l2_set_pix_format Selected palette YUYV
+[1] [ERR] [VID] [Jul 08 17:48:40] VIDIOC_TRY_FMT failed for format v4l2_set_pix_format: 
+[1] [ERR] [VID] [Jul 08 17:48:40] v4l2_set_pix_format: Unable to find a compatible palette format.
+[1] [NTC] [VID] [Jul 08 17:48:40] vid_v4lx_start: Using V4L1
+[1] [ERR] [ALL] [Jul 08 17:48:40] motion_loop: Video device fatal error - Closing video device
+[1] [NTC] [VID] [Jul 08 17:48:40] vid_close: Closing video device /dev/video0
+[1] [WRN] [ALL] [Jul 08 17:48:40] motion_loop: Retrying until successful connection with camera
+[1] [NTC] [VID] [Jul 08 17:48:40] vid_v4lx_start: Using videodevice /dev/video0 and input -1
+[1] [NTC] [VID] [Jul 08 17:48:40] v4l2_get_capability: 
+------------------------
+cap.driver: "uvcvideo"
+cap.card: "UVC Camera (046d:08c9)"
+cap.bus_info: "usb-3f980000.usb-1.5"
+cap.capabilities=0x84200001
+------------------------
+[1] [NTC] [VID] [Jul 08 17:48:40] v4l2_get_capability: - VIDEO_CAPTURE
+[1] [NTC] [VID] [Jul 08 17:48:40] v4l2_get_capability: - STREAMING
+[1] [NTC] [VID] [Jul 08 17:48:40] v4l2_select_input: name = "Camera 1", type 0x00000002, status 00000000
+[1] [NTC] [VID] [Jul 08 17:48:40] v4l2_select_input: - CAMERA
+[1] [WRN] [VID] [Jul 08 17:48:40] v4l2_select_input: Device doesn't support VIDIOC_G_STD
+[1] [NTC] [VID] [Jul 08 17:48:45] v4l2_set_pix_format: Config palette index 17 (YU12) doesn't work.
+[1] [NTC] [VID] [Jul 08 17:48:45] v4l2_set_pix_format: Supported palettes:
+[1] [NTC] [VID] [Jul 08 17:48:45] v4l2_set_pix_format: (0) MJPG (Motion-JPEG)
+[1] [NTC] [VID] [Jul 08 17:48:45] v4l2_set_pix_format: 0 - Motion-JPEG (compressed : 1) (0x47504a4d)
+[1] [NTC] [VID] [Jul 08 17:48:45] v4l2_set_pix_format: (1) YUYV (YUYV 4:2:2)
+[1] [NTC] [VID] [Jul 08 17:48:45] v4l2_set_pix_format: 1 - YUYV 4:2:2 (compressed : 0) (0x56595559)
+[1] [NTC] [VID] [Jul 08 17:48:45] v4l2_set_pix_format Selected palette YUYV
+[1] [ERR] [VID] [Jul 08 17:48:50] VIDIOC_TRY_FMT failed for format v4l2_set_pix_format: 
+[1] [ERR] [VID] [Jul 08 17:48:50] v4l2_set_pix_format: Unable to find a compatible palette format.
+[1] [NTC] [VID] [Jul 08 17:48:50] vid_v4lx_start: Using V4L1
+[1] [ERR] [ALL] [Jul 08 17:48:50] motion_loop: Video device fatal error - Closing video device
+[1] [NTC] [VID] [Jul 08 17:48:50] vid_close: Closing video device /dev/video0
+[1] [WRN] [ALL] [Jul 08 17:48:50] motion_loop: Retrying until successful connection with camera
+[1] [NTC] [VID] [Jul 08 17:48:50] vid_v4lx_start: Using videodevice /dev/video0 and input -1
+[1] [NTC] [VID] [Jul 08 17:48:50] v4l2_get_capability: 
+------------------------
+cap.driver: "uvcvideo"
+cap.card: "UVC Camera (046d:08c9)"
+cap.bus_info: "usb-3f980000.usb-1.5"
+cap.capabilities=0x84200001
+------------------------
+[1] [NTC] [VID] [Jul 08 17:48:50] v4l2_get_capability: - VIDEO_CAPTURE
+[1] [NTC] [VID] [Jul 08 17:48:50] v4l2_get_capability: - STREAMING
+[1] [NTC] [VID] [Jul 08 17:48:50] v4l2_select_input: name = "Camera 1", type 0x00000002, status 00000000
+[1] [NTC] [VID] [Jul 08 17:48:50] v4l2_select_input: - CAMERA
+[1] [WRN] [VID] [Jul 08 17:48:50] v4l2_select_input: Device doesn't support VIDIOC_G_STD
+[1] [NTC] [VID] [Jul 08 17:48:55] v4l2_set_pix_format: Config palette index 17 (YU12) doesn't work.
+[1] [NTC] [VID] [Jul 08 17:48:55] v4l2_set_pix_format: Supported palettes:
+[1] [NTC] [VID] [Jul 08 17:48:55] v4l2_set_pix_format: (0) MJPG (Motion-JPEG)
+[1] [NTC] [VID] [Jul 08 17:48:55] v4l2_set_pix_format: 0 - Motion-JPEG (compressed : 1) (0x47504a4d)
+[1] [NTC] [VID] [Jul 08 17:48:55] v4l2_set_pix_format: (1) YUYV (YUYV 4:2:2)
+[1] [NTC] [VID] [Jul 08 17:48:55] v4l2_set_pix_format: 1 - YUYV 4:2:2 (compressed : 0) (0x56595559)
+[1] [NTC] [VID] [Jul 08 17:48:55] v4l2_set_pix_format Selected palette YUYV
+[1] [ERR] [VID] [Jul 08 17:49:00] VIDIOC_TRY_FMT failed for format v4l2_set_pix_format: 
+[1] [ERR] [VID] [Jul 08 17:49:00] v4l2_set_pix_format: Unable to find a compatible palette format.
+[1] [NTC] [VID] [Jul 08 17:49:00] vid_v4lx_start: Using V4L1
+[1] [ERR] [ALL] [Jul 08 17:49:00] motion_loop: Video device fatal error - Closing video device
+[1] [NTC] [VID] [Jul 08 17:49:00] vid_close: Closing video device /dev/video0
+[1] [WRN] [ALL] [Jul 08 17:49:00] motion_loop: Retrying until successful connection with camera
+[1] [NTC] [VID] [Jul 08 17:49:00] vid_v4lx_start: Using videodevice /dev/video0 and input -1
+[1] [NTC] [VID] [Jul 08 17:49:00] v4l2_get_capability: 
+------------------------
+cap.driver: "uvcvideo"
+cap.card: "UVC Camera (046d:08c9)"
+cap.bus_info: "usb-3f980000.usb-1.5"
+cap.capabilities=0x84200001
+------------------------
+[1] [NTC] [VID] [Jul 08 17:49:00] v4l2_get_capability: - VIDEO_CAPTURE
+[1] [NTC] [VID] [Jul 08 17:49:00] v4l2_get_capability: - STREAMING
+[1] [NTC] [VID] [Jul 08 17:49:00] v4l2_select_input: name = "Camera 1", type 0x00000002, status 00000000
+[1] [NTC] [VID] [Jul 08 17:49:00] v4l2_select_input: - CAMERA
+[1] [WRN] [VID] [Jul 08 17:49:00] v4l2_select_input: Device doesn't support VIDIOC_G_STD
+[1] [NTC] [VID] [Jul 08 17:49:05] v4l2_set_pix_format: Config palette index 17 (YU12) doesn't work.
+[1] [NTC] [VID] [Jul 08 17:49:05] v4l2_set_pix_format: Supported palettes:
+[1] [NTC] [VID] [Jul 08 17:49:05] v4l2_set_pix_format: (0) MJPG (Motion-JPEG)
+[1] [NTC] [VID] [Jul 08 17:49:05] v4l2_set_pix_format: 0 - Motion-JPEG (compressed : 1) (0x47504a4d)
+[1] [NTC] [VID] [Jul 08 17:49:05] v4l2_set_pix_format: (1) YUYV (YUYV 4:2:2)
+[1] [NTC] [VID] [Jul 08 17:49:05] v4l2_set_pix_format: 1 - YUYV 4:2:2 (compressed : 0) (0x56595559)
+[1] [NTC] [VID] [Jul 08 17:49:05] v4l2_set_pix_format Selected palette YUYV
+[1] [ERR] [VID] [Jul 08 17:49:10] VIDIOC_TRY_FMT failed for format v4l2_set_pix_format: 
+[1] [ERR] [VID] [Jul 08 17:49:10] v4l2_set_pix_format: Unable to find a compatible palette format.
+[1] [NTC] [VID] [Jul 08 17:49:10] vid_v4lx_start: Using V4L1
+[1] [ERR] [ALL] [Jul 08 17:49:10] motion_loop: Video device fatal error - Closing video device
+[1] [NTC] [VID] [Jul 08 17:49:10] vid_close: Closing video device /dev/video0
+[1] [WRN] [ALL] [Jul 08 17:49:10] motion_loop: Retrying until successful connection with camera
+[1] [NTC] [VID] [Jul 08 17:49:10] vid_v4lx_start: Using videodevice /dev/video0 and input -1
+[1] [NTC] [VID] [Jul 08 17:49:10] v4l2_get_capability: 
+------------------------
+cap.driver: "uvcvideo"
+cap.card: "UVC Camera (046d:08c9)"
+cap.bus_info: "usb-3f980000.usb-1.5"
+cap.capabilities=0x84200001
+------------------------
+[1] [NTC] [VID] [Jul 08 17:49:10] v4l2_get_capability: - VIDEO_CAPTURE
+[1] [NTC] [VID] [Jul 08 17:49:10] v4l2_get_capability: - STREAMING
+[1] [NTC] [VID] [Jul 08 17:49:10] v4l2_select_input: name = "Camera 1", type 0x00000002, status 00000000
+[1] [NTC] [VID] [Jul 08 17:49:10] v4l2_select_input: - CAMERA
+[1] [WRN] [VID] [Jul 08 17:49:10] v4l2_select_input: Device doesn't support VIDIOC_G_STD
+[1] [NTC] [VID] [Jul 08 17:49:15] v4l2_set_pix_format: Config palette index 17 (YU12) doesn't work.
+[1] [NTC] [VID] [Jul 08 17:49:15] v4l2_set_pix_format: Supported palettes:
+[1] [NTC] [VID] [Jul 08 17:49:15] v4l2_set_pix_format: (0) MJPG (Motion-JPEG)
+[1] [NTC] [VID] [Jul 08 17:49:15] v4l2_set_pix_format: 0 - Motion-JPEG (compressed : 1) (0x47504a4d)
+[1] [NTC] [VID] [Jul 08 17:49:15] v4l2_set_pix_format: (1) YUYV (YUYV 4:2:2)
+[1] [NTC] [VID] [Jul 08 17:49:15] v4l2_set_pix_format: 1 - YUYV 4:2:2 (compressed : 0) (0x56595559)
+[1] [NTC] [VID] [Jul 08 17:49:15] v4l2_set_pix_format Selected palette YUYV
+[1] [ERR] [VID] [Jul 08 17:49:21] VIDIOC_TRY_FMT failed for format v4l2_set_pix_format: 
+[1] [ERR] [VID] [Jul 08 17:49:21] v4l2_set_pix_format: Unable to find a compatible palette format.
+[1] [NTC] [VID] [Jul 08 17:49:21] vid_v4lx_start: Using V4L1
+[1] [ERR] [ALL] [Jul 08 17:49:21] motion_loop: Video device fatal error - Closing video device
+[1] [NTC] [VID] [Jul 08 17:49:21] vid_close: Closing video device /dev/video0
+[1] [WRN] [ALL] [Jul 08 17:49:30] motion_loop: Retrying until successful connection with camera
+[1] [NTC] [VID] [Jul 08 17:49:30] vid_v4lx_start: Using videodevice /dev/video0 and input -1
+[1] [NTC] [VID] [Jul 08 17:49:30] v4l2_get_capability: 
+------------------------
+cap.driver: "uvcvideo"
+cap.card: "UVC Camera (046d:08c9)"
+cap.bus_info: "usb-3f980000.usb-1.5"
+cap.capabilities=0x84200001
+------------------------
+[1] [NTC] [VID] [Jul 08 17:49:30] v4l2_get_capability: - VIDEO_CAPTURE
+[1] [NTC] [VID] [Jul 08 17:49:30] v4l2_get_capability: - STREAMING
+[1] [NTC] [VID] [Jul 08 17:49:30] v4l2_select_input: name = "Camera 1", type 0x00000002, status 00000000
+[1] [NTC] [VID] [Jul 08 17:49:30] v4l2_select_input: - CAMERA
+[1] [WRN] [VID] [Jul 08 17:49:30] v4l2_select_input: Device doesn't support VIDIOC_G_STD
+[0] [NTC] [STR] [Jul 08 17:49:34] httpd_run: motion-httpd - Finishing
+[0] [NTC] [STR] [Jul 08 17:49:34] httpd_run: motion-httpd Closing
+[0] [NTC] [STR] [Jul 08 17:49:34] motion_web_control: motion-httpd thread exit
+[1] [NTC] [VID] [Jul 08 17:49:35] v4l2_set_pix_format: Config palette index 17 (YU12) doesn't work.
+[1] [NTC] [VID] [Jul 08 17:49:35] v4l2_set_pix_format: Supported palettes:
+[1] [NTC] [VID] [Jul 08 17:49:35] v4l2_set_pix_format: (0) MJPG (Motion-JPEG)
+[1] [NTC] [VID] [Jul 08 17:49:35] v4l2_set_pix_format: 0 - Motion-JPEG (compressed : 1) (0x47504a4d)
+[1] [NTC] [VID] [Jul 08 17:49:35] v4l2_set_pix_format: (1) YUYV (YUYV 4:2:2)
+[1] [NTC] [VID] [Jul 08 17:49:35] v4l2_set_pix_format: 1 - YUYV 4:2:2 (compressed : 0) (0x56595559)
+[1] [NTC] [VID] [Jul 08 17:49:35] v4l2_set_pix_format Selected palette YUYV
+[1] [ERR] [VID] [Jul 08 17:49:40] VIDIOC_TRY_FMT failed for format v4l2_set_pix_format: 
+[1] [ERR] [VID] [Jul 08 17:49:40] v4l2_set_pix_format: Unable to find a compatible palette format.
+[1] [NTC] [VID] [Jul 08 17:49:40] vid_v4lx_start: Using V4L1
+[1] [ERR] [ALL] [Jul 08 17:49:40] motion_loop: Video device fatal error - Closing video device
+[1] [NTC] [VID] [Jul 08 17:49:40] vid_close: Closing video device /dev/video0
+[1] [NTC] [ALL] [Jul 08 17:49:40] motion_loop: End of event 1
+[1] [NTC] [ALL] [Jul 08 17:49:40] motion_loop: Thread exiting
+[1] [NTC] [STR] [Jul 08 17:49:40] stream_stop: Closing motion-stream listen socket & active motion-stream sockets
+[1] [NTC] [STR] [Jul 08 17:49:40] stream_stop: Closed motion-stream listen socket & active motion-stream sockets
+[0] [NTC] [ALL] [Jul 08 17:49:40] main: Threads finished
+[0] [NTC] [ALL] [Jul 08 17:49:41] main: Motion terminating
+[0] [NTC] [ALL] [Jul 08 17:49:41] motion_remove_pid: Removed process id file (pid file).
+[0] [NTC] [ALL] [Jul 08 17:49:41] motion_remove_pid: Closing logfile (/home/pi/log/motion.log).
+[0] [NTC] [ALL] [Jul 08 17:49:52] motion_startup: Using log type (ALL) log level (NTC)
+[0] [NTC] [ALL] [Jul 08 17:49:52] become_daemon: Motion going to daemon mode
+[0] [NTC] [ALL] [Jul 08 17:49:52] become_daemon: Created process id file /var/run/motion/motion.pid. Process ID is 1078
+[0] [NTC] [ALL] [Jul 08 17:49:52] motion_startup: Motion running as daemon process
+[0] [NTC] [ENC] [Jul 08 17:49:52] ffmpeg_init: ffmpeg LIBAVCODEC_BUILD 3670016 LIBAVFORMAT_BUILD 3670272
+[0] [NTC] [ALL] [Jul 08 17:49:53] main: Thread 1 is from /etc/motion/motion.conf
+[0] [NTC] [ALL] [Jul 08 17:49:53] main: Thread 1 is device: /dev/video0 input -1
+[0] [NTC] [ALL] [Jul 08 17:49:53] main: Stream port 8081
+[0] [NTC] [ALL] [Jul 08 17:49:53] main: Waiting for threads to finish, pid: 1078
+[1] [NTC] [ALL] [Jul 08 17:49:53] motion_init: Thread 1 started , motion detection Enabled
+[1] [NTC] [VID] [Jul 08 17:49:53] vid_v4lx_start: Using videodevice /dev/video0 and input -1
+[0] [NTC] [STR] [Jul 08 17:49:53] httpd_run: motion-httpd testing : IPV4 addr: 127.0.0.1 port: 8080
+[0] [NTC] [STR] [Jul 08 17:49:53] httpd_run: motion-httpd Bound : IPV4 addr: 127.0.0.1 port: 8080
+[0] [NTC] [STR] [Jul 08 17:49:53] httpd_run: motion-httpd/3.2.12+git20140228 running, accepting connections
+[0] [NTC] [STR] [Jul 08 17:49:53] httpd_run: motion-httpd: waiting for data on 127.0.0.1 port TCP 8080
+[1] [NTC] [VID] [Jul 08 17:49:54] v4l2_get_capability: 
+------------------------
+cap.driver: "uvcvideo"
+cap.card: "UVC Camera (046d:08c9)"
+cap.bus_info: "usb-3f980000.usb-1.5"
+cap.capabilities=0x84200001
+------------------------
+[1] [NTC] [VID] [Jul 08 17:49:54] v4l2_get_capability: - VIDEO_CAPTURE
+[1] [NTC] [VID] [Jul 08 17:49:54] v4l2_get_capability: - STREAMING
+[1] [NTC] [VID] [Jul 08 17:49:54] v4l2_select_input: name = "Camera 1", type 0x00000002, status 00000000
+[1] [NTC] [VID] [Jul 08 17:49:54] v4l2_select_input: - CAMERA
+[1] [WRN] [VID] [Jul 08 17:49:54] v4l2_select_input: Device doesn't support VIDIOC_G_STD
+[1] [NTC] [VID] [Jul 08 17:49:54] v4l2_set_pix_format: Config palette index 17 (YU12) doesn't work.
+[1] [NTC] [VID] [Jul 08 17:49:54] v4l2_set_pix_format: Supported palettes:
+[1] [NTC] [VID] [Jul 08 17:49:54] v4l2_set_pix_format: (0) MJPG (Motion-JPEG)
+[1] [NTC] [VID] [Jul 08 17:49:54] v4l2_set_pix_format: 0 - Motion-JPEG (compressed : 1) (0x47504a4d)
+[1] [NTC] [VID] [Jul 08 17:49:54] v4l2_set_pix_format: (1) YUYV (YUYV 4:2:2)
+[1] [NTC] [VID] [Jul 08 17:49:54] v4l2_set_pix_format: 1 - YUYV 4:2:2 (compressed : 0) (0x56595559)
+[1] [NTC] [VID] [Jul 08 17:49:54] v4l2_set_pix_format Selected palette YUYV
+[1] [NTC] [VID] [Jul 08 17:49:54] v4l2_do_set_pix_format: Testing palette YUYV (640x480)
+[1] [NTC] [VID] [Jul 08 17:49:54] v4l2_do_set_pix_format: Using palette YUYV (640x480) bytesperlines 1280 sizeimage 614400 colorspace 00000008
+[1] [NTC] [VID] [Jul 08 17:49:54] v4l2_scan_controls: found control 0x00980900, "Brightness", range 0,255 
+[1] [NTC] [VID] [Jul 08 17:49:54] v4l2_scan_controls: 	"Brightness", default -8193, current 127
+[1] [NTC] [VID] [Jul 08 17:49:54] v4l2_scan_controls: found control 0x00980901, "Contrast", range 0,255 
+[1] [NTC] [VID] [Jul 08 17:49:54] v4l2_scan_controls: 	"Contrast", default 57343, current 32
+[1] [NTC] [VID] [Jul 08 17:49:54] v4l2_scan_controls: found control 0x00980902, "Saturation", range 0,255 
+[1] [NTC] [VID] [Jul 08 17:49:54] v4l2_scan_controls: 	"Saturation", default 57343, current 32
+[1] [NTC] [VID] [Jul 08 17:49:54] v4l2_scan_controls: found control 0x00980913, "Gain", range 0,255 
+[1] [NTC] [VID] [Jul 08 17:49:54] v4l2_scan_controls: 	"Gain", default 57343, current 0
+[1] [NTC] [VID] [Jul 08 17:49:54] vid_v4lx_start: Using V4L2
+[1] [NTC] [ALL] [Jul 08 17:49:54] image_ring_resize: Resizing pre_capture buffer to 1 items
+[1] [NTC] [STR] [Jul 08 17:49:54] http_bindsock: motion-stream testing : IPV4 addr: 0.0.0.0 port: 8081
+[1] [NTC] [STR] [Jul 08 17:49:54] http_bindsock: motion-stream Bound : IPV4 addr: 0.0.0.0 port: 8081
+[1] [NTC] [ALL] [Jul 08 17:49:54] motion_init: Started motion-stream server in port 8081 auth Disabled
+[1] [NTC] [EVT] [Jul 08 17:53:41] event_new_video FPS 15
+[1] [NTC] [ALL] [Jul 08 17:53:41] motion_detected: Motion detected - starting event 1
+[1] [NTC] [ALL] [Jul 08 17:58:26] motion_loop: End of event 1
+[1] [NTC] [EVT] [Jul 08 17:59:02] event_new_video FPS 15
+[1] [NTC] [ALL] [Jul 08 17:59:02] motion_detected: Motion detected - starting event 2
+[1] [NTC] [ALL] [Jul 08 18:01:41] motion_loop: End of event 2
+[1] [NTC] [EVT] [Jul 08 18:02:41] event_new_video FPS 15
+[1] [NTC] [ALL] [Jul 08 18:02:41] motion_detected: Motion detected - starting event 3
+[1] [NTC] [ALL] [Jul 08 18:04:24] motion_loop: End of event 3
+[1] [NTC] [EVT] [Jul 08 18:04:27] event_new_video FPS 15
+[1] [NTC] [ALL] [Jul 08 18:04:27] motion_detected: Motion detected - starting event 4
+[1] [NTC] [ALL] [Jul 08 18:05:41] motion_loop: End of event 4
+[1] [NTC] [EVT] [Jul 08 18:15:07] event_new_video FPS 15
+[1] [NTC] [ALL] [Jul 08 18:15:07] motion_detected: Motion detected - starting event 5
+[1] [NTC] [ALL] [Jul 08 18:16:11] motion_loop: End of event 5
+[1] [NTC] [EVT] [Jul 08 19:59:46] event_new_video FPS 15
+[1] [NTC] [ALL] [Jul 08 19:59:46] motion_detected: Motion detected - starting event 6
+[1] [NTC] [ALL] [Jul 08 20:03:35] motion_loop: End of event 6
+[1] [NTC] [EVT] [Jul 08 20:29:06] event_new_video FPS 15
+[1] [NTC] [ALL] [Jul 08 20:29:06] motion_detected: Motion detected - starting event 7
+[1] [NTC] [ALL] [Jul 08 20:30:32] motion_loop: End of event 7
+[1] [NTC] [EVT] [Jul 08 21:40:03] event_new_video FPS 15
+[1] [NTC] [ALL] [Jul 08 21:40:03] motion_detected: Motion detected - starting event 8
+[1] [NTC] [ALL] [Jul 08 21:50:45] motion_loop: End of event 8
+[1] [NTC] [EVT] [Jul 08 22:16:11] event_new_video FPS 14
+[1] [NTC] [ALL] [Jul 08 22:16:11] motion_detected: Motion detected - starting event 9
+[1] [NTC] [ALL] [Jul 08 22:17:35] motion_loop: End of event 9
+[1] [NTC] [EVT] [Jul 08 22:20:37] event_new_video FPS 15
+[1] [NTC] [ALL] [Jul 08 22:20:37] motion_detected: Motion detected - starting event 10
+[1] [NTC] [ALL] [Jul 08 22:21:39] motion_loop: End of event 10
+[1] [NTC] [EVT] [Jul 08 23:26:18] event_new_video FPS 14
+[1] [NTC] [ALL] [Jul 08 23:26:18] motion_detected: Motion detected - starting event 11
+[1] [NTC] [ALL] [Jul 08 23:28:37] motion_loop: End of event 11
+[1] [NTC] [EVT] [Jul 08 23:31:23] event_new_video FPS 15
+[1] [NTC] [ALL] [Jul 08 23:31:23] motion_detected: Motion detected - starting event 12
+[1] [NTC] [ALL] [Jul 08 23:32:39] motion_loop: End of event 12
+[1] [NTC] [EVT] [Jul 08 23:40:35] event_new_video FPS 15
+[1] [NTC] [ALL] [Jul 08 23:40:35] motion_detected: Motion detected - starting event 13
+[1] [NTC] [ALL] [Jul 08 23:41:39] motion_loop: End of event 13
+[1] [NTC] [EVT] [Jul 09 00:14:35] event_new_video FPS 15
+[1] [NTC] [ALL] [Jul 09 00:14:35] motion_detected: Motion detected - starting event 14
+[1] [NTC] [ALL] [Jul 09 00:15:55] motion_loop: End of event 14

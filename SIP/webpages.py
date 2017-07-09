@@ -186,11 +186,9 @@ class change_options(ProtectedPage):
 
         for f in ['sdt', 'mas', 'mton', 'mtoff', 'wl', 'lr', 'tz']:
             if 'o'+f in qdict:
-                if f == 'mton'  and int(qdict['o'+f])<0: #handle values less than zero (temp fix)
-                    raise web.seeother('/vo?errorCode=mton_minus')                 
                 gv.sd[f] = int(qdict['o'+f])
 
-        for f in ['ipas', 'tf', 'urs', 'seq', 'rst', 'lg', 'idd', 'pigpio', 'alr']:
+        for f in ['ipas', 'tf', 'urs', 'seq', 'rst', 'lg']:
             if 'o'+f in qdict and (qdict['o'+f] == 'on' or qdict['o'+f] == '1'):
                 gv.sd[f] = 1
             else:
@@ -484,23 +482,18 @@ class run_now(ProtectedPage):
 #           Sraise web.seeother('/vp')
         stop_stations()
         extra_adjustment = plugin_adjustment()
-        sid = -1
-        for b in range(gv.sd['nbrd']):  # check each station
+        for b in range(len(p[7:7 + gv.sd['nbrd']])):  # check each station
             for s in range(8):
-                sid += 1  # station index
+                sid = b * 8 + s  # station index
                 if sid + 1 == gv.sd['mas']:  # skip if this is master valve
                     continue
                 if p[7 + b] & 1 << s:  # if this station is scheduled in this program
-                    if gv.sd['idd']:
-                        duration = p[-1][sid]
-                    else:
-                        duration = p[6]
+                    gv.rs[sid][2] = p[6]
                     if not gv.sd['iw'][b] & 1 << s:
-                        duration = duration * gv.sd['wl'] / 100 * extra_adjustment
-                    gv.rs[sid][2] = duration
+                        gv.rs[sid][2] = gv.rs[sid][2] * gv.sd['wl'] / 100 * extra_adjustment
                     gv.rs[sid][3] = pid + 1  # store program number in schedule
                     gv.ps[sid][0] = pid + 1  # store program number for display
-                    gv.ps[sid][1] = duration  # duration
+                    gv.ps[sid][1] = gv.rs[sid][2]  # duration
         schedule_stations(p[7:7 + gv.sd['nbrd']])
         raise web.seeother('/')
 
@@ -528,11 +521,10 @@ class api_status(ProtectedPage):
                 if (gv.sd['show'][bid] >> s) & 1 == 1:
                     sid = bid * 8 + s
                     sn = sid + 1
-                    sname = gv.snames[sid]
                     sbit = (gv.sbits[bid] >> s) & 1
                     irbit = (gv.sd['ir'][bid] >> s) & 1
                     status = {'station': sid, 'status': 'disabled', 'reason': '', 'master': 0, 'programName': '',
-                              'remaining': 0, 'name': sname}
+                              'remaining': 0}
                     if gv.sd['en'] == 1:
                         if sbit:
                             status['status'] = 'on'
@@ -619,8 +611,3 @@ class water_log(ProtectedPage):
 
         web.header('Content-Type', 'text/csv')
         return data
-    
-class rain_sensor_state(ProtectedPage):
-    """Return rain sensor state."""
-    def GET(self):
-        return gv.sd['rs']

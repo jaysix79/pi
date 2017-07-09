@@ -112,7 +112,7 @@ def perform_update():
     command = "git stash"  # stash any local changes
     output = subprocess.check_output(command.split())
 
-    command = "git fetch --prune"
+    command = "git fetch"
     output = subprocess.check_output(command.split())
 
     command = "git merge -X theirs origin/master"
