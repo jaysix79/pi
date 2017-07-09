@@ -346,3 +346,14 @@ sudo systemctl status motion
 sudo sh /home/pi/programs/backing_up_pi.sh
 sudo PIreboot
 sudo HArestart
+ls
+git clone https://github.com/Dan-in-CA/SIP
+git clone https://github.com/Dan-in-CA/SIP2
+git clone https://github.com/Dan-in-CA/SIP
+git clone https://github.com/Dan-in-CA/SIP2
+sudo git pull
+service sip restart
+sudo service sip restart
+sudo service sip status
+sudo service sip restart
+sudo service sip status

@@ -195,7 +195,7 @@ class SIPApp(web.application):
     def run(self, port=gv.sd['htp'], *middleware):  # get port number from options settings
         func = self.wsgifunc(*middleware)
         func = ReverseProxied(func)
-        return web.httpserver.runsimple(func, ('0.0.0.0', port))
+        return web.httpserver.runsimple(func, ('0.0.0.0', 7979))
 
 
 app = SIPApp(urls, globals())
