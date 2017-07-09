@@ -1,0 +1,1165 @@
+
+{
+  "response": {
+  "version":"0.1",
+  "termsofService":"http://www.wunderground.com/weather/api/d/terms.html",
+  "features": {
+  "history": 1
+  }
+	}
+		,
+	"history": {
+		"date": {
+		"pretty": "July 5, 2017",
+		"year": "2017",
+		"mon": "07",
+		"mday": "05",
+		"hour": "00",
+		"min": "00",
+		"tzname": "Africa/Abidjan"
+		},
+		"utcdate": {
+		"pretty": "July 5, 2017",
+		"year": "2017",
+		"mon": "07",
+		"mday": "05",
+		"hour": "00",
+		"min": "00",
+		"tzname": "UTC"
+		},
+		"observations": [
+		{
+		"date": {
+		"pretty": "12:00 AM GMT on July 05, 2017",
+		"year": "2017",
+		"mon": "07",
+		"mday": "05",
+		"hour": "00",
+		"min": "00",
+		"tzname": "Africa/Abidjan"
+		},
+		"utcdate": {
+		"pretty": "12:00 AM GMT on July 05, 2017",
+		"year": "2017",
+		"mon": "07",
+		"mday": "05",
+		"hour": "00",
+		"min": "00",
+		"tzname": "UTC"
+		},
+		"tempm":"26", "tempi":"79","dewptm":"24", "dewpti":"75","hum":"85","wspdm":"11.1", "wspdi":"6.9","wgustm":"", "wgusti":"","wdird":"220","wdire":"SW","vism":"8", "visi":"5","pressurem":"1016", "pressurei":"29.99","windchillm":"-999", "windchilli":"-999","heatindexm":"-9999", "heatindexi":"-9999","precipm":"", "precipi":"","conds":"Partly Cloudy","icon":"partlycloudy","fog":"0","rain":"0","snow":"0","hail":"0","thunder":"0","tornado":"0","metar":"AAXX 05004 65578 32558 72206 10263 20240 30147 40155 84530 333 58001 84620 87360" },
+		{
+		"date": {
+		"pretty": "12:00 AM GMT on July 05, 2017",
+		"year": "2017",
+		"mon": "07",
+		"mday": "05",
+		"hour": "00",
+		"min": "00",
+		"tzname": "Africa/Abidjan"
+		},
+		"utcdate": {
+		"pretty": "12:00 AM GMT on July 05, 2017",
+		"year": "2017",
+		"mon": "07",
+		"mday": "05",
+		"hour": "00",
+		"min": "00",
+		"tzname": "UTC"
+		},
+		"tempm":"26.0", "tempi":"78.8","dewptm":"24.0", "dewpti":"75.2","hum":"89","wspdm":"9.3", "wspdi":"5.8","wgustm":"-9999.0", "wgusti":"-9999.0","wdird":"220","wdire":"SW","vism":"8.0", "visi":"5.0","pressurem":"1015", "pressurei":"29.98","windchillm":"-999", "windchilli":"-999","heatindexm":"-9999", "heatindexi":"-9999","precipm":"-9999.00", "precipi":"-9999.00","conds":"Mostly Cloudy","icon":"mostlycloudy","fog":"0","rain":"0","snow":"0","hail":"0","thunder":"0","tornado":"0","metar":"METAR DIAP 050000Z 22005KT 8000 SCT012 BKN040 26/24 Q1015 NNOSIG" },
+		{
+		"date": {
+		"pretty": "12:30 AM GMT on July 05, 2017",
+		"year": "2017",
+		"mon": "07",
+		"mday": "05",
+		"hour": "00",
+		"min": "30",
+		"tzname": "Africa/Abidjan"
+		},
+		"utcdate": {
+		"pretty": "12:30 AM GMT on July 05, 2017",
+		"year": "2017",
+		"mon": "07",
+		"mday": "05",
+		"hour": "00",
+		"min": "30",
+		"tzname": "UTC"
+		},
+		"tempm":"26.0", "tempi":"78.8","dewptm":"24.0", "dewpti":"75.2","hum":"89","wspdm":"13.0", "wspdi":"8.1","wgustm":"-9999.0", "wgusti":"-9999.0","wdird":"240","wdire":"WSW","vism":"8.0", "visi":"5.0","pressurem":"1015", "pressurei":"29.98","windchillm":"-999", "windchilli":"-999","heatindexm":"-9999", "heatindexi":"-9999","precipm":"-9999.00", "precipi":"-9999.00","conds":"Mostly Cloudy","icon":"mostlycloudy","fog":"0","rain":"0","snow":"0","hail":"0","thunder":"0","tornado":"0","metar":"METAR DIAP 050030Z 24007KT 8000 SCT012 BKN040 26/24 Q1015 NOSIG" },
+		{
+		"date": {
+		"pretty": "1:00 AM GMT on July 05, 2017",
+		"year": "2017",
+		"mon": "07",
+		"mday": "05",
+		"hour": "01",
+		"min": "00",
+		"tzname": "Africa/Abidjan"
+		},
+		"utcdate": {
+		"pretty": "1:00 AM GMT on July 05, 2017",
+		"year": "2017",
+		"mon": "07",
+		"mday": "05",
+		"hour": "01",
+		"min": "00",
+		"tzname": "UTC"
+		},
+		"tempm":"26.0", "tempi":"78.8","dewptm":"24.0", "dewpti":"75.2","hum":"89","wspdm":"13.0", "wspdi":"8.1","wgustm":"-9999.0", "wgusti":"-9999.0","wdird":"240","wdire":"WSW","vism":"8.0", "visi":"5.0","pressurem":"1014", "pressurei":"29.95","windchillm":"-999", "windchilli":"-999","heatindexm":"-9999", "heatindexi":"-9999","precipm":"-9999.00", "precipi":"-9999.00","conds":"Mostly Cloudy","icon":"mostlycloudy","fog":"0","rain":"0","snow":"0","hail":"0","thunder":"0","tornado":"0","metar":"METAR DIAP 050100Z 24007KT 210V280 8000 SCT012 BKN040 26/24 Q1014 NOSIG" },
+		{
+		"date": {
+		"pretty": "1:30 AM GMT on July 05, 2017",
+		"year": "2017",
+		"mon": "07",
+		"mday": "05",
+		"hour": "01",
+		"min": "30",
+		"tzname": "Africa/Abidjan"
+		},
+		"utcdate": {
+		"pretty": "1:30 AM GMT on July 05, 2017",
+		"year": "2017",
+		"mon": "07",
+		"mday": "05",
+		"hour": "01",
+		"min": "30",
+		"tzname": "UTC"
+		},
+		"tempm":"26.0", "tempi":"78.8","dewptm":"24.0", "dewpti":"75.2","hum":"89","wspdm":"13.0", "wspdi":"8.1","wgustm":"-9999.0", "wgusti":"-9999.0","wdird":"240","wdire":"WSW","vism":"8.0", "visi":"5.0","pressurem":"1014", "pressurei":"29.95","windchillm":"-999", "windchilli":"-999","heatindexm":"-9999", "heatindexi":"-9999","precipm":"-9999.00", "precipi":"-9999.00","conds":"Mostly Cloudy","icon":"mostlycloudy","fog":"0","rain":"0","snow":"0","hail":"0","thunder":"0","tornado":"0","metar":"METAR DIAP 050130Z 24007KT 210V280 8000 SCT012 BKN040 26/24 Q1014 NOSIG" },
+		{
+		"date": {
+		"pretty": "2:00 AM GMT on July 05, 2017",
+		"year": "2017",
+		"mon": "07",
+		"mday": "05",
+		"hour": "02",
+		"min": "00",
+		"tzname": "Africa/Abidjan"
+		},
+		"utcdate": {
+		"pretty": "2:00 AM GMT on July 05, 2017",
+		"year": "2017",
+		"mon": "07",
+		"mday": "05",
+		"hour": "02",
+		"min": "00",
+		"tzname": "UTC"
+		},
+		"tempm":"26.0", "tempi":"78.8","dewptm":"24.0", "dewpti":"75.2","hum":"89","wspdm":"11.1", "wspdi":"6.9","wgustm":"-9999.0", "wgusti":"-9999.0","wdird":"240","wdire":"WSW","vism":"8.0", "visi":"5.0","pressurem":"1014", "pressurei":"29.95","windchillm":"-999", "windchilli":"-999","heatindexm":"-9999", "heatindexi":"-9999","precipm":"-9999.00", "precipi":"-9999.00","conds":"Mostly Cloudy","icon":"mostlycloudy","fog":"0","rain":"0","snow":"0","hail":"0","thunder":"0","tornado":"0","metar":"METAR DIAP 050200Z 24006KT 8000 SCT012 BKN040 26/24 Q1014 NOSIG" },
+		{
+		"date": {
+		"pretty": "2:30 AM GMT on July 05, 2017",
+		"year": "2017",
+		"mon": "07",
+		"mday": "05",
+		"hour": "02",
+		"min": "30",
+		"tzname": "Africa/Abidjan"
+		},
+		"utcdate": {
+		"pretty": "2:30 AM GMT on July 05, 2017",
+		"year": "2017",
+		"mon": "07",
+		"mday": "05",
+		"hour": "02",
+		"min": "30",
+		"tzname": "UTC"
+		},
+		"tempm":"26.0", "tempi":"78.8","dewptm":"24.0", "dewpti":"75.2","hum":"89","wspdm":"13.0", "wspdi":"8.1","wgustm":"-9999.0", "wgusti":"-9999.0","wdird":"250","wdire":"WSW","vism":"8.0", "visi":"5.0","pressurem":"1014", "pressurei":"29.95","windchillm":"-999", "windchilli":"-999","heatindexm":"-9999", "heatindexi":"-9999","precipm":"-9999.00", "precipi":"-9999.00","conds":"Mostly Cloudy","icon":"mostlycloudy","fog":"0","rain":"0","snow":"0","hail":"0","thunder":"0","tornado":"0","metar":"METAR DIAP 050230Z 25007KT 8000 FEW012 BKN040 26/24 Q1014 TEMPO 4000 RA" },
+		{
+		"date": {
+		"pretty": "3:00 AM GMT on July 05, 2017",
+		"year": "2017",
+		"mon": "07",
+		"mday": "05",
+		"hour": "03",
+		"min": "00",
+		"tzname": "Africa/Abidjan"
+		},
+		"utcdate": {
+		"pretty": "3:00 AM GMT on July 05, 2017",
+		"year": "2017",
+		"mon": "07",
+		"mday": "05",
+		"hour": "03",
+		"min": "00",
+		"tzname": "UTC"
+		},
+		"tempm":"24", "tempi":"75","dewptm":"24", "dewpti":"75","hum":"100","wspdm":"11.1", "wspdi":"6.9","wgustm":"", "wgusti":"","wdird":"240","wdire":"WSW","vism":"8", "visi":"5","pressurem":"1014", "pressurei":"29.94","windchillm":"-999", "windchilli":"-999","heatindexm":"-9999", "heatindexi":"-9999","precipm":"", "precipi":"","conds":"Overcast","icon":"cloudy","fog":"0","rain":"0","snow":"0","hail":"0","thunder":"0","tornado":"0","metar":"AAXX 05034 65578 42558 82406 10240 20240 30130 40138 885// 333 59001 88620" },
+		{
+		"date": {
+		"pretty": "3:00 AM GMT on July 05, 2017",
+		"year": "2017",
+		"mon": "07",
+		"mday": "05",
+		"hour": "03",
+		"min": "00",
+		"tzname": "Africa/Abidjan"
+		},
+		"utcdate": {
+		"pretty": "3:00 AM GMT on July 05, 2017",
+		"year": "2017",
+		"mon": "07",
+		"mday": "05",
+		"hour": "03",
+		"min": "00",
+		"tzname": "UTC"
+		},
+		"tempm":"26.0", "tempi":"78.8","dewptm":"24.0", "dewpti":"75.2","hum":"89","wspdm":"14.8", "wspdi":"9.2","wgustm":"-9999.0", "wgusti":"-9999.0","wdird":"240","wdire":"WSW","vism":"8.0", "visi":"5.0","pressurem":"1013", "pressurei":"29.92","windchillm":"-999", "windchilli":"-999","heatindexm":"-9999", "heatindexi":"-9999","precipm":"-9999.00", "precipi":"-9999.00","conds":"Mostly Cloudy","icon":"mostlycloudy","fog":"0","rain":"0","snow":"0","hail":"0","thunder":"0","tornado":"0","metar":"METAR DIAP 050300Z 24008KT 8000 FEW012 BKN040 26/24 Q1013 NOSIG" },
+		{
+		"date": {
+		"pretty": "3:30 AM GMT on July 05, 2017",
+		"year": "2017",
+		"mon": "07",
+		"mday": "05",
+		"hour": "03",
+		"min": "30",
+		"tzname": "Africa/Abidjan"
+		},
+		"utcdate": {
+		"pretty": "3:30 AM GMT on July 05, 2017",
+		"year": "2017",
+		"mon": "07",
+		"mday": "05",
+		"hour": "03",
+		"min": "30",
+		"tzname": "UTC"
+		},
+		"tempm":"26.0", "tempi":"78.8","dewptm":"24.0", "dewpti":"75.2","hum":"89","wspdm":"13.0", "wspdi":"8.1","wgustm":"-9999.0", "wgusti":"-9999.0","wdird":"240","wdire":"WSW","vism":"8.0", "visi":"5.0","pressurem":"1013", "pressurei":"29.92","windchillm":"-999", "windchilli":"-999","heatindexm":"-9999", "heatindexi":"-9999","precipm":"-9999.00", "precipi":"-9999.00","conds":"Mostly Cloudy","icon":"mostlycloudy","fog":"0","rain":"0","snow":"0","hail":"0","thunder":"0","tornado":"0","metar":"METAR DIAP 050330Z 24007KT 8000 FEW012 BKN040 26/24 Q1013 NOSIG" },
+		{
+		"date": {
+		"pretty": "4:00 AM GMT on July 05, 2017",
+		"year": "2017",
+		"mon": "07",
+		"mday": "05",
+		"hour": "04",
+		"min": "00",
+		"tzname": "Africa/Abidjan"
+		},
+		"utcdate": {
+		"pretty": "4:00 AM GMT on July 05, 2017",
+		"year": "2017",
+		"mon": "07",
+		"mday": "05",
+		"hour": "04",
+		"min": "00",
+		"tzname": "UTC"
+		},
+		"tempm":"26.0", "tempi":"78.8","dewptm":"24.0", "dewpti":"75.2","hum":"89","wspdm":"13.0", "wspdi":"8.1","wgustm":"-9999.0", "wgusti":"-9999.0","wdird":"230","wdire":"SW","vism":"8.0", "visi":"5.0","pressurem":"1013", "pressurei":"29.92","windchillm":"-999", "windchilli":"-999","heatindexm":"-9999", "heatindexi":"-9999","precipm":"-9999.00", "precipi":"-9999.00","conds":"Mostly Cloudy","icon":"mostlycloudy","fog":"0","rain":"0","snow":"0","hail":"0","thunder":"0","tornado":"0","metar":"METAR DIAP 050400Z 23007KT 8000 FEW012 BKN040 26/24 Q1013 NOSIG" },
+		{
+		"date": {
+		"pretty": "4:30 AM GMT on July 05, 2017",
+		"year": "2017",
+		"mon": "07",
+		"mday": "05",
+		"hour": "04",
+		"min": "30",
+		"tzname": "Africa/Abidjan"
+		},
+		"utcdate": {
+		"pretty": "4:30 AM GMT on July 05, 2017",
+		"year": "2017",
+		"mon": "07",
+		"mday": "05",
+		"hour": "04",
+		"min": "30",
+		"tzname": "UTC"
+		},
+		"tempm":"26.0", "tempi":"78.8","dewptm":"24.0", "dewpti":"75.2","hum":"89","wspdm":"13.0", "wspdi":"8.1","wgustm":"-9999.0", "wgusti":"-9999.0","wdird":"240","wdire":"WSW","vism":"8.0", "visi":"5.0","pressurem":"1013", "pressurei":"29.92","windchillm":"-999", "windchilli":"-999","heatindexm":"-9999", "heatindexi":"-9999","precipm":"-9999.00", "precipi":"-9999.00","conds":"Mostly Cloudy","icon":"mostlycloudy","fog":"0","rain":"0","snow":"0","hail":"0","thunder":"0","tornado":"0","metar":"METAR DIAP 050430Z 24007KT 8000 FEW012 BKN040 26/24 Q1013 NOSIG" },
+		{
+		"date": {
+		"pretty": "5:00 AM GMT on July 05, 2017",
+		"year": "2017",
+		"mon": "07",
+		"mday": "05",
+		"hour": "05",
+		"min": "00",
+		"tzname": "Africa/Abidjan"
+		},
+		"utcdate": {
+		"pretty": "5:00 AM GMT on July 05, 2017",
+		"year": "2017",
+		"mon": "07",
+		"mday": "05",
+		"hour": "05",
+		"min": "00",
+		"tzname": "UTC"
+		},
+		"tempm":"26.0", "tempi":"78.8","dewptm":"24.0", "dewpti":"75.2","hum":"89","wspdm":"11.1", "wspdi":"6.9","wgustm":"-9999.0", "wgusti":"-9999.0","wdird":"250","wdire":"WSW","vism":"8.0", "visi":"5.0","pressurem":"1013", "pressurei":"29.92","windchillm":"-999", "windchilli":"-999","heatindexm":"-9999", "heatindexi":"-9999","precipm":"-9999.00", "precipi":"-9999.00","conds":"Mostly Cloudy","icon":"mostlycloudy","fog":"0","rain":"0","snow":"0","hail":"0","thunder":"0","tornado":"0","metar":"METAR DIAP 050500Z 25006KT 8000 FEW012 BKN040 26/24 Q1013 NOSIG" },
+		{
+		"date": {
+		"pretty": "5:30 AM GMT on July 05, 2017",
+		"year": "2017",
+		"mon": "07",
+		"mday": "05",
+		"hour": "05",
+		"min": "30",
+		"tzname": "Africa/Abidjan"
+		},
+		"utcdate": {
+		"pretty": "5:30 AM GMT on July 05, 2017",
+		"year": "2017",
+		"mon": "07",
+		"mday": "05",
+		"hour": "05",
+		"min": "30",
+		"tzname": "UTC"
+		},
+		"tempm":"26.0", "tempi":"78.8","dewptm":"24.0", "dewpti":"75.2","hum":"89","wspdm":"13.0", "wspdi":"8.1","wgustm":"-9999.0", "wgusti":"-9999.0","wdird":"250","wdire":"WSW","vism":"8.0", "visi":"5.0","pressurem":"1014", "pressurei":"29.95","windchillm":"-999", "windchilli":"-999","heatindexm":"-9999", "heatindexi":"-9999","precipm":"-9999.00", "precipi":"-9999.00","conds":"Mostly Cloudy","icon":"mostlycloudy","fog":"0","rain":"0","snow":"0","hail":"0","thunder":"0","tornado":"0","metar":"METAR DIAP 050530Z 25007KT 8000 FEW012 BKN040 26/24 Q1014 NOSIG" },
+		{
+		"date": {
+		"pretty": "5:32 AM GMT on July 05, 2017",
+		"year": "2017",
+		"mon": "07",
+		"mday": "05",
+		"hour": "05",
+		"min": "32",
+		"tzname": "Africa/Abidjan"
+		},
+		"utcdate": {
+		"pretty": "5:32 AM GMT on July 05, 2017",
+		"year": "2017",
+		"mon": "07",
+		"mday": "05",
+		"hour": "05",
+		"min": "32",
+		"tzname": "UTC"
+		},
+		"tempm":"26.0", "tempi":"78.8","dewptm":"24.0", "dewpti":"75.2","hum":"89","wspdm":"11.1", "wspdi":"6.9","wgustm":"-9999.0", "wgusti":"-9999.0","wdird":"250","wdire":"WSW","vism":"8.0", "visi":"5.0","pressurem":"1014", "pressurei":"29.95","windchillm":"-999", "windchilli":"-999","heatindexm":"-9999", "heatindexi":"-9999","precipm":"-9999.00", "precipi":"-9999.00","conds":"Mostly Cloudy","icon":"mostlycloudy","fog":"0","rain":"0","snow":"0","hail":"0","thunder":"0","tornado":"0","metar":"SPECI DIAP 050532Z 25006KT 8000 FEW012 BKN040 26/24 Q1014 NOSIG" },
+		{
+		"date": {
+		"pretty": "6:00 AM GMT on July 05, 2017",
+		"year": "2017",
+		"mon": "07",
+		"mday": "05",
+		"hour": "06",
+		"min": "00",
+		"tzname": "Africa/Abidjan"
+		},
+		"utcdate": {
+		"pretty": "6:00 AM GMT on July 05, 2017",
+		"year": "2017",
+		"mon": "07",
+		"mday": "05",
+		"hour": "06",
+		"min": "00",
+		"tzname": "UTC"
+		},
+		"tempm":"26", "tempi":"78","dewptm":"24", "dewpti":"75","hum":"86","wspdm":"7.4", "wspdi":"4.6","wgustm":"", "wgusti":"","wdird":"220","wdire":"SW","vism":"8", "visi":"5","pressurem":"1014", "pressurei":"29.95","windchillm":"-999", "windchilli":"-999","heatindexm":"-9999", "heatindexi":"-9999","precipm":"", "precipi":"","conds":"Overcast","icon":"cloudy","fog":"0","rain":"0","snow":"0","hail":"0","thunder":"0","tornado":"0","metar":"AAXX 05064 65578 12358 82204 10256 20237 30134 40142 69954 885// 333 20255 59001 83707 88620" },
+		{
+		"date": {
+		"pretty": "6:00 AM GMT on July 05, 2017",
+		"year": "2017",
+		"mon": "07",
+		"mday": "05",
+		"hour": "06",
+		"min": "00",
+		"tzname": "Africa/Abidjan"
+		},
+		"utcdate": {
+		"pretty": "6:00 AM GMT on July 05, 2017",
+		"year": "2017",
+		"mon": "07",
+		"mday": "05",
+		"hour": "06",
+		"min": "00",
+		"tzname": "UTC"
+		},
+		"tempm":"26.0", "tempi":"78.8","dewptm":"24.0", "dewpti":"75.2","hum":"89","wspdm":"11.1", "wspdi":"6.9","wgustm":"-9999.0", "wgusti":"-9999.0","wdird":"250","wdire":"WSW","vism":"8.0", "visi":"5.0","pressurem":"1014", "pressurei":"29.95","windchillm":"-999", "windchilli":"-999","heatindexm":"-9999", "heatindexi":"-9999","precipm":"-9999.00", "precipi":"-9999.00","conds":"Mostly Cloudy","icon":"mostlycloudy","fog":"0","rain":"0","snow":"0","hail":"0","thunder":"0","tornado":"0","metar":"METAR DIAP 050600Z 25006KT 8000 FEW012 BKN040 26/24 Q1014 NOSIG" },
+		{
+		"date": {
+		"pretty": "6:30 AM GMT on July 05, 2017",
+		"year": "2017",
+		"mon": "07",
+		"mday": "05",
+		"hour": "06",
+		"min": "30",
+		"tzname": "Africa/Abidjan"
+		},
+		"utcdate": {
+		"pretty": "6:30 AM GMT on July 05, 2017",
+		"year": "2017",
+		"mon": "07",
+		"mday": "05",
+		"hour": "06",
+		"min": "30",
+		"tzname": "UTC"
+		},
+		"tempm":"26.0", "tempi":"78.8","dewptm":"24.0", "dewpti":"75.2","hum":"89","wspdm":"11.1", "wspdi":"6.9","wgustm":"-9999.0", "wgusti":"-9999.0","wdird":"240","wdire":"WSW","vism":"7.0", "visi":"4.3","pressurem":"1014", "pressurei":"29.95","windchillm":"-999", "windchilli":"-999","heatindexm":"-9999", "heatindexi":"-9999","precipm":"-9999.00", "precipi":"-9999.00","conds":"Mostly Cloudy","icon":"mostlycloudy","fog":"0","rain":"0","snow":"0","hail":"0","thunder":"0","tornado":"0","metar":"METAR DIAP 050630Z 24006KT 7000 FEW012 BKN040 26/24 Q1014 NOSIG" },
+		{
+		"date": {
+		"pretty": "7:00 AM GMT on July 05, 2017",
+		"year": "2017",
+		"mon": "07",
+		"mday": "05",
+		"hour": "07",
+		"min": "00",
+		"tzname": "Africa/Abidjan"
+		},
+		"utcdate": {
+		"pretty": "7:00 AM GMT on July 05, 2017",
+		"year": "2017",
+		"mon": "07",
+		"mday": "05",
+		"hour": "07",
+		"min": "00",
+		"tzname": "UTC"
+		},
+		"tempm":"26.0", "tempi":"78.8","dewptm":"24.0", "dewpti":"75.2","hum":"89","wspdm":"13.0", "wspdi":"8.1","wgustm":"-9999.0", "wgusti":"-9999.0","wdird":"240","wdire":"WSW","vism":"7.0", "visi":"4.3","pressurem":"1014", "pressurei":"29.95","windchillm":"-999", "windchilli":"-999","heatindexm":"-9999", "heatindexi":"-9999","precipm":"-9999.00", "precipi":"-9999.00","conds":"Mostly Cloudy","icon":"mostlycloudy","fog":"0","rain":"0","snow":"0","hail":"0","thunder":"0","tornado":"0","metar":"METAR DIAP 050700Z 24007KT 7000 FEW012 BKN040 26/24 Q1014 NOSIG" },
+		{
+		"date": {
+		"pretty": "7:30 AM GMT on July 05, 2017",
+		"year": "2017",
+		"mon": "07",
+		"mday": "05",
+		"hour": "07",
+		"min": "30",
+		"tzname": "Africa/Abidjan"
+		},
+		"utcdate": {
+		"pretty": "7:30 AM GMT on July 05, 2017",
+		"year": "2017",
+		"mon": "07",
+		"mday": "05",
+		"hour": "07",
+		"min": "30",
+		"tzname": "UTC"
+		},
+		"tempm":"26.0", "tempi":"78.8","dewptm":"24.0", "dewpti":"75.2","hum":"89","wspdm":"13.0", "wspdi":"8.1","wgustm":"-9999.0", "wgusti":"-9999.0","wdird":"240","wdire":"WSW","vism":"7.0", "visi":"4.3","pressurem":"1015", "pressurei":"29.98","windchillm":"-999", "windchilli":"-999","heatindexm":"-9999", "heatindexi":"-9999","precipm":"-9999.00", "precipi":"-9999.00","conds":"Mostly Cloudy","icon":"mostlycloudy","fog":"0","rain":"0","snow":"0","hail":"0","thunder":"0","tornado":"0","metar":"METAR DIAP 050730Z 24007KT 210V270 7000 FEW012 BKN040 26/24 Q1015 NOSIG" },
+		{
+		"date": {
+		"pretty": "8:00 AM GMT on July 05, 2017",
+		"year": "2017",
+		"mon": "07",
+		"mday": "05",
+		"hour": "08",
+		"min": "00",
+		"tzname": "Africa/Abidjan"
+		},
+		"utcdate": {
+		"pretty": "8:00 AM GMT on July 05, 2017",
+		"year": "2017",
+		"mon": "07",
+		"mday": "05",
+		"hour": "08",
+		"min": "00",
+		"tzname": "UTC"
+		},
+		"tempm":"26.0", "tempi":"78.8","dewptm":"24.0", "dewpti":"75.2","hum":"89","wspdm":"16.7", "wspdi":"10.4","wgustm":"-9999.0", "wgusti":"-9999.0","wdird":"230","wdire":"SW","vism":"7.0", "visi":"4.3","pressurem":"1015", "pressurei":"29.98","windchillm":"-999", "windchilli":"-999","heatindexm":"-9999", "heatindexi":"-9999","precipm":"-9999.00", "precipi":"-9999.00","conds":"Mostly Cloudy","icon":"mostlycloudy","fog":"0","rain":"0","snow":"0","hail":"0","thunder":"0","tornado":"0","metar":"METAR DIAP 050800Z 23009KT 7000 FEW012 BKN040 26/24 Q1015 NOSIG" },
+		{
+		"date": {
+		"pretty": "8:30 AM GMT on July 05, 2017",
+		"year": "2017",
+		"mon": "07",
+		"mday": "05",
+		"hour": "08",
+		"min": "30",
+		"tzname": "Africa/Abidjan"
+		},
+		"utcdate": {
+		"pretty": "8:30 AM GMT on July 05, 2017",
+		"year": "2017",
+		"mon": "07",
+		"mday": "05",
+		"hour": "08",
+		"min": "30",
+		"tzname": "UTC"
+		},
+		"tempm":"27.0", "tempi":"80.6","dewptm":"24.0", "dewpti":"75.2","hum":"84","wspdm":"16.7", "wspdi":"10.4","wgustm":"-9999.0", "wgusti":"-9999.0","wdird":"230","wdire":"SW","vism":"7.0", "visi":"4.3","pressurem":"1015", "pressurei":"29.98","windchillm":"-999", "windchilli":"-999","heatindexm":"30.1", "heatindexi":"86.2","precipm":"-9999.00", "precipi":"-9999.00","conds":"Mostly Cloudy","icon":"mostlycloudy","fog":"0","rain":"0","snow":"0","hail":"0","thunder":"0","tornado":"0","metar":"METAR DIAP 050830Z 23009KT 7000 FEW012 BKN040 27/24 Q1015 NOSIG" },
+		{
+		"date": {
+		"pretty": "9:00 AM GMT on July 05, 2017",
+		"year": "2017",
+		"mon": "07",
+		"mday": "05",
+		"hour": "09",
+		"min": "00",
+		"tzname": "Africa/Abidjan"
+		},
+		"utcdate": {
+		"pretty": "9:00 AM GMT on July 05, 2017",
+		"year": "2017",
+		"mon": "07",
+		"mday": "05",
+		"hour": "09",
+		"min": "00",
+		"tzname": "UTC"
+		},
+		"tempm":"27", "tempi":"81","dewptm":"24", "dewpti":"74","hum":"75","wspdm":"18.5", "wspdi":"11.5","wgustm":"", "wgusti":"","wdird":"220","wdire":"SW","vism":"8", "visi":"5","pressurem":"1016", "pressurei":"30.00","windchillm":"-999", "windchilli":"-999","heatindexm":"-9999", "heatindexi":"-9999","precipm":"", "precipi":"","conds":"Mostly Cloudy","icon":"mostlycloudy","fog":"0","rain":"0","snow":"0","hail":"0","thunder":"0","tornado":"0","metar":"AAXX 05094 65578 42558 62210 10270 20235 30149 40157 85530 333 59004 85620 83360" },
+		{
+		"date": {
+		"pretty": "9:00 AM GMT on July 05, 2017",
+		"year": "2017",
+		"mon": "07",
+		"mday": "05",
+		"hour": "09",
+		"min": "00",
+		"tzname": "Africa/Abidjan"
+		},
+		"utcdate": {
+		"pretty": "9:00 AM GMT on July 05, 2017",
+		"year": "2017",
+		"mon": "07",
+		"mday": "05",
+		"hour": "09",
+		"min": "00",
+		"tzname": "UTC"
+		},
+		"tempm":"27.0", "tempi":"80.6","dewptm":"24.0", "dewpti":"75.2","hum":"84","wspdm":"18.5", "wspdi":"11.5","wgustm":"-9999.0", "wgusti":"-9999.0","wdird":"220","wdire":"SW","vism":"7.0", "visi":"4.3","pressurem":"1015", "pressurei":"29.98","windchillm":"-999", "windchilli":"-999","heatindexm":"30.1", "heatindexi":"86.2","precipm":"-9999.00", "precipi":"-9999.00","conds":"Mostly Cloudy","icon":"mostlycloudy","fog":"0","rain":"0","snow":"0","hail":"0","thunder":"0","tornado":"0","metar":"METAR DIAP 050900Z 22010KT 7000 FEW012 BKN040 27/24 Q1015 NOSIG" },
+		{
+		"date": {
+		"pretty": "9:30 AM GMT on July 05, 2017",
+		"year": "2017",
+		"mon": "07",
+		"mday": "05",
+		"hour": "09",
+		"min": "30",
+		"tzname": "Africa/Abidjan"
+		},
+		"utcdate": {
+		"pretty": "9:30 AM GMT on July 05, 2017",
+		"year": "2017",
+		"mon": "07",
+		"mday": "05",
+		"hour": "09",
+		"min": "30",
+		"tzname": "UTC"
+		},
+		"tempm":"27.0", "tempi":"80.6","dewptm":"24.0", "dewpti":"75.2","hum":"84","wspdm":"18.5", "wspdi":"11.5","wgustm":"-9999.0", "wgusti":"-9999.0","wdird":"230","wdire":"SW","vism":"7.0", "visi":"4.3","pressurem":"1016", "pressurei":"30.01","windchillm":"-999", "windchilli":"-999","heatindexm":"30.1", "heatindexi":"86.2","precipm":"-9999.00", "precipi":"-9999.00","conds":"Mostly Cloudy","icon":"mostlycloudy","fog":"0","rain":"0","snow":"0","hail":"0","thunder":"0","tornado":"0","metar":"METAR DIAP 050930Z 23010KT 7000 SCT012 BKN040 27/24 Q1016 NOSIG" },
+		{
+		"date": {
+		"pretty": "10:00 AM GMT on July 05, 2017",
+		"year": "2017",
+		"mon": "07",
+		"mday": "05",
+		"hour": "10",
+		"min": "00",
+		"tzname": "Africa/Abidjan"
+		},
+		"utcdate": {
+		"pretty": "10:00 AM GMT on July 05, 2017",
+		"year": "2017",
+		"mon": "07",
+		"mday": "05",
+		"hour": "10",
+		"min": "00",
+		"tzname": "UTC"
+		},
+		"tempm":"27.0", "tempi":"80.6","dewptm":"24.0", "dewpti":"75.2","hum":"84","wspdm":"18.5", "wspdi":"11.5","wgustm":"-9999.0", "wgusti":"-9999.0","wdird":"220","wdire":"SW","vism":"7.0", "visi":"4.3","pressurem":"1016", "pressurei":"30.01","windchillm":"-999", "windchilli":"-999","heatindexm":"30.1", "heatindexi":"86.2","precipm":"-9999.00", "precipi":"-9999.00","conds":"Mostly Cloudy","icon":"mostlycloudy","fog":"0","rain":"0","snow":"0","hail":"0","thunder":"0","tornado":"0","metar":"METAR DIAP 051000Z 22010KT 7000 SCT012 FEW020CB BKN040 27/24 Q1016 NOSIG" },
+		{
+		"date": {
+		"pretty": "10:30 AM GMT on July 05, 2017",
+		"year": "2017",
+		"mon": "07",
+		"mday": "05",
+		"hour": "10",
+		"min": "30",
+		"tzname": "Africa/Abidjan"
+		},
+		"utcdate": {
+		"pretty": "10:30 AM GMT on July 05, 2017",
+		"year": "2017",
+		"mon": "07",
+		"mday": "05",
+		"hour": "10",
+		"min": "30",
+		"tzname": "UTC"
+		},
+		"tempm":"27.0", "tempi":"80.6","dewptm":"24.0", "dewpti":"75.2","hum":"84","wspdm":"16.7", "wspdi":"10.4","wgustm":"-9999.0", "wgusti":"-9999.0","wdird":"230","wdire":"SW","vism":"7.0", "visi":"4.3","pressurem":"1016", "pressurei":"30.01","windchillm":"-999", "windchilli":"-999","heatindexm":"30.1", "heatindexi":"86.2","precipm":"-9999.00", "precipi":"-9999.00","conds":"Mostly Cloudy","icon":"mostlycloudy","fog":"0","rain":"0","snow":"0","hail":"0","thunder":"0","tornado":"0","metar":"METAR DIAP 051030Z 23009KT 7000 SCT012 FEW020CB BKN040 27/24 Q1016 NOSIG" },
+		{
+		"date": {
+		"pretty": "11:00 AM GMT on July 05, 2017",
+		"year": "2017",
+		"mon": "07",
+		"mday": "05",
+		"hour": "11",
+		"min": "00",
+		"tzname": "Africa/Abidjan"
+		},
+		"utcdate": {
+		"pretty": "11:00 AM GMT on July 05, 2017",
+		"year": "2017",
+		"mon": "07",
+		"mday": "05",
+		"hour": "11",
+		"min": "00",
+		"tzname": "UTC"
+		},
+		"tempm":"27.0", "tempi":"80.6","dewptm":"24.0", "dewpti":"75.2","hum":"84","wspdm":"18.5", "wspdi":"11.5","wgustm":"-9999.0", "wgusti":"-9999.0","wdird":"230","wdire":"SW","vism":"7.0", "visi":"4.3","pressurem":"1015", "pressurei":"29.98","windchillm":"-999", "windchilli":"-999","heatindexm":"30.1", "heatindexi":"86.2","precipm":"-9999.00", "precipi":"-9999.00","conds":"Mostly Cloudy","icon":"mostlycloudy","fog":"0","rain":"0","snow":"0","hail":"0","thunder":"0","tornado":"0","metar":"METAR DIAP 051100Z 23010KT 7000 SCT012 FEW020CB BKN040 27/24 Q1015 NOSIG" },
+		{
+		"date": {
+		"pretty": "11:30 AM GMT on July 05, 2017",
+		"year": "2017",
+		"mon": "07",
+		"mday": "05",
+		"hour": "11",
+		"min": "30",
+		"tzname": "Africa/Abidjan"
+		},
+		"utcdate": {
+		"pretty": "11:30 AM GMT on July 05, 2017",
+		"year": "2017",
+		"mon": "07",
+		"mday": "05",
+		"hour": "11",
+		"min": "30",
+		"tzname": "UTC"
+		},
+		"tempm":"27.0", "tempi":"80.6","dewptm":"24.0", "dewpti":"75.2","hum":"84","wspdm":"18.5", "wspdi":"11.5","wgustm":"-9999.0", "wgusti":"-9999.0","wdird":"220","wdire":"SW","vism":"7.0", "visi":"4.3","pressurem":"1015", "pressurei":"29.98","windchillm":"-999", "windchilli":"-999","heatindexm":"30.1", "heatindexi":"86.2","precipm":"-9999.00", "precipi":"-9999.00","conds":"Mostly Cloudy","icon":"mostlycloudy","fog":"0","rain":"0","snow":"0","hail":"0","thunder":"0","tornado":"0","metar":"METAR DIAP 051130Z 22010KT 7000 FEW012 FEW020CB BKN040 27/24 Q1015 NOSIG" },
+		{
+		"date": {
+		"pretty": "12:00 PM GMT on July 05, 2017",
+		"year": "2017",
+		"mon": "07",
+		"mday": "05",
+		"hour": "12",
+		"min": "00",
+		"tzname": "Africa/Abidjan"
+		},
+		"utcdate": {
+		"pretty": "12:00 PM GMT on July 05, 2017",
+		"year": "2017",
+		"mon": "07",
+		"mday": "05",
+		"hour": "12",
+		"min": "00",
+		"tzname": "UTC"
+		},
+		"tempm":"28", "tempi":"82","dewptm":"24", "dewpti":"75","hum":"73","wspdm":"25.9", "wspdi":"16.1","wgustm":"", "wgusti":"","wdird":"220","wdire":"SW","vism":"8", "visi":"5","pressurem":"1016", "pressurei":"29.99","windchillm":"-999", "windchilli":"-999","heatindexm":"-9999", "heatindexi":"-9999","precipm":"", "precipi":"","conds":"Partly Cloudy","icon":"partlycloudy","fog":"0","rain":"0","snow":"0","hail":"0","thunder":"0","tornado":"0","metar":"AAXX 05124 65578 32558 72214 10276 20237 30147 40155 84570 333 58002 84620 87358" },
+		{
+		"date": {
+		"pretty": "12:00 PM GMT on July 05, 2017",
+		"year": "2017",
+		"mon": "07",
+		"mday": "05",
+		"hour": "12",
+		"min": "00",
+		"tzname": "Africa/Abidjan"
+		},
+		"utcdate": {
+		"pretty": "12:00 PM GMT on July 05, 2017",
+		"year": "2017",
+		"mon": "07",
+		"mday": "05",
+		"hour": "12",
+		"min": "00",
+		"tzname": "UTC"
+		},
+		"tempm":"28.0", "tempi":"82.4","dewptm":"24.0", "dewpti":"75.2","hum":"79","wspdm":"20.4", "wspdi":"12.7","wgustm":"-9999.0", "wgusti":"-9999.0","wdird":"230","wdire":"SW","vism":"8.0", "visi":"5.0","pressurem":"1015", "pressurei":"29.98","windchillm":"-999", "windchilli":"-999","heatindexm":"31.9", "heatindexi":"89.5","precipm":"-9999.00", "precipi":"-9999.00","conds":"Mostly Cloudy","icon":"mostlycloudy","fog":"0","rain":"0","snow":"0","hail":"0","thunder":"0","tornado":"0","metar":"METAR DIAP 051200Z 23011KT 8000 FEW012 FEW020CB BKN040 28/24 Q1015 NOSIG" },
+		{
+		"date": {
+		"pretty": "12:30 PM GMT on July 05, 2017",
+		"year": "2017",
+		"mon": "07",
+		"mday": "05",
+		"hour": "12",
+		"min": "30",
+		"tzname": "Africa/Abidjan"
+		},
+		"utcdate": {
+		"pretty": "12:30 PM GMT on July 05, 2017",
+		"year": "2017",
+		"mon": "07",
+		"mday": "05",
+		"hour": "12",
+		"min": "30",
+		"tzname": "UTC"
+		},
+		"tempm":"28.0", "tempi":"82.4","dewptm":"24.0", "dewpti":"75.2","hum":"79","wspdm":"22.2", "wspdi":"13.8","wgustm":"-9999.0", "wgusti":"-9999.0","wdird":"230","wdire":"SW","vism":"8.0", "visi":"5.0","pressurem":"1015", "pressurei":"29.98","windchillm":"-999", "windchilli":"-999","heatindexm":"31.9", "heatindexi":"89.5","precipm":"-9999.00", "precipi":"-9999.00","conds":"Mostly Cloudy","icon":"mostlycloudy","fog":"0","rain":"0","snow":"0","hail":"0","thunder":"0","tornado":"0","metar":"METAR DIAP 051230Z 23012KT 8000 FEW012 FEW020CB BKN040 28/24 Q1015 NOSIG" },
+		{
+		"date": {
+		"pretty": "1:00 PM GMT on July 05, 2017",
+		"year": "2017",
+		"mon": "07",
+		"mday": "05",
+		"hour": "13",
+		"min": "00",
+		"tzname": "Africa/Abidjan"
+		},
+		"utcdate": {
+		"pretty": "1:00 PM GMT on July 05, 2017",
+		"year": "2017",
+		"mon": "07",
+		"mday": "05",
+		"hour": "13",
+		"min": "00",
+		"tzname": "UTC"
+		},
+		"tempm":"28.0", "tempi":"82.4","dewptm":"24.0", "dewpti":"75.2","hum":"79","wspdm":"20.4", "wspdi":"12.7","wgustm":"-9999.0", "wgusti":"-9999.0","wdird":"230","wdire":"SW","vism":"8.0", "visi":"5.0","pressurem":"1015", "pressurei":"29.98","windchillm":"-999", "windchilli":"-999","heatindexm":"31.9", "heatindexi":"89.5","precipm":"-9999.00", "precipi":"-9999.00","conds":"Mostly Cloudy","icon":"mostlycloudy","fog":"0","rain":"0","snow":"0","hail":"0","thunder":"0","tornado":"0","metar":"METAR DIAP 051300Z 23011KT 8000 SCT012 FEW020CB BKN040 28/24 Q1015 TEMPO BKN011 FEW020CB BKN040" },
+		{
+		"date": {
+		"pretty": "1:30 PM GMT on July 05, 2017",
+		"year": "2017",
+		"mon": "07",
+		"mday": "05",
+		"hour": "13",
+		"min": "30",
+		"tzname": "Africa/Abidjan"
+		},
+		"utcdate": {
+		"pretty": "1:30 PM GMT on July 05, 2017",
+		"year": "2017",
+		"mon": "07",
+		"mday": "05",
+		"hour": "13",
+		"min": "30",
+		"tzname": "UTC"
+		},
+		"tempm":"27.0", "tempi":"80.6","dewptm":"24.0", "dewpti":"75.2","hum":"84","wspdm":"14.8", "wspdi":"9.2","wgustm":"-9999.0", "wgusti":"-9999.0","wdird":"230","wdire":"SW","vism":"8.0", "visi":"5.0","pressurem":"1014", "pressurei":"29.95","windchillm":"-999", "windchilli":"-999","heatindexm":"30.1", "heatindexi":"86.2","precipm":"-9999.00", "precipi":"-9999.00","conds":"Mostly Cloudy","icon":"mostlycloudy","fog":"0","rain":"0","snow":"0","hail":"0","thunder":"0","tornado":"0","metar":"METAR DIAP 051330Z 23008KT 8000 SCT012 FEW020CB BKN040 27/24 Q1014 TEMPO 3000 RA BKN011 FEW020CB BKN040" },
+		{
+		"date": {
+		"pretty": "2:00 PM GMT on July 05, 2017",
+		"year": "2017",
+		"mon": "07",
+		"mday": "05",
+		"hour": "14",
+		"min": "00",
+		"tzname": "Africa/Abidjan"
+		},
+		"utcdate": {
+		"pretty": "2:00 PM GMT on July 05, 2017",
+		"year": "2017",
+		"mon": "07",
+		"mday": "05",
+		"hour": "14",
+		"min": "00",
+		"tzname": "UTC"
+		},
+		"tempm":"26.0", "tempi":"78.8","dewptm":"24.0", "dewpti":"75.2","hum":"89","wspdm":"16.7", "wspdi":"10.4","wgustm":"-9999.0", "wgusti":"-9999.0","wdird":"240","wdire":"WSW","vism":"8.0", "visi":"5.0","pressurem":"1014", "pressurei":"29.95","windchillm":"-999", "windchilli":"-999","heatindexm":"-9999", "heatindexi":"-9999","precipm":"-9999.00", "precipi":"-9999.00","conds":"Mostly Cloudy","icon":"mostlycloudy","fog":"0","rain":"0","snow":"0","hail":"0","thunder":"0","tornado":"0","metar":"METAR DIAP 051400Z 24009KT 8000 SCT012 BKN040 26/24 Q1014 NOSIG" },
+		{
+		"date": {
+		"pretty": "2:30 PM GMT on July 05, 2017",
+		"year": "2017",
+		"mon": "07",
+		"mday": "05",
+		"hour": "14",
+		"min": "30",
+		"tzname": "Africa/Abidjan"
+		},
+		"utcdate": {
+		"pretty": "2:30 PM GMT on July 05, 2017",
+		"year": "2017",
+		"mon": "07",
+		"mday": "05",
+		"hour": "14",
+		"min": "30",
+		"tzname": "UTC"
+		},
+		"tempm":"27.0", "tempi":"80.6","dewptm":"24.0", "dewpti":"75.2","hum":"84","wspdm":"18.5", "wspdi":"11.5","wgustm":"-9999.0", "wgusti":"-9999.0","wdird":"240","wdire":"WSW","vism":"10.0", "visi":"6.2","pressurem":"1014", "pressurei":"29.95","windchillm":"-999", "windchilli":"-999","heatindexm":"30.1", "heatindexi":"86.2","precipm":"-9999.00", "precipi":"-9999.00","conds":"Mostly Cloudy","icon":"mostlycloudy","fog":"0","rain":"0","snow":"0","hail":"0","thunder":"0","tornado":"0","metar":"METAR DIAP 051430Z 24010KT 9999 SCT012 BKN040 27/24 Q1014 NOSIG" },
+		{
+		"date": {
+		"pretty": "3:00 PM GMT on July 05, 2017",
+		"year": "2017",
+		"mon": "07",
+		"mday": "05",
+		"hour": "15",
+		"min": "00",
+		"tzname": "Africa/Abidjan"
+		},
+		"utcdate": {
+		"pretty": "3:00 PM GMT on July 05, 2017",
+		"year": "2017",
+		"mon": "07",
+		"mday": "05",
+		"hour": "15",
+		"min": "00",
+		"tzname": "UTC"
+		},
+		"tempm":"27", "tempi":"80","dewptm":"24", "dewpti":"75","hum":"79","wspdm":"18.5", "wspdi":"11.5","wgustm":"", "wgusti":"","wdird":"240","wdire":"WSW","vism":"8", "visi":"5","pressurem":"1014", "pressurei":"29.95","windchillm":"-999", "windchilli":"-999","heatindexm":"-9999", "heatindexi":"-9999","precipm":"", "precipi":"","conds":"Partly Cloudy","icon":"partlycloudy","fog":"0","rain":"0","snow":"0","hail":"0","thunder":"0","tornado":"0","metar":"AAXX 05154 65578 41558 72410 10268 20237 30134 40142 70162 84570 333 58008 84620 86358" },
+		{
+		"date": {
+		"pretty": "3:00 PM GMT on July 05, 2017",
+		"year": "2017",
+		"mon": "07",
+		"mday": "05",
+		"hour": "15",
+		"min": "00",
+		"tzname": "Africa/Abidjan"
+		},
+		"utcdate": {
+		"pretty": "3:00 PM GMT on July 05, 2017",
+		"year": "2017",
+		"mon": "07",
+		"mday": "05",
+		"hour": "15",
+		"min": "00",
+		"tzname": "UTC"
+		},
+		"tempm":"27.0", "tempi":"80.6","dewptm":"24.0", "dewpti":"75.2","hum":"84","wspdm":"18.5", "wspdi":"11.5","wgustm":"-9999.0", "wgusti":"-9999.0","wdird":"240","wdire":"WSW","vism":"10.0", "visi":"6.2","pressurem":"1014", "pressurei":"29.95","windchillm":"-999", "windchilli":"-999","heatindexm":"30.1", "heatindexi":"86.2","precipm":"-9999.00", "precipi":"-9999.00","conds":"Mostly Cloudy","icon":"mostlycloudy","fog":"0","rain":"0","snow":"0","hail":"0","thunder":"0","tornado":"0","metar":"METAR DIAP 051500Z 24010KT 9999 SCT012 BKN040 27/24 Q1014 NOSIG" },
+		{
+		"date": {
+		"pretty": "3:30 PM GMT on July 05, 2017",
+		"year": "2017",
+		"mon": "07",
+		"mday": "05",
+		"hour": "15",
+		"min": "30",
+		"tzname": "Africa/Abidjan"
+		},
+		"utcdate": {
+		"pretty": "3:30 PM GMT on July 05, 2017",
+		"year": "2017",
+		"mon": "07",
+		"mday": "05",
+		"hour": "15",
+		"min": "30",
+		"tzname": "UTC"
+		},
+		"tempm":"28.0", "tempi":"82.4","dewptm":"24.0", "dewpti":"75.2","hum":"79","wspdm":"16.7", "wspdi":"10.4","wgustm":"-9999.0", "wgusti":"-9999.0","wdird":"240","wdire":"WSW","vism":"10.0", "visi":"6.2","pressurem":"1014", "pressurei":"29.95","windchillm":"-999", "windchilli":"-999","heatindexm":"31.9", "heatindexi":"89.5","precipm":"-9999.00", "precipi":"-9999.00","conds":"Mostly Cloudy","icon":"mostlycloudy","fog":"0","rain":"0","snow":"0","hail":"0","thunder":"0","tornado":"0","metar":"METAR DIAP 051530Z 24009KT 200V260 9999 SCT012 BKN040 28/24 Q1014 NOSIG" },
+		{
+		"date": {
+		"pretty": "4:00 PM GMT on July 05, 2017",
+		"year": "2017",
+		"mon": "07",
+		"mday": "05",
+		"hour": "16",
+		"min": "00",
+		"tzname": "Africa/Abidjan"
+		},
+		"utcdate": {
+		"pretty": "4:00 PM GMT on July 05, 2017",
+		"year": "2017",
+		"mon": "07",
+		"mday": "05",
+		"hour": "16",
+		"min": "00",
+		"tzname": "UTC"
+		},
+		"tempm":"28.0", "tempi":"82.4","dewptm":"24.0", "dewpti":"75.2","hum":"79","wspdm":"22.2", "wspdi":"13.8","wgustm":"-9999.0", "wgusti":"-9999.0","wdird":"240","wdire":"WSW","vism":"10.0", "visi":"6.2","pressurem":"1013", "pressurei":"29.92","windchillm":"-999", "windchilli":"-999","heatindexm":"31.9", "heatindexi":"89.5","precipm":"-9999.00", "precipi":"-9999.00","conds":"Mostly Cloudy","icon":"mostlycloudy","fog":"0","rain":"0","snow":"0","hail":"0","thunder":"0","tornado":"0","metar":"METAR DIAP 051600Z 24012KT 9999 SCT012 BKN040 28/24 Q1013 NOSIG" },
+		{
+		"date": {
+		"pretty": "4:30 PM GMT on July 05, 2017",
+		"year": "2017",
+		"mon": "07",
+		"mday": "05",
+		"hour": "16",
+		"min": "30",
+		"tzname": "Africa/Abidjan"
+		},
+		"utcdate": {
+		"pretty": "4:30 PM GMT on July 05, 2017",
+		"year": "2017",
+		"mon": "07",
+		"mday": "05",
+		"hour": "16",
+		"min": "30",
+		"tzname": "UTC"
+		},
+		"tempm":"27.0", "tempi":"80.6","dewptm":"23.0", "dewpti":"73.4","hum":"79","wspdm":"20.4", "wspdi":"12.7","wgustm":"-9999.0", "wgusti":"-9999.0","wdird":"230","wdire":"SW","vism":"10.0", "visi":"6.2","pressurem":"1014", "pressurei":"29.95","windchillm":"-999", "windchilli":"-999","heatindexm":"29.6", "heatindexi":"85.4","precipm":"-9999.00", "precipi":"-9999.00","conds":"Mostly Cloudy","icon":"mostlycloudy","fog":"0","rain":"0","snow":"0","hail":"0","thunder":"0","tornado":"0","metar":"METAR DIAP 051630Z 23011KT 9999 SCT012 BKN040 27/23 Q1014 NOSIG" },
+		{
+		"date": {
+		"pretty": "5:00 PM GMT on July 05, 2017",
+		"year": "2017",
+		"mon": "07",
+		"mday": "05",
+		"hour": "17",
+		"min": "00",
+		"tzname": "Africa/Abidjan"
+		},
+		"utcdate": {
+		"pretty": "5:00 PM GMT on July 05, 2017",
+		"year": "2017",
+		"mon": "07",
+		"mday": "05",
+		"hour": "17",
+		"min": "00",
+		"tzname": "UTC"
+		},
+		"tempm":"27.0", "tempi":"80.6","dewptm":"23.0", "dewpti":"73.4","hum":"79","wspdm":"18.5", "wspdi":"11.5","wgustm":"-9999.0", "wgusti":"-9999.0","wdird":"230","wdire":"SW","vism":"10.0", "visi":"6.2","pressurem":"1014", "pressurei":"29.95","windchillm":"-999", "windchilli":"-999","heatindexm":"29.6", "heatindexi":"85.4","precipm":"-9999.00", "precipi":"-9999.00","conds":"Scattered Clouds","icon":"partlycloudy","fog":"0","rain":"0","snow":"0","hail":"0","thunder":"0","tornado":"0","metar":"METAR DIAP 051700Z 23010KT 9999 SCT012 27/23 Q1014 NOSIG" },
+		{
+		"date": {
+		"pretty": "5:30 PM GMT on July 05, 2017",
+		"year": "2017",
+		"mon": "07",
+		"mday": "05",
+		"hour": "17",
+		"min": "30",
+		"tzname": "Africa/Abidjan"
+		},
+		"utcdate": {
+		"pretty": "5:30 PM GMT on July 05, 2017",
+		"year": "2017",
+		"mon": "07",
+		"mday": "05",
+		"hour": "17",
+		"min": "30",
+		"tzname": "UTC"
+		},
+		"tempm":"27.0", "tempi":"80.6","dewptm":"23.0", "dewpti":"73.4","hum":"79","wspdm":"18.5", "wspdi":"11.5","wgustm":"-9999.0", "wgusti":"-9999.0","wdird":"220","wdire":"SW","vism":"10.0", "visi":"6.2","pressurem":"1014", "pressurei":"29.95","windchillm":"-999", "windchilli":"-999","heatindexm":"29.6", "heatindexi":"85.4","precipm":"-9999.00", "precipi":"-9999.00","conds":"Scattered Clouds","icon":"partlycloudy","fog":"0","rain":"0","snow":"0","hail":"0","thunder":"0","tornado":"0","metar":"METAR DIAP 051730Z 22010KT 9999 SCT012 27/23 Q1014 NOSIG" },
+		{
+		"date": {
+		"pretty": "6:00 PM GMT on July 05, 2017",
+		"year": "2017",
+		"mon": "07",
+		"mday": "05",
+		"hour": "18",
+		"min": "00",
+		"tzname": "Africa/Abidjan"
+		},
+		"utcdate": {
+		"pretty": "6:00 PM GMT on July 05, 2017",
+		"year": "2017",
+		"mon": "07",
+		"mday": "05",
+		"hour": "18",
+		"min": "00",
+		"tzname": "UTC"
+		},
+		"tempm":"27", "tempi":"80","dewptm":"23", "dewpti":"74","hum":"76","wspdm":"18.5", "wspdi":"11.5","wgustm":"", "wgusti":"","wdird":"220","wdire":"SW","vism":"10", "visi":"6","pressurem":"1014", "pressurei":"29.96","windchillm":"-999", "windchilli":"-999","heatindexm":"-9999", "heatindexi":"-9999","precipm":"", "precipi":"","conds":"Partly Cloudy","icon":"partlycloudy","fog":"0","rain":"0","snow":"0","hail":"0","thunder":"0","tornado":"0","metar":"AAXX 05184 65578 11560 62210 10267 20232 30136 40144 69932 70262 84530 333 10284 58011 84620 86358" },
+		{
+		"date": {
+		"pretty": "6:00 PM GMT on July 05, 2017",
+		"year": "2017",
+		"mon": "07",
+		"mday": "05",
+		"hour": "18",
+		"min": "00",
+		"tzname": "Africa/Abidjan"
+		},
+		"utcdate": {
+		"pretty": "6:00 PM GMT on July 05, 2017",
+		"year": "2017",
+		"mon": "07",
+		"mday": "05",
+		"hour": "18",
+		"min": "00",
+		"tzname": "UTC"
+		},
+		"tempm":"27.0", "tempi":"80.6","dewptm":"23.0", "dewpti":"73.4","hum":"79","wspdm":"16.7", "wspdi":"10.4","wgustm":"-9999.0", "wgusti":"-9999.0","wdird":"220","wdire":"SW","vism":"10.0", "visi":"6.2","pressurem":"1014", "pressurei":"29.95","windchillm":"-999", "windchilli":"-999","heatindexm":"29.6", "heatindexi":"85.4","precipm":"-9999.00", "precipi":"-9999.00","conds":"Scattered Clouds","icon":"partlycloudy","fog":"0","rain":"0","snow":"0","hail":"0","thunder":"0","tornado":"0","metar":"METAR DIAP 051800Z 22009KT 9999 SCT012 27/23 Q1014 NOSIG" },
+		{
+		"date": {
+		"pretty": "6:30 PM GMT on July 05, 2017",
+		"year": "2017",
+		"mon": "07",
+		"mday": "05",
+		"hour": "18",
+		"min": "30",
+		"tzname": "Africa/Abidjan"
+		},
+		"utcdate": {
+		"pretty": "6:30 PM GMT on July 05, 2017",
+		"year": "2017",
+		"mon": "07",
+		"mday": "05",
+		"hour": "18",
+		"min": "30",
+		"tzname": "UTC"
+		},
+		"tempm":"27.0", "tempi":"80.6","dewptm":"23.0", "dewpti":"73.4","hum":"79","wspdm":"14.8", "wspdi":"9.2","wgustm":"-9999.0", "wgusti":"-9999.0","wdird":"220","wdire":"SW","vism":"10.0", "visi":"6.2","pressurem":"1014", "pressurei":"29.95","windchillm":"-999", "windchilli":"-999","heatindexm":"29.6", "heatindexi":"85.4","precipm":"-9999.00", "precipi":"-9999.00","conds":"Scattered Clouds","icon":"partlycloudy","fog":"0","rain":"0","snow":"0","hail":"0","thunder":"0","tornado":"0","metar":"METAR DIAP 051830Z 22008KT 9999 SCT012 27/23 Q1014 NOSIG" },
+		{
+		"date": {
+		"pretty": "7:00 PM GMT on July 05, 2017",
+		"year": "2017",
+		"mon": "07",
+		"mday": "05",
+		"hour": "19",
+		"min": "00",
+		"tzname": "Africa/Abidjan"
+		},
+		"utcdate": {
+		"pretty": "7:00 PM GMT on July 05, 2017",
+		"year": "2017",
+		"mon": "07",
+		"mday": "05",
+		"hour": "19",
+		"min": "00",
+		"tzname": "UTC"
+		},
+		"tempm":"26.0", "tempi":"78.8","dewptm":"24.0", "dewpti":"75.2","hum":"89","wspdm":"11.1", "wspdi":"6.9","wgustm":"-9999.0", "wgusti":"-9999.0","wdird":"210","wdire":"SSW","vism":"10.0", "visi":"6.2","pressurem":"1015", "pressurei":"29.98","windchillm":"-999", "windchilli":"-999","heatindexm":"-9999", "heatindexi":"-9999","precipm":"-9999.00", "precipi":"-9999.00","conds":"Scattered Clouds","icon":"partlycloudy","fog":"0","rain":"0","snow":"0","hail":"0","thunder":"0","tornado":"0","metar":"METAR DIAP 051900Z 21006KT 9999 SCT012 26/24 Q1015 TEMPO BKN011" },
+		{
+		"date": {
+		"pretty": "7:30 PM GMT on July 05, 2017",
+		"year": "2017",
+		"mon": "07",
+		"mday": "05",
+		"hour": "19",
+		"min": "30",
+		"tzname": "Africa/Abidjan"
+		},
+		"utcdate": {
+		"pretty": "7:30 PM GMT on July 05, 2017",
+		"year": "2017",
+		"mon": "07",
+		"mday": "05",
+		"hour": "19",
+		"min": "30",
+		"tzname": "UTC"
+		},
+		"tempm":"26.0", "tempi":"78.8","dewptm":"24.0", "dewpti":"75.2","hum":"89","wspdm":"11.1", "wspdi":"6.9","wgustm":"-9999.0", "wgusti":"-9999.0","wdird":"200","wdire":"SSW","vism":"10.0", "visi":"6.2","pressurem":"1015", "pressurei":"29.98","windchillm":"-999", "windchilli":"-999","heatindexm":"-9999", "heatindexi":"-9999","precipm":"-9999.00", "precipi":"-9999.00","conds":"Scattered Clouds","icon":"partlycloudy","fog":"0","rain":"0","snow":"0","hail":"0","thunder":"0","tornado":"0","metar":"METAR DIAP 051930Z 20006KT 9999 SCT012 26/24 Q1015 TEMPO BKN011" },
+		{
+		"date": {
+		"pretty": "8:30 PM GMT on July 05, 2017",
+		"year": "2017",
+		"mon": "07",
+		"mday": "05",
+		"hour": "20",
+		"min": "30",
+		"tzname": "Africa/Abidjan"
+		},
+		"utcdate": {
+		"pretty": "8:30 PM GMT on July 05, 2017",
+		"year": "2017",
+		"mon": "07",
+		"mday": "05",
+		"hour": "20",
+		"min": "30",
+		"tzname": "UTC"
+		},
+		"tempm":"26.0", "tempi":"78.8","dewptm":"24.0", "dewpti":"75.2","hum":"89","wspdm":"13.0", "wspdi":"8.1","wgustm":"-9999.0", "wgusti":"-9999.0","wdird":"210","wdire":"SSW","vism":"10.0", "visi":"6.2","pressurem":"1016", "pressurei":"30.01","windchillm":"-999", "windchilli":"-999","heatindexm":"-9999", "heatindexi":"-9999","precipm":"-9999.00", "precipi":"-9999.00","conds":"Scattered Clouds","icon":"partlycloudy","fog":"0","rain":"0","snow":"0","hail":"0","thunder":"0","tornado":"0","metar":"METAR DIAP 052030Z 21007KT 9999 FEW012 SCT040 26/24 Q1016 NOSIG" },
+		{
+		"date": {
+		"pretty": "9:00 PM GMT on July 05, 2017",
+		"year": "2017",
+		"mon": "07",
+		"mday": "05",
+		"hour": "21",
+		"min": "00",
+		"tzname": "Africa/Abidjan"
+		},
+		"utcdate": {
+		"pretty": "9:00 PM GMT on July 05, 2017",
+		"year": "2017",
+		"mon": "07",
+		"mday": "05",
+		"hour": "21",
+		"min": "00",
+		"tzname": "UTC"
+		},
+		"tempm":"26", "tempi":"78","dewptm":"24", "dewpti":"75","hum":"86","wspdm":"11.1", "wspdi":"6.9","wgustm":"", "wgusti":"","wdird":"200","wdire":"SSW","vism":"8", "visi":"5","pressurem":"1016", "pressurei":"30.01","windchillm":"-999", "windchilli":"-999","heatindexm":"-9999", "heatindexi":"-9999","precipm":"", "precipi":"","conds":"Partly Cloudy","icon":"partlycloudy","fog":"0","rain":"0","snow":"0","hail":"0","thunder":"0","tornado":"0","metar":"AAXX 05214 65578 42558 72006 10256 20237 30155 40163 83570 333 58011 83620 87358" },
+		{
+		"date": {
+		"pretty": "9:00 PM GMT on July 05, 2017",
+		"year": "2017",
+		"mon": "07",
+		"mday": "05",
+		"hour": "21",
+		"min": "00",
+		"tzname": "Africa/Abidjan"
+		},
+		"utcdate": {
+		"pretty": "9:00 PM GMT on July 05, 2017",
+		"year": "2017",
+		"mon": "07",
+		"mday": "05",
+		"hour": "21",
+		"min": "00",
+		"tzname": "UTC"
+		},
+		"tempm":"26.0", "tempi":"78.8","dewptm":"24.0", "dewpti":"75.2","hum":"89","wspdm":"11.1", "wspdi":"6.9","wgustm":"-9999.0", "wgusti":"-9999.0","wdird":"200","wdire":"SSW","vism":"10.0", "visi":"6.2","pressurem":"1016", "pressurei":"30.01","windchillm":"-999", "windchilli":"-999","heatindexm":"-9999", "heatindexi":"-9999","precipm":"-9999.00", "precipi":"-9999.00","conds":"Scattered Clouds","icon":"partlycloudy","fog":"0","rain":"0","snow":"0","hail":"0","thunder":"0","tornado":"0","metar":"METAR DIAP 052100Z 20006KT 9999 FEW012 SCT040 26/24 Q1016 NOSIG" },
+		{
+		"date": {
+		"pretty": "9:30 PM GMT on July 05, 2017",
+		"year": "2017",
+		"mon": "07",
+		"mday": "05",
+		"hour": "21",
+		"min": "30",
+		"tzname": "Africa/Abidjan"
+		},
+		"utcdate": {
+		"pretty": "9:30 PM GMT on July 05, 2017",
+		"year": "2017",
+		"mon": "07",
+		"mday": "05",
+		"hour": "21",
+		"min": "30",
+		"tzname": "UTC"
+		},
+		"tempm":"26.0", "tempi":"78.8","dewptm":"24.0", "dewpti":"75.2","hum":"89","wspdm":"11.1", "wspdi":"6.9","wgustm":"-9999.0", "wgusti":"-9999.0","wdird":"200","wdire":"SSW","vism":"10.0", "visi":"6.2","pressurem":"1016", "pressurei":"30.01","windchillm":"-999", "windchilli":"-999","heatindexm":"-9999", "heatindexi":"-9999","precipm":"-9999.00", "precipi":"-9999.00","conds":"Partly Cloudy","icon":"partlycloudy","fog":"0","rain":"0","snow":"0","hail":"0","thunder":"0","tornado":"0","metar":"METAR DIAP 052130Z 20006KT 9999 FEW012 26/24 Q1016 NOSIG" },
+		{
+		"date": {
+		"pretty": "10:00 PM GMT on July 05, 2017",
+		"year": "2017",
+		"mon": "07",
+		"mday": "05",
+		"hour": "22",
+		"min": "00",
+		"tzname": "Africa/Abidjan"
+		},
+		"utcdate": {
+		"pretty": "10:00 PM GMT on July 05, 2017",
+		"year": "2017",
+		"mon": "07",
+		"mday": "05",
+		"hour": "22",
+		"min": "00",
+		"tzname": "UTC"
+		},
+		"tempm":"26.0", "tempi":"78.8","dewptm":"24.0", "dewpti":"75.2","hum":"89","wspdm":"9.3", "wspdi":"5.8","wgustm":"-9999.0", "wgusti":"-9999.0","wdird":"200","wdire":"SSW","vism":"10.0", "visi":"6.2","pressurem":"1016", "pressurei":"30.01","windchillm":"-999", "windchilli":"-999","heatindexm":"-9999", "heatindexi":"-9999","precipm":"-9999.00", "precipi":"-9999.00","conds":"Partly Cloudy","icon":"partlycloudy","fog":"0","rain":"0","snow":"0","hail":"0","thunder":"0","tornado":"0","metar":"METAR DIAP 052200Z 20005KT 9999 FEW012 26/24 Q1016 NOSIG" },
+		{
+		"date": {
+		"pretty": "10:30 PM GMT on July 05, 2017",
+		"year": "2017",
+		"mon": "07",
+		"mday": "05",
+		"hour": "22",
+		"min": "30",
+		"tzname": "Africa/Abidjan"
+		},
+		"utcdate": {
+		"pretty": "10:30 PM GMT on July 05, 2017",
+		"year": "2017",
+		"mon": "07",
+		"mday": "05",
+		"hour": "22",
+		"min": "30",
+		"tzname": "UTC"
+		},
+		"tempm":"26.0", "tempi":"78.8","dewptm":"24.0", "dewpti":"75.2","hum":"89","wspdm":"9.3", "wspdi":"5.8","wgustm":"-9999.0", "wgusti":"-9999.0","wdird":"200","wdire":"SSW","vism":"10.0", "visi":"6.2","pressurem":"1016", "pressurei":"30.01","windchillm":"-999", "windchilli":"-999","heatindexm":"-9999", "heatindexi":"-9999","precipm":"-9999.00", "precipi":"-9999.00","conds":"Partly Cloudy","icon":"partlycloudy","fog":"0","rain":"0","snow":"0","hail":"0","thunder":"0","tornado":"0","metar":"METAR DIAP 052230Z 20005KT 9999 FEW012 26/24 Q1016 NOSIG" },
+		{
+		"date": {
+		"pretty": "11:00 PM GMT on July 05, 2017",
+		"year": "2017",
+		"mon": "07",
+		"mday": "05",
+		"hour": "23",
+		"min": "00",
+		"tzname": "Africa/Abidjan"
+		},
+		"utcdate": {
+		"pretty": "11:00 PM GMT on July 05, 2017",
+		"year": "2017",
+		"mon": "07",
+		"mday": "05",
+		"hour": "23",
+		"min": "00",
+		"tzname": "UTC"
+		},
+		"tempm":"26.0", "tempi":"78.8","dewptm":"24.0", "dewpti":"75.2","hum":"89","wspdm":"11.1", "wspdi":"6.9","wgustm":"-9999.0", "wgusti":"-9999.0","wdird":"200","wdire":"SSW","vism":"10.0", "visi":"6.2","pressurem":"1016", "pressurei":"30.01","windchillm":"-999", "windchilli":"-999","heatindexm":"-9999", "heatindexi":"-9999","precipm":"-9999.00", "precipi":"-9999.00","conds":"Mostly Cloudy","icon":"mostlycloudy","fog":"0","rain":"0","snow":"0","hail":"0","thunder":"0","tornado":"0","metar":"METAR DIAP 052300Z 20006KT 9999 FEW012 BKN040 26/24 Q1016 NOSIG" },
+		{
+		"date": {
+		"pretty": "11:30 PM GMT on July 05, 2017",
+		"year": "2017",
+		"mon": "07",
+		"mday": "05",
+		"hour": "23",
+		"min": "30",
+		"tzname": "Africa/Abidjan"
+		},
+		"utcdate": {
+		"pretty": "11:30 PM GMT on July 05, 2017",
+		"year": "2017",
+		"mon": "07",
+		"mday": "05",
+		"hour": "23",
+		"min": "30",
+		"tzname": "UTC"
+		},
+		"tempm":"26.0", "tempi":"78.8","dewptm":"24.0", "dewpti":"75.2","hum":"89","wspdm":"11.1", "wspdi":"6.9","wgustm":"-9999.0", "wgusti":"-9999.0","wdird":"210","wdire":"SSW","vism":"10.0", "visi":"6.2","pressurem":"1016", "pressurei":"30.01","windchillm":"-999", "windchilli":"-999","heatindexm":"-9999", "heatindexi":"-9999","precipm":"-9999.00", "precipi":"-9999.00","conds":"Scattered Clouds","icon":"partlycloudy","fog":"0","rain":"0","snow":"0","hail":"0","thunder":"0","tornado":"0","metar":"METAR DIAP 052330Z 21006KT 9999 FEW012 SCT020 26/24 Q1016 NOSIG" }
+		],
+		"dailysummary": [
+		{ "date": {
+		"pretty": "12:00 AM GMT on July 05, 2017",
+		"year": "2017",
+		"mon": "07",
+		"mday": "05",
+		"hour": "00",
+		"min": "00",
+		"tzname": "Africa/Abidjan"
+		},
+		"fog":"0","rain":"0","snow":"0","snowfallm":"", "snowfalli":"","monthtodatesnowfallm":"", "monthtodatesnowfalli":"","since1julsnowfallm":"", "since1julsnowfalli":"","snowdepthm":"", "snowdepthi":"","hail":"0","thunder":"0","tornado":"0","meantempm":"26", "meantempi":"80","meandewptm":"24", "meandewpti":"75","meanpressurem":"1014.63", "meanpressurei":"29.97","meanwindspdm":"13", "meanwindspdi":"8","meanwdire":"SW","meanwdird":"229","meanvism":"8.5", "meanvisi":"5.3","humidity":"85","maxtempm":"28", "maxtempi":"83","mintempm":"25", "mintempi":"77","maxhumidity":"100","minhumidity":"73","maxdewptm":"24", "maxdewpti":"75","mindewptm":"23", "mindewpti":"73","maxpressurem":"1016", "maxpressurei":"30.01","minpressurem":"1013", "minpressurei":"29.92","maxwspdm":"26", "maxwspdi":"16","minwspdm":"7", "minwspdi":"5","maxvism":"10.0", "maxvisi":"6.2","minvism":"7.0", "minvisi":"4.3","gdegreedays":"30","heatingdegreedays":"0","coolingdegreedays":"15","precipm":"0.3", "precipi":"0.01","precipsource":"Precip6GroupSynop","heatingdegreedaysnormal":"","monthtodateheatingdegreedays":"","monthtodateheatingdegreedaysnormal":"","since1sepheatingdegreedays":"","since1sepheatingdegreedaysnormal":"","since1julheatingdegreedays":"","since1julheatingdegreedaysnormal":"","coolingdegreedaysnormal":"","monthtodatecoolingdegreedays":"","monthtodatecoolingdegreedaysnormal":"","since1sepcoolingdegreedays":"","since1sepcoolingdegreedaysnormal":"","since1jancoolingdegreedays":"","since1jancoolingdegreedaysnormal":"" }
+		]
+	}
+}
