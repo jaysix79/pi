@@ -489,9 +489,5 @@ Mon May 22 21:47:57 2017, Clear
 Mon May 22 22:48:02 2017, Partly Cloudy
 Mon May 22 23:48:06 2017, Rain
 Sat Jul  8 18:13:31 2017, Partly Cloudy
-Sat Jul  8 19:13:36 2017, Partly Cloudy
-Sat Jul  8 20:13:41 2017, Partly Cloudy
-Sat Jul  8 21:13:46 2017, Partly Cloudy
-Sat Jul  8 22:13:50 2017, Partly Cloudy
-Sat Jul  8 23:13:54 2017, Partly Cloudy
-Sun Jul  9 00:13:59 2017, Partly Cloudy
+Sun Jul  9 00:40:40 2017, Partly Cloudy
+Sun Jul  9 00:42:44 2017, Partly Cloudy

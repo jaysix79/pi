@@ -5753,3 +5753,12 @@ cap.capabilities=0x84200001
 [1] [NTC] [EVT] [Jul 09 00:14:35] event_new_video FPS 15
 [1] [NTC] [ALL] [Jul 09 00:14:35] motion_detected: Motion detected - starting event 14
 [1] [NTC] [ALL] [Jul 09 00:15:55] motion_loop: End of event 14
+[1] [NTC] [EVT] [Jul 09 00:33:26] event_new_video FPS 15
+[1] [NTC] [ALL] [Jul 09 00:33:26] motion_detected: Motion detected - starting event 15
+[1] [NTC] [ALL] [Jul 09 00:34:58] motion_loop: End of event 15
+[1] [NTC] [EVT] [Jul 09 00:35:48] event_new_video FPS 15
+[1] [NTC] [ALL] [Jul 09 00:35:48] motion_detected: Motion detected - starting event 16
+[1] [NTC] [ALL] [Jul 09 00:36:48] motion_loop: End of event 16
+[1] [NTC] [EVT] [Jul 09 00:41:15] event_new_video FPS 15
+[1] [NTC] [ALL] [Jul 09 00:41:15] motion_detected: Motion detected - starting event 17
+[1] [NTC] [ALL] [Jul 09 00:42:40] motion_loop: End of event 17
