@@ -1,0 +1,6 @@
+[core]
+	autocrlf = false
+	safecrlf = false
+[user]
+	email = jaysix79@gmail.com
+	name = jaysix79

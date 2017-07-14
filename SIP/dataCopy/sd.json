@@ -1,0 +1,52 @@
+{
+    "alr": 1, 
+    "bsy": 0, 
+    "en": 1, 
+    "htp": 7979, 
+    "idd": 0, 
+    "ipas": 1, 
+    "ir": [
+        0
+    ], 
+    "iw": [
+        0
+    ], 
+    "lang": "default", 
+    "lg": 0, 
+    "loc": "", 
+    "lr": 100, 
+    "mas": 0, 
+    "mm": 0, 
+    "mo": [
+        0
+    ], 
+    "mtoff": 0, 
+    "mton": 0, 
+    "name": "SIP", 
+    "nbrd": 1, 
+    "nopts": 13, 
+    "nprogs": 1, 
+    "nst": 8, 
+    "password": "4a029f7ab3aee4c91e63a0b38642deeca729521f", 
+    "pigpio": 0, 
+    "pwd": "b3BlbmRvb3I=", 
+    "rbt": 0, 
+    "rd": 0, 
+    "rdst": 0, 
+    "rs": 0, 
+    "rsn": 0, 
+    "rst": 1, 
+    "salt": "l?QCQ5\\`&+,8n\u007fEo*5N]PtF3`Q9OXGV/^egZ.'[x=HPYTi5Ubje\u007fcoM#QeZ0@EfG", 
+    "sdt": 0, 
+    "seq": 1, 
+    "show": [
+        1
+    ], 
+    "snlen": 32, 
+    "tf": 0, 
+    "theme": "basic", 
+    "tu": "C", 
+    "tz": 48, 
+    "urs": 0, 
+    "wl": 99
+}
