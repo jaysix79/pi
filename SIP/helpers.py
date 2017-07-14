@@ -45,6 +45,30 @@ except ImportError:
 ##############################
 #### Function Definitions ####
 
+station_completed = signal('station_completed')
+def report_station_completed(station):
+    """
+    Send blinker signal indicating that a station has completed.
+    Include the station number as data.
+    """
+    station_completed.send(station)
+
+stations_scheduled = signal('stations_scheduled')
+def report_stations_scheduled(txt=None):
+    """
+    Send blinker signal indicating that stations had been scheduled.
+    """
+    stations_scheduled.send('SIP',txt=txt)
+
+
+rain_changed = signal('rain_changed')
+def report_rain_changed(txt=None):
+    """
+    Send blinker signal indicating that rain sensor changed.
+    """
+    rain_changed.send()
+
+
 restarting = signal('restart') #: Signal to send on software restart
 def report_restart():
     """
@@ -135,7 +159,7 @@ def restart(wait=1, block=False):
         except Exception:
             pass
         gv.restarted = 0
-        subprocess.Popen('service sip restart'.split())
+        subprocess.Popen('systemctl restart sip.service'.split())
     else:
         t = Thread(target=restart, args=(wait, True))
         t.start()
@@ -211,10 +235,9 @@ def check_rain():
                 else:
                     gv.sd['rs'] = 0
             else:
-                if not GPIO.input(pin_rain_sense):  # Rain detected
-                    gv.sd['rs'] = 1
-                else:
-                    gv.sd['rs'] = 0
+                if GPIO.input(pin_rain_sense) == gv.sd['rs']: #  Rain sensor changed, reading and gv.sd['rs'] are inverse.
+                    report_rain_changed()
+                    gv.sd['rs'] = 1 - gv.sd['rs'] #  toggle
         elif gv.sd['rst'] == 0:  # Rain sensor type normally closed
             if gv.use_pigpio:
                 if pi.read(pin_rain_sense):  # Rain detected
@@ -222,10 +245,9 @@ def check_rain():
                 else:
                     gv.sd['rs'] = 0
             else:
-                if GPIO.input(pin_rain_sense):  # Rain detected
-                    gv.sd['rs'] = 1
-                else:
-                    gv.sd['rs'] = 0
+                if GPIO.input(pin_rain_sense) != gv.sd['rs']:  # Rain sensor changed
+                    report_rain_changed()
+                    gv.sd['rs'] = 1 - gv.sd['rs'] #  toggle
     except NameError:
         pass
 
@@ -412,6 +434,7 @@ def schedule_stations(stations):
                     else:  # if rain and station does not ignore, clear station from display
                         gv.sbits[b] &= ~1 << s
                         gv.ps[s] = [0, 0]
+    report_stations_scheduled()
     gv.sd['bsy'] = 1
     return
 

@@ -372,3 +372,52 @@ sudo service sip restart
 sudo service sip status 
 git pull
 sudo service sip restart
+git push
+git pull
+sudo service sip restart
+sudo service sip stop
+sudo service sip status 
+sudo sh /home/pi/programs/install/Install_sip_sprinkler.sh
+sudo service sip restart
+sudo crontab -e
+crontab -e
+sudo sh /home/pi/programs/backing_up_pi.sh
+git push
+git pull && git push
+sudo sh /home/pi/programs/backing_up_pi.sh
+sudo HArestart
+git config core.autocrlf true
+git push
+git pull
+git config --global core.autocrlf true
+git config --global core.autocrlf false
+sudo apt-get install libudev-dev
+ls /dev/ttyUSB*
+dmesg | grep USB
+ls /dev/ttyUSB*
+ls /dev/ttyUSB 
+ls /dev/ttyUSB*
+sudo PIreboot
+sudo HArestart
+sudo apt-get install zip
+cd hasska
+git glone https://github.com/auchter/hasska.git
+git clone https://github.com/auchter/hasska.git
+git clone https://github.com/auchter/haaska
+cd hasska
+ls
+cd hasska
+cd haaska
+ls
+cd config
+ls
+mv config.json.sample config.jason
+mv config.jason config.json
+ls
+sudo nano config.json
+cd
+ls
+git config --local core.autocrlf false
+git pull
+git push
+git diff

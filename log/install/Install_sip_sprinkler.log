@@ -41,3 +41,33 @@ Sun  2 Jul 19:52:18 UTC 2017
 
 
 
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
+# # # # # # # # Starting apt-get-Install_sip_sprinkler  # # # # # # # # # # # # # # # # # # #
+Sun  9 Jul 10:39:37 PDT 2017
+
+Reading package lists...
+Building dependency tree...
+Reading state information...
+git is already the newest version.
+0 upgraded, 0 newly installed, 0 to remove and 43 not upgraded.
+Downloading the source........ 
+‘/home/pi/SIP/sip.sh’ -> ‘/etc/init.d/sip’
+● sip.service - LSB: Start  sip at boot time
+   Loaded: loaded (/etc/init.d/sip)
+   Active: inactive (dead) since Sun 2017-07-09 10:38:32 PDT; 1min 16s ago
+
+Jul 09 10:38:32 hassbian systemd[1]: Stopping LSB: Start  sip at boot time...
+Jul 09 10:38:32 hassbian systemd[1]: Stopped LSB: Start  sip at boot time.
+Congratuation install sip_sprinkler is now installed.......
+
+
+
+Sun  9 Jul 10:39:51 PDT 2017
+# # # # # # # #        Install_sip_sprinkler DONE!!       # # # # # # # # # # # # # # # # # #
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
+
+
+
+
+
+

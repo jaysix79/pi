@@ -69,9 +69,10 @@ except AttributeError:
 try:
     if gv.use_pigpio:
         pi.set_mode(pin_rain_sense, pigpio.INPUT)
+        pi.set_pull_up_down(pin_rain_sense, pigpio.PUD_UP)
         pi.set_mode(pin_relay, pigpio.OUTPUT)
     else:      
-        GPIO.setup(pin_rain_sense, GPIO.IN)
+        GPIO.setup(pin_rain_sense, GPIO.IN, pull_up_down = GPIO.PUD_UP)
         GPIO.setup(pin_relay, GPIO.OUT)
 except NameError:
     pass
@@ -100,6 +101,7 @@ def setup_pins():
             pin_sr_clk = gv.pin_map[13]
             pin_sr_noe = gv.pin_map[14]
             pin_sr_lat = gv.pin_map[12]
+            
     except AttributeError:
         pass
 
@@ -122,7 +124,7 @@ def setup_pins():
             GPIO.output(pin_sr_noe, GPIO.HIGH)
             GPIO.output(pin_sr_clk, GPIO.LOW)
             GPIO.output(pin_sr_dat, GPIO.LOW)
-            GPIO.output(pin_sr_lat, GPIO.LOW)
+            GPIO.output(pin_sr_lat, GPIO.LOW)                      
     except NameError:
         pass
 
@@ -190,10 +192,15 @@ def setShiftRegister(srvals):
 
 
 def set_output():
-    """Activate triacs according to shift register state."""
+    """
+    Activate triacs according to shift register state.
+    If using SIP with shift registers and active low relays, uncomment the line indicated below.
+    """
 
     with gv.output_srvals_lock:
         gv.output_srvals = gv.srvals
+        if gv.sd['alr']:
+            gv.output_srvals = [1-i for i in gv.output_srvals] #  invert logic of shift registers    
         disableShiftRegisterOutput()
         setShiftRegister(gv.output_srvals)  # gv.srvals stores shift register state
         enableShiftRegisterOutput()

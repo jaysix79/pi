@@ -1,4 +1,4 @@
-# !/usr/bin/python
+#!/usr/bin/python
 # -*- coding: utf-8 -*-
 
 
@@ -8,8 +8,8 @@ import subprocess
 from threading import RLock
 
 major_ver = 3
-minor_ver = 1
-old_count = 648
+minor_ver = 2
+old_count = 747
 
 try:
     revision = int(subprocess.check_output(['git', 'rev-list', '--count', 'HEAD']))
@@ -37,16 +37,7 @@ import time
 
 platform = ''  # must be done before the following import because gpio_pins will try to set it
 
-try:
-    import pigpio
-    use_pigpio = True
-    subprocess.call(['pigpiod'])
-except ImportError:
-    use_pigpio = False
-    
-# use_pigpio = False #  for tasting  
-
-from helpers import password_salt, password_hash, load_programs, station_names
+# from helpers import password_salt, password_hash, load_programs, station_names
 
 sd = {
     u"en": 1,
@@ -68,7 +59,7 @@ sd = {
     u"mas": 0,
     u"wl": 100,
     u"bsy": 0,
-    u"lg": u"",
+    u"lg": 0,
     u"urs": 0,
     u"nopts": 13,
     u"pwd": u"b3BlbmRvb3I=",
@@ -86,11 +77,13 @@ sd = {
     u"name": u"SIP",
     u"theme": u"basic",
     u"show": [255],
-    u"salt": password_salt(),
-    u"lang": u"default"
+    u"salt": "sZJ@LZ^!w1NGG|qg_zz>X\\jMR2#L#0e#Io[9gjW?'Ek:[Q087izk~\\{8!>/)27{}",
+    u"password": "e74a224d3277c87785d284286f230ae5f5ee940d",
+    u"lang": u"default",
+    u"idd": 0,
+    u"pigpio": 0,
+    u"alr":0
 }
-
-sd['password'] = password_hash('opendoor', sd['salt'])
 
 try:
     with open('./data/sd.json', 'r') as sdf:  # A config file
@@ -102,6 +95,16 @@ except IOError:  # If file does not exist, it will be created using defaults.
     with open('./data/sd.json', 'w') as sdf:  # save file
         json.dump(sd, sdf, indent=4, sort_keys=True)
 
+if sd["pigpio"]:
+    try:
+        subprocess.check_output("pigpiod", stderr=subprocess.STDOUT)
+        use_pigpio = True
+    except Exception:
+        print "pigpio not found. Using RPi.GPIO"
+else:
+    use_pigpio = False       
+
+from helpers import load_programs, station_names
 
 nowt = time.localtime()
 now = timegm(nowt)
@@ -137,14 +140,17 @@ options = [
 #    [_("Time zone"), "int", "tz", _("Example: GMT-4:00, GMT+5:30 (effective after reboot.)"), _("System")],
     [_("24-hour clock"), "boolean", "tf", _("Display times in 24 hour format (as opposed to AM/PM style.)"), _("System")],
     [_("HTTP port"), "int", "htp", _("HTTP port."), _("System")],
+    [_("Use pigpio"), "boolean", "pigpio", _("GPIO Library to use. Default is RPi.GPIO"), _("System")],    
     [_("Water Scaling"), "int", "wl", _("Water scaling (as %), between 0 and 100."), _("System")],
     [_("Disable security"), "boolean", "ipas", _("Allow anonymous users to access the system without a password."), _("Change Password")],
     [_("Current password"), "password", "opw", _("Re-enter the current password."), _("Change Password")],
     [_("New password"), "password", "npw", _("Enter a new password."), _("Change Password")],
     [_("Confirm password"), "password", "cpw", _("Confirm the new password."), _("Change Password")],
     [_("Sequential"), "boolean", "seq", _("Sequential or concurrent running mode."), _("Station Handling")],
+    [_("Individual Duration"), "boolean", "idd", _("Allow each station to have its own rum time in programs."), _("Station Handling")],
     [_("Extension boards"), "int", "nbrd", _("Number of extension boards."), _("Station Handling")],
     [_("Station delay"), "int", "sdt", _("Station delay time (in seconds), between 0 and 240."), _("Station Handling")],
+    [_("Active-Low Relay"), "boolean", "alr", _("Using active-low relay boards connected through shift registers"), _("Station Handling")],
     [_("Master station"), "int", "mas",_( "Select master station."), _("Configure Master")],
     [_("Master on adjust"), "int", "mton", _("Master on delay (in seconds), between +0 and +60."), _("Configure Master")],
     [_("Master off adjust"), "int", "mtoff", _("Master off delay (in seconds), between -60 and +60."), _("Configure Master")],
