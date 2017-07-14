@@ -20871,3 +20871,5 @@ cap.capabilities=0x84200001
 [1] [NTC] [EVT] [Jul 13 16:37:17] event_new_video FPS 13
 [1] [NTC] [ALL] [Jul 13 16:37:17] motion_detected: Motion detected - starting event 64
 [1] [NTC] [ALL] [Jul 13 16:39:35] motion_loop: End of event 64
+[1] [NTC] [EVT] [Jul 13 20:05:09] event_new_video FPS 15
+[1] [NTC] [ALL] [Jul 13 20:05:09] motion_detected: Motion detected - starting event 65
