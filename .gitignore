@@ -1,5 +1,10 @@
 
 *.zip
 *.tgz
+<<<<<<< HEAD
 *ospi.py*
 *.gitignore
+=======
+*ospi.py
+*gitignore
+>>>>>>> dcab7d8ff522c0d8b155ef8c46891bcbcb3ca28d
