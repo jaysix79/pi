@@ -1,4 +1,5 @@
 
 *.zip
 *.tgz
-SIP/ospi.py
+*ospi.py*
+*.gitignore
