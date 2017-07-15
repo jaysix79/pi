@@ -421,3 +421,81 @@ git config --local core.autocrlf false
 git pull
 git push
 git diff
+git config --global --edit
+git status
+git config --global core.autocrlf input
+git config --global core.safecrlf true
+git status
+rm .git/index
+git reset
+git status
+sudo git push
+core.autocrlf
+git config --global core.autocrlf true
+git config --global core.autocrlf false
+git status
+git add
+git commit -a
+git config core.autocrlf false
+git config --global core.autocrlf false
+git config --global core.safecrlf false
+git commit -a
+git config --global user.name "jaysix79"
+git commit -a
+git push
+git commit -a
+git push
+git commit -a
+git add
+git add .gitconfig
+git commit -a
+git add programs/install/SIP/
+git add SIP/dataCopy/
+git add .selected_editor
+git commit -a
+git add haaska/
+ls
+git push
+git pull
+git commit -a
+git add haaska/
+git commit -a
+git pull
+git push
+cd programs
+ls
+cd install
+ls
+sudo rm -R ./SIP
+ls
+cd ..
+ls
+git commit -a
+sudo push
+git push
+git pull
+git push
+git add -A
+sudo psuh
+git push
+git add -u
+rm -f ./.git/index.lock
+git commit -a
+git status
+git push && git pull
+ls
+cd ..
+ls
+cd pi
+sudo nano ./.gitignore
+git push
+git pull
+git push
+git pull
+git pull -f
+git stash drop
+git pull
+git commit -a
+git commit pull
+git pull
+sudo HArestart

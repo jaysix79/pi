@@ -20873,3 +20873,43 @@ cap.capabilities=0x84200001
 [1] [NTC] [ALL] [Jul 13 16:39:35] motion_loop: End of event 64
 [1] [NTC] [EVT] [Jul 13 20:05:09] event_new_video FPS 15
 [1] [NTC] [ALL] [Jul 13 20:05:09] motion_detected: Motion detected - starting event 65
+[1] [NTC] [ALL] [Jul 13 20:11:56] motion_loop: End of event 65
+[1] [NTC] [EVT] [Jul 13 20:17:04] event_new_video FPS 14
+[1] [NTC] [ALL] [Jul 13 20:17:04] motion_detected: Motion detected - starting event 66
+[1] [NTC] [ALL] [Jul 13 20:18:17] motion_loop: End of event 66
+[1] [NTC] [EVT] [Jul 13 20:23:26] event_new_video FPS 15
+[1] [NTC] [ALL] [Jul 13 20:23:26] motion_detected: Motion detected - starting event 67
+[1] [NTC] [ALL] [Jul 13 20:25:15] motion_loop: End of event 67
+[1] [NTC] [EVT] [Jul 13 20:27:36] event_new_video FPS 15
+[1] [NTC] [ALL] [Jul 13 20:27:36] motion_detected: Motion detected - starting event 68
+[1] [NTC] [ALL] [Jul 13 20:29:00] motion_loop: End of event 68
+[1] [NTC] [EVT] [Jul 13 22:31:30] event_new_video FPS 15
+[1] [NTC] [ALL] [Jul 13 22:31:30] motion_detected: Motion detected - starting event 69
+[1] [NTC] [ALL] [Jul 13 22:32:32] motion_loop: End of event 69
+[1] [NTC] [EVT] [Jul 13 23:26:54] event_new_video FPS 15
+[1] [NTC] [ALL] [Jul 13 23:26:54] motion_detected: Motion detected - starting event 70
+[1] [NTC] [ALL] [Jul 13 23:29:37] motion_loop: End of event 70
+[1] [NTC] [EVT] [Jul 14 10:28:12] event_new_video FPS 15
+[1] [NTC] [ALL] [Jul 14 10:28:12] motion_detected: Motion detected - starting event 71
+[1] [NTC] [ALL] [Jul 14 10:33:57] motion_loop: End of event 71
+[1] [NTC] [EVT] [Jul 14 19:20:43] event_new_video FPS 15
+[1] [NTC] [ALL] [Jul 14 19:20:43] motion_detected: Motion detected - starting event 72
+[1] [NTC] [ALL] [Jul 14 19:25:47] motion_loop: End of event 72
+[1] [NTC] [EVT] [Jul 14 19:56:07] event_new_video FPS 15
+[1] [NTC] [ALL] [Jul 14 19:56:07] motion_detected: Motion detected - starting event 73
+[1] [NTC] [ALL] [Jul 14 19:57:54] motion_loop: End of event 73
+[1] [NTC] [EVT] [Jul 14 23:20:48] event_new_video FPS 15
+[1] [NTC] [ALL] [Jul 14 23:20:48] motion_detected: Motion detected - starting event 74
+[1] [NTC] [ALL] [Jul 14 23:22:34] motion_loop: End of event 74
+[1] [NTC] [EVT] [Jul 15 05:37:10] event_new_video FPS 15
+[1] [NTC] [ALL] [Jul 15 05:37:10] motion_detected: Motion detected - starting event 75
+[1] [NTC] [ALL] [Jul 15 05:38:20] motion_loop: End of event 75
+[1] [NTC] [EVT] [Jul 15 05:39:13] event_new_video FPS 15
+[1] [NTC] [ALL] [Jul 15 05:39:13] motion_detected: Motion detected - starting event 76
+[1] [NTC] [ALL] [Jul 15 05:40:14] motion_loop: End of event 76
+[1] [NTC] [EVT] [Jul 15 05:43:31] event_new_video FPS 15
+[1] [NTC] [ALL] [Jul 15 05:43:31] motion_detected: Motion detected - starting event 77
+[1] [NTC] [ALL] [Jul 15 05:45:40] motion_loop: End of event 77
+[1] [NTC] [EVT] [Jul 15 05:46:34] event_new_video FPS 15
+[1] [NTC] [ALL] [Jul 15 05:46:34] motion_detected: Motion detected - starting event 78
+[1] [NTC] [ALL] [Jul 15 05:52:38] motion_loop: End of event 78
